@@ -1,0 +1,793 @@
+Excel_Row_Index,Geosite_Name,Geosite_Type,Geological_Domain,Administrative_Region,Latitude_WGS84,Longitude_WGS84,Coordinate_Extraction_Method,Elevation_m,Slope_deg,Ruggedness,Dist_to_Dam_m,Dist_to_River_m,LULC_Class,Soil_Class,Geology_Class,Dist_to_Highway_m,Dist_to_Piste_m
+2,Eburnian-Proterozoic Unconformity,SG,Anti-Atlas ,Draa-Tafilalet,30.547018097923637,-7.122467385495109,UTM,1500.8162841796875,5.484938621520996,131.98768615722656,7333.60986328125,0.0,5.0,3.0,49.0,0.0,2366.864013671875
+3, Bou Offroh ophiolit,PT,Anti-Atlas ,Draa-Tafilalet,30.54671313620237,-6.971048117972587,UTM,1521.392822265625,3.337613821029663,136.69766235351562,21534.79296875,1183.4320068359375,5.0,3.0,,0.0,0.0
+4,Oceanic Moho rocks,PT,Anti-Atlas ,Draa-Tafilalet,30.490992892858085,-6.612429949729095,UTM,1377.357177734375,0.0,94.74175262451172,46135.5,3783.313720703125,5.0,3.0,56.0,0.0,1183.4320068359375
+5,Tamaliout Folding & Thrusting ,PT,Anti-Atlas ,Draa-Tafilalet,30.43212980063328,-6.658345105114725,UTM,1068.709228515625,2.060389995574951,83.93598937988281,39966.9765625,8517.0419921875,5.0,3.0,10.0,8368.1279296875,5917.16015625
+6,Bleida granodiorite,PT,Anti-Atlas ,Draa-Tafilalet,30.368905368656545,-6.46223994636819,UTM,1480.23974609375,3.011687755584717,106.47064971923828,31934.318359375,4256.6865234375,5.0,3.0,8.0,0.0,0.0
+7,Sauropod tracksite,S & PL,Western High Atlas,Marrakech-Safi,31.1145,-8.982833333333334,DMS,1336.2041015625,4.233494281768799,196.84701538085938,29108.75390625,0.0,15.0,9.0,,0.0,2366.864013671875
+8,Tension joints & veins ,SG,Central High Atlas,Draa-Tafilalet,32.59281111111111,-4.504277777777777,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+9,Fault mirror,SG,Central High Atlas,Draa-Tafilalet,32.59246944444445,-4.504686111111111,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+10,Turbidite/tempesitie,S,Central High Atlas,Draa-Tafilalet,32.59108611111111,-4.504991666666666,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+11,Synsedimentary Fd,SG,Central High Atlas,Draa-Tafilalet,32.590869444444444,-4.504938888888889,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+12,Bioclastic limestone,PL,Central High Atlas,Draa-Tafilalet,32.59060277777778,-4.505005555555556,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+13,Current ripples,S,Central High Atlas,Draa-Tafilalet,32.590297222222226,-4.5050638888888885,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+14,Th. Burrows ,PL,Central High Atlas,Draa-Tafilalet,32.59028055555556,-4.504902777777778,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+15,Limestone-marls  seq. ,S,Central High Atlas,Draa-Tafilalet,32.590050000000005,-4.504761111111111,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+16,Horst-graben structures ,SG,Central High Atlas,Draa-Tafilalet,32.590025000000004,-4.504727777777778,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+17,Bioclastic limestone,PL,Central High Atlas,Draa-Tafilalet,32.589975,-4.504786111111111,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+18,Rhizocorallium burrows ,PL,Central High Atlas,Draa-Tafilalet,32.58986388888889,-4.504866666666667,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+19,Tridactyl footpreints ,PL,Central High Atlas,Draa-Tafilalet,32.58935,-4.504527777777778,DMS,1747.7347412109375,0.49809327721595764,73.61725616455078,27196.919921875,0.0,10.0,3.0,71.0,0.0,0.0
+20,Lac Tislit,H,Central High Atlas,Draa-Tafilalet,32.19583333333333,-5.636666666666666,Numeric DMS,,,,13483.7861328125,0.0,5.0,7.0,71.0,1183.4320068359375,0.0
+21,Imelouan Folds,SG,Central High Atlas,Draa-Tafilalet,32.155833333333334,-5.598333333333333,Numeric DMS,,,,16316.6865234375,0.0,10.0,7.0,71.0,0.0,1183.4320068359375
+22,"Ait Ali Ou-Ikkou ""Red beds"" ",S,Central High Atlas,Draa-Tafilalet,32.14472222222222,-5.557777777777778,Numeric DMS,,,,16801.064453125,0.0,5.0,7.0,71.0,1183.4320068359375,1183.4320068359375
+23,Todgha Gorges,SG&H,Central High Atlas,Draa-Tafilalet,31.584444444444443,-5.590833333333333,Numeric DMS,1932.9234619140625,6.913000106811523,183.9395294189453,25795.14453125,4733.72802734375,5.0,9.0,56.0,0.0,0.0
+24,Tamlalet Monkey’s fingers structures,G,Central High Atlas,Draa-Tafilalet,31.44333333333333,-5.978055555555556,Numeric DMS,1974.0765380859375,2.5198428630828857,82.9201431274414,18217.513671875,1183.4320068359375,5.0,,,1183.4320068359375,0.0
+25,Tissadrine Folds,SG,Central High Atlas,Draa-Tafilalet,31.529444444444444,-5.925833333333333,Numeric DMS,1871.19384765625,0.8978981971740723,25.588083267211914,17511.123046875,0.0,5.0,8.0,14.0,0.0,0.0
+26,"Msemrir ""Red Beds""",S&PL,Central High Atlas,Draa-Tafilalet,31.72,-5.826666666666666,Numeric DMS,2159.265380859375,2.3482449054718018,629.6884155273438,22932.8984375,0.0,5.0,9.0,66.0,1673.6256103515625,1673.6256103515625
+27, Ait Aritane Panoramic view,G,Central High Atlas,Draa-Tafilalet,31.542222222222225,-5.566944444444444,Numeric DMS,2323.87744140625,5.105672836303711,140.7568817138672,24597.0390625,4256.6865234375,5.0,9.0,,0.0,0.0
+28,Ait Snan Fault,SG,Central High Atlas,Draa-Tafilalet,31.39527777777778,-5.5975,Numeric DMS,2220.994873046875,0.9482800364494324,71.34072875976562,17034.08203125,0.0,5.0,9.0,,4733.72802734375,2366.864013671875
+29,"Tamtetoucht ""Red beds""",PL,Central High Atlas,Draa-Tafilalet,31.71722222222222,-5.507777777777778,Numeric DMS,1541.9693603515625,0.7043924927711487,18.69491958618164,42108.16015625,0.0,5.0,9.0,,0.0,1183.4320068359375
+30,Ait Hani Triassic salt cave,G,Central High Atlas,Draa-Tafilalet,31.86416666666667,-5.470555555555555,Numeric DMS,2159.265380859375,6.497475624084473,859.2855834960938,32651.7109375,0.0,5.0,9.0,71.0,0.0,0.0
+31,Toumlilin Middle Jurassic strata,S,Central High Atlas,Draa-Tafilalet,32.85666666666667,-5.465555555555556,Numeric DMS,2385.607177734375,79.70216369628906,989.2388305664062,4966.74560546875,1183.4320068359375,13.0,,13.0,7577.662109375,0.0
+32,Ighrem N’Ougdal Middle Jurassic strata,G,Central High Atlas,Draa-Tafilalet,32.009166666666665,-5.490833333333334,Numeric DMS,,,,23650.29296875,1183.4320068359375,5.0,9.0,71.0,0.0,0.0
+33,Tinghir Paleozoic-Cretaceous unconformity,SG,Central High Atlas,Draa-Tafilalet,31.48305555555556,-5.539444444444444,Numeric DMS,2344.4541015625,3.1323697566986084,88.64817810058594,23883.310546875,0.0,5.0,9.0,36.0,0.0,1183.4320068359375
+34,Foum El Kouss Basalts,PT,Central High Atlas,Draa-Tafilalet,31.435277777777777,-5.655,Numeric DMS,,,,12300.3544921875,1183.4320068359375,10.0,9.0,,0.0,1183.4320068359375
+35,Timaderouine Cretaceous-Tertiary strata,S,Central High Atlas,Draa-Tafilalet,31.411666666666665,-5.722222222222222,Numeric DMS,,,,4966.74560546875,0.0,10.0,9.0,66.0,0.0,1183.4320068359375
+36,Imider Tertiary strata,S,Central High Atlas,Draa-Tafilalet,31.375,-5.7908333333333335,Numeric DMS,,,,4733.72802734375,0.0,5.0,9.0,66.0,0.0,0.0
+37,Anou N’Izm Tertiary strata,S,Central High Atlas,Draa-Tafilalet,31.33944444444444,-5.838611111111111,Numeric DMS,,,,9456.4501953125,0.0,5.0,9.0,38.0,0.0,0.0
+38,Ait Youl Basalts,PT,Central High Atlas,Draa-Tafilalet,31.425,-6.011388888888889,Numeric DMS,1891.7703857421875,1.2697162628173828,74.95832061767578,21534.79296875,0.0,5.0,,,0.0,0.0
+39,Ait Ibriren Quaternary deposits,S,Central High Atlas,Draa-Tafilalet,31.441944444444445,-6.010833333333333,Numeric DMS,1871.19384765625,0.49809327721595764,40.18706130981445,21767.810546875,0.0,5.0,8.0,38.0,0.0,0.0
+40,Tamlalet Monkey’s fingers structures,G,Central High Atlas,Draa-Tafilalet,31.44333333333333,-5.978055555555556,Numeric DMS,1974.0765380859375,2.5198428630828857,82.9201431274414,18217.513671875,1183.4320068359375,5.0,,,1183.4320068359375,0.0
+41,Ait Ouglef Allochthonous limestones,SG,Central High Atlas,Draa-Tafilalet,31.454722222222223,-5.959722222222222,Numeric DMS,2035.80615234375,1.340947151184082,91.51912689208984,17267.099609375,2366.864013671875,5.0,,38.0,0.0,0.0
+42,Tissadrine Folds,SG,Central High Atlas,Draa-Tafilalet,31.529444444444444,-5.925833333333333,Numeric DMS,1871.19384765625,0.8978981971740723,25.588083267211914,17511.123046875,0.0,5.0,8.0,14.0,0.0,0.0
+43,Taghia N’Ait Hammou Gorges,SG,Central High Atlas,Draa-Tafilalet,31.53666666666667,-5.919444444444445,Numeric DMS,1891.7703857421875,0.8804658055305481,26.490564346313477,17511.123046875,0.0,5.0,8.0,14.0,0.0,1183.4320068359375
+44,Tilmi Folds ,SG,Central High Atlas,Draa-Tafilalet,31.80138888888889,-5.926111111111111,DMS,,,,12067.3369140625,1183.4320068359375,10.0,9.0,71.0,13231.171875,1183.4320068359375
+45,"Msemrir ""Red beds""",S,Central High Atlas,Draa-Tafilalet,31.72,-5.826666666666666,Numeric DMS,2159.265380859375,2.3482449054718018,629.6884155273438,22932.8984375,0.0,5.0,9.0,66.0,1673.6256103515625,1673.6256103515625
+46,Ait Attou Oumoussa Jurassic strata ,S,Central High Atlas,Draa-Tafilalet,31.861666666666668,-5.708055555555556,Numeric DMS,,,,21050.412109375,0.0,10.0,9.0,71.0,1183.4320068359375,0.0
+47,Imelouan Folds,SG,Central High Atlas,Draa-Tafilalet,32.155833333333334,-5.598333333333333,Numeric DMS,,,,16316.6865234375,0.0,10.0,7.0,71.0,0.0,1183.4320068359375
+48,Redbeds,SG&S,Central High Atlas,Draa-Tafilalet,32.166,-5.523,Numeric DMS,,,,14667.2177734375,0.0,5.0,7.0,71.0,0.0,0.0
+49,Intraformational unc,S,Central High Atlas,Draa-Tafilalet,32.193,-5.639,Numeric DMS,,,,14197.513671875,0.0,5.0,7.0,71.0,0.0,0.0
+50,Isli Lake,H,Central High Atlas,Draa-Tafilalet,32.222,-5.55,Numeric DMS,,,,8517.0419921875,0.0,5.0,7.0,71.0,5917.16015625,0.0
+51,Tisli Lake,H,Central High Atlas,Draa-Tafilalet,32.199,-5.629,Numeric DMS,,,,13483.7861328125,0.0,5.0,7.0,71.0,1183.4320068359375,0.0
+52,Dolerite dykes and sills,PL,Central High Atlas,Draa-Tafilalet,32.153,-5.64,Numeric DMS,,,,13483.7861328125,0.0,5.0,7.0,71.0,1183.4320068359375,0.0
+53,Fairy chimneys,G,Central High Atlas,Draa-Tafilalet,32.176,-5.599,Numeric DMS,,,,13949.822265625,0.0,5.0,7.0,71.0,1183.4320068359375,1183.4320068359375
+54,Meandering Melloul river,G,Central High Atlas,Draa-Tafilalet,32.159,-5.603,Numeric DMS,,,,15854.318359375,0.0,5.0,7.0,71.0,0.0,0.0
+55,Sedimentary patterns,S,Central High Atlas,Draa-Tafilalet,32.167,-5.545,Numeric DMS,,,,14201.18359375,0.0,5.0,7.0,71.0,0.0,2366.864013671875
+56,Msadrid ridge,S,Central High Atlas,Draa-Tafilalet,32.153,-5.593,Numeric DMS,,,,16316.6865234375,0.0,10.0,7.0,71.0,0.0,1183.4320068359375
+57,Ait Ali Ou Ikkou's diapirsm,S,Central High Atlas,Draa-Tafilalet,32.153,-5.593,Numeric DMS,,,,16316.6865234375,0.0,10.0,7.0,71.0,0.0,1183.4320068359375
+58,Late Jurassic theropod tracks,PL,Central High Atlas,Draa-Tafilalet,32.142,-5.57,Numeric DMS,,,,17034.08203125,0.0,5.0,7.0,71.0,0.0,0.0
+59,Vertebrate tracks in the Isli Formation,PL,Central High Atlas,Draa-Tafilalet,32.157,-5.562,Numeric DMS,,,,15850.650390625,0.0,5.0,7.0,71.0,0.0,1183.4320068359375
+60,Traces of Selenichnites- Tilmi syncline,PL,Central High Atlas,Draa-Tafilalet,32.163,-5.546,Numeric DMS,,,,14201.18359375,0.0,5.0,7.0,71.0,0.0,2366.864013671875
+61,Traces of Crocodylopodus meijidei,PL,Central High Atlas,Draa-Tafilalet,32.183,-5.458,Numeric DMS,,,,14426.86328125,0.0,5.0,9.0,71.0,1183.4320068359375,0.0
+62,Tassent ridge,S,Central High Atlas,Draa-Tafilalet,32.15,-5.55,Numeric DMS,,,,15617.6328125,0.0,5.0,7.0,71.0,0.0,1673.6256103515625
+63,Akhiam cave,G,Central High Atlas,Draa-Tafilalet,31.958,-5.696,Numeric DMS,,,,11349.94140625,0.0,5.0,9.0,71.0,5292.46875,1183.4320068359375
+64,The cliff granaries of Aoujgal   ,S,Central High Atlas,Béni Mellal-Khénifra,32.0,-6.333333333333333,DMS,,,,10170.177734375,0.0,11.0,9.0,71.0,8284.0244140625,0.0
+65,The architectural heritage of Zaouiat Ahansal,C,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+66,Panorama of Zaouiat Ahansal ,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+67,The natural bridge of Imin Ifri ,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+68,The dinosaur geosites of Iouaridène,PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+69,Dinosaur footprints,PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+70,Aït Blal Rock engravings ,C,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+71,Tizi-n-Tighist Geo landscape ,S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+72,Paleo-dam of Tizi-n-Tighza ,S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+73,Ibaqualliwn Lamellibranches of Tizi-n-Tighist,PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+74, Jbel Azoukri Ait Attab synclinal (1),S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+75,Ait Attab synclinal (2),S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+76,"The Bin El Ouidane dam ""Chocolate Marls"" ",S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+77,The Ouzoud waterfalls ,G&H,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+78,Cliff of Ait Abdi,SG,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+79,The “Cathedral” Mastfrane,R,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+80,Talmst Ride,SG,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+81,Dinosaur footprints,PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+82, Collective granary of Sidi Moussa,C,Central High Atlas,Béni Mellal-Khénifra,31.33333333333333,-5.333333333333333,DMS,1541.9693603515625,6.9960784912109375,167.8853759765625,23184.26171875,2366.864013671875,5.0,3.0,10.0,3550.2958984375,0.0
+83,"Granary, Ighrem",C,Central High Atlas,Béni Mellal-Khénifra,32.666666666666664,-7.333333333333333,DMS,369.1071472167969,0.5568816661834717,14.160905838012695,1656.8048095703125,2366.864013671875,10.0,5.0,14.0,0.0,0.0
+84,Footprints of the carnivorous dinosaur (Tridactyl),PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+85,Herbivorous dinosaur footprints,PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+86,Izourar plateaus ,SG&S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+87,Rock engravings of Tizi-n-Tighist,En,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+88,Archaeoctic limestone,PL&S,Jbilet Massif,Marrakech-Saf,31.875,-8.866666666666667,Numeric DMS,327.9540710449219,0.39378026127815247,16.94822120666504,7100.591796875,1183.4320068359375,5.0,8.0,8.0,1183.4320068359375,0.0
+89,Sandstone-fault families,S&S,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+90,"Faiult mirror-gradin 
+crystallization",S,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+91,Karst networks of barite,S&M,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+92,Calcite crystals,Pt,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+93,"Cambrian sandstone & shale,Gray massive Cambrian limestones",S,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+94,,,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+95,The western tip of the Cambrian crest,S,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+96,Jbel Irhoud anticline,S,Jbilet Massif,Marrakech-Saf,,,No coordinates,,,,,,,,,,
+97,Sidi Bouzid escarpment,"S,St&PL",Meseta,Marrakech-Safi,32.30027777777777,-9.251111111111111,Numeric DMS,163.3418426513672,1.3409453630447388,36.214691162109375,14667.2197265625,4256.6865234375,4.0,3.0,45.0,0.0,1183.4320068359375
+98,Chaâba valley,"S,S&PL",Meseta,Marrakech-Safi,32.30277777777778,-9.230833333333331,Numeric DMS,225.07142639160156,0.6349368691444397,23.27971839904785,12300.35546875,3550.2958984375,15.0,3.0,45.0,0.0,0.0
+99,Sidi Abderrahmane clayquarry,S/St,Meseta,Marrakech-Safi,32.3325,-9.176666666666666,Numeric DMS,225.07142639160156,0.39378100633621216,11.639607429504395,7100.591796875,7333.60986328125,15.0,3.0,45.0,0.0,0.0
+100,Sidi Abderrahmane dam,H,Meseta,Marrakech-Safi,32.323888888888895,-9.180277777777777,Numeric DMS,204.49490356445312,0.17610637843608856,9.876779556274414,7100.591796875,6150.177734375,4.0,3.0,45.0,0.0,0.0
+101,Escarpment of Lalla Fatna,"S,PL&St",Meseta,Marrakech-Safi,32.3875,-9.265,Numeric DMS,101.61224365234375,1.9041863679885864,54.72618103027344,16549.703125,13483.7861328125,13.0,,,0.0,0.0
+102,Cap Beddouza,S/St/G,Meseta,Marrakech-Safi,32.55083333333333,-9.272777777777778,Numeric DMS,,,,7333.60986328125,4970.4140625,15.0,5.0,,0.0,1183.4320068359375
+103,El Goraan cave,G,Meseta,Marrakech-Safi,32.5575,-9.254166666666666,Numeric DMS,122.18877410888672,0.176106259226799,48.428497314453125,4966.74560546875,3313.609619140625,13.0,,69.0,0.0,0.0
+104,Souira Lgdima,"S,St&G",Meseta,Marrakech-Safi,32.03777777777778,-9.340555555555556,Numeric DMS,307.3775634765625,4.137856483459473,101.92008209228516,30284.8515625,0.0,4.0,8.0,69.0,0.0,0.0
+105,Sidi Tiji Gypsum quarry,S&St,Meseta,Marrakech-Safi,32.157777777777774,-8.865277777777777,Numeric DMS,513.1428833007812,3.5045289993286133,100.51461029052734,6856.568359375,8750.0595703125,10.0,8.0,10.0,1183.4320068359375,0.0
+106,Jorf Lihoudi,"S,St&PL",Meseta,Marrakech-Safi,32.18,-9.26,Numeric DMS,122.18877410888672,1.0710920095443726,33.79560089111328,21538.458984375,4966.74560546875,15.0,3.0,45.0,0.0,0.0
+107,The lagoon of Oualidia,H,Meseta,Marrakech-Safi,32.73916666666667,-9.036944444444444,Numeric DMS,122.18877410888672,0.3937808871269226,15.48575496673584,14900.2373046875,15599.2890625,4.0,3.0,69.0,1183.4320068359375,1183.4320068359375
+108,Panoramic view of the cliff,G,Meseta,Marrakech-Safi,32.30027777777777,-9.251111111111111,Numeric DMS,163.3418426513672,1.3409453630447388,36.214691162109375,14667.2197265625,4256.6865234375,4.0,3.0,45.0,0.0,1183.4320068359375
+109,beach of Sidi Bouzide,G,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+110,Marine fauna of the lower limestone,PL&S,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+111, Yellow dolomite lower limestone Contact,S&SG,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+112,Brown clay marine faun in the intercalated banks,PL&S,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+113,The source Lalla Mira,H,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+114,The wave of Saf,G,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+115,Marabout Sidi Bouzid,R,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+116,The marine fauna presented in the banks,PL,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+117,Lake Afourgagh- charophytes tufas & gyrogonites,"SG,H & PL",Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,33.61666666666667,-4.883333333333333,DMS,1830.040771484375,1.6609245538711548,69.46762084960938,16313.0166015625,1656.8048095703125,15.0,9.0,,1183.4320068359375,0.0
+118,Lake Aoua (Dayet Aoua),SG&H,Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,33.65555555555555,-5.333333333333333,DMS,1480.23974609375,1.2325599193572998,68.73500061035156,18916.568359375,4733.72802734375,11.0,3.0,56.0,2366.864013671875,1183.4320068359375
+119,Lake Ifrah (Dayet Ifrah),SG&H,Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,33.5625,-4.916666666666667,DMS,1871.19384765625,0.7260700464248657,70.8307876586914,11116.9228515625,1183.4320068359375,11.0,9.0,58.0,1183.4320068359375,1183.4320068359375
+120,Lake Aguelmame Sidi Ali,SG&H,Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,33.07611111111112,-5.003611111111111,Numeric DMS,1830.040771484375,2.393920660018921,48.87739944458008,4256.6865234375,1183.4320068359375,10.0,6.0,,1673.6256103515625,1183.4320068359375
+121,Bou Tegrrouine,G,Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,,,No coordinates,,,,,,,,,,
+122,The caldera of the Michliffen,G,Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,,,No coordinates,,,,,,,,,,
+123,Ruiniform landscape,G,Tabular Middle Atlas,Draa-Tafilalet & Fès-Méknès,,,No coordinates,,,,,,,,,,
+124,Alluvial terraces of Aït Mallal,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+125,Aït Mallal valley,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+126,Badlands of Igoulouane,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+127, Arouss valley,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+128, Canyon of Rougoult valley,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+129,Canyon of Abachkou valley,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+130,Canyon of High-Tessaout valley,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+131,Glacial cirques and U-shaped valleys of Rat mountain,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+132,Scree and talus deposits of Rat mountain,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+133,Scree and talus deposits of Tarkeddid mountain,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+134,Fairy chimneys of Assamar,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+135,Canyon of Ikiss,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+136,Rat syncline,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+137,Peak and cliffs of Tarkeddid mountain,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+138,Mount M’goun (4068 m),G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+139,The unconformity between Paleozoic basement and Mesozoic sedimentary cover of Aït Mallal,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+140,,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+141,Rougoult waterfall,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+142,Springs of Oued Lakhdar (green river),G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+143,Springs and waterfall of Ikiss,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+144,Sinkholes of the Rat mountain,G,Central Hight Atlas,Béni Mellal-Khénifra ,,,No coordinates,,,,,,,,,,
+145,Dinosaur footprints deposits of Iouaridene,PL,Central Hight Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+146,Dinosaur footprints deposits of  Ait Mimoun Ouffelah,PL,Central Hight Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+147,Dinosaur footprints deposits of Ait Bouguemaz,PL,Central Hight Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+148,Dinosaur footprints deposits of Ait Bla,PL,Central Hight Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+149,Lower Devonian quartzite bars of Bou Trou-Al Aççama,"S,St&G",Central Hight Atlas,Beni Mellal-Khenifra,33.367333333333335,-5.490166666666667,DMS,1541.9693603515625,5.096649646759033,117.88977813720703,8284.0244140625,1656.8048095703125,6.0,9.0,,1673.6256103515625,0.0
+150,Lower Devonian paleosol of Bou Trou-Al Aççama,S&St,Central Hight Atlas,Beni Mellal-Khenifra,33.35933333333333,-5.491833333333333,DMS,1665.4285888671875,4.435853958129883,100.2172622680664,7100.591796875,2599.881591796875,13.0,9.0,19.0,2646.234375,0.0
+151,Lower Devonian dwarf brachiopods of Bou Trou Al Aççama,PL,Central Hight Atlas,Beni Mellal-Khenifra,33.3595,-5.490833333333334,DMS,1665.4285888671875,4.435853958129883,100.2172622680664,7100.591796875,2599.881591796875,13.0,9.0,19.0,2646.234375,0.0
+152,Emsien crinoids grassland of Bab Al Ari,PL&S,Central Hight Atlas,Beni Mellal-Khenifra,33.4605,-5.1865,DMS,2344.4541015625,74.81573486328125,948.965087890625,6856.568359375,7566.62744140625,13.0,7.0,71.0,1183.4320068359375,0.0
+153,Givetian calciturbidites of Ben Aarab,"S,S&PL",Central Hight Atlas,Beni Mellal-Khenifra,33.501333333333335,-5.4015,DMS,1480.23974609375,4.47383451461792,123.18380737304688,13017.751953125,1656.8048095703125,11.0,3.0,46.0,1183.4320068359375,1183.4320068359375
+154,Givetian-Famennian paleolapiaz of Bab Al Ari,PL&S,Central Hight Atlas,Beni Mellal-Khenifra,33.4605,-5.1865,DMS,2344.4541015625,74.81573486328125,948.965087890625,6856.568359375,7566.62744140625,13.0,7.0,71.0,1183.4320068359375,0.0
+155,Frasnian-Famennian Kellwasser black limestones of Bou Ounabdou,"S,St&PL",Central Hight Atlas,Beni Mellal-Khenifra,33.142833333333336,-5.518,DMS,1768.311279296875,5.841681480407715,132.3980712890625,5913.49072265625,4966.74560546875,13.0,10.0,71.0,3347.251220703125,1183.4320068359375
+156,Famennian Griottes limestones of Bou Ounabdou,"S,St&PL",Central Hight Atlas,Beni Mellal-Khenifra,33.14266666666666,-5.5175,DMS,1768.311279296875,5.841681480407715,132.3980712890625,5913.49072265625,4966.74560546875,13.0,10.0,71.0,3347.251220703125,1183.4320068359375
+157,Famennian Zebra griottes limestones of Ziyar,S&St,Central Hight Atlas,Beni Mellal-Khenifra,33.0425,-5.738666666666667,DMS,1027.55615234375,2.0528640747070312,67.44117736816406,9940.828125,2366.864013671875,6.0,3.0,46.0,0.0,0.0
+158,Arich OuzellaFm,S&PL,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,31.142222222222223,-9.707777777777777,Numeric DMS,430.83673095703125,0.3522094488143921,24.9101505279541,15850.650390625,4970.4140625,15.0,10.0,45.0,0.0,1183.4320068359375
+159,Amsittene Fm,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+160,Id ou Moulid Fm,S&PL,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+161,Arich Ouzella cave,G,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+162,Subvertical strata,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+163,Triassic-Quaternary contact,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+164,Quaternary-Jurassic contact,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+165,Fold hinge,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+166,Cretaceous Quaternary contact,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+167,Triple point,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+168,Macrofossils,PL,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+169,Fossiliferous dunes,PL,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+170,Folded structure1,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+171,Folded structure 2,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+172,Folded structure 3,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+173,Amsittene folded structures,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+174,Alluvial cone,S,The Great Moroccan Atlantic Basin (MAP),Marrakech-Safi,,,No coordinates,,,,,,,,,,
+175,Ammonitico-rosso of Taffert,PL,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+176,Volcano of Bou-Iblane,V,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+177,Reefs of Ich Maalam,PL,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+178,Cornish limestones of Serhla,S,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+179,Hayane canyon,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+180,Askour Cave,K,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+181,Tamezyidan Rbi,K,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+182,Guelta Tameda,K,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+183,Source Oued el Bared,S,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+184,Oued el Bared cave,K,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+185,Discordance Ribata lKhayr,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+186,Tizi Bou-Zaabel,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+187,Bou-Iblane-Issouka,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+188,Periclinal Taffajight,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+189,Malachites of Talzemt,M,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+190,Discordance Jbel Abdous,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+191,Mallal cascade,H,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+192,Jbel el Kalaa,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+193,Tmourhout valley,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+194,Bizi canyon,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+195, Fault Tmourhout,S,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+196,Cascade Sahbab,H,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+197,Tmourhout Cascade,H,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+198,Synclinal Zloul,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+199,Ain Sebou,H,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+200,Synclinal Tilmirat,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+201,Ammonitico-rosso of Zra,PL,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+202,Aghram Amellal reefs,PL,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+203,Jider canyon,SG,Middle Atlas,Fès-Meknès,,,No coordinates,,,,,,,,,,
+204,Chiker polje,K&S,Middle Atlas,Fès-Meknès,34.118611111111115,-4.040555555555556,Numeric DMS,1233.3214111328125,6.338278293609619,200.21925354003906,8750.0595703125,0.0,13.0,9.0,18.0,0.0,0.0
+205,Chiker cave,K,Middle Atlas,Fès-Meknès,34.12166666666667,-4.038333333333333,Numeric DMS,1233.3214111328125,6.338278293609619,200.21925354003906,8750.0595703125,0.0,13.0,9.0,18.0,0.0,0.0
+206,Dolines of Ademame,K,Middle Atlas,Fès-Meknès,34.04361111111111,-4.095,Numeric DMS,2220.994873046875,68.27647399902344,602.1779174804688,1183.4320068359375,2599.881591796875,15.0,9.0,71.0,2366.864013671875,0.0
+207,Ras El Oued cave,K,Middle Atlas,Fès-Meknès,33.95916666666667,-4.0,Numeric DMS,,,,10883.9052734375,0.0,11.0,9.0,71.0,1673.6256103515625,0.0
+208,Chaâra lapiaz,K,Middle Atlas,Fès-Meknès,33.97361111111111,-4.224722222222223,Numeric DMS,2015.2296142578125,4.323432445526123,601.7003173828125,14182.83984375,2599.881591796875,13.0,9.0,71.0,3742.340576171875,0.0
+209, Chaâra cave,K,Middle Atlas,Fès-Meknès,33.95583333333334,-4.246111111111111,Numeric DMS,1686.005126953125,4.435854434967041,238.18165588378906,17256.09375,0.0,13.0,9.0,71.0,4879.4150390625,0.0
+210,GueltaTameda Lake,K,Middle Atlas,Fès-Meknès,33.81777777777778,-4.081666666666666,Numeric DMS,,,,23668.640625,1656.8048095703125,5.0,9.0,18.0,2366.864013671875,0.0
+211,Taffert canyons,K,Middle Atlas,Fès-Meknès,33.72138888888889,-4.2275,Numeric DMS,2138.688720703125,60.83537673950195,1025.5059814453125,36882.71484375,2599.881591796875,10.0,9.0,,1673.6256103515625,1183.4320068359375
+212, Aïn Sebou,K,Middle Atlas,Fès-Meknès,33.73694444444445,-4.532777777777778,Numeric DMS,1603.698974609375,10.149120330810547,528.0364379882812,31682.953125,1183.4320068359375,4.0,9.0,71.0,1183.4320068359375,0.0
+213,Addan onion peels,G,Anti-Atlas ,Souss-Massa,29.213335,-8.203033,Numeric DMS,,,,,,,,,12184.177734375,5292.46875
+214,Akka badlands,G,Anti-Atlas ,Souss-Massa,29.483864,-8.295043,Numeric DMS,554.2958984375,0.49809327721595764,9.596549034118652,12540.7099609375,4966.74560546875,5.0,7.0,60.0,2366.864013671875,3742.340576171875
+215,Tata hearts,G,Anti-Atlas ,Souss-Massa,29.483864,-8.295043,Numeric DMS,554.2958984375,0.49809327721595764,9.596549034118652,12540.7099609375,4966.74560546875,5.0,7.0,60.0,2366.864013671875,3742.340576171875
+216,Imitek Karsts,G,Anti-Atlas ,Souss-Massa,29.603338,-8.251098,Numeric DMS,616.0255126953125,0.17610695958137512,67.4509048461914,3313.609619140625,1183.4320068359375,5.0,7.0,,1183.4320068359375,5917.16015625
+217,Issafenflat-irons,G,Anti-Atlas ,Souss-Massa,29.854611,-8.533996,Numeric DMS,1295.051025390625,4.688625812530518,138.64613342285156,11113.25390625,0.0,5.0,3.0,49.0,0.0,0.0
+218,Tadakoust Pyramids,G,Anti-Atlas ,Souss-Massa,29.270107,-8.678496,Numeric DMS,533.7193603515625,1.451902985572815,24.609132766723633,45185.0859375,2366.864013671875,5.0,7.0,60.0,2366.864013671875,1673.6256103515625
+219,Issafen chevrons,G,Anti-Atlas ,Souss-Massa,29.850649,-8.512572,Numeric DMS,1212.744873046875,4.622594356536865,146.9255828857422,10166.509765625,1183.4320068359375,5.0,3.0,49.0,1183.4320068359375,1183.4320068359375
+220,Ait Ouabelli chasms,G,Anti-Atlas ,Souss-Massa,29.213335,-8.203033,Numeric DMS,,,,,,,,,12184.177734375,5292.46875
+221,Tagmout mask,G,Anti-Atlas ,Souss-Massa,29.270107,-8.678496,Numeric DMS,533.7193603515625,1.451902985572815,24.609132766723633,45185.0859375,2366.864013671875,5.0,7.0,60.0,2366.864013671875,1673.6256103515625
+222,Alougoum Pyramid,G,Anti-Atlas ,Souss-Massa,29.442398,-8.264208,Numeric DMS,821.7908325195312,1.2450683116912842,98.37539672851562,15366.271484375,5913.49072265625,5.0,7.0,46.0,0.0,0.0
+223,Messalite cave,G,Anti-Atlas ,Souss-Massa,29.442398,-8.264208,Numeric DMS,821.7908325195312,1.2450683116912842,98.37539672851562,15366.271484375,5913.49072265625,5.0,7.0,46.0,0.0,0.0
+224,Tamzrart Petrified waterfall,G,Anti-Atlas ,Souss-Massa,29.339495,-8.52788,Numeric DMS,554.2958984375,2.7543861865997314,65.77281188964844,37851.4765625,1183.4320068359375,5.0,7.0,61.0,3347.251220703125,1183.4320068359375
+225,Foum Zguid water gap,G,Anti-Atlas ,Souss-Massa,30.140782,-6.877585,Numeric DMS,801.2142944335938,4.9468865394592285,93.56848907470703,32167.333984375,2599.881591796875,5.0,7.0,,0.0,1673.6256103515625
+226,Tissint water gap,G,Anti-Atlas ,Souss-Massa,29.91642,-7.374716,Numeric DMS,616.0255126953125,0.35220852494239807,13.013214111328125,60569.703125,0.0,5.0,7.0,,2646.234375,2646.234375
+227,Sidi Rezzoug water gap,G,Anti-Atlas ,Souss-Massa,29.748743,-7.659674,Numeric DMS,492.5663146972656,2.996258497238159,45.63356018066406,40222.0078125,1183.4320068359375,5.0,7.0,28.0,1183.4320068359375,3347.251220703125
+228,Tata water gap,G,Anti-Atlas ,Souss-Massa,29.705037,-7.986517,Numeric DMS,595.448974609375,1.026761531829834,25.843881607055664,25769.46484375,1656.8048095703125,5.0,7.0,61.0,0.0,0.0
+229,Akka water gap,G,Anti-Atlas ,Souss-Massa,29.475754,-8.277655,Numeric DMS,533.7193603515625,0.5283054709434509,26.670442581176758,12770.05859375,4256.6865234375,5.0,7.0,24.0,1183.4320068359375,3347.251220703125
+230,Ait Ouabelli water gap,G,Anti-Atlas ,Souss-Massa,29.240173,-8.53858,Numeric DMS,883.5203857421875,6.835554122924805,170.5863037109375,48269.34765625,5199.76318359375,5.0,7.0,46.0,0.0,0.0
+231,Icht water gap,G,Anti-Atlas ,Souss-Massa,29.086675,-8.85169,Numeric DMS,410.26019287109375,0.5568816661834717,17.459327697753906,62448.51171875,5913.49072265625,5.0,7.0,,2646.234375,0.0
+232,Fam El Hisn water gap,G,Anti-Atlas ,Souss-Massa,29.06027,-8.925848,Numeric DMS,430.83673095703125,0.5568816661834717,17.76715660095215,56279.9921875,0.0,5.0,7.0,,3347.251220703125,2646.234375
+233,Tizgui Ida Ou Baloul water gap,G,Anti-Atlas ,Souss-Massa,29.741683,-8.50205,Numeric DMS,1253.89794921875,1.2450675964355469,45.63441848754883,12540.7099609375,0.0,5.0,3.0,,1183.4320068359375,1183.4320068359375
+234,Ibn Yaakoub water gap,G,Anti-Atlas ,Souss-Massa,30.068945,-7.954123,Numeric DMS,1212.744873046875,7.8266921043396,185.1138153076172,10166.509765625,1183.4320068359375,5.0,9.0,33.0,3742.340576171875,0.0
+235,Rokan water gap,G,Anti-Atlas ,Souss-Massa,29.983764,-7.95061,Numeric DMS,862.94384765625,3.397202253341675,102.1393051147461,3550.2958984375,0.0,5.0,7.0,,0.0,0.0
+236,Targant water gap,G,Anti-Atlas ,Souss-Massa,29.912618,-7.684191,Numeric DMS,657.1785888671875,1.026761531829834,73.9562759399414,30983.90234375,0.0,5.0,9.0,,5292.46875,1183.4320068359375
+237,Alougoum water gap,G,Anti-Atlas ,Souss-Massa,30.089514,-6.910584,Numeric DMS,657.1785888671875,0.24905133247375488,16.335351943969727,34552.546875,2366.864013671875,5.0,7.0,60.0,3550.2958984375,0.0
+238,Desert mermaid,G,Anti-Atlas ,Souss-Massa,29.646508,-7.756531,Numeric DMS,471.98980712890625,0.0,9.164299011230469,42082.4765625,1183.4320068359375,5.0,7.0,,11227.021484375,9541.1337890625
+239,Tata oyster,G,Anti-Atlas ,Souss-Massa,29.646508,-7.756531,Numeric DMS,471.98980712890625,0.0,9.164299011230469,42082.4765625,1183.4320068359375,5.0,7.0,,11227.021484375,9541.1337890625
+240,Akka Phillyrea,G,Anti-Atlas ,Souss-Massa,29.646508,-7.756531,Numeric DMS,471.98980712890625,0.0,9.164299011230469,42082.4765625,1183.4320068359375,5.0,7.0,,11227.021484375,9541.1337890625
+241,Draa double winged eye,G,Anti-Atlas ,Souss-Massa,29.028776,-8.591492,Numeric DMS,348.5306091308594,0.39378103613853455,12.318367958068848,70706.8515625,1183.4320068359375,5.0,7.0,61.0,10910.7041015625,5020.876953125
+242,Tagragra of Tata inlier,G,Anti-Atlas ,Souss-Massa,29.899215,-7.94165,Numeric DMS,636.60205078125,3.872446298599243,116.82251739501953,9456.4501953125,2366.864013671875,5.0,7.0,,5917.16015625,4733.72802734375
+243,Agouliz inlier,G,Anti-Atlas ,Souss-Massa,29.751482,-8.161377,Numeric DMS,780.6377563476562,0.39378082752227783,11.640446662902832,15854.318359375,1183.4320068359375,5.0,7.0,8.0,5917.16015625,0.0
+244,Aigou inlier,G,Anti-Atlas ,Souss-Massa,29.737174,-8.320678,Numeric DMS,801.2142944335938,2.119640350341797,52.9327392578125,11582.958984375,0.0,5.0,3.0,8.0,9242.8994140625,1183.4320068359375
+245,Tanmrout inlier,G,Anti-Atlas ,Souss-Massa,29.737174,-8.320678,Numeric DMS,801.2142944335938,2.119640350341797,52.9327392578125,11582.958984375,0.0,5.0,3.0,8.0,9242.8994140625,1183.4320068359375
+246,Tagragra of Akka inlier,G,Anti-Atlas ,Souss-Massa,29.460147,-8.677734,Numeric DMS,657.1785888671875,3.0065534114837646,92.04312896728516,23883.310546875,0.0,5.0,7.0,56.0,4266.9248046875,1183.4320068359375
+247,Alougoum gorge,G,Anti-Atlas ,Souss-Massa,30.308991,-6.837444,Numeric DMS,1212.744873046875,15.302905082702637,269.9215087890625,37392.7734375,0.0,5.0,3.0,8.0,0.0,3550.2958984375
+248,Tlit gorge,G,Anti-Atlas ,Souss-Massa,30.278531,-7.062836,Numeric DMS,780.6377563476562,0.24905133247375488,85.1138916015625,29549.109375,0.0,5.0,7.0,14.0,6034.3427734375,3742.340576171875
+249,Aguinane gorge,G,Anti-Atlas ,Souss-Massa,30.195719,-7.540216,Numeric DMS,883.5203857421875,0.5283054709434509,19.40521812438965,48454.66796875,0.0,5.0,3.0,8.0,0.0,0.0
+250,Tagmout gorge,G,Anti-Atlas ,Souss-Massa,29.971009,-8.257101,Numeric DMS,1665.4285888671875,7.577104091644287,173.85159301757812,20351.361328125,0.0,5.0,7.0,49.0,0.0,0.0
+251,Agouliz gorge,G,Anti-Atlas ,Souss-Massa,29.732906,-8.189294,Numeric DMS,821.7908325195312,9.551473617553711,146.7727813720703,12540.7099609375,1183.4320068359375,5.0,7.0,,4266.9248046875,0.0
+252, Aygou gorge,G,Anti-Atlas ,Souss-Massa,29.734488,-8.261025,Numeric DMS,1048.1326904296875,7.374342441558838,144.0850372314453,9700.47265625,1183.4320068359375,11.0,7.0,,5917.16015625,0.0
+253,Targant gorge,G,Anti-Atlas ,Souss-Massa,29.481527,-8.375144,Numeric DMS,554.2958984375,0.5283054709434509,10.07937240600586,18683.548828125,3783.313720703125,5.0,7.0,24.0,10650.8876953125,3742.340576171875
+254,Tamzrart gorge,G,Anti-Atlas ,Souss-Massa,29.361629,-8.518739,Numeric DMS,513.1428833007812,0.3937797546386719,59.10002136230469,35717.62890625,1183.4320068359375,5.0,7.0,,4879.4150390625,0.0
+255,Tadakoust gorge,G,Anti-Atlas ,Souss-Massa,29.254602,-8.694864,Numeric DMS,554.2958984375,0.6349359750747681,24.636735916137695,48017.984375,0.0,5.0,7.0,60.0,0.0,0.0
+256,Ighir Ighnain gorge,G,Anti-Atlas ,Souss-Massa,29.227937,-8.924098,Numeric DMS,595.448974609375,8.592934608459473,164.1712188720703,56265.31640625,2366.864013671875,5.0,7.0,,3550.2958984375,1183.4320068359375
+257,Tamanart canyon,G,Anti-Atlas ,Souss-Massa,29.167098,-8.958087,Numeric DMS,574.8724365234375,0.8978980183601379,71.0413589477539,58191.82421875,0.0,5.0,7.0,,0.0,0.0
+258,Foum Zguid mesa,G,Anti-Atlas ,Souss-Massa,29.888118,-6.827353,Numeric DMS,554.2958984375,0.7260682582855225,29.099506378173828,26949.228515625,4966.74560546875,5.0,7.0,,16096.4150390625,2646.234375
+259,Addana Onion Peels,G,Anti-Atlas ,Souss-Massa,29.21444444444444,-8.233055555555556,Numeric DMS,430.83673095703125,78.46427917480469,192.1747283935547,40935.73828125,0.0,5.0,7.0,82.0,9242.8994140625,6694.50244140625
+260,Foum Zguid stream,H,Anti-Atlas ,Souss-Massa,30.09611111111111,-6.887499999999999,DMS,657.1785888671875,1.1136581897735596,57.75514221191406,32418.69921875,1183.4320068359375,5.0,7.0,60.0,1183.4320068359375,0.0
+261,"Badlands of Akka (glaciofluvial,
+ fluviomarine, & stream alluviums)",G,Anti-Atlas ,Souss-Massa,29.470555555555556,-8.293055555555556,Numeric DMS,533.7193603515625,0.49809327721595764,17.18465805053711,13483.7861328125,5199.76318359375,5.0,7.0,,2366.864013671875,3550.2958984375
+262,,,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+263,Hearts of Tata,G,Anti-Atlas ,Souss-Massa,29.36722222222222,-8.321944444444444,DMS,616.0255126953125,2.119640588760376,93.53993225097656,25055.736328125,6856.568359375,5.0,7.0,46.0,4266.9248046875,1673.6256103515625
+264,Karsts of Imitek,G,Anti-Atlas ,Souss-Massa,29.61583333333333,-8.261111111111111,Numeric DMS,616.0255126953125,1.5043121576309204,61.039947509765625,1656.8048095703125,0.0,5.0,7.0,,0.0,4266.9248046875
+265,ssafen’s Flatiron,G,Anti-Atlas ,Souss-Massa,29.84722222222222,-8.516944444444444,DMS,1233.3214111328125,2.996260166168213,100.5820541381836,11349.94140625,0.0,5.0,3.0,49.0,1183.4320068359375,0.0
+266,Pyramids of Tadakoust,G,Anti-Atlas ,Souss-Massa,29.32638888888889,-8.531111111111112,Numeric DMS,636.60205078125,2.119641065597534,75.95393371582031,39034.91015625,1656.8048095703125,5.0,7.0,61.0,2646.234375,1673.6256103515625
+267,Oued Tamzrart flooded,G&H,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+268,The alluvial plain of Tadakoust,S,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+269,The desiccation cracks in the Mghimima region,S,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+270,Deflation phenomenon in the Drâa plain,G,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+271,Isolation of rocks by erosion facilitated by joints ,G,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+272,The Devonian Rich,G,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+273,Engravings in Tamzrart region,En,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+274,Slab of rock carvings in the carbonate sandstones,G,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+275,engravings in Tadakous,En,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+276,Tour of Ait Ouabelli,G,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+277,Agadir Ou Adkhes,C,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+278,Tour of Ait Ouabelli,G,Anti-Atlas ,Souss-Massa,,,No coordinates,,,,,,,,,,
+279,Jbel Younech Ruiniform aspects,G,Rif,Tanger-Tétouan-Al Hoceïma,35.896051,-5.390169,Numeric DMS,60.45918273925781,1.2697172164916992,49.75267028808594,0.0,0.0,11.0,10.0,7.0,0.0,0.0
+280,Abdessamad cave,G,Rif,Tanger-Tétouan-Al Hoceïma,35.896051,-5.390169,Numeric DMS,60.45918273925781,1.2697172164916992,49.75267028808594,0.0,0.0,11.0,10.0,7.0,0.0,0.0
+281,The massive dolomites of the Tizgarine unit,M,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+282,Calipso cave,G,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+283,the source and catchment basin of the water,H&G,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+284,Mujer Muerta,G&SG,Rif,Tanger-Tétouan-Al Hoceïma,35.908787,-5.389026,Numeric DMS,39.882652282714844,1.071091890335083,48.95479202270508,0.0,1183.4320068359375,13.0,10.0,7.0,0.0,0.0
+285,Laila Island,"SG,Hi",Rif,Tanger-Tétouan-Al Hoceïma,35.916551,-5.406037,Numeric DMS,60.45918273925781,2.4889614582061768,58.812889099121094,0.0,2599.881591796875,4.0,10.0,,1183.4320068359375,0.0
+286,The Terraces of Ras Leona,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.92068,-5.401799,Numeric DMS,60.45918273925781,2.4889614582061768,58.812889099121094,0.0,2599.881591796875,4.0,10.0,,1183.4320068359375,0.0
+287,"Ras Leona rocky coast and Karst (Lapiés, doline and cave)","G,S",Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+288,Jbel Chendir ,S&SG,Rif,Tanger-Tétouan-Al Hoceïma,35.906329,-5.38799,Numeric DMS,39.882652282714844,1.071091890335083,48.95479202270508,0.0,1183.4320068359375,13.0,10.0,7.0,0.0,0.0
+289,Socio-cultural complex,C,Rif,Tanger-Tétouan-Al Hoceïma,35.90611111111111,-5.388055555555556,DMS,39.882652282714844,1.071091890335083,48.95479202270508,0.0,1183.4320068359375,13.0,10.0,7.0,0.0,0.0
+290,The travertine terraces of Bel Younech,"S,PL&C",Rif,Tanger-Tétouan-Al Hoceïma,35.907023,-5.393334,Numeric DMS,39.882652282714844,1.071091890335083,48.95479202270508,0.0,1183.4320068359375,13.0,10.0,7.0,0.0,0.0
+291,Low coast of the SBEI of Jbel Moussa and islands,G&C,Rif,Tanger-Tétouan-Al Hoceïma,35.909169,-5.393398,Numeric DMS,39.882652282714844,1.071091890335083,48.95479202270508,0.0,1183.4320068359375,13.0,10.0,7.0,0.0,0.0
+292,Predorsal sandstone of Bel Younech,S&PT,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+293,The cliff of Ras Leona,SG&G,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+294, Akhfénir Cliff,SG,Sahara,Laayoune-Dakhla,28.15,-12.066666666666666,DMS,266.2244873046875,0.49809300899505615,25.686891555786133,20111.00390625,22481.53515625,10.0,6.0,27.0,5292.46875,6034.3427734375
+295,Naїla Lagoon,H,Sahara,Laayoune-Dakhla,28.05,-12.1,DMS,163.3418426513672,3.561300039291382,72.67215728759766,24582.36328125,13949.822265625,5.0,,32.0,2646.234375,6694.50244140625
+296,Sand dunes,G,Sahara,Laayoune-Dakhla,28.15,-12.1,DMS,204.49490356445312,2.782305955886841,63.67961883544922,18224.849609375,20824.73046875,10.0,7.0,,6372.9765625,6900.53515625
+297,Steady dunes,G,Sahara,Laayoune-Dakhla,28.05,-12.266666666666667,DMS,163.3418426513672,1.1811938285827637,33.93568801879883,10883.9052734375,6856.568359375,5.0,7.0,,5917.16015625,2366.864013671875
+298,Tinouchad daya,H,Sahara,Laayoune-Dakhla,28.05,-12.116666666666667,DMS,142.7653045654297,1.5943043231964111,67.84142303466797,23398.931640625,12766.390625,5.0,7.0,32.0,2366.864013671875,7577.662109375
+299,Tazgha salt Flats,M,Sahara,Laayoune-Dakhla,27.9,-12.333333333333334,DMS,225.07142639160156,0.7260681986808777,21.52578353881836,24852.072265625,8284.0244140625,5.0,6.0,27.0,0.0,0.0
+300,Khaoui Naàm Wadi,H,Sahara,Laayoune-Dakhla,27.666666666666668,-12.216666666666669,DMS,266.2244873046875,0.5568816661834717,11.812995910644531,52751.7109375,4256.6865234375,5.0,6.0,27.0,22978.09375,1183.4320068359375
+301,Echguiguen Site,Ar,Sahara,Laayoune-Dakhla,27.98,-12.266666666666667,DMS,204.49490356445312,2.0603904724121094,45.3505859375,17966.15234375,2366.864013671875,5.0,6.0,27.0,0.0,0.0
+302,Akhfennir Sinkhole,Sp,Sahara,Laayoune-Dakhla,28.166666666666668,-12.05,DMS,266.2244873046875,0.3522094488143921,15.042128562927246,20569.701171875,23901.65625,10.0,6.0,27.0,6900.53515625,8284.0244140625
+303,Amtoudi travertines ,S,Sahara,Guelmim-Oued Noun,29.23935,-9.168466666666667,DMS,945.25,4.971653938293457,103.0833969116211,37392.7734375,1183.4320068359375,5.0,9.0,,2366.864013671875,1183.4320068359375
+304,Amtoudi waterfall and Bougaa source,H,Sahara,Guelmim-Oued Noun,29.23933333333333,-9.168466666666667,DMS,945.25,4.971653938293457,103.0833969116211,37392.7734375,1183.4320068359375,5.0,9.0,,2366.864013671875,1183.4320068359375
+305,Amtoudi's stratigraphy,St,Sahara,Guelmim-Oued Noun,,,No coordinates,,,,,,,,,,
+306,Adrar ZerZem,Ar,Sahara,Guelmim-Oued Noun,28.926,-9.042,DMS,369.1071472167969,0.39378103613853455,21.99325180053711,36882.71484375,0.0,5.0,7.0,14.0,5917.16015625,6900.53515625
+307,Abaynou station,H&G,Sahara,Guelmim-Oued Noun,29.093,-10.019,DMS,595.448974609375,4.2805023193359375,114.0646743774414,14182.83984375,2599.881591796875,5.0,6.0,,0.0,0.0
+308,Pigeon cave,G,Sahara,Guelmim-Oued Noun,29.3,-9.695,DMS,780.6377563476562,4.280503273010254,101.05923461914062,29567.451171875,0.0,5.0,6.0,14.0,2646.234375,0.0
+309,Assaka Basin,H,Sahara,Guelmim-Oued Noun,29.116666666666667,-10.416666666666666,DMS,204.49490356445312,0.7260688543319702,24.691850662231445,25085.08984375,0.0,5.0,7.0,10.0,0.0,0.0
+310,Asrir Oasis,C,Sahara,Guelmim-Oued Noun,29.074,-9.432,DMS,595.448974609375,3.319061040878296,95.27607727050781,43786.984375,1183.4320068359375,5.0,9.0,,0.0,1183.4320068359375
+311,Coastal cliff of the Dakhla peninsula,G,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+312,Dakhla lagoon,H,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+313,Sphinx Rock,G,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+314,Portorico beach,G&H,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+315,Lower Eocene Izik Formation with chert nodules,S&PL,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+316,Dewatering fold,S&SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+317,Neptunian dyke in the Izik deposits,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+318,Shark tooth,PL,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+319,Miocene-Pliocene succession,St,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+320,Neolithic engravings on Lower Cretaceous sandstones,S&Hi,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+321,Metabasite,PT,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+322,metagabbro of the Adrar Souttouf massif,PT,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+323,Dliyat En’our hill offers  panorama,G,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+324,Ordovician quartzites-archean basement Uncon,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+325,Undeformed kalsilite & nepheline aegyrine-bearing  with syenite vertical magmatic lineation ,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+326,,,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+327,Foliated granites,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+328,Basic dyke swarm,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+329,Granite veins,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+330,Noticenthe isoclinal fold with shear bands,SG,Sahara, Dakhla-Oued Ed-Dahab,,,No coordinates,,,,,,,,,,
+331,Water spring,H&G,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+332,Panoramic view to the folded mountains,SG,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+333,Petrified wood intruded by iron deposits,PL,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+334,Stromatolites,PL,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+335,Caristified cave stalactite,G,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+336,Karastified limestone rocks eroded,SG,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+337,Hill shades of limestone rocks,,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+338,Karstification within the limestone strata,G,Rif,Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+339,Ali Thilat Dam,H,Rif,Tanger-Tétouan-Al Hoceïma,35.181758358106,-5.239428901052023,Lambert Zone I,883.5203857421875,9.48238468170166,296.58758544921875,28384.021484375,1656.8048095703125,13.0,9.0,,3347.251220703125,0.0
+340,Quarry of blocks ,GM,Rif,Tanger-Tétouan-Al Hoceïma,35.17831677014425,-5.226483300457814,Lambert Zone I,862.94384765625,8.028785705566406,295.12908935546875,29800.470703125,2366.864013671875,13.0,9.0,32.0,3742.340576171875,1183.4320068359375
+341,Rueda Nummilitic succession ,SG,Rif,Tanger-Tétouan-Al Hoceïma,33.75431809475165,-5.246702609118411,Lambert Zone I,1830.040771484375,1.0565228462219238,46.585941314697266,13250.76953125,11834.3203125,15.0,3.0,71.0,1183.4320068359375,1183.4320068359375
+342,Talâat Adrhosse Klippe ,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.24709269284413,-5.183919234627224,Lambert Zone I,862.94384765625,6.806554317474365,245.12306213378906,22455.85546875,1183.4320068359375,15.0,3.0,,0.0,0.0
+343,Oued Laou Gorge ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.235550758142985,-5.1797965490221145,Lambert Zone I,1027.55615234375,8.408731460571289,296.7176818847656,23398.931640625,1656.8048095703125,13.0,,,1183.4320068359375,0.0
+344,Ibouharen Fold,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.24543329036464,-5.15818572568217,Lambert Zone I,616.0255126953125,4.535290718078613,147.63320922851562,23883.310546875,0.0,15.0,,32.0,2366.864013671875,0.0
+345,Tirinesse Basin ,S,Rif,Tanger-Tétouan-Al Hoceïma,35.28305489894164,-5.130659902793731,Lambert Zone I,1151.0152587890625,9.890663146972656,350.2606201171875,22481.53515625,3313.609619140625,15.0,9.0,69.0,5917.16015625,1183.4320068359375
+346,Koudiat Achacha ,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.2710502173657,-5.12157746130065,Lambert Zone I,883.5203857421875,6.001735687255859,222.47625732421875,24138.33984375,1656.8048095703125,13.0,9.0,69.0,6372.9765625,0.0
+347,"Dune,beachand cliffs of Kaâ Asrascoast",S,Rif,Tanger-Tétouan-Al Hoceïma,35.3746530740449,-5.024382099022211,Lambert Zone I,1253.89794921875,12.05183219909668,325.01422119140625,25299.759765625,3783.313720703125,8.0,,25.0,1183.4320068359375,0.0
+348,Targha mica-shist ,PT,Rif,Tanger-Tétouan-Al Hoceïma,35.412906152617786,-5.028550441283678,Lambert Zone I,1171.591796875,15.854135513305664,384.19769287109375,24600.708984375,1656.8048095703125,13.0,9.0,,1183.4320068359375,1673.6256103515625
+349,Stehat gneiss,PT,Rif,Tanger-Tétouan-Al Hoceïma,35.45561402078408,-5.096308659865039,Lambert Zone I,1953.5,2.7823052406311035,263.2817077636719,17751.48046875,3783.313720703125,13.0,3.0,25.0,0.0,0.0
+350,Beni Bousera Kinzigites ,PT,Rif,Tanger-Tétouan-Al Hoceïma,35.48207414879903,-5.131463767369714,Lambert Zone I,1809.4642333984375,8.227495193481445,225.6839599609375,14667.2177734375,1656.8048095703125,11.0,9.0,25.0,0.0,0.0
+351,Tihissasse fan delta,G,Rif,Tanger-Tétouan-Al Hoceïma,35.474510865016946,-5.113093485521536,Lambert Zone I,1830.040771484375,10.357747077941895,266.01129150390625,15617.6328125,1656.8048095703125,8.0,9.0,25.0,0.0,1183.4320068359375
+352,BeniBousera Peridotitic Complex ,PT,Rif,Tanger-Tétouan-Al Hoceïma,35.52732169189336,-5.194990926733846,Lambert Zone I,513.1428833007812,8.212812423706055,232.3250732421875,10883.9052734375,0.0,10.0,,25.0,0.0,0.0
+353,Talambote bad lands ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.26757228863778,-5.2099195120724495,Lambert Zone I,986.403076171875,5.660786151885986,209.47523498535156,19382.6015625,3783.313720703125,15.0,,32.0,1183.4320068359375,1183.4320068359375
+354,Talambote Thrusting,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.27923536008803,-5.217673993338394,Lambert Zone I,965.8265380859375,4.5623345375061035,180.96875,17966.15234375,3313.609619140625,8.0,3.0,,1183.4320068359375,0.0
+355,Akchour landslide ,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.24979614976434,-5.183912408238101,Lambert Zone I,862.94384765625,6.806554317474365,245.12306213378906,22455.85546875,1183.4320068359375,15.0,3.0,,0.0,0.0
+356,Akchour Gorge,G,Rif,Tanger-Tétouan-Al Hoceïma,35.282857705057545,-5.230557221259563,Lambert Zone I,862.94384765625,4.9001078605651855,209.5753173828125,17733.134765625,2599.881591796875,13.0,,24.0,0.0,0.0
+357,Sidi Abdel Hamid,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.206791028756705,-5.310092889130856,Lambert Zone I,471.98980712890625,4.149006366729736,149.98239135742188,25085.08984375,0.0,8.0,9.0,32.0,0.0,0.0
+358,Ras Ma Spring ,H,Rif,Tanger-Tétouan-Al Hoceïma,35.21833195677501,-5.318756095870113,Lambert Zone I,533.7193603515625,5.2799391746521,161.56761169433594,23901.65625,1183.4320068359375,15.0,9.0,32.0,0.0,0.0
+359,BabTazaPhtanites ,GM,Rif,Tanger-Tétouan-Al Hoceïma,35.2793230292996,-5.442327293994906,Lambert Zone I,471.98980712890625,1.2450677156448364,133.69613647460938,16782.720703125,1183.4320068359375,11.0,,,1183.4320068359375,0.0
+360,Bouhala Landslice,G,Rif,Tanger-Tétouan-Al Hoceïma,35.313233448135364,-5.438441306152264,Lambert Zone I,780.6377563476562,9.50128173828125,288.9940490722656,18199.169921875,3313.609619140625,8.0,,24.0,3742.340576171875,0.0
+361,Chrafate Spring ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.36118505312328,-5.418168222746441,Lambert Zone I,1171.591796875,14.022329330444336,299.1166076660156,13483.7861328125,5199.76318359375,15.0,,70.0,3550.2958984375,0.0
+362,Chrafate Alluvial Fan ,S,Rif,Tanger-Tétouan-Al Hoceïma,35.340635355491365,-5.440158153083255,Lambert Zone I,862.94384765625,10.818002700805664,263.554443359375,16797.39453125,4256.6865234375,7.0,9.0,24.0,6034.3427734375,0.0
+363,Beni Derkoul Radiolarites,PL,Rif,Tanger-Tétouan-Al Hoceïma,35.3618211825068,-5.435482141506588,Lambert Zone I,1027.55615234375,12.386090278625488,332.0784912109375,14426.86328125,4256.6865234375,13.0,,70.0,4733.72802734375,0.0
+364,Jbel Chrafate,S,Rif,Tanger-Tétouan-Al Hoceïma,35.361319189135315,-5.424339137879596,Lambert Zone I,1171.591796875,14.022329330444336,299.1166076660156,13483.7861328125,5199.76318359375,15.0,,70.0,3550.2958984375,0.0
+365,Ametrasse rocks fall ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.36131919122874,-5.424328138081956,Lambert Zone I,1171.591796875,14.022329330444336,299.1166076660156,13483.7861328125,5199.76318359375,15.0,,70.0,3550.2958984375,0.0
+366,AmetrasseTertiary Fm Succession ,S,Rif,Tanger-Tétouan-Al Hoceïma,35.43814464119641,-5.394612761384898,Lambert Zone I,780.6377563476562,9.757123947143555,334.93646240234375,8284.0244140625,4256.6865234375,15.0,,,0.0,0.0
+367,Kodiat Sbaâ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.3952673598756,-5.43976561160645,Lambert Zone I,862.94384765625,6.142615795135498,295.22100830078125,13716.8056640625,1183.4320068359375,11.0,,,1673.6256103515625,0.0
+368,Raghdat Southern,G,Rif,Tanger-Tétouan-Al Hoceïma,35.299406646993035,-5.411120390022425,Lambert Zone I,574.8724365234375,10.226445198059082,259.1453552246094,17026.744140625,0.0,13.0,,,1673.6256103515625,0.0
+369,Jbel Bou Sliman,G,Rif,Tanger-Tétouan-Al Hoceïma,35.31806624622103,-5.372840869212867,Lambert Zone I,924.6734619140625,9.938739776611328,314.5191650390625,14656.2119140625,1656.8048095703125,13.0,,,0.0,1183.4320068359375
+370,Jbel Lakraa,S,Rif,Tanger-Tétouan-Al Hoceïma,35.21666666666667,-5.25,Numeric DMS,1315.6275634765625,12.178386688232422,287.11016845703125,24600.708984375,2599.881591796875,15.0,8.0,,4266.9248046875,0.0
+371,Oued Tassikisste Gorge ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.25584836067911,-5.048941605258649,Lambert Zone I,1315.6275634765625,10.624809265136719,248.60560607910156,29338.1015625,1656.8048095703125,13.0,9.0,24.0,5917.16015625,1183.4320068359375
+372,Jbel Kelti,SG,Rif,Tanger-Tétouan-Al Hoceïma,35.36118505312328,-5.418168222746441,Lambert Zone I,1171.591796875,14.022329330444336,299.1166076660156,13483.7861328125,5199.76318359375,15.0,,70.0,3550.2958984375,0.0
+373,Khzanat Spring,H,Rif,Tanger-Tétouan-Al Hoceïma,35.21636688344947,-5.05173898180192,Lambert Zone I,883.5203857421875,13.657771110534668,355.3737487792969,32422.361328125,3313.609619140625,15.0,9.0,,5917.16015625,1673.6256103515625
+374,Jbel Tellouja karst ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.23181859593759,-5.279753047641164,Lambert Zone I,1171.591796875,12.493728637695312,346.1594543457031,22951.2421875,1183.4320068359375,13.0,,32.0,2366.864013671875,1183.4320068359375
+375,Raghdat Arimlal ,G,Rif,Tanger-Tétouan-Al Hoceïma,35.16939288330852,-5.084877527601663,Lambert Zone I,595.448974609375,6.734619617462158,192.32882690429688,27917.98828125,1183.4320068359375,15.0,,,8284.0244140625,2366.864013671875
+376,Pont de Dieu and Farda River,G,Rif,Tanger-Tétouan-Al Hoceïma,35.28091801260875,-5.266496643168397,Lambert Zone I,965.8265380859375,7.813151836395264,233.3141632080078,17267.099609375,2366.864013671875,13.0,8.0,,2366.864013671875,1183.4320068359375
+377,Oued ElKelaa Gorge and waterfall,G,Rif,Tanger-Tétouan-Al Hoceïma,35.3196662940637,-5.266656014410412,Lambert Zone I,595.448974609375,4.309171676635742,150.64476013183594,12533.373046875,1183.4320068359375,11.0,3.0,,4266.9248046875,1183.4320068359375
+378,Tissimlane cherty limestone,S,Rif,Tanger-Tétouan-Al Hoceïma,35.23326080094855,-5.301047739972288,Lambert Zone I,657.1785888671875,5.3606157302856445,274.7101745605469,22485.208984375,2366.864013671875,15.0,9.0,32.0,0.0,0.0
+379,Jbel Tissouka,S,Rif,Tanger-Tétouan-Al Hoceïma,35.25047137989931,-5.325119157861406,Lambert Zone I,513.1428833007812,4.652425289154053,142.3348846435547,20584.37890625,0.0,6.0,9.0,32.0,0.0,0.0
+380,Upper Ordovician Quartzite slump balls,S&SG,Central Massif,Rabat-Salé-Kénitra,33.599044444444445,-6.110261111111111,DMS,986.403076171875,7.043712615966797,187.8599853515625,36202.01171875,1183.4320068359375,15.0,9.0,30.0,0.0,0.0
+381,Givetian reefal lime stones Stromatoporas,S&PL,Central Massif,Rabat-Salé-Kénitra,33.54575277777778,-6.007341666666667,DMS,945.25,5.958290100097656,137.2962188720703,31708.634765625,0.0,8.0,9.0,56.0,0.0,0.0
+382,Givetian reefal lime stones Algal laminitis,S&PL,Central Massif,Rabat-Salé-Kénitra,33.556780555555555,-6.039383333333333,DMS,842.3673706054688,4.394039154052734,118.7210464477539,34792.89453125,0.0,6.0,9.0,56.0,0.0,1183.4320068359375
+383,Givetian reefal lime stones Slump balls,S,Central Massif,Rabat-Salé-Kénitra,33.54856111111111,-6.030172222222222,DMS,883.5203857421875,3.360659599304199,120.40374755859375,34079.16796875,1183.4320068359375,15.0,9.0,56.0,0.0,0.0
+384,Famenno-Tournai sian calcareous (Mid Devonian reef limestones) rocks falls of Tiliouine,S,Central Massif,Rabat-Salé-Kénitra,33.545833333333334,-6.0075,Numeric DMS,945.25,5.958290100097656,137.2962188720703,31708.634765625,0.0,8.0,9.0,56.0,0.0,0.0
+385,,,Central Massif,Rabat-Salé-Kénitra,,,No coordinates,,,,,,,,,,
+386,Middle Devonian reefal limestone olistoliths within the Tournisian turbid ites West of Tiliouine,SG,Central Massif,Rabat-Salé-Kénitra,33.55333333333333,-6.070277777777777,Numeric DMS,883.5203857421875,4.968565464019775,132.75047302246094,36679.046875,0.0,8.0,9.0,,0.0,0.0
+387,Tournaisian reefal limestones Olistoliths of Tiddas,SG,Central Massif,Rabat-Salé-Kénitra,33.52833333333333,-6.251666666666667,Numeric DMS,595.448974609375,1.375174641609192,142.049072265625,25085.08984375,4256.6865234375,15.0,9.0,30.0,0.0,0.0
+388,Westphalian red conglomerates,SG,Central Massif,Rabat-Salé-Kénitra,33.52388888888889,-6.256388888888889,Numeric DMS,780.6377563476562,5.955723762512207,135.62794494628906,23668.640625,5913.49072265625,15.0,9.0,30.0,0.0,0.0
+389,Granite of Zaer,SG,Central Massif,Rabat-Salé-Kénitra,33.39418611111111,-6.580788888888889,DMS,883.5203857421875,4.1490068435668945,88.4395980834961,11116.9228515625,13483.787109375,4.0,8.0,61.0,0.0,1183.4320068359375
+390,Variscan synoro genic Granite of Oulmes,SG,Central Massif,Rabat-Salé-Kénitra,33.441111111111105,-6.0525,Numeric DMS,1027.55615234375,4.149003982543945,95.6523666381836,28598.693359375,10650.8876953125,8.0,3.0,,0.0,0.0
+391,Oulmes Granite and metamorphism aureole contact,SG,Central Massif,Rabat-Salé-Kénitra,33.441111111111105,-6.0525,Numeric DMS,1027.55615234375,4.149003982543945,95.6523666381836,28598.693359375,10650.8876953125,8.0,3.0,,0.0,0.0
+392,The El Karit mine: fillonien complex with the Tin and tungsten,SG,Central Massif,Rabat-Salé-Kénitra,33.418055555555554,-6.1025,Numeric DMS,1151.0152587890625,2.0528604984283447,83.73470306396484,32633.369140625,15133.2548828125,8.0,3.0,56.0,2366.864013671875,0.0
+393,The El Karit mine: giant andalusite,SG,Central Massif,Rabat-Salé-Kénitra,33.4225,-6.101944444444444,Numeric DMS,1130.438720703125,2.141432046890259,91.67401123046875,32866.38671875,13949.822265625,15.0,3.0,56.0,3347.251220703125,0.0
+394,Autunian fluviatile channels volcano-detritic Red serie of Souk Sebt,S,Central Massif,Rabat-Salé-Kénitra,33.644644444444445,-6.143858333333334,DMS,986.403076171875,4.6425018310546875,174.40362548828125,29585.80078125,1656.8048095703125,6.0,9.0,30.0,0.0,0.0
+395,Autunian Trachy andesite of Tiddas,SG,Central Massif,Rabat-Salé-Kénitra,33.57888888888889,-6.270833333333333,Numeric DMS,1109.8623046875,3.0270352363586426,99.53956604003906,23883.310546875,4733.72802734375,8.0,9.0,46.0,0.0,0.0
+396,Permian Rhyolite of Souk Sebt,SG,Central Massif,Rabat-Salé-Kénitra,33.64218611111111,-6.135827777777778,DMS,1130.438720703125,5.794360637664795,176.2466278076172,29818.81640625,2599.881591796875,8.0,9.0,30.0,0.0,0.0
+397,Triassic Basalts of Jbel Merzaga-Maaziz,SG,Central Massif,Rabat-Salé-Kénitra,33.686030555555554,-6.443472222222223,DMS,616.0255126953125,5.685068607330322,150.92774963378906,16083.6669921875,2599.881591796875,15.0,3.0,46.0,0.0,0.0
+398,Upper Trias sic evaporate (gypsum) of Khemisset,SG,Central Massif,Rabat-Salé-Kénitra,33.621944444444445,-6.416666666666667,Numeric DMS,616.0255126953125,6.9960784912109375,126.71942138671875,15140.5908203125,1183.4320068359375,13.0,9.0,46.0,0.0,0.0
+399,Visean-Miocene uncon,SG,Central Massif,Rabat-Salé-Kénitra,33.565216666666664,-6.749641666666666,DMS,780.6377563476562,1.7339211702346802,79.77311706542969,14434.201171875,1183.4320068359375,15.0,9.0,67.0,0.0,1183.4320068359375
+400,Triassic-Miocene uncon of Maaziz,SG,Central Massif,Rabat-Salé-Kénitra,33.61027777777778,-6.405,Numeric DMS,430.83673095703125,2.9019460678100586,122.31261444091797,14911.2412109375,0.0,11.0,9.0,67.0,1183.4320068359375,0.0
+401,Quaternary Basal tic flow of El Harcha,SG,Central Massif,Rabat-Salé-Kénitra,33.48583333333333,-6.158333333333334,Numeric DMS,1151.0152587890625,3.8041744232177734,95.86448669433594,33602.12890625,7100.591796875,6.0,3.0,56.0,0.0,1183.4320068359375
+402,Quaternary Basal tic flow of Oued Boulahmayl lavas,SG,Central Massif,Rabat-Salé-Kénitra,33.329013888888895,-6.996697222222222,DMS,780.6377563476562,1.1136581897735596,88.974365234375,9227.1005859375,0.0,15.0,3.0,28.0,2646.234375,1183.4320068359375
+403,Thedolerite sill of Ouzoud,PT,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+404,Ouzoud waterfalls,G,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+405,Ouzoud travertines,S,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+406,Estuary of Oued Tassakht ,H,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+407,Oued EL Abid gorges and caves,G,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+408,Azilal formation intruded by Tanaghmelt sill,SG&S,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+409,Zaouit Tanaghmelt ,R,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+410,Basaltic flows of Ouzoud,PT,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+411,Ouzoud springs,H,Middle Atlas,Beni Mellal-Khenifra,,,No coordinates,,,,,,,,,,
+412,Gabroic Intrusion of Idemrane ,PT,Central High Atlas,Beni Mellal-Khénifra,32.20277777777778,-6.119999999999999,DMS,1686.005126953125,9.430209159851074,405.34552001953125,3783.313720703125,0.0,8.0,9.0,,2366.864013671875,0.0
+413,Sills of Idemrane,PT,Central High Atlas,Beni Mellal-Khénifra,32.275,-6.2588888888888885,Numeric DMS,1932.9234619140625,2.6919376850128174,138.70382690429688,5199.76318359375,0.0,13.0,9.0,71.0,1183.4320068359375,0.0
+414,Folded marly limstones of the Bine El OuidaneII  Fm,SG,Central High Atlas,Beni Mellal-Khénifra,32.26083333333333,-6.262777777777778,Numeric DMS,1912.346923828125,5.451322078704834,187.44532775878906,3313.609619140625,1183.4320068359375,13.0,9.0,,0.0,0.0
+415,Fossil wood of the Azilal Fm,PL,Central High Atlas,Beni Mellal-Khénifra,32.27,-6.263888888888889,Numeric DMS,1932.9234619140625,3.1715686321258545,138.94873046875,4256.6865234375,0.0,13.0,9.0,,0.0,0.0
+416,Chaos alteration of gabbros,S,Central High Atlas,Beni Mellal-Khénifra,32.26972222222222,-6.258611111111111,Numeric DMS,1932.9234619140625,3.1715686321258545,138.94873046875,4256.6865234375,0.0,13.0,9.0,,0.0,0.0
+417,Red facies of the Guettioua Fm,S,Central High Atlas,Beni Mellal-Khénifra,32.21472222222223,-6.222777777777778,Numeric DMS,1686.005126953125,8.146401405334473,250.7518768310547,1183.4320068359375,0.0,13.0,9.0,,0.0,1183.4320068359375
+418,Dinosaur bone deposi tat Agard-n-Sgat,PL,Central High Atlas,Beni Mellal-Khénifra,32.23861111111111,-6.2283333333333335,Numeric DMS,1521.392822265625,4.04373025894165,161.92359924316406,0.0,0.0,13.0,9.0,,1183.4320068359375,0.0
+419,Dinosaur footprints of Ait wissadane,PL,Central High Atlas,Beni Mellal-Khénifra,32.22777777777778,-6.248611111111111,Numeric DMS,1521.392822265625,9.080755233764648,218.60867309570312,0.0,0.0,8.0,9.0,69.0,0.0,1183.4320068359375
+420,Basaltic flow B1,PT,Central High Atlas,Beni Mellal-Khénifra,32.20722222222223,-6.256666666666667,Numeric DMS,1974.0765380859375,11.257736206054688,459.73089599609375,1183.4320068359375,1183.4320068359375,11.0,9.0,59.0,1673.6256103515625,0.0
+421,Radiating dykes Taghia-n-Ait Boulmane,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+422, Karstic landscapes Taghia-n-Ait Boulmane,G,Central High Atlas,Beni Mellal-Khénifra,32.236644444444444,-6.119233333333333,DMS,2138.688720703125,59.75673294067383,568.4850463867188,1656.8048095703125,0.0,13.0,,71.0,0.0,0.0
+423,Gabbroic intrusion of Taghia-n-Ait Boulmane,Mg,Central High Atlas,Beni Mellal-Khénifra,32.236644444444444,-6.119233333333333,DMS,2138.688720703125,59.75673294067383,568.4850463867188,1656.8048095703125,0.0,13.0,,71.0,0.0,0.0
+424,Dyke of Taguelft,Mg,Central High Atlas,Beni Mellal-Khénifra,32.20916666666667,-6.118888888888889,Numeric DMS,1686.005126953125,9.430209159851074,405.34552001953125,3783.313720703125,0.0,8.0,9.0,,2366.864013671875,0.0
+425,Fault-fold associated with the magmatic intrusion of Ait Boulmane ,SG,Central High Atlas,Beni Mellal-Khénifra,32.193888888888885,-6.101944444444444,Numeric DMS,1830.040771484375,58.62212371826172,712.0,5199.76318359375,1183.4320068359375,13.0,9.0,71.0,3742.340576171875,0.0
+426,Fossiliferous site of Tighalghalt,PL,Central High Atlas,Beni Mellal-Khénifra,,,Unparseable,,,,,,,,,,
+427,Travertines of Tighalghalt,K,Central High Atlas,Beni Mellal-Khénifra,,,Unparseable,,,,,,,,,,
+428,Taghia-n-Ait Boulmane gorges,G,Central High Atlas,Beni Mellal-Khénifra,32.236644444444444,-6.119233333333333,DMS,2138.688720703125,59.75673294067383,568.4850463867188,1656.8048095703125,0.0,13.0,,71.0,0.0,0.0
+429,Folded structures Taghia-n-Ait Boulmane,SG,Central High Atlas,Beni Mellal-Khénifra,32.236644444444444,-6.119233333333333,DMS,2138.688720703125,59.75673294067383,568.4850463867188,1656.8048095703125,0.0,13.0,,71.0,0.0,0.0
+430,The community granaries of Taghia-n-Ait Boulmane,C,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+431,Ammonites and sponges fossil of  Jbel Taguendouft,PL,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+432,"Watercourse, river, lake, dam",H,Central High Atlas,Beni Mellal-Khénifra,32.10894444444445,-6.4633416666666665,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+433,Dinosaur footprints,PL,Central High Atlas,Beni Mellal-Khénifra,32.10691388888889,-6.458327777777778,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+434,Panoramic view of the Ouaouizaght Syncline,SG&S,Central High Atlas,Beni Mellal-Khénifra,32.13167777777778,-6.397130555555556,DMS,1809.4642333984375,3.8724472522735596,167.3984832763672,8750.0595703125,0.0,13.0,9.0,71.0,0.0,0.0
+435,"Inverse fault, anticlinal fold and joint",SG,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+436,Assif Assemssil Bridge,H,Central High Atlas,Beni Mellal-Khénifra,32.10832777777778,-6.472758333333333,DMS,2097.53564453125,2.393913507461548,54.43344497680664,14197.513671875,1183.4320068359375,13.0,9.0,71.0,0.0,0.0
+437,Oued Ahençal river,H,Central High Atlas,Beni Mellal-Khénifra,32.069947222222225,-6.424030555555556,DMS,2303.301025390625,61.204837799072266,838.85546875,16316.6865234375,0.0,10.0,9.0,71.0,4733.72802734375,1183.4320068359375
+438,Oued el Abid Bridge,S,Central High Atlas,Beni Mellal-Khénifra,32.13381666666667,-6.311780555555555,DMS,,,,8284.0244140625,0.0,4.0,9.0,71.0,0.0,0.0
+439,Panoramic view of badlands and cuesta,G,Central High Atlas,Beni Mellal-Khénifra,32.09181944444445,-6.331558333333333,DMS,2262.14794921875,61.25389099121094,1089.597412109375,13017.751953125,0.0,11.0,9.0,71.0,0.0,0.0
+440,Ain Asserdoune-Tamgnounte,"H,K&C",Central High Atlas,Beni Mellal-Khénifra,32.3241,-6.3375,Numeric DMS,1480.23974609375,15.832953453063965,414.4013671875,1183.4320068359375,1656.8048095703125,4.0,9.0,69.0,0.0,0.0
+441,Ain El Ghazi cave,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+442,Moudj Canyon,"H,K&E",Central High Atlas,Beni Mellal-Khénifra,32.280556,-6.2975,Numeric DMS,2159.265380859375,5.165424823760986,159.3941650390625,6150.177734375,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+443,Ruiniform landscape of Moudj,G&H,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+444,Idemrane landslide,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+445,Adouz dejection cone,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+446,Ajojjar waterfall,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+447,Ouchrah site,H,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+448,Tafrent Polje,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+449,Hançais,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+450,Ain Fachtals,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+451,Ain Ikhourba,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+452,Taghbaloute- n- Ouhlima,"H,K,C&E",Central High Atlas,Beni Mellal-Khénifra,32.55341501,-6.01361989,Numeric DMS,1850.6173095703125,10.631772994995117,188.03988647460938,2366.864013671875,1656.8048095703125,6.0,9.0,71.0,0.0,0.0
+453,Jbel Boutarwa,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+454,Tit-n-Ziza Geomorphosite,G,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+455,Afla Ifran Geomorphosite,G,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+456,Chkounda Geomorphosite,G,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+457,Tichniwine Rocks,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+458,Iferd Ait Masaoud Polje,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+459,Ben Cherrou Valley,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+460,Jbel Tadawt Karst,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+461,Jbel Wawngarf karstic plateau,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+462,El Haounet karstic plateau,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+463,The Walous cliff granaries,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+464,Ain Askar,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+465,Oued El Abid meanders,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+466,Gabbroic intrusion of Idemrane,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+467,Sills of Idemrane,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+468,Folded marly limstones of the Bine El Ouidane II Fm,SG,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+469,Fossil wood of the Azilal Fm,PL,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+470,Chaos alteration of gabbros,S,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+471,Red facies of the Guettioua Fm,S,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+472,Dinosaur bone deposit of Agard-n-Sgat,PL,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+473,Dinosaur footprints at Ait Wissadane,PL,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+474,Basaltic flow B1,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+475,The Taghia-n-Ait Boulmane intrusion,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+476,Dyke of Taguelft,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+477,Fault-fold associated with the magmatic intrusion of Ait Boulmane,SG,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+478,Ouzoud waterfalls,H,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+479,Karstic spring of Ouzoud,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+480,Oued El Abid Gorges,G,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+481,Estuary of Oued Tissakht (Ouzoud caves),H&K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+482,Doleritic sill of Ouzoud,SG,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+483,Zauia of Tanaghmelt,R,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+484,Basaltic flows of Ouzoud,Mg,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+485,Chocolate marl intruded by Tanaghmelt sil,St,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+486,Ouzoud travertines,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+487,Moudj’s lapiez,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+488,Timskar Waterfalls,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+489,Tazerkount Ruiniformes Landscapes,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+490,Caves of Orbiaa,K&Hi,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+491,Ain Orbiaa,K&R,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+492,Ruiniformes Landscapes of Tacmit,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+493,Timskar’s travertines,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+494,Tazzerkount Tepee Structures,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+495,travertines of El Ksiba,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+496,Ruiniformes Landscapes of EL Ksiba,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+497,Fossils of Moudj,PL,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+498,Panoramic view of Rurate,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+499,Spring of Lala Kamria,K,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+500,Panoramic view of overturned bar of Iferghas,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+501,Karst cliff of Ighir-n-Oumejjad,SG,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+502,Panoramic view of the Ait Attab syncline,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+503,The tectonic deformations of Jbel Hassan,SG,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+504,The ruiniform limestones with ammonite of the Ben Cherrou formation,PL,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+505,Panoramic view of the Cretaceous cuestas,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+506,The bad land of Ait Ouabit,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+507,Gorges of Ait Ouabit,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+508,Conglomerate terraces of Oued El Abid,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+509,The footprints of sauropod dinosaurs of Ayt Bouiqban,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+510,Lower limit of the basaltic flow B2,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+511,Jurassic-Cretaceous unconformity and volcanic activities,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+512,Bioclastic limestone with ammonite of the Bine El Ouidane BIII formation,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+513,Panoramic view of Oued El Abid from the old Caida of Taounza,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+514,Caves of cats and the spring of Tisqui,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+515,Bioclastic marly limestone of Ait Tafelt formation,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+516,Eroded sandstone of Jbel Ilaghmane,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+517,Panoramic view of the red formations separated by the BI and BII magmatic events,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+518,Ruiniform reliefs of Jbel Al Maqçoura,,Central High Atlas,Beni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+519,Jurassic tabular structures,G,Central High Atlas,Draa-Tafilalet ,32.36833333333334,-4.987777777777778,DMS,,,,45625.4375,2366.864013671875,10.0,9.0,,5917.16015625,2366.864013671875
+520,wadi Ziz canyon,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+521,Hammat Moulay Ali Cherif,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+522,Hassan Addakhil Dam Lake,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+523,Tunnel Zaabel,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+524,Ziz Valley Ait Atmane,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+525,Waterfall  ,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+526,Ziz gorges,G,Central High Atlas,Draa-Tafilalet ,,,No coordinates,,,,,,,,,,
+527,Panoramic view from the Kettara intrusion,Mg,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+528,Mineralized quartz-chlorite vein cutting the schists at a low angle in the Kettara gossan,M,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+529," Mineralized quartz-chlorite vein cutting the schists at a 
+low angle in the Kettara gossan",M,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+530,,,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+531,"Specimen from the drill core showing a mineralized quartz-chlorite 
+vein crosscut by a carbonate (CC) vein",M,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+532,,,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+533,Intrusion affected by subvertical schistosity,M,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+534,Centimetre-scale layering in the ultramafic cumulates,M,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+535,Doleritic dyke cross-cutting ultramafic cumulates,Mg&Pt,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+536,Doleritic dyke cross-cutting the gabbro,Mg&Pt,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+537,Basic dyke of massif leucogabbro sheared in a NE direction,Mg&Pt,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+538,Coarse-grained gabbros,Mg,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+539,Kettara Sharlef Shale,Me&Pt,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+540,Panorama of a geological succession with several uncon formities (Tahannaout; Douar Sour),"S,PL&SG",Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+541,Normal faults with tilted blocks (Zawyat bou houta),SG,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+542,"Syn-sedimentary tectonic geosite: Hemigraben perched on visean basement, graben, tilted block and normal faults (Tibizzit)",S&SG,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+543,"Syn-sedimentary tectonic geosite of a 
+normal fault (Aghzane",S&SG,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+544, Moulay Brahim landscape,"Mg,S,SG&C",Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+545,  Asni anticlinorium,G,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+546,Imlil landscape,S&SG,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+547, Foot of Toubkal,,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+548,Toubkal national Park,,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+549,Aerial courses and B tree climbing in Terre d’Amanar tourist site (Tahannaout),,Meseta,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+550,Zenaga Inlier ,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+551,"Neoproterozoic doleritic dykes (Zenaga, Central AA)",GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+552,Tholeiitic dyke swarms (Zenaga inlier),GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+553,Well preserved Pre-Pan-African sedimentary features,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+554,"Pan-African ophiolites of Bou Azzer and Siroua inliers, central AA)",GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+555,Major Anti-Atlas Fault (central AA),GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+556,"Pan-African Diamictites (Bou-Azzer and Siroua inliers, central AA)",GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+557,Ediacarian Iknioun granodiorites,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+558,Late Neoproterozoic stromatolites,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+559,"Contacts Pan-African Groups: Saghro, Mgouna and Ouarzazate Groups",GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+560,"Contacts Palaeoproterozoic Zenaga complex, late Neoproterozoic Ouarzazate Supergroup and the Cambrian Tata Group",GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+561,,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+562,Appalachian type folding in western AA,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+563,Large Cambrian trilobite Paradoxides,GH&C,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+564,Ordovician outcrop of Jbel Kissane,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+565,Large Ordovician trilobites (Asaphus) death assemblages,GH&C,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+566,Silurian and lowermost Devonian Orthoceras-rich limestones and ammonite-rich limestones,GH&C,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+567,,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+568,Early Devonian Kess Kess carbonate mounds,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+569,Middle Devonian coral stromatoporoid biostrome,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+570,Green eyes and red Devonian phacopid trilobite,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+571,Frasnian plants from the Drâa Valley,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+572,Well preserved shallow-water sedimentary features in Cambrian rocks,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+573,Foum-Zguid Jurassic dyke,GH,Anti-Atlas,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+574,Typical coastal cliff of the Dakhla peninsula,S,Middle Atlas,Dakhla-Oued Eddahab,23.75555555555556,-15.925,Numeric DMS,60.45918273925781,56.35649871826172,24.183670043945312,12056.3310546875,4256.6865234375,5.0,6.0,40.0,0.0,1673.6256103515625
+575,North border of the Dakhla lagoon north of the artesian well,S&Ar,Middle Atlas,Dakhla-Oued Eddahab,23.91027777777778,-15.71861111111111,DMS,101.61224365234375,0.8804652690887451,18.14472198486328,18217.513671875,12300.3544921875,5.0,6.0,40.0,1183.4320068359375,13017.751953125
+576,Sphinx Rock,S,Middle Atlas,Dakhla-Oued Eddahab,23.91027777777778,-15.71861111111111,DMS,101.61224365234375,0.8804652690887451,18.14472198486328,18217.513671875,12300.3544921875,5.0,6.0,40.0,1183.4320068359375,13017.751953125
+577,"Outcrops of Eocene for
+mations beneath Miocene deposits ",S,Middle Atlas,Dakhla-Oued Eddahab,23.91027777777778,-15.71861111111111,DMS,101.61224365234375,0.8804652690887451,18.14472198486328,18217.513671875,12300.3544921875,5.0,6.0,40.0,1183.4320068359375,13017.751953125
+578,Lower Eocene Izik Formation with chert nodules,S,Middle Atlas,Dakhla-Oued Eddahab,23.91027777777778,-15.71861111111111,DMS,101.61224365234375,0.8804652690887451,18.14472198486328,18217.513671875,12300.3544921875,5.0,6.0,40.0,1183.4320068359375,13017.751953125
+579,Dewatering fold,S,Middle Atlas,Dakhla-Oued Eddahab,23.59083333333333,-15.698055555555555,Numeric DMS,163.3418426513672,0.0,0.0,24833.724609375,17256.09375,5.0,6.0,23.0,0.0,9541.1337890625
+580,Neptunian dyke in the Izik deposits,S,Middle Atlas,Dakhla-Oued Eddahab,23.59083333333333,-15.698055555555555,Numeric DMS,163.3418426513672,0.0,0.0,24833.724609375,17256.09375,5.0,6.0,23.0,0.0,9541.1337890625
+581,Shark tooth ,PL,Middle Atlas,Dakhla-Oued Eddahab,23.59083333333333,-15.698055555555555,Numeric DMS,163.3418426513672,0.0,0.0,24833.724609375,17256.09375,5.0,6.0,23.0,0.0,9541.1337890625
+582,Miocene-Pliocene succession,S,Middle Atlas,Dakhla-Oued Eddahab,23.59083333333333,-15.698055555555555,Numeric DMS,163.3418426513672,0.0,0.0,24833.724609375,17256.09375,5.0,6.0,23.0,0.0,9541.1337890625
+583,Neolithic engravings on Lower Cretaceous sandstones,"S,SG&C",Middle Atlas,Dakhla-Oued Eddahab,23.326666666666668,-15.23277777777778,Numeric DMS,266.2244873046875,0.0,15.309821128845215,14911.2412109375,16083.6669921875,5.0,7.0,29.0,0.0,5917.16015625
+584,Metabasite,Me&SG,Middle Atlas,Dakhla-Oued Eddahab,23.2075,-15.088333333333331,DMS,266.2244873046875,0.17610643804073334,11.640110969543457,26268.521484375,18683.548828125,5.0,7.0,29.0,0.0,1183.4320068359375
+585,Metagabbro of the Adrar Souttouf massif,Me&SG,Middle Atlas,Dakhla-Oued Eddahab,23.2075,-15.088333333333331,DMS,266.2244873046875,0.17610643804073334,11.640110969543457,26268.521484375,18683.548828125,5.0,7.0,29.0,0.0,1183.4320068359375
+586,Rounded hills of nepheline syenite,Me&Mg,Middle Atlas,Dakhla-Oued Eddahab,22.55027777777778,-14.317222222222222,Numeric DMS,327.9540710449219,0.5283060073852539,10.280062675476074,17256.09375,12540.7099609375,5.0,7.0,8.0,0.0,1183.4320068359375
+587,Magmatic lineation,Me&Mg,Middle Atlas,Dakhla-Oued Eddahab,22.55027777777778,-14.317222222222222,Numeric DMS,327.9540710449219,0.5283060073852539,10.280062675476074,17256.09375,12540.7099609375,5.0,7.0,8.0,0.0,1183.4320068359375
+588,Dliyat N’sour migmatite with large basic blocks crosscut by granite veins,"Me,Pt&SG",Middle Atlas,Dakhla-Oued Eddahab,22.59777777777777,-14.4025,Numeric DMS,327.9540710449219,0.17610643804073334,7.544140815734863,24134.673828125,17267.1015625,5.0,7.0,8.0,0.0,7484.68115234375
+589,Awsard panorama,SG,Middle Atlas,Dakhla-Oued Eddahab,22.627222222222223,-14.408055555555556,Numeric DMS,327.9540710449219,0.0,6.68720817565918,23901.65625,16568.048828125,5.0,7.0,8.0,1673.6256103515625,6900.53515625
+590,Oued Chebeika estuary,SG&Me,Middle Atlas,Dakhla-Oued Eddahab,28.29555555555556,-11.525,Numeric DMS,163.3418426513672,0.5568816065788269,24.471403121948242,11582.958984375,8983.0771484375,5.0,7.0,14.0,0.0,0.0
+591,Cliffs of the west border of the Chebeika estuary,SG&Me,Middle Atlas,Dakhla-Oued Eddahab,28.29555555555556,-11.525,Numeric DMS,163.3418426513672,0.5568816065788269,24.471403121948242,11582.958984375,8983.0771484375,5.0,7.0,14.0,0.0,0.0
+592,Lower Cretaceous f luvial sandstones (“Tan-Tan sands”) beneath the Hamada Plateau,"S,G&PG",Middle Atlas,Dakhla-Oued Eddahab,28.479166666666664,-11.204166666666666,Numeric DMS,183.91836547851562,0.9482784271240234,41.28459548950195,16568.048828125,1656.8048095703125,5.0,,,0.0,0.0
+593,"Cross-bedding in the fluvial
+ sandstones  (“Tan-Tan sands”)","S,G&PG",Middle Atlas,Dakhla-Oued Eddahab,28.479166666666664,-11.204166666666666,Numeric DMS,183.91836547851562,0.9482784271240234,41.28459548950195,16568.048828125,1656.8048095703125,5.0,,,0.0,0.0
+594,Transgression of the Lower Cretaceous redbeds on the Bas Draa Precambrian Massif,"SG,Mo&PG",Middle Atlas,Dakhla-Oued Eddahab,28.39,-11.016944444444444,Numeric DMS,533.7193603515625,3.856492280960083,73.38639068603516,32626.03125,3783.313720703125,5.0,7.0,,0.0,1183.4320068359375
+595,Upper Precambrian  metaconglomerates (south-western tip of the Bas Draa inlier),SG,Middle Atlas,Dakhla-Oued Eddahab,28.34611111111111,-10.934166666666666,Numeric DMS,286.801025390625,0.49809327721595764,52.05503463745117,41394.43359375,9700.47265625,5.0,7.0,14.0,0.0,3742.340576171875
+596,Vertical Cambrian quartzites (“Barre de Goulimine”) crossed by directional fault,St&SG,Middle Atlas,Dakhla-Oued Eddahab,28.27777777777778,-10.901944444444444,Numeric DMS,307.3775634765625,0.6349360942840576,18.477394104003906,48506.02734375,6856.568359375,5.0,7.0,,0.0,0.0
+597,Cylindrical folds of Ordovician quartzites,St,Middle Atlas,Dakhla-Oued Eddahab,28.22277777777777,-13.886666666666668,Numeric DMS,,,,,,,,,93723.03125,93723.03125
+598,Breached fold east of the sebkha,Mo,Middle Atlas,Dakhla-Oued Eddahab,28.22277777777777,-13.886666666666668,Numeric DMS,,,,,,,,,93723.03125,93723.03125
+599,Lower Ordovician (Llanvirn) oolithic iron bed section,SG&Ec,Middle Atlas,Dakhla-Oued Eddahab,28.059166666666663,-10.88861111111111,Numeric DMS,369.1071472167969,0.9961113333702087,25.844486236572266,39733.9609375,1183.4320068359375,5.0,7.0,24.0,1183.4320068359375,6034.3427734375
+600,"Perched syncline formed by Rich 1 and Rich 2 
+ Jbel Rich fold train)",SG&Ec,Middle Atlas,Dakhla-Oued Eddahab,28.059166666666663,-10.88861111111111,Numeric DMS,369.1071472167969,0.9961113333702087,25.844486236572266,39733.9609375,1183.4320068359375,5.0,7.0,24.0,1183.4320068359375,6034.3427734375
+601,Open folds  of Jbel Rich,SG&Ec,Middle Atlas,Dakhla-Oued Eddahab,28.059166666666663,-10.88861111111111,Numeric DMS,369.1071472167969,0.9961113333702087,25.844486236572266,39733.9609375,1183.4320068359375,5.0,7.0,24.0,1183.4320068359375,6034.3427734375
+602,Jbel Tazout cuesta (Tournaisian),SG,Middle Atlas,Dakhla-Oued Eddahab,28.016111111111112,-10.816944444444443,Numeric DMS,389.6836853027344,0.39378026127815247,78.51512908935547,45669.46875,1183.4320068359375,5.0,7.0,,1183.4320068359375,0.0
+603,Jbel Ouarziz cuesta (Visean),SG,Middle Atlas,Dakhla-Oued Eddahab,28.016111111111112,-10.816944444444443,Numeric DMS,389.6836853027344,0.39378026127815247,78.51512908935547,45669.46875,1183.4320068359375,5.0,7.0,,1183.4320068359375,0.0
+604,Laglat mica-schists showing superimposed structures,SG,Middle Atlas,Dakhla-Oued Eddahab,22.612222222222226,-14.4825,Numeric DMS,327.9540710449219,0.0,5.581778526306152,31952.6640625,11597.6328125,5.0,7.0,8.0,5020.876953125,0.0
+605,Accident of Izelfane,SG,Middle Atlas,Dakhla-Oued Eddahab,33.357055555555554,-4.04425,DMS,1212.744873046875,1.2450695037841797,34.976776123046875,38794.55078125,7333.60986328125,5.0,3.0,24.0,0.0,3347.251220703125
+606,Fossils of Ighzer Izelfane,PL,Middle Atlas,Dakhla-Oued Eddahab,33.35788888888889,-4.029638888888889,DMS,1171.591796875,1.2818647623062134,35.87478256225586,37851.47265625,7566.62744140625,5.0,3.0,,0.0,2646.234375
+607,Diapir of Tittaouine,SG,Middle Atlas,Dakhla-Oued Eddahab,33.36786111111111,-4.016694444444444,DMS,1171.591796875,1.2450695037841797,34.274627685546875,36194.66796875,8983.0771484375,5.0,3.0,14.0,1183.4320068359375,2646.234375
+608,Salt mine of Tittaouine,GM,Middle Atlas,Dakhla-Oued Eddahab,33.373,-4.017944444444445,DMS,1192.1683349609375,1.1136581897735596,33.93375778198242,35480.94140625,10166.509765625,5.0,3.0,14.0,0.0,3742.340576171875
+609,Tittaouine Spring,H,Middle Atlas,Dakhla-Oued Eddahab,33.374611111111115,-4.021222222222222,DMS,1192.1683349609375,1.1136581897735596,33.93375778198242,35480.94140625,10166.509765625,5.0,3.0,14.0,0.0,3742.340576171875
+610,Jbel Aghanja’s fold,SG,Middle Atlas,Dakhla-Oued Eddahab,33.378861111111114,-4.010527777777778,DMS,1171.591796875,1.340946078300476,31.34086799621582,34537.86328125,9940.828125,5.0,,14.0,1183.4320068359375,3347.251220703125
+611,Kardoud and Abdel Ali springs,H,Middle Atlas,Dakhla-Oued Eddahab,33.32016666666667,-3.916833333333333,DMS,1048.1326904296875,0.7260685563087463,13.171939849853516,33110.41015625,0.0,5.0,3.0,24.0,1183.4320068359375,0.0
+612,Calcite quarry,GM,Middle Atlas,Dakhla-Oued Eddahab,33.47083333333334,-3.963638888888889,DMS,1212.744873046875,1.7953581809997559,58.91731643676758,25765.796875,7570.2958984375,5.0,3.0,14.0,0.0,0.0
+613,Sauropod footprints,PL,Middle Atlas,Dakhla-Oued Eddahab,33.480222222222224,-4.02375,DMS,1500.8162841796875,5.641826152801514,148.20509338378906,31449.939453125,4256.6865234375,10.0,3.0,8.0,1183.4320068359375,0.0
+614,Jbel Bou Naceur,SG,Middle Atlas,Dakhla-Oued Eddahab,33.570750000000004,-3.888,DMS,1253.89794921875,3.2863409519195557,69.32351684570312,16568.048828125,1656.8048095703125,5.0,3.0,14.0,8284.0244140625,2366.864013671875
+615,Ain Jdid,H,Middle Atlas,Dakhla-Oued Eddahab,33.48630555555555,-3.8171388888888886,DMS,1006.9796142578125,0.94827800989151,26.973365783691406,12540.7099609375,1656.8048095703125,5.0,3.0,14.0,1183.4320068359375,0.0
+616,Late Precambrian rhyolites of Sidi Daoui,Pt,Meseta,Doukkala-Abda,33.233333333333334,-8.5,Numeric DMS,122.18877410888672,1.1811940670013428,24.08067512512207,10399.5263671875,7100.591796875,4.0,3.0,8.0,0.0,0.0
+617,Jbel Irhoud,"PL,St&T",Meseta,Doukkala-Abda,,,No coordinates,,,,,,,,,,
+618,Sidi Saïd Mâachou Basin,"PL,St&Pt",Meseta,Doukkala-Abda,33.009166666666665,-8.002222222222223,DMS,204.49490356445312,1.6702238321304321,47.238258361816406,0.0,0.0,15.0,8.0,10.0,0.0,0.0
+619,Lalla Fatna escarpment,PL&St,Meseta,Doukkala-Abda,32.398375,-9.262372222222222,DMS,101.61224365234375,2.78230619430542,60.31248474121094,16782.720703125,13716.8056640625,13.0,3.0,,0.0,0.0
+620,Sidi Bouzid escarpment,PL&St,Meseta,Doukkala-Abda,32.30027777777777,-9.251111111111111,Numeric DMS,163.3418426513672,1.3409453630447388,36.214691162109375,14667.2197265625,4256.6865234375,4.0,3.0,45.0,0.0,1183.4320068359375
+621,Jorf Lasfar escarpment,PL&St,Meseta,Doukkala-Abda,33.15685,-8.62353888888889,DMS,122.18877410888672,0.3522093892097473,22.48026466369629,19149.583984375,16568.048828125,4.0,3.0,8.0,0.0,0.0
+622,Consolidated and unconsolidated dunes,G,Meseta,Doukkala-Abda,,,No coordinates,,,,,,,,,,
+623,ElGoraan cave,GM,Meseta,Doukkala-Abda,32.5575,-9.254166666666666,Numeric DMS,122.18877410888672,0.176106259226799,48.428497314453125,4966.74560546875,3313.609619140625,13.0,,69.0,0.0,0.0
+624,ElKhénzira cave,GM,Meseta,Doukkala-Abda,33.156844444444445,-8.623055555555556,DMS,122.18877410888672,0.3522093892097473,22.48026466369629,19149.583984375,16568.048828125,4.0,3.0,8.0,0.0,0.0
+625,Oualidia caves,GM,Meseta,Doukkala-Abda,,,No coordinates,,,,,,,,,,
+626,Oualidia Lagoon,E,Meseta,Doukkala-Abda,,,No coordinates,,,,,,,,,,
+627,Sidi Moussa Lagoon,E,Meseta,Doukkala-Abda,32.86666666666667,-8.851388888888888,DMS,163.3418426513672,0.49809327721595764,14.350522994995117,1183.4320068359375,11113.25390625,4.0,3.0,40.0,0.0,0.0
+628,Zima Lake,E,Meseta,Doukkala-Abda,32.080000000000005,-8.66,Numeric DMS,348.5306091308594,0.5283060073852539,17.919307708740234,5913.49072265625,9456.4501953125,5.0,8.0,10.0,1183.4320068359375,1183.4320068359375
+629,Phosphate de posit of Ganntour,T,Meseta,Doukkala-Abda,32.13,-8.5,DMS,451.41326904296875,0.8804656863212585,20.161069869995117,6627.21923828125,6856.568359375,5.0,8.0,10.0,1183.4320068359375,1183.4320068359375
+630,Phosphate layers (Ouled Abdoun basin),,Meseta,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+631,Phosphatherium escuilliei,,Meseta,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+632,Numidotherium koholense,,Meseta,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+633,Boulemane,G&SG,Middle Atlas,Béni Mellal-Khénifra,33.364444444444445,-4.7225,Numeric DMS,2035.80615234375,3.5352110862731934,673.7484741210938,10399.5263671875,2366.864013671875,10.0,,,0.0,0.0
+634,Guigou valley,G&St,Middle Atlas,Béni Mellal-Khénifra,33.40472222222222,-4.721111111111111,Numeric DMS,,,,6627.21923828125,1656.8048095703125,10.0,7.0,71.0,0.0,0.0
+635,Guigou valley,Pt,Middle Atlas,Béni Mellal-Khénifra,33.46083333333333,-4.6725,Numeric DMS,2138.688720703125,1.2450685501098633,69.2278823852539,1183.4320068359375,1183.4320068359375,10.0,7.0,18.0,0.0,0.0
+636,Taferdoust,G&I,Middle Atlas,Béni Mellal-Khénifra,33.47361111111111,-4.654444444444445,Numeric DMS,2159.265380859375,3.5613043308258057,98.24967956542969,1183.4320068359375,2366.864013671875,10.0,7.0,18.0,0.0,0.0
+637,Taghrout,"G,St&SG",Middle Atlas,Béni Mellal-Khénifra,33.48305555555556,-4.6075,Numeric DMS,2138.688720703125,2.7543914318084717,91.82048034667969,4970.4140625,0.0,10.0,,18.0,0.0,0.0
+638,Anchrif,PL,Middle Atlas,Béni Mellal-Khénifra,33.48222222222223,-4.61888888888889,Numeric DMS,2200.41845703125,3.3971967697143555,95.29690551757812,4256.6865234375,0.0,10.0,,18.0,1183.4320068359375,0.0
+639,Skoura,"H,S&G",Middle Atlas,Béni Mellal-Khénifra,33.51611111111111,-4.539722222222222,Numeric DMS,2076.959228515625,5.587290287017822,91.6515121459961,11826.9814453125,1183.4320068359375,10.0,,,0.0,0.0
+640,Tadaout,St,Middle Atlas,Béni Mellal-Khénifra,33.51916666666666,-4.505555555555556,Numeric DMS,2035.80615234375,7.445967197418213,117.22201538085938,14656.2119140625,2366.864013671875,10.0,7.0,71.0,0.0,1183.4320068359375
+641,Tizi-n-Issoulitene,SG,Middle Atlas,Béni Mellal-Khénifra,33.49916666666667,-4.458055555555556,Numeric DMS,1974.0765380859375,6.709708213806152,130.82908630371094,17500.1171875,2366.864013671875,10.0,7.0,14.0,0.0,1183.4320068359375
+642,Mohammed Azeroual,PL,Middle Atlas,Béni Mellal-Khénifra,33.49861111111111,-4.468888888888889,Numeric DMS,1932.9234619140625,4.7310404777526855,117.22734069824219,16316.6865234375,1656.8048095703125,13.0,7.0,14.0,0.0,0.0
+643,El Mers,PL&I,Middle Atlas,Béni Mellal-Khénifra,33.44444444444444,-4.45,Numeric DMS,1932.9234619140625,1.4195290803909302,39.679969787597656,17984.498046875,2366.864013671875,10.0,7.0,,0.0,0.0
+644,"The R’cham fold and surrounding panorama (Hafat Banat, Oued Rmel dam)",SG,Middle Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+645,The flute casts of Punta Cires,S,Rif, Tanger-Tétouan-Al Hoceïma,35.9,-5.416666666666667,DMS,163.3418426513672,4.480707168579102,263.4773254394531,1183.4320068359375,2366.864013671875,11.0,,,1673.6256103515625,0.0
+646,Current patterns and inverted series of the Tizirène nappe at Ksar Sghir,SG,Rif, Tanger-Tétouan-Al Hoceïma,35.848888888888894,-5.566388888888889,Numeric DMS,225.07142639160156,1.026761531829834,94.20365142822266,8513.373046875,4733.72802734375,4.0,3.0,8.0,0.0,0.0
+647,The sandstone-mica flysch of the Oued Ledian coast,S,Rif, Tanger-Tétouan-Al Hoceïma,35.848888888888894,-5.566388888888889,Numeric DMS,225.07142639160156,1.026761531829834,94.20365142822266,8513.373046875,4733.72802734375,4.0,3.0,8.0,0.0,0.0
+648,Talaat Lakraa mixed flysch,G,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+649,Beni Ider of Sidi Kankouch,S,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+650,Cap Malabata,S,Rif, Tanger-Tétouan-Al Hoceïma,35.78333333333333,-0.0333333333333332,DMS,,,,,,,,,186036.109375,192594.234375
+651,The Upper Cretaceous of the Beni Ider nappe and the Italian Castle,S&SG,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+652,Phoenician Necropolises and the Numidian,GeC,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+653,The Numidian of Cap Spartel,S,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+654,Achakar calcarenites,G,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+655,Grotte Hercule,G,Rif, Tanger-Tétouan-Al Hoceïma,,,No coordinates,,,,,,,,,,
+656,"Ain Asserdoune,  Béni Mellal city","H,G,K, C&Ec",Middle Atlas,Béni Mellal-Khénifra,32.3241,-6.3375,Numeric DMS,1480.23974609375,15.832953453063965,414.4013671875,1183.4320068359375,1656.8048095703125,4.0,9.0,69.0,0.0,0.0
+657,"Taghbaloute-n- Ouhlima, El Ksiba city","H,K,C&E",Middle Atlas,Béni Mellal-Khénifra,32.55341501,-6.01361989,Numeric DMS,1850.6173095703125,10.631772994995117,188.03988647460938,2366.864013671875,1656.8048095703125,6.0,9.0,71.0,0.0,0.0
+658,"Ain Tamda,  Zaouit Cheikh city","K,H,C&A",Middle Atlas,Béni Mellal-Khénifra,32.64057778,-5.91269444,Numeric DMS,1974.0765380859375,1.7953581809997559,146.7736358642578,6856.568359375,1656.8048095703125,13.0,9.0,71.0,0.0,0.0
+659,"Sources d’Ouchrah, Tagzirte","G,K,H,E,C&R",Middle Atlas,Béni Mellal-Khénifra,32.42897599,-6.170837578,Numeric DMS,1253.89794921875,4.449705600738525,113.60017395019531,1183.4320068359375,1183.4320068359375,8.0,9.0,69.0,1183.4320068359375,0.0
+660,"Jbel Taçmit, Foum El Ancer","H,K&C",Middle Atlas,Béni Mellal-Khénifra,32.29302956,-6.214958909,Numeric DMS,2220.994873046875,7.450040340423584,700.0162353515625,5917.16015625,0.0,11.0,9.0,71.0,5292.46875,1183.4320068359375
+661,"Canyon Moudj, Foum El Ancer","H,K&E",Middle Atlas,Béni Mellal-Khénifra,32.280556,-6.2975,Numeric DMS,2159.265380859375,5.165424823760986,159.3941650390625,6150.177734375,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+662,Bine El Ouidane dam anchored in massive oncolithic limestones of the Fm BI,H,Central High Atlas,Béni Mellal-Khénifra,32.10894444444445,-6.4633416666666665,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+663," Panoramic view on the Tadla plain and the Afourer
+ pumped storage power station (PSPS)",H,Central High Atlas,Béni Mellal-Khénifra,32.10894444444445,-6.4633416666666665,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+664," Rhynchonella-type brachiopods and big gasteropds ( marl-limestones of Fm
+ BII)",PL,Central High Atlas,Béni Mellal-Khénifra,32.10691388888889,-6.458327777777778,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+665,"Overfold affecting the marl-limestones of Fm
+ BII",SG,Central High Atlas,Béni Mellal-Khénifra,32.10691388888889,-6.458327777777778,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+666,"Large lamellibranchs, gasteropods, and polypiers  (marl-limestones of Fm BII)",PL,Central High Atlas,Béni Mellal-Khénifra,32.10691388888889,-6.458327777777778,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+667,Massive oncolitic limestones of Fm BIII ( beginning of Middle-Upper regression),PL,Central High Atlas,Béni Mellal-Khénifra,32.106411111111115,-6.451858333333334,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+668,"Black limestone beds of Fm BII with large ammonites  lamellibranchs, gasteropods, and polypiers",PL,Central High Atlas,Béni Mellal-Khénifra,32.10691388888889,-6.458327777777778,DMS,2138.688720703125,1.8379813432693481,47.180503845214844,13483.7861328125,1656.8048095703125,10.0,9.0,71.0,0.0,0.0
+669,Passage of the marine carbonate deposits from FmBIII to the red layers (Middle and Upper Jurassic regression),S,Central High Atlas,Béni Mellal-Khénifra,32.106902777777776,-6.447197222222222,DMS,2138.688720703125,0.39378106594085693,80.4953384399414,12770.05859375,1183.4320068359375,10.0,9.0,71.0,0.0,1183.4320068359375
+670,Footprints of Theropod & Sauropod dinosaurs ( Saurischia dinosaurs) in silt beds of Bathonian-age (165 Ma),PL,Central High Atlas,Béni Mellal-Khénifra,32.106902777777776,-6.447197222222222,DMS,2138.688720703125,0.39378106594085693,80.4953384399414,12770.05859375,1183.4320068359375,10.0,9.0,71.0,0.0,1183.4320068359375
+671,YellowishTilouguite Fm of Upper Bajocian-Lower Bathonian age,S,Central High Atlas,Béni Mellal-Khénifra,32.106902777777776,-6.447197222222222,DMS,2138.688720703125,0.39378106594085693,80.4953384399414,12770.05859375,1183.4320068359375,10.0,9.0,71.0,0.0,1183.4320068359375
+672,The first basalt flow (the major effusive event of Middle Jurassic),St,Central High Atlas,Béni Mellal-Khénifra,32.11295555555556,-6.4165833333333335,DMS,1850.6173095703125,7.979712963104248,153.17474365234375,11582.958984375,1183.4320068359375,13.0,9.0,71.0,0.0,1673.6256103515625
+673,Panoramic view of the Ouaouizaght syncline (Cretaceous formation),S&St,Central High Atlas,Béni Mellal-Khénifra,32.13167777777778,-6.397130555555556,DMS,1809.4642333984375,3.8724472522735596,167.3984832763672,8750.0595703125,0.0,13.0,9.0,71.0,0.0,0.0
+674,Gypsum of the Iouaridene Fm of Lower Barremian (sabkha environment),S,Central High Atlas,Béni Mellal-Khénifra,32.13381666666667,-6.311780555555555,DMS,,,,8284.0244140625,0.0,4.0,9.0,71.0,0.0,0.0
+675,Euphorbia resinifiera (in Arabic Zakoum) couvering  the Iouardene Fm,S,Central High Atlas,Béni Mellal-Khénifra,32.13381666666667,-6.311780555555555,DMS,,,,8284.0244140625,0.0,4.0,9.0,71.0,0.0,0.0
+676,The basaltic flow B2  (The Major effusive Upper Barremian event),Mg,Central High Atlas,Béni Mellal-Khénifra,32.13381666666667,-6.311780555555555,DMS,,,,8284.0244140625,0.0,4.0,9.0,71.0,0.0,0.0
+677,Mio-Pliocene alluvial terraces,H,Central High Atlas,Béni Mellal-Khénifra,32.13302222222222,-6.300258333333333,DMS,,,,8284.0244140625,0.0,8.0,9.0,71.0,0.0,1183.4320068359375
+678,The acted conglomerates deposited by the ancient Oued El Abid River,H,Central High Atlas,Béni Mellal-Khénifra,32.13302222222222,-6.300258333333333,DMS,,,,8284.0244140625,0.0,8.0,9.0,71.0,0.0,1183.4320068359375
+679,The spectacular land scapes overlooking the entire Bine El Ouidane dam are panoramic,H,Central High Atlas,Béni Mellal-Khénifra,32.09181944444445,-6.331558333333333,DMS,2262.14794921875,61.25389099121094,1089.597412109375,13017.751953125,0.0,11.0,9.0,71.0,0.0,0.0
+680,"Red layers, layers of gypsum, interstratified basalt flow B2",S&Mg,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+681,Houses and the granaries cover the sum mits of the red brick hills surrounding the lake,C&Ar,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+682,Silty and sandstone strata tracks of footprints of theropod and sauropod dinosaurs,St&PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+683,Cross-stratification and current ripples) of Guettioua and Jbel Sidal Fms,S,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+684,"Beautiful views of the lake, the outlet and the meanders of Ahansal river",,Central High Atlas,Béni Mellal-Khénifra,32.069947222222225,-6.424030555555556,DMS,2303.301025390625,61.204837799072266,838.85546875,16316.6865234375,0.0,10.0,9.0,71.0,4733.72802734375,1183.4320068359375
+685,Panoramic view of the meanders ,,Central High Atlas,Béni Mellal-Khénifra,32.069947222222225,-6.424030555555556,DMS,2303.301025390625,61.204837799072266,838.85546875,16316.6865234375,0.0,10.0,9.0,71.0,4733.72802734375,1183.4320068359375
+686,Continental Guettioua Fm on the marine Fm BIII with a gap in the Tilougite Fm,St,Central High Atlas,Béni Mellal-Khénifra,32.069947222222225,-6.424030555555556,DMS,2303.301025390625,61.204837799072266,838.85546875,16316.6865234375,0.0,10.0,9.0,71.0,4733.72802734375,1183.4320068359375
+687,Coffee built on the massive limestone of BIII,Ar,Central High Atlas,Béni Mellal-Khénifra,32.069947222222225,-6.424030555555556,DMS,2303.301025390625,61.204837799072266,838.85546875,16316.6865234375,0.0,10.0,9.0,71.0,4733.72802734375,1183.4320068359375
+688,"Hotels, chalets and guest houses, coffee shop, and restaurants",Ar,Central High Atlas,Béni Mellal-Khénifra,32.10832777777778,-6.472758333333333,DMS,2097.53564453125,2.393913507461548,54.43344497680664,14197.513671875,1183.4320068359375,13.0,9.0,71.0,0.0,0.0
+689,Cavities and caves  on the left bank of the Assif Assemsil,K,Central High Atlas,Béni Mellal-Khénifra,32.10832777777778,-6.472758333333333,DMS,2097.53564453125,2.393913507461548,54.43344497680664,14197.513671875,1183.4320068359375,13.0,9.0,71.0,0.0,0.0
+690,  Deep gorges in Fm BIII limestones from the Assif Assemssil river ,,Central High Atlas,Béni Mellal-Khénifra,32.08027777777778,-6.46,DMS,2159.265380859375,1.594300627708435,68.78589630126953,16313.0166015625,1183.4320068359375,10.0,9.0,71.0,2366.864013671875,0.0
+691,Troglodyte construction of the Ait Aloui and Ait Izza douars,C&Ar,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+692, Ait Idir granary perched,C&Ar,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+693,Well-distinguished fault making contact between the Fm m. BIII & the Guettioua Fm,St,Central High Atlas,Béni Mellal-Khénifra,32.07277777777778,-6.445277777777778,DMS,2179.841796875,2.5198428630828857,91.65424346923828,15599.2890625,0.0,10.0,9.0,71.0,2646.234375,0.0
+694,"Oblique, cross-stratification, bioclasts of brachiopods & lamellibranchs on granary stone ",S&PL,Central High Atlas,Béni Mellal-Khénifra,32.07277777777778,-6.445277777777778,DMS,2179.841796875,2.5198428630828857,91.65424346923828,15599.2890625,0.0,10.0,9.0,71.0,2646.234375,0.0
+695,"Limestone banks rich in fossils of gastropods, lamellibranch, brachio pods, ammonites, & places polypiers in the Ouaouizaght syncline ",PL,Central High Atlas,Béni Mellal-Khénifra,32.07277777777778,-6.445277777777778,DMS,2179.841796875,2.5198428630828857,91.65424346923828,15599.2890625,0.0,10.0,9.0,71.0,2646.234375,0.0
+696,Spring of Ain Asserdoune,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,32.38333333333333,-5.916666666666667,DMS,,,,4970.4140625,1183.4320068359375,4.0,9.0,8.0,4879.4150390625,0.0
+697,Spring of Ain El Ghazi,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+698,Karren Moudj,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+699,Canyon of Hansala,,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+700,Canyon of Moudj,,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+701,Timskar Waterfalls,,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+702,Tazerkount ruiniformes landscapes,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+703,Ruiniformes Landscapes of Oribaa,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+704,Caves of Orbiaa,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+705,Caves of Ain El ghazi,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+706,Ain Orbiaa,,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+707,Ruiniformes Landscapes of Tassemit,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+708,Travertines of Timskar,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+709,Tazzerkount Tepee Structures,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+710,Travertines of El Ksiba,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+711,Ruiniformes landscapes of El Ksiba,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+712,Fossils of Moudj,PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+713,Panoramic view of rurate,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+714,Spring of lala Kamria,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+715,Spring of Tamoudjout,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+716,Spring of Ouchrah,"H,K&R",Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+717,Sinkholes river at the level of El Ksiba,K&H,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+718,Sinkhole at the Orbia,K&H,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+719,Polje at the level of Tassemit,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+720,Polje at the site of Tazerkount.,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+721,Giant Polje at El Ksiba,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+722,Moudj waterfall,H,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+723,Panoramic view of the Orbia,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+724,The ruiniform landscapes of the Ain el Ghazi ,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+725,Panoramic view of the Ain el Ghazi ,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+726,Panoramic view of   Beni Mellal city,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+727,Caves of the cliffs of Timoulilte,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+728,Caves of the cliffs of Tit n’ziza at dir d’El Ksiba,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+729,Cave of the cliffs of Tanougha,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+730,Cave of Tazart n’amar at Tanougha,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+731,Cave of Foum El Ancer,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+732, Cave of Orbiaa ,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+733,Stalactites inside Orbiaa cave,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+734,"Giant grikes of Moudj 
+of liass lower Sineurian age fossilized from the Gastropods and lamellibranchs.",K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+735,Incipient karren of Moudj,H&K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+736,Freeze and thaw karren at Moudj site,H&K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+737, Grikes at Moudj site,K,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+738,Limestones and carbonates(Liass lower Sineurian) with Gastropods and lamellibranchs at Moudj,St&PL,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+739,Fairy chimneys of Assamar,G,Central High Atlas,Béni Mellal-Khénifra,32.00416666666666,-0.1999999999999997,DMS,,,,,,,,,94533.921875,91614.7578125
+740,Alluvial terraces of Aït Mallal,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+741,Aït Mallal valley,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+742,Badlands of Igoulouane,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+743,Arouss valley,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+744,Canyon of High-Tessaout valley,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+745,Canyon of Ikiss,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+746,Canyon of Abachkou valley,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+747,Canyon of Rougoult valley,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+748,Rat syncline,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+749,Peak and cliffs of Tarkeddid mountain,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+750,Mount M’goun (4068 m),G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+751,The unconf Paleozoic basement-Mesozoic sedimentary cover of Aït Mallal,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+752,Rougoult waterfall,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+753,Springs of Oued Lakhdar (green river),G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+754,Springs and waterfall of Ikiss,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+755,Sinkholes of the Rat mountain,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+756,Glacial cirques and U-shaped valleys of M’goun,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+757,Glacial cirques and U-shaped valleys of Rat mountain,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+758,Scree and talus deposits of Rat mountain,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+759,Scree and talus deposits of Tarkeddid mountain,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+760,Troglodyte caves of Igoulouane,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+761,Rock engravings of Tizi-n-Tirghyst,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+762,Lake sediment of Aït Bougmez valley,G,Central High Atlas,Béni Mellal-Khénifra,,,No coordinates,,,,,,,,,,
+763,unconf of Tahannaout; Douar Sour,PL,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+764,Normal faults with tilted blocks of Zawyat bou houta,SG,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+765,"Hemigraben perched on visean basement, graben, tilted block and normal faults (Tibizzit)",SG,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+766,Syn-sedimentary tectonic geosite of a normal fault (Aghzane),SG&S,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+767,Asni anticlinorium,SG,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+768,Syn-sedimentary tectonic geosite and normal faults of Tinitine,SG&S,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+769,Aerial courses and  tree climbing in Terre d’Amanar tourist site (Tahannaout),,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+770,restaurants and D coffees in Moulay Brahim Village,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+771,Imlil landscape,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+772,The foot of Toubkal,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+773,The Toubkal  National Park,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+774,,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+775,,PL,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+776,,PL,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+777,46 articles,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+778,,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+779,1 article de conférence manquant ,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+780,,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,
+781,4 articles ont des styles différents des autres (pas de valorisation des géosites) ,,Central Morocco,Marrakech-Safi,,,No coordinates,,,,,,,,,,

@@ -1,0 +1,42 @@
+# Python & Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & IDE Configuration
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Pipeline Logs
+logs/*.log
+*.log
+
+# LaTeX Auxiliary Build Files (Keeps .tex source and compiled .pdf)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Temporary OSM Cache & Prototyping Shapefiles
+scratch/
+scratch/roads/
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg

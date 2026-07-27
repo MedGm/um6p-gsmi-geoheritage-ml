@@ -1,0 +1,1187 @@
+--- PAGE 1 ---
+Vol.:(0123456789)
+Geoheritage (2025) 17:34 
+https://doi.org/10.1007/s12371-025-01076-7
+ORIGINAL ARTICLE
+Enhancing Geotourism in Southeastern Morocco through Machine 
+Learning‑Based Geomorphosite Identification
+Mohamed Manaouch1  · Lahbib Naimi2 · Mbarek Haynou3 · Mohamed Aghad1 · Mohamed Sadiki4 · 
+Quoc Bao Pham5 · Abdeslam Jakimi2
+Received: 23 March 2024 / Accepted: 28 January 2025 / Published online: 14 February 2025 
+© The Author(s), under exclusive licence to International Association for the Conservation of Geological Heritage 2025, corrected publication 2025
+Abstract
+Mapping optimal areas for finding geomorphosites in large areas is a complex task influenced by various factors. To address 
+this challenge, the present study assesses the effectiveness of three widely used machine learning classifiers in identifying 
+and mapping potential areas for geomorphosite, a crucial factor for attracting and enhancing geotourism in Ziz, southeast 
+Morocco. Initially, a comprehensive inventory of 120 geomorphosites was conducted in the study area. At each site, precise 
+measurements of three topographical parameters were taken. Following this, three machine learning algorithms, namely 
+Random Forest, Multi-Layer Perceptron, and M5 Prime, were utilized to create predictive models. Regarding the model 
+performance, the Multi-Layer Perceptron model achieved the highest performance with an area under the curve of 0.91, 
+followed by the M5 Prime model with 0.77. These models identified highly favorable areas, which accounted for approxi-
+mately 60% and 42% of the study area according to Multi-Layer Perceptron and M5 Prime, respectively. These areas were 
+predominantly located in the western region, characterized by mountainous terrain with relatively shorter slope lengths and 
+altitudes ranging between 2500 m and 3500 m. This research serves as a valuable roadmap for decision-makers, offering 
+guidance on how to improve the likelihood of discovering geomorphosites while minimizing costs and reducing the time 
+required for exploration.
+Keywords Geomorphosites · Machine learning · Geotourism · Geodiversity · Ziz · SE Morocco
+Introduction
+Geotourism faces several significant challenges globally 
+that threaten its sustainability and effectiveness. Environ-
+mental degradation, driven by increased tourist activity, 
+poses a serious risk to fragile ecosystems and geological 
+formations. Additionally, inadequate site identification often 
+leads to the mismanagement of geosites, resulting in either 
+overexploitation or neglect of valuable resources. Geosites 
+are defined as geological sites that possess scientific, educa-
+tional, or touristic significance. This category encompasses 
+various features, including geological formations, fossils, 
+minerals, and natural landscapes. Importantly, geosites 
+include geomorphosites, which constitute a specific subset 
+that emphasizes landforms and morphogenetic processes. 
+Moreover, there is an urgent need for sustainable practices 
+that harmonize tourism development with the preservation 
+of natural and cultural heritage. Focusing on geoconserva-
+tion, geoheritage, and the protection of geosites is crucial 
+for sustainable development (Page 2024), as it promotes 
+ * Mohamed Manaouch 
+ mohamed.manaouch@uit.ac.ma
+ Quoc Bao Pham 
+ quoc_bao.pham@us.edu.pl
+1 Department of Geography, Faculty of Humanities and Social 
+Sciences, Ibn Tofail University, Kenitra, Morocco
+2 Department of Informatics, Faculty of Science 
+and Technology, Moulay Smail University, Meknes, Morocco
+3 Department of Mathematics, Faculty of Science 
+and Technology, Moulay Smail University, Errachidia, 
+Morocco
+4 Labo of Geosciences, Department of Geology, Faculty 
+of Sciences, Ibn Tofail University, Kenitra, Morocco
+5 Faculty of Natural Sciences, Institute of Earth Sciences, 
+University of Silesia in Katowice, Będzińska street 60, 
+Sosnowiec 41- 200, Poland
+--- PAGE 2 ---
+ Geoheritage (2025) 17:34
+34 Page 2 of 19
+environmental stewardship and fosters community engage-
+ment in safeguarding our planet’s geological treasures.
+Recent research has provided valuable insights into 
+addressing the challenges faced by geotourism. Chrobak 
+et al. (2021) proposes innovative methodologies that tackle 
+issues such as environmental degradation and site mis-
+management, emphasizing the need for effective strategies 
+in geotourism. Migoń et al. (2018) contribute to this dis-
+course by enhancing our understanding of geosites, which 
+is essential for the sustainable development of tourism in 
+these areas. Furthermore, Rypl et al. (2021) illustrate the 
+critical role of technology, particularly machine learning, in 
+improving geotourism practices by enabling better site iden-
+tification and management. Together, these studies under -
+score the importance of integrating innovative solutions and 
+technological advancements to promote a sustainable future 
+for geotourism.
+Morocco is home to a rich geodiversity, featuring a 
+diverse range of geological formations that have evolved 
+over millions of years. These remarkable landscapes, encom-
+passing magnificent mountains and breathtaking coastlines, 
+are facing vulnerable circumstances. Nonetheless, the true 
+potential of this geodiversity remains largely untapped, 
+because it is inadequately explored, underutilized, and 
+insufficiently promoted (Hamidy et al. 2024). Therefore, it 
+is essential to prioritize the preservation of Morocco’s geo-
+heritage and implement effective geoconservation measures. 
+By doing so, we protect the country’s natural heritage, sup-
+port scientific research, and promote sustainable tourism, 
+ensuring a resilient legacy for future generations.
+The growing interest in geoheritage for geotourism (Sen 
+et al. 2024a, b), reflects a broader recognition of the impor-
+tance of preserving our natural heritage while providing 
+enriching experiences for travelers. So, geotourism, with its 
+emphasis on sustainable exploration and interpretation of 
+geodiversity, offers a unique opportunity to appreciate and 
+understand the Earth’s geological history (Anougmar et al. 
+2024). By fostering a deeper connection between visitors 
+and the geological heritage of a region, geotourism not only 
+promotes conservation but also contributes to local econo-
+mies and community development.
+According to the analysis of geoheritage studies con-
+ducted by Herrera-Franco et al. (2022), Italy (12.1%), 
+Spain (8.77%), China (5.67%), Portugal (5.35%), and Bra-
+zil (5.31%) emerged as the top five countries in terms of  
+scientific contributions in this field. In Morocco, El Hamidy 
+et al. (2024) underscored, in their comprehensive over -
+view of scientific research on geoheritage, the growing 
+interest in this field. Furthermore, Elkaichi et al. (2024) 
+demonstrated that there has been a rising recognition and 
+emphasis on the concept of geoheritage at the national 
+level, leading to an intensified focus on geoconservation 
+initiatives. This has been accompanied by the emergence of  
+geosite inventory initiatives undertaken by several Moroccan 
+universities, notably the interesting study of the Jbel Ighoud 
+site, regarded as the cradle of humanity (Hamidy et al. 2024; 
+Baadi et al. 2023; Louz et al. 2023; Bussard 2023). These 
+investigations frequently utilize techniques for inventorying 
+and assessing with the objective of advancing and improv -
+ing the conservation and appreciation of geoheritage (Louz 
+et al. 2023).
+In a recent study by ElKaichi et al. (2024), two popu-
+lar geo-destinations in the Moroccan central High Atlas 
+were examined and compared, further contributing to these 
+efforts. These sites, with their geological significance and 
+visual appeal, have become popular destinations for travelers 
+seeking immersive and educational experiences.
+However, it is worth noting that many of these studies 
+primarily focus on sites of international significance, often 
+overlooking regional and local sites that possess their own 
+importance. In response to this, UNESCO, in collaboration 
+with geopark territories, initiated the geopark network in 
+2004 as a means of promoting sustainable development in 
+these territories (Elkaichi et al. 2023). Geoparks rely on 
+two fundamental pillars to guide their strategy: leveraging 
+geotourism to drive socio-economic growth and utilizing 
+geoeducation to popularize geosciences. Consequently, the 
+establishment of a geopark hinges upon the existence of 
+geosites and geodiversity sites that possess significant sci-
+entific, tourism, and educational worth. Precise quantitative 
+evaluations are employed to assess these values, enabling 
+managers to propose appropriate geoconservation measures 
+that contribute to territorial development.
+However, creating an accurate inventory of geosites 
+involves a systematic and comprehensive process to identify, 
+document, and assess sites of geological significance. This 
+includes surveying the region, conducting fieldwork, docu-
+menting geological features, and compiling the information 
+into a database. The inventory process is widely regarded as 
+the most efficient approach for mapping geosites (Nouhaila 
+et al. 2024). However, it’s important to recognize that inven-
+tory is just the initial step in gaining a comprehensive under-
+standing of the potential heritage within a specific area.
+Taking this viewpoint into consideration, it becomes 
+essential to conduct a comprehensive inventory of sites that 
+hold substantial scientific value, as well as geosites that offer 
+educational and touristic appeal. These sites play a crucial 
+role in disseminating the concepts of geoheritage and geo-
+conservation to the local population.
+The Ziz upper watershed (ZUW) encompasses a collec-
+tion of geosites with significant heritage value, showcasing 
+sedimentological, paleontological, karstic, and geomorpho-
+logical features. The Faculty of Science and Technology of 
+Errachidia can make effective use of these sites as both valu-
+able training grounds and exciting excursion destinations. 
+The region’s geodiversity is derived from a wide range of 
+--- PAGE 3 ---
+Geoheritage (2025) 17:34 
+ Page 3 of 19 34
+geological formations, ranging from the Triassic era to the 
+more recent Quaternary period (Manaouch et al. 2023a, b). 
+Additionally, the area showcases a series of sedimentologi-
+cal, magmatic, and structural phenomena that have unfolded 
+over time. Despite its remarkable richness, this geoheritage 
+has seldom undergone a systematic inventory process and 
+lacks adequate structures for promotion and conservation. 
+Limited research has been conducted in this region, notably 
+the study aimed at enhancing the geological heritage of the 
+Errachidia area in the High Atlas, Morocco, which includes 
+an inventory and a proposal for a pedagogical and geotour -
+istic trail (Si Mhamdi et al. 2023). It presents breathtaking 
+panoramic views along the edges of Wadi Ziz, stretching 
+from Errich to Errachidia. The remarkable geomorphosites 
+found at these edges have the potential to serve as geotour -
+ism stations. Inventorying geosites across the large, hetero-
+geneous area of ZUW presents challenges, including limited 
+resources, logistical constraints, and the region’s diverse 
+landscape. Accessibility issues and the vastness of the area 
+further complicate the process.
+To address this gap, the objective of this study is to inven-
+tory potential geomorphosites of the ZUW through a com-
+prehensive assessment employing three popular machine 
+learning algorithms. The evaluation outcomes will provide 
+a solid basis for suggesting conservation and promotional 
+initiatives that align with the guidelines and suggestions 
+outlined by UNESCO and the Global Geoparks Network.
+Materials and Methods
+Study Area
+The Draa-Tafilalet region, which contains the ZUW, spans 
+approximately 4,435 km² in southeastern Morocco, located 
+between latitudes 32° 5’ 48” N and 32° 64’ 19” N, and longi-
+tudes 4° 11’ 72” W and 5° 46’ 20” W (Fig. 1). Characterized 
+by its elongated shape, the watershed is interspersed with 
+numerous wadis that channel water toward the main Oued 
+of Ziz, flowing eastward before turning southward.
+Topographically, the ZUW exhibits a notable altitude 
+range from 1,023 to 3,687 m above mean sea level, with 
+certain areas exhibiting steep relief. The dominant slope 
+class, comprising 80% of the region, falls within the 0–15° 
+range (Mohamed et al. 2020).
+Fig. 1  Location of Ziz upper watershed in South-East Morocco
+--- PAGE 4 ---
+ Geoheritage (2025) 17:34
+34 Page 4 of 19
+The geological framework of ZUW, as illustrated in the 
+geological map (Fig.  2), integrates data from two geologi-
+cal maps: Midelt at a scale of 1:200,000 and Rich-Boudnib 
+at 1:200,000. The Triassic formations predominantly con-
+sist of detrital deposits, doleritic basalts, and occasionally 
+evaporites, resting in angular unconformity atop a deformed 
+Palaeozoic base shaped by multiple tectonic events (Mich-
+ard 1976; Charrière 1990). The Jurassic series constitutes a 
+significant portion of the Mesozoic strata within the High 
+Atlas, to which ZUW belongs, and lies concordantly over the 
+red formations of the Lower Triassic-Liassic. The lithology 
+is primarily characterized by dolomites, limestones, marl-
+limestone alternations, and silico-clastic detrital deposits 
+(Nouayti et al. 2015).
+Structurally, the NW-SE extensional regime dominant 
+during the Triassic-Jurassic periods dictated the formation of 
+the Atlas basins, including ZUW. Rifting commenced in the 
+Triassic, with the delineation and subsidence of these basins 
+becoming evident during the Jurassic. The paleogeographic 
+and morpho-structural landscape was characterized by tilted 
+blocks primarily oriented NW or SE, bounded by significant 
+normal faults trending NE-SW to ENE-WSW, interspersed 
+with WNW-ESE transfer faults (Nouayti et al. 2015). In the 
+Tertiary, a phase of biepisodic compression occurred, first 
+in a NW-SE orientation, followed by N-S, which reactivated 
+the older normal NE-SW faults into reverse faults or sinis-
+tral strike-slip thrusts. This compressive phase, which initi-
+ated the closure of the Atlas basins from the Upper Eocene, 
+manifested during the Oligo-Miocene and Plio-Quaternary 
+epochs (Michard 1976). ZUW encompasses numerous can-
+yons and cliffs that exhibit the distinctive geological and 
+geomorphological characteristics of the area. These sites 
+offer valuable insights into the area’s geological history and 
+provide opportunities for scientific research, education, and 
+tourism. One notable geomorphosite in ZUW is the Gorges 
+of Ziz. These impressive limestone gorges have been carved 
+by the Ziz River over millions of years, creating a dramatic 
+landscape of steep cliffs and winding canyons. These geo-
+morphological sites attract geologists and nature enthusiasts 
+due to their geological significance and scenic beauty.
+Precipitation in the Draa-Tafilalet region is generally 
+infrequent and primarily occurs during autumn and spring. 
+However, spatial variation in precipitation within ZUW is 
+significant, attributed to the basin’s topography: the western 
+and northwestern regions are characterized by mountainous 
+terrain with higher moisture levels, while the southern and 
+eastern areas are markedly drier, influenced by Saharan con-
+ditions and the drying “Chergui” winds from the northeast 
+in summer, alongside the “Sahéli” winds from the southwest 
+in winter (Navas et al. 2009).
+Fig. 2  Geology and structural setting of the study area.(Source: geological maps of Midelt at a scale of 1:200,000 and Rich-Boudnib at a scale of 
+1:200,000)
+--- PAGE 5 ---
+Geoheritage (2025) 17:34 
+ Page 5 of 19 34
+ZUW showcases a semi-arid climate marked by cold win-
+ters and dry summers (Manaouch et al. 2021). The annual 
+average precipitation ranges from 119 to 377 mm, while the 
+average yearly temperature varies between 10.2 and 19.2 °C 
+(Manaouch et al. 2021).
+The land use types identified and documented on the 
+ZUW are as follows (Mohamed et al. 2020):
+• Cultivated Fields: These are found in small parcels along 
+watercourses.
+• Water Bodies: Represented solely by the dam reservoir.
+• Degraded Forest: This type is restricted to specific spe-
+cies, including Atlas cedar, Phoenician juniper, thurifer-
+ous juniper, Holm oak, Aleppo pine, and various thorny 
+xerophytes.
+• Poorly Vegetated areas: This category is predominantly 
+characterized by extensive degradation and a significant 
+scarcity of vegetation, attributed to ongoing irrational 
+exploitation practices.
+Data used and Geomorphosites Inventory
+In order to accurately pinpoint the areas where a specific 
+phenomenon will occur necessitates a thorough analysis 
+of the interplay between the location where the phenom-
+enon has manifested and the underlying factors that have 
+contributed to its occurrence (Al-Abadi 2018). Therefore, to 
+ensure the accurate selection of geomorphosite sites, multi-
+ple field visits were conducted in ZUW. A total of 120 geo-
+morphological sites were identified in the area, alongside the 
+consideration of an additional 120 non-geomorphosite loca-
+tions (Fig. 3). The methodology of considering 120 geomor-
+phosites and 120 additional non-geomorphosite sites will 
+enable a comparison of these 240 sites to evaluate, refine, 
+and understand machine learning models, thereby enhancing 
+the accuracy and reliability of predictions.
+Topographic data, such as elevation, slope, and landform 
+classification, helps in identifying and assessing the geomor-
+phological features and processes that make a site significant 
+from a geological or geomorphological perspective. The pre-
+sent study incorporated three conditioning factors, including 
+topographic data, to assess geomorphosites. Altitude, slope 
+length, and slope were considered as independent variables 
+in determining the suitability of areas for locating geomor -
+phosites. These variables were measured for the 240 selected 
+sites in the inventory, as depicted in Fig.  3. To analyze the 
+data, the dataset was divided into two distinct categories: 
+training data (70%) and validation data (30%), a commonly 
+utilized methodology in geospatial modeling (Manaouch 
+et al. 2023a, b).
+The data processing was conducted using ArcGIS 10.5 
+and SPSS Statistics 26 software. These software tools 
+Fig. 3  Geomorphosites inventory map
+--- PAGE 6 ---
+ Geoheritage (2025) 17:34
+34 Page 6 of 19
+possess geoprocessing capabilities, which facilitate the 
+conversion of geospatial data into a tabular format. This 
+conversion involves multiple steps, including importing 
+geospatial data, defining attributes, running geoprocessing 
+tools, configuring geoprocessing parameters, and executing 
+geoprocessing operations.
+Geomorphological Sites: Mountains, Hills, Valleys, 
+Plateaus, Canyons, Cliffs, Lakes and Rivers
+ZUW demonstrates significant geodiversity, making it par -
+ticularly attractive for geotourism. Multiple field visits have 
+documented a diverse range of landforms, including can-
+yons, lakes, caves, valleys, plateaus, and cliffs. Canyons and 
+cliffs serve as essential components of geotourism, as these 
+locations are recognized for their geological significance 
+and offer opportunities for scientific, educational, cultural, 
+and aesthetic engagement. They showcase unique geological 
+features such as rock formations, fossils, geomorphological 
+landscapes, or remarkable natural phenomena. These sites 
+are often prime locations for the study of geology and pro-
+vide opportunities for learning and raising awareness about 
+the Earth sciences.
+Cliffs are vertical geological formations composed of 
+hard rocks that tower above the landscape. They can result 
+from processes such as erosion, plate tectonics, or sedimen-
+tation. Cliffs often provide spectacular geological exposures, 
+allowing scientists and visitors to visualize geological layers 
+and study the geological history of a region.
+Canyons are defined as deep, narrow valleys with steep 
+sides, typically formed by the erosive action of rivers or 
+other natural forces over an extended period. Canyons often 
+exhibit unique geological features, such as exposed rock lay-
+ers, intricate formations, and impressive landscapes, making 
+them significant and visually captivating geomorphosites.
+Canyons and cliffs in the ZUW region are vital for geo -
+tourism, providing opportunities for education, exploration, 
+and the discovery of geological wonders. These natural fea-
+tures not only enhance the experience of visitors but also 
+contribute to the sustainable economic growth of local com-
+munities. Figure 4 presents visual representations of various 
+canyons, cliffs, and guided tours located within the study 
+area, highlighting their significant geological features.
+Methodology
+Figure 5 presents a flowchart illustrating the process of map-
+ping potential geomorphosites using three popular machine 
+learning algorithms. Further elaboration on the details of 
+this approach is provided below.
+Geomorphosites Conditioning Factors (GCFs)
+Slope
+The slope is particularly relevant to the objectives of this 
+study for several reasons. First, it influences the accessibil-
+ity of a site. A slope that is too steep can make access dif-
+ficult, or even dangerous, for visitors, which may discourage 
+geotourism. Additionally, the slope plays a crucial role in 
+the safety of outdoor activities. Steep terrains can present 
+risks of accidents, such as falls or slips, raising concerns for 
+geotourists. Furthermore, the slope can affect the geologi-
+cal stability of a site. Unstable slopes can lead to landslides, 
+making a location less suitable for prolonged visits. There-
+fore, understanding the slope helps assess the viability of a 
+site for geotourism, considering both accessibility and safety. 
+This aids in identifying the most appropriate locations for 
+developing geotourism activities while ensuring the safety 
+and comfort of visitors.
+In geotourism, slope (Fig.  6) plays a vital role in shap -
+ing landscapes and influencing visitors’ experience. Steep 
+slopes, such as those found in canyons and cliffs, often cre-
+ate spectacular landscapes that attract tourists and enhance 
+recreational opportunities such as hiking and photography. 
+As a result, several studies have presented typical geosites of 
+canyons formed due to the tectonic activity, break of slope 
+forming a seasonal waterfall (Sen et al. 2024a, b), sea cliff  
+and sea caves (Jon et al. 2024), water bodies formed in the 
+base of the canyon (locally known as Jheels) (Baitalik 2024). 
+The slope of a geosite is a crucial characteristic that influ-
+ences its appearance, stability, and geological processes. 
+Geologists and geographers use various methods to measure 
+and describe slopes, considering the angle of inclination and 
+the rate of change in elevation. Alternatively, the slope (m) 
+can be determined using the coordinates of two points (x, y) 
+and (x’, y’) on the line:
+The slope can be positive, negative, zero, or undefined, 
+depending on the direction and nature of the line or curve. 
+A positive slope signifies an upward trend, while a negative 
+slope indicates a downward trend. A slope of zero represents 
+a horizontal line, and an undefined slope is associated with 
+a vertical line.
+Length of Slope
+Length of slope plays a crucial role in determining geo-
+morphosite potential by influencing erosion rates, land-
+form stability, and visitor attraction. Longer slopes typi -
+cally experience higher erosion rates due to increased 
+(1)m = /parenleft.s1y − y�/parenright.s1∕/parenleft.s1x − x�/parenright.s1
+--- PAGE 7 ---
+Geoheritage (2025) 17:34 
+ Page 7 of 19 34
+runoff and sediment transport, which can lead to more 
+pronounced landforms and features. Conversely, shorter 
+slopes may promote stability, allowing for the preservation 
+of unique geological formations. Additionally, the scale of 
+visible landforms associated with varying slope lengths 
+can enhance their attractiveness to visitors, as dramatic 
+landscapes often draw more interest. Thus, understanding 
+slope length is essential for assessing both the ecological 
+processes at play and the potential for tourism in a given 
+area. Therefore, the length of slope (Fig.  7) is an important 
+parameter used to describe and characterize landforms. 
+Measuring the length of slope helps in quantifying the 
+extent and scale of these landforms. It can be determined 
+by measuring the horizontal distance along the slope’s 
+contour or by using topographic maps, aerial imagery, or 
+satellite data. Field surveys and remote sensing techniques 
+are commonly employed to obtain accurate measurements. 
+It provides information about the size and dimensions of 
+the landform, aids in assessing the potential for geomor -
+phological processes such as erosion or mass wasting and 
+contributes to the characterization of the geosite’s overall 
+geomorphological context. If the angle of the slope and 
+the vertical elevation change are known, trigonometry can 
+be used to calculate the length of the slope. The formula 
+used is:
+Fig. 4  Examples of the geologi-
+cal features in the studied area: 
+(a) Jurassic tabular structures, 
+(b) wadi Ziz canyon, (c) Guided 
+tours for tourists to the thermal 
+spring “Hammat Moulay Ali 
+Cherif”, (d) Hassan Addakhil 
+Dam Lake, (e) Tunnel “Zaabel”, 
+(f) Ziz Valley “Ait Atmane”, 
+(g) The waterfall and (h) Ziz 
+Gorges. (Source: Jbdodane 
+https:// www. flickr. com/ photos/ 
+jbdod ane)
+
+--- PAGE 8 ---
+ Geoheritage (2025) 17:34
+34 Page 8 of 19
+Fig. 5  Flowchart of the methodology used in the study
+Fig. 6  Geomorphosites condi-
+tioning factor (GCF) used in 
+this study: Slope
+
+--- PAGE 9 ---
+Geoheritage (2025) 17:34 
+ Page 9 of 19 34
+Elevation
+Elevation significantly enhances geomorphosite attrac-
+tiveness by providing panoramic views that can captivate 
+visitors, making higher sites particularly appealing for 
+geotourism. Additionally, elevated areas often feature 
+unique environmental conditions, which can enrich the 
+visitor experience. Accessibility is another factor; while 
+some high-elevation sites may be challenging to reach, 
+those that are easily accessible can attract more visitors. 
+These elements align with geomorphosite selection crite-
+ria, emphasizing aesthetic value, ecological significance, 
+and visitor engagement, thereby highlighting the impor -
+tance of elevation in promoting geomorphosite potential. 
+Therefore, elevation (Fig.  8) is an important characteris-
+tic used to describe and differentiate various landforms. 
+Measuring elevation is typically done using surveying 
+techniques, satellite-based systems (e.g., GPS), or remote 
+sensing methods such as LiDAR (Light Detection and 
+Ranging) or radar. These technologies provide accurate 
+elevation data that can be used to create digital elevation 
+models (DEMs) or topographic maps. In the context of 
+geomorphosites, elevation pertains to the vertical distance 
+or height of a specific point or location above a reference 
+datum. It is a fundamental parameter used to describe 
+the vertical position of landforms and is essential for 
+(2)
+Length of slope = Vertical elevation change ∕ sin (angle of slope) understanding the characteristics, processes, and geologi-
+cal significance of geosites.
+Machine Learning Algorithms (MLA) and Frequency Ratio 
+(FR)
+Machine learning classifiers (MLCs) have become increas-
+ingly prominent in addressing spatial modeling challenges 
+within the realm of geotourism, particularly in the context 
+of tasks such as monitoring landscape changes in geop-
+arks (Pham et al. 2024). The subsequent paragraphs pro-
+vide a detailed account of the machine learning classifiers 
+employed within the scope of this research.
+M5 Prime (M5P)
+The M5P algorithm, also known as the M5 Prime algorithm, 
+is a machine learning algorithm used for generating deci-
+sion trees. It is primarily designed for regression tasks and 
+is particularly effective when dealing with datasets where 
+most of the attributes are numeric.
+The M5P algorithm, an extension of M5, consists of four 
+stages. It splits the input vector into sub-spaces by select-
+ing attributes and split points that optimize data separation. 
+This process creates branches and nodes in the decision tree, 
+capturing complex attribute-target relationships. (Saha et al. 
+2024). This algorithm has been utilized in numerous works 
+spanning multiple disciplinary domains such hydrological 
+phenomena (Asadi et al. 2024), estimating soil water content 
+(Emami et al. 2024), assessment of groundwater potential 
+(Sharma et al. 2024).
+Fig. 7  Geomorphosites condi-
+tioning factor (GCF) used in 
+this study: Slope length
+
+--- PAGE 10 ---
+ Geoheritage (2025) 17:34
+34 Page 10 of 19
+Multi‑Layer Perceptron (MLP)
+The Multi-Layer Perceptron (MLP) is an artificial neural 
+network (ANN) architecture comprising multiple intercon-
+nected layers of nodes, also referred to as artificial neurons. 
+It operates as a feedforward neural network, wherein infor -
+mation propagates in a unidirectional manner, flowing from 
+the input layer through the hidden layers and ultimately 
+reaching the output layer.
+The MLP supports both classification and regression 
+tasks. The MLP algorithm learns by adjusting the weights of 
+the connections between nodes during the training process. 
+The key components and parameters of the MLP are five: 
+Number of hidden layers; Number of nodes in each hidden 
+layer; Learning rate; Momentum and Training iterations.
+MLP has been evaluated as a valuable and versatile tool 
+across various geospatial modeling applications, includ-
+ing the analysis of drought patterns (Mansour 2024), in the 
+prediction of potential reforestation areas (Manaouch et al. 
+2023a, b), and in tourism landscape planning (Siroosi et al. 
+2020).
+Random Forest (RF)
+Random Forest is a widely adopted ensemble learning algo-
+rithm that is utilized for both classification and regression 
+tasks. It leverages the principles of decision trees and inte-
+grates the predictions generated by numerous individual 
+decision trees to produce final predictions. The key aspects 
+and parameters of Random Forest include Number of trees; 
+Random feature selection: Out-of-bag (OOB) error and Fea-
+ture importance.
+Random Forest (RF) is a highly utilized algorithm in geo-
+spatial modeling, finding applications in various domains 
+such as predicting land use changes (Ouma et al. 2024), 
+assessing landslide susceptibility (Manaouch et al. 2023a, 
+b), and many more. Its versatility and effectiveness make it 
+a popular choice in the field of geospatial analysis.
+Frequency Ratio (FR)
+According to Yousefi et al. (2021), the frequency ratio (FR) 
+is emphasized as a commonly employed statistical technique 
+for examining the spatial correlation between locations and 
+categorical factors. FR calculates values and success per -
+centages of each class based on the presence or absence of 
+geomorphosites using the following Eq. (1):
+(3)FR = (LiK ji∗∑ pix)�
+(LiK ji∗∑ Li)
+Fig. 8  Geomorphosites conditioning factor (GCF) used in this study: Elevation
+--- PAGE 11 ---
+Geoheritage (2025) 17:34 
+ Page 11 of 19 34
+Li represents the count of sites within each factor class 
+Kji. Σpix denotes the total number of pixels in the factor 
+map of ZUW, while li represents the total count of pixels in 
+each factor class Kji. Additionally, ΣLi represents the overall 
+count of geomorphosites.
+The frequency ratio (FR) values were calculated for the 
+three conditioning factors, each comprising multiple classes. 
+These FR values have been tabulated and are presented in 
+both Tables 1 and 2. The spatial relationship between GCFs 
+and geomorphosites was assessed by calculating the FR, and 
+Table 1  Spatial relationship between topographical factors and geomorphosites using frequency ratio
+GCF Class No. of pixels in class % of class No. of sites % of sites Frequency Ratio
+Slope (°) 1 (< 15) 1809027 36,7839 2 0,01 0,04
+2 (15–30) 1250863 25,4344 9 0,07 0,3
+3 (30–45) 881995 17,9340 16 0,13 0,74
+4 (45–60) 672053 13,6652 24 0,2 1,42
+5 (> 60) 304042 6,18225 69 0,57 9,58
+Elévation (m) 1 (< 1399) 393526 8,00 1 0,008 0,10
+2(1399–1587) 850896 17,30 4 0,03 0,19
+3(1587–1775) 837542 17,03 14 0,11 0,68
+4(1775–1963) 885384 18,00 0 0 0
+5(1963–2161) 655483 13,33 3 0,02 0,19
+6(2161–2381) 552065 11,23 0 0 0
+7(2381–2621) 409303 8,32 73 0,60 7,60
+8(2621–2935) 240897 4,90 25 0,20 4,16
+9(> 2935) 92885 1,89 0 0 0
+Length of
+Slope (m)
+1(< 59) 21828 0,44371 0 0 0
+2(59–161) 76772 1,56058 0 0 0
+3(161–208) 1015571 20,6441 4 0,03 0,15
+4(208–264) 1949329 39,6251 24 0,2 0,5
+5(> 264) 1855923 37,7264 92 0,76 2,01
+Table 2  Spatial relationship between topographical factors and non-geomorphosites using frequency ratio
+GCF Class No. of pixels in class % of class No. of sites % of sites Frequency Ratio
+Slope (°) 1 (< 15) 1809027 36,7839 86 0,71 1,93
+2 (15–30) 1250863 25,4345 23 0,19 0,76
+3 (30–45) 881995 17,9341 9 0,075 0,41
+4 (45–60) 672053 13,6652 1 0,008 0,05
+5 (> 60) 304042 6,1823 1 0,008 0,13
+Elévation (m) 1 (< 1399) 393526 8,0018 0 0 0
+2(1399–1587) 850896 17,3017 0 0 0
+3(1587–1775) 837542 17,0302 0 0 0
+4(1775–1963) 885384 18,0030 0 0 0
+5(1963–2161) 655483 13,3283 5 0,041 0,32
+6(2161–2381) 552065 11,2254 0 0 0
+7(2381–2621) 409303 8,3226 35 0,29 3,64
+8(2621–2935) 240897 4,8983 80 0,66 13,33
+9(> 2935) 92885 1,8887 0 0 0
+Length of
+slope (m)
+1(< 59) 21828 0,4437 0 0 0
+2(59–161) 76772 1,5606 0 0 0
+3(161–208) 1015571 20,6441 3 0,025 0,11
+4(208–264) 1949329 39,6252 14 0,11 0,29
+5(> 264) 1855923 37,7264 103 0,85 2,25
+--- PAGE 12 ---
+ Geoheritage (2025) 17:34
+34 Page 12 of 19
+the results for all factors are shown in the following tables 
+(Tables 1 and 2).
+To ascertain the spatial correlation between GCFs and 
+non-geomorphosite points, the frequency ratio (FR) was 
+computed. The results of the FR analysis for the three fac-
+tors are presented in Table 2.
+Performance and Model’s Validation
+In any modeling process, it is crucial to prioritize result 
+validation. Geospatial modeling studies commonly employ 
+the area under the curve of the receiver operating charac-
+teristics (AUC/ROC) method, as highlighted by Manaouch 
+et al. (2021), to evaluate and validate the accuracy and per -
+formance of the models. In this modeling study, the AUC/
+ROC analysis involved the assessment of 120 geomorphosite 
+sites using classified maps that depicted the suitability of 
+geomorphosites within the study area. The geomorphosite 
+suitability maps were categorized into four groups: true 
+positive (TP), true negative (TN), false positive (FP), and 
+false negative (FN) events, as detailed in Table 3.
+Afterwards, the true positive rate (TPR) and false positive 
+rate (FPR) were computed using Eqs. (2) and (3 ) respec-
+tively. To visualize the performance of the classifier, an ROC 
+curve was constructed by plotting the FPR on the X-axis and 
+the TPR on the Y-axis:
+Based on the evaluation criteria for the area under the 
+curve (AUC), different classes are defined as follows: AUC 
+values of 0.5–0.6 are considered weak, 0.6–0.7 as moderate, 
+0.7–0.8 as good, 0.8–0.9 as very good, and values above 0.9 
+as excellent (Yousefi et al. 2021).
+Results
+Correlation between GCFs
+To ensure objectivity and independence of the geomor -
+phosite conditioning factors (GCFs), a statistical analysis 
+(4)TPR = TP∕(TP + FN )
+(5)FPR = FP∕(FP + TN)
+method using Pearson’s correlation coefficient was employed 
+for the 3 preselected factors. The results of the correlation 
+analysis are presented in Table 4, indicating that all the con-
+ditioning factors satisfy the independence criteria.
+Analysis of Geomorphosites Conditioning Factors
+To evaluate the significance of Geomorphosites Condition-
+ing Factors (GCFs), the “CorrelationAttributeEval” attribute 
+evaluator was employed. This evaluator was used to assess 
+the predictive capability of the three GCFs. The relative 
+importance of each factor is depicted as a percentage on the 
+X-axis in Fig. 9. The results obtained from the Correlation-
+AttributeEval indicated that the slope exhibited the highest 
+contribution (58%), followed by elevation (50%) and length 
+of slope (ls) (21%) appeared to have relatively less impor -
+tance in the context of potential geomorphosites modeling. 
+The findings of the study conducted by Zakharovskyi et al. 
+(2024) provide further confirmation that the slope plays a 
+vital role in determining geosites. Their approach involves 
+employing an 8-point evaluation system to assess the geo-
+logical formations within the study area, which is then mul-
+tiplied by the degree of morphological slope. They indicate 
+that the slope model serves as one of the most effective 
+data sources for the qualitative-quantitative assessment of 
+geodiversity, functioning as a proxy for the classification of 
+geomorphological sites. Their approach involves employing 
+an 8-point evaluation system to assess the geological forma-
+tions within the study area, which is then multiplied by the 
+degree of morphological slope. These results complement 
+and reinforce our own findings related to slope dynamics.
+Geomorphosites and Conditioning Factors
+The initial assessment involved calculating the frequency 
+ratio (FR) values to explore the relationships between the 
+conditioning factors and geomorphosites. The results indi-
+cated that certain classes or categories, such as altitude 
+classes 4, 6, and 9, and length of slope classes 1 and 2, had 
+an FR value of 0 (Table 1). However, it is important to note 
+that the presence or frequency of sampled sites (120 sites) 
+in each class does not necessarily imply a higher favorability 
+for geomorphosites compared to other classes.
+Table 3  Data labeling (predicted and actual)
+Actual label Predicted label
+Positive Negative
+Positive True Positive (TP) True Negative (TN)
+Negative False Positive (FP) False Negative (FN)
+Table 4  Correlation matrix
+Slope Length of slope Elevation
+Slope 1 −0.17 −0.32
+Length of slope −0.17 1 0.15
+Elevation −0.32 0.15 1
+--- PAGE 13 ---
+Geoheritage (2025) 17:34 
+ Page 13 of 19 34
+Conversely, categories or classes exhibiting higher FR 
+values are regarded as favorable or suitable areas for geo-
+morphosites. These include slope class 5, altitude class 
+7, and length of slope class 5. These factors exhibited 
+substantial FR values, indicating their significance in sup-
+porting the presence of geomorphosites.
+Geomorphosites Suitability Map
+To facilitate the comparative analysis, Figs. 10 , 11, and 12 
+present the three geomorphosites suitability maps generated 
+by the M5P, MLP and RF classifiers. For each classifier, 
+four suitability classes (Low, Medium, High, and Very high) 
+Fig. 9  GCFs and the corre-
+sponding predication rate by 
+average merit
+Fig. 10  Generated geomorphosites suitability map using M5P model
+--- PAGE 14 ---
+ Geoheritage (2025) 17:34
+34 Page 14 of 19
+were assigned to assess geomorphosites suitability. To shed 
+light on the reasons behind the disparities and to understand 
+why certain areas are deemed suitable while others are not, 
+we have sought the expertise of individuals with extensive 
+knowledge of the region. In addition, we have cross-refer -
+enced their insights with the images provided by Google 
+Earth to validate our findings. The respective area percent-
+ages of these classes were subsequently calculated for each 
+model, as depicted in Fig. 14.
+Performance Evaluation and Comparative Analysis
+To assess the effectiveness of the classifiers, the AUC/ROC 
+method was utilized. During the training phase, the obtained 
+results indicated that MLP (Multi-Layer Perceptron), M5P, 
+and RF (Random Forest) achieved average accuracy rates of 
+100%, 97.29%, and 94.24% respectively.
+During the validation phase, notable variations in classi-
+fier performance were observed (Fig.  13). The AUC values 
+ranged from 0.687 to 0.911, with MLP attaining the highest 
+value of 0.911, followed by M5P with 0.779, and RF with 
+0.671. Both M5P and MLP classifiers exhibited AUC values 
+exceeding 0.75, indicating their effectiveness in modeling 
+geomorphosites suitability mapping in ZUW. However, M5P 
+demonstrated higher reliability and accuracy compared to 
+MLP and RF, making it the more robust choice for this task.
+Discussion
+Analysis of GCFs
+The analysis of conditioning factors plays a crucial role 
+in modeling studies as it enables the identification of key 
+parameters that contribute to the occurrence of events. In the 
+context of geomorphosites modeling, this study identified 
+three factors as significant.
+When considering geomorphosites, the slope gradient 
+emerges as the most influential factor due to its impact on a 
+range of geomorphic processes and landform development. 
+Steep slopes frequently reveal remarkable landforms, such as 
+badlands, which refer to rugged landscapes characterized by 
+steep slopes, deep ravines, and minimal vegetation, typically 
+formed by the rapid erosion of soft, unconsolidated materi-
+als. These “badlands” are highly valued for their aesthetic 
+and scientific importance in the field of geomorphology 
+(Kumar et al. 2024). The inclusion of steep slopes enhances 
+the visual appeal and scenic allure of a geomorphosite.
+Altitude is a critical variable in the evaluation of geomor-
+phosites, as it significantly affects their formation and char-
+acteristics. In high-altitude regions, geomorphosites often 
+exhibit distinct features that differentiate them from those 
+found in lower-altitude areas, which may present alternative 
+relief forms and geological attributes that may not qualify 
+Fig. 11  Generated geomorphosites suitability map using MLP model
+--- PAGE 15 ---
+Geoheritage (2025) 17:34 
+ Page 15 of 19 34
+as geomorphosites. For instance, in the Upper Ziz region, 
+the mountainous terrain to the west displays considerable 
+geodiversity, aligning with Guerini et al. (2024 ) findings 
+that highlight the complexities inherent in such geologically 
+diverse environments. These complexities can pose chal-
+lenges for geomorphological assessment and conservation 
+efforts.
+Furthermore, the analysis revealed that the length of 
+slope factor contributed in descending order of importance. 
+Although still relevant, its impact was relatively lower com-
+pared to the slope and elevation factors.
+In conclusion, this analysis provides valuable insights 
+into the conditioning factors that specifically influence the 
+occurrence of geomorphosites in the ZUW region.
+Classifier Building
+The selection of machine learning classifiers plays a cru-
+cial role in accurately mapping potential geomorphosites. 
+For making comparisons, it is important to note that no 
+prior research is directly comparable to the current study, 
+as it uniquely concentrates on the ZUW while integrating 
+specific factors related to the prediction of geomorphosite 
+potential, thereby highlighting its innovative contribution 
+to the field. In this study, three popular classifiers, namely 
+Random Forest (RF), Multilayer Perceptron (MLP), and 
+Fig. 12  Generated geomorphosites suitability map using RF model
+Fig. 13  Prediction rate curves for the suitability maps of geomor -
+phosites
+--- PAGE 16 ---
+ Geoheritage (2025) 17:34
+34 Page 16 of 19
+M5P, were tested due to their favorable results in previous 
+modeling studies.
+RF is recognized for its advantageous properties, 
+including fewer restrictions on variables, disregard for data 
+scale and distribution, high computational efficiency, and 
+high accuracy. However, in this study, the performance 
+of the RF classifier was limited to a maximum accuracy 
+of 68%, which is notably lower than the 88.3% accuracy 
+achieved in the identification of potential archaeological 
+sites in central Jharkhand, India (Pal et al. 2024). On the 
+other hand, MLP, which consists of layers and neurons 
+and employs backpropagation algorithms, demonstrated 
+the highest performance in this study, aligning with a real-
+istic simulation of drought occurrence in Oman (Mansour 
+2024). In this study, the performance of the M5P classi-
+fier, which is less frequently utilized in geospatial mod-
+eling, surpassed 77%. However, it was noted that a higher 
+accuracy of 92.5% was achieved in landslide susceptibility 
+modeling, as reported by Saha et al. (2024).
+Overall, the choice of classifier significantly influences 
+the accuracy of mapping geomorphosites’ suitability. 
+Despite its strong performance in previous studies, the 
+RF classifier did not achieve the same level of accuracy in 
+this study. These RF results could be attributed to several 
+factors. Firstly, the characteristics of the data used may 
+not align well with the model’s assumptions, potentially 
+leading to suboptimal performance. Additionally, regional 
+specificities, such as unique environmental conditions or 
+variations in geomorphological features, might have influ-
+enced the outcomes, affecting the model’s ability to accu-
+rately predict geomorphosite potential. MLP exhibited the 
+highest performance, consistent with other studies, while 
+M5P, despite being less commonly used, showed promis-
+ing accuracy.
+Analysis of Precision Comparisons
+The performance of machine learning classifiers (MLCs) 
+varies depending on the chosen algorithm. Through the uti-
+lization of the 10-fold cross-validation method during the 
+training phase, RF, M5P, and MLP demonstrated varying 
+levels of performance. However, during the validation phase, 
+their performance decreased to 67.1%, 77.9%, and 91.1%, 
+respectively.
+In numerous studies, model validation is conducted 
+through the calculation of the AUC-ROC. For instance, Roy 
+et al. (2024) evaluated potential suitability mapping for eco-
+tourism development in Darjeeling, reporting an AUC-ROC 
+value of 0.845, which indicates a high level of reliability in 
+relation to the actual conditions. Additionally, Manaouch 
+et al. (2023a, b) utilized the AUC-ROC method to compare 
+results in their analysis of potential reforestation areas. It is 
+generally observed that algorithms with higher AUC values 
+demonstrate more accurate and efficient prediction capabili-
+ties (Su et al. 2021). Analyzing the ROC curves of the three 
+classifiers, it can be observed that they exhibit high perfor -
+mance during the training phase. However, in the validation 
+phase, MLP demonstrated the highest AUC value of 0.911, 
+followed by M5P with 0.779 and RF with 0.671. Consider -
+ing the AUC values of the three models, MLP outperforms 
+the others.
+Distribution of Potential Geomorphosites Areas
+The attribute data from ZUW was preprocessed using the 
+stored versions of three classifiers: RF, MLP, and M5P. This 
+preprocessing included the computation of geomorphosites 
+suitability indices for each pixel within the study area. To 
+classify the geomorphosite suitability indices, the “Natural 
+Fig. 14  Percentage of Geo-
+morphosite Suitability Classes’ 
+areas for three applied MLCs
+
+--- PAGE 17 ---
+Geoheritage (2025) 17:34 
+ Page 17 of 19 34
+breaks” algorithm was employed, resulting in the creation 
+of four classes: low, moderate, high, and very high. As a 
+result, three distinct geomorphosite suitability maps were 
+generated, as illustrated in Figs. 10 , 11, and 12.
+The findings reveal that areas classified as very highly 
+suitable for potential geomorphosites account for 42.57%, 
+60.2%, and 49.07% of the entire study area for M5P, MLP, 
+and RF respectively (Fig.  14). All classifiers indicate that 
+south parts exhibit low to moderate suitability of potential 
+geomorphosites due to their flat terrain and generally low 
+elevations. These features restrict the development of signifi-
+cant geomorphological processes, leading to less favorable 
+conditions for ecological diversity and landform develop-
+ment, thereby decreasing overall suitability in these areas. 
+While mountainous regions to the west demonstrate high 
+suitability. The MLP model further reveals that areas classi-
+fied as very highly suitable for geomorphosites are dispersed 
+across the western entirety of ZUW.
+Conclusions
+This study primarily investigates the application of three 
+topographic parameters (slope, slope length, and altitude) 
+alongside three machine learning algorithms to identify 
+potential geotourism sites. The findings indicate that this 
+methodology is effective in discovering geomorphosites 
+across extensive areas. However, it is essential to under -
+score that field visits are a vital component for verifying 
+and exploring the geological features and landscapes of the 
+region. These visits not only assess the scientific significance 
+of these features but also provide detailed geological valida-
+tion that models alone cannot offer.
+This novel approach highlights the enhanced role of 
+Machine learning in geotourism, contrasting with traditional 
+methods that often rely on field visits and inventories, which 
+can be challenging, especially in areas with unknown or 
+inaccessible sites. The integration of machine learning tech-
+niques is recommended to diversify tourism offerings, par -
+ticularly by showcasing geomorphosites of cultural signifi-
+cance that merit promotion through geotourism initiatives.
+To fully realize the potential of these findings, it is essen-
+tial to implement specific management measures. Conduct-
+ing a systematic evaluation of geomorphosites will help 
+identify sites with high tourism potential. Improving infra-
+structure, such as creating marked trails, informational pan-
+els, and observation points, will facilitate access to these 
+sites. Additionally, awareness programs for local stakehold-
+ers and training for guides will ensure that visitors receive 
+accurate and engaging interpretations of geological features.
+Moreover, developing targeted promotional campaigns 
+can attract a wider audience by highlighting the region’s 
+unique geological characteristics. Fostering partnerships 
+among local stakeholders, authorities, and researchers will 
+create synergies that enhance the effectiveness of these 
+initiatives.
+In conclusion, while this study supports the integration of 
+machine learning in identifying potential geomorphosites, it 
+also underscores the importance of traditional field assess-
+ments and collaborative efforts. By adopting these measures, 
+we can not only boost geotourism but also contribute to the 
+sustainable protection and valorization of the region’s geo-
+logical resources, ultimately enriching its geodiversity.
+Finally, testing other machine learning algorithms, as well 
+as integrating additional geomorphological factors in future 
+studies or conducting comparative studies in other regions, 
+will be very suitable.
+Acknowledgements The authors are grateful for the Editor-in-Chief 
+and the anonymous reviewers for their thorough reviews and construc-
+tive comments and they are very grateful to Mohamed Manaouch for 
+the facilities and data provided during this study. The authors would 
+like to thank Mr. N. Khan for his valuable help during the validation 
+step.
+Author Contributions LN and MM: geologic field investigation, inven-
+tory, characterization. MM and MA: classification and discussion. AJ 
+and MH: manuscript preparation. QBP: revise and editing, supervision. 
+MS and MM: geologic field investigation and data analysis. All authors 
+read and approved the final version of the manuscript.
+Funding The author(s) reported there is no funding associated with the 
+work featured in this article.
+Data Availability The data used to support the results of this research 
+are available from the corresponding author upon request.
+Declarations 
+Conflict of Interest The authors declare no conflict of interest.
+References
+Al-Abadi AM (2018) Mapping flood susceptibility in an arid region 
+of southern Iraq using ensemble machine learning classifiers: a 
+comparative study. Arab J Geosci 11:1–19. https:// doi. org/ 10. 
+1007/ s12517- 018- 3584-5
+Anougmar S, Meesters A, van Ree D, Compernolle T (2024) The 
+dilemma of valuing geodiversity: geoconservation versus geo-
+tourism. Philosophical Trans Royal Soc A 382(2269):20230049. 
+https:// doi. org/ 10. 1098/ rsta. 2023. 0049
+Asadi H, Dastorani MT, Sidle RC, Jahanshahi A (2024) A comparative 
+Assessment of decision Tree algorithms for Index of Sediment 
+Connectivity Modelling. Water Resour Manage 38(7):2293–2313. 
+https:// doi. org/ 10. 1007/ s11269- 024- 03760-9
+Baadi K, Tefogoum GZ, Amine A (2023) The Volcanism of the Plio-
+Quaternary of Azrou-Timahdite Plateau (Central Middle Atlas, 
+Morocco): Potential for Geotourism Development. In Geoheritage 
+of the Middle Atlas (Morocco), pp 219–232.  https:// doi. org/ 10. 
+1007/ 978-3- 031- 27073-4_ 14
+Baitalik A (2024) Why geoheritage matters in geoconservation 
+strategies: a Case Study from the Khowai Badlands in West 
+--- PAGE 18 ---
+ Geoheritage (2025) 17:34
+34 Page 18 of 19
+Bengal, India. Geoheritage 16(3):81. https:// doi. org/ 10. 1007/  
+s12371- 024- 00986-2
+Bussard J (2023) Geomorphological landscapes of the M’Goun Geop-
+ark (Morocco): potential for geotourism and local guides’ per -
+spective. In EGU General Assembly Conference Abstracts, pp 
+EGU-5264.https:// doi. org/ 10. 5194/ egusp here- egu23- 5264
+Charrière A (1990) Héritage hercynien et évolution géodynamique 
+alpine d’une chaîne intracontinentale: Le Moyen-Atlas au SE de 
+Fes (Maroc). Doctoral dissertation, Toulouse. https:// pascal- franc 
+is. inist. fr/ vibad/ index. php? action= getRe cordD etail & idt= 141293. 
+Accessed 12 Sept 2024
+Chrobak A, Novotný J, Strus P (2021) Geodiversity assessment as a 
+first step in designating areas of geotourism potential. Case study: 
+western carpathians. Front Earth Sci 9:752669. https:// doi. org/ 10. 
+3389/ feart. 2021. 752669
+Elkaichi A, Errami E, Patel N (2023) Evaluation of geotouristic sta -
+tion suitability using GIS-based multi-criteria decision analy -
+sis: a case study of the M’Goun UNESCO Geopark, High Atlas 
+(Morocco). Geoheritage 15(1):36. https:// doi. org/ 10. 1007/ 
+s12371- 023- 00801-4
+Elkaichi A, Errami E, Patel N (2024) Canyons as potential geotourism 
+attractions of central high Atlas, Morocco: comparative analysis 
+of Aït Bouguemaz valley and Zaouiat Ahnsal-Taghia valley by 
+using GAM model. Int J Geoheritage Parks 12(1):20–36. https://  
+doi. org/ 10. 1016/j. ijgeop. 2024. 01. 001
+El Hamidy M, Errami E, Elkaichi A (2024) An overview of scientific 
+research on geoheritage in Morocco. Proc Geol Assoc. https:// doi. 
+org/ 10. 1016/j. pgeola. 2024. 01. 002
+Emami S, Rezaverdinejad V, Dehghanisanij H, Emami H, Elbeltagi A 
+(2024) Data mining predictive algorithms for estimating soil water 
+content. Soft Comput 28(6):4915–4931. https:// doi. org/ 10. 1007/ 
+s00500- 023- 09208-3
+Guerini M, Mantovani A, Khoso RB, Giardino M (2024) Exploring the 
+correlation between geoheritage and geodiversity through compre-
+hensive mapping: a study within the sesia val Grande UNESCO 
+Global Geopark (NW Italy). Geomorphology 461:109298. https:// 
+doi. org/ 10. 1016/j. geomo rph. 2024. 109298
+Hamidy ME, Errami E, Kabouri JE, Naim M, Assouka A, Youssef 
+AAB, Bchari FE (2024) Jbel Irhoud Geosite, the cradle of human-
+ity (Youssoufia Province, Marrakech-Safi region, Morocco): eval-
+uation and valorization of the geological heritage for geoeducation 
+and geotourism purposes. Geoheritage 16(1):1–20. https:// doi. org/ 
+10. 1007/ s12371- 024- 00927-z
+Herrera-Franco G, Carrión-Mero P, Montalván-Burbano N, Caicedo-
+Potosí J, Berrezueta E (2022) Geoheritage and geosites: a bib-
+liometric analysis and literature review. Geosciences 12(4):169. 
+https:// doi. org/ 10. 3390/ geosc ience s1204 0169
+Jon WS, Ryang TJ, Ri MI, Ri MW (2024) Volcanic rock landscapes 
+and natural heritage values of Mt. Chilbo, Democratic people’s 
+Republic of Korea. Geoheritage 16(2):1–18. https:// doi. org/ 10. 
+1007/ s12371- 024- 00943-z
+Kumar R, Kasana P, Devrani R, Devrani SP (2024) The Cham-
+bal badlands of Ganga River Basin, India: a fading geoherit-
+age odyssey. Geoheritage 16(4):1–18. https:// doi. org/ 10. 1007/ 
+s12371- 024- 00998-y
+Louz E, Rais J, Barakat A, Barka AA, Nadem S (2023) Inventory and 
+assessment of geosites and geodiversity sites of the Ait Attab 
+Syncline (M’goun UNESCO Geopark, Morocco) to stimulate 
+geoconservation, geotourism, and sustainable development. 
+Quaest Geographicae 42(3):115–143. https:// doi. org/ 10. 14746/ 
+quageo- 2023- 0027
+Manaouch M, Mohamed S, Imad F (2021) Coupling fuzzy logic and 
+Analytical Hierarchy process (FAHP) with GIS for landslide sus-
+ceptibility mapping (LSM) in Ziz upper watershed. SE Morocco. 
+https:// doi. org/ 10. 21203/ rs.3. rs- 183793/ v1
+Manaouch M, Sadiki M, Aghad M, Bao Pham Q, Batchi M, Al 
+Karkouri J (2023a) Assessment of landslide susceptibility 
+using machine learning classifiers in Ziz upper watershed, SE 
+Morocco. Phys Geogr 1–28. https:// doi. org/ 10. 1080/ 02723 646. 
+2023. 22501 74
+Manaouch M, Sadiki M, Pham QB, Zouagui A, Batchi M, Al 
+Karkouri J (2023b) Predicting potential reforestation areas by 
+Quercus ilex (L.) species using machine learning algorithms: 
+case of upper ziz, southeastern Morocco. Environ Monit Assess 
+195(9):1094. https:// doi. org/ 10. 1007/ s10661- 023- 11680-1
+Mansour S (2024) Geospatial modelling of drought patterns in 
+Oman: GIS-based and machine learning approach. Model Earth 
+Syst Environ 1–21. https:// doi. org/ 10. 1007/ s40808- 024- 01958-9
+Michard A (1976) Élément De géologie marocaine. Mémoire De 
+La Société Géologique De Morocco 252:408. https:// www. per -
+see. fr/ doc/ sgeol_ 0302- 2692_ 1976_ num_ 29_4_ 1500_ t1_ 0325_ 
+0000_4. Accessed 12 Sept 2024
+Migoń P, Róźycka M, Michniewicz A (2018) Conservation and 
+geotourism perspectives at granite geoheritage sites of Wald-
+viertel. Austria Geoheritage 10(1). https:// doi. org/ 10. 1007/  
+s12371- 017- 0219-2
+Mohamed M, Anis Z, Imed F (2020) Regional-scale modeling of 
+water erosion and sediment yield in a semi-arid context: A 
+case study of Ziz upper watershed in south-eastern Morocco. 
+In: GEOIT4W-2020: Proceedings of the 4th Edition of Inter -
+national Conference on GeoIT and Water Resources 2020, Al 
+Hoceima, Morocco.  https:// doi. org/ 10. 1145/ 33992 05. 33992 09
+Navas A, Machin J, Gaspar L (2009) Les sols dans le pays Du Ziz 
+(sud-est marocain): caractéristiques et aspects de. Appl Geogr 
+20:369–394
+Nouayti N, Khattach D, Hilali M (2015) Evaluation de la qualité 
+physico-chimique des eaux souterraines des nappes du Juras -
+sique Du Haut bassin de ziz (Haut Atlas central, Maroc) 
+[Assessment of physico-chemical quality of groundwater of 
+the jurassic aquifers in high basin of Ziz (Central High Atlas, 
+Morocco)]. J Mater Environ Sci 6(4):1068–1081
+Nouhaila A, Zohra B, Amine ZM, Said C, Sakina M, Allal L, Sou-
+maya BA (2024) Inventory and quantitative assessment of devo -
+nian geosites in the Azrou-Khenifra basin (Eastern band of the 
+Central Hercynian Massif, Morocco). Int J Geoheritage Parks. 
+https:// doi. org/ 10. 1016/j. ijgeop. 2024. 01. 002
+Ouma YO, Nkwae B, Odirile P, Moalafhi DB, Anderson G, Parida B, 
+Qi J (2024) Land-use change prediction in dam catchment using 
+logistic regression-CA, ANN-CA, and random forest regression 
+and implications for sustainable land–water nexus. Sustainabil-
+ity 16(4):1699. https:// doi. org/ 10. 3390/ su160 41699
+Page K (2024) Geoconservation, geoheritage, geosites—and sus-
+tainable development—the role of ProGEO at a global level 
+(no. EGU24-11754). Copernicus Meet.  https:// doi. org/ 10. 5194/ 
+egusp here- egu24- 11754 
+Pal SK, Maity S, Bera A, Ghosh D, Kumar A (2024) Machine 
+learning-driven archaeological site prediction in the central 
+part of Jharkhand, India using multi-parametric geospatial 
+data. J Indian Soc Remote Sens 1–18. https:// doi. org/ 10. 1007/  
+s12524- 024- 01983-2
+Pham TT, Dang KB, Giang TL, Hoang THN, Ha HN (2024) Deep 
+learning models for monitoring landscape changes in a UNE-
+SCO Global Geopark. J Environ Manage 354:120497. https://  
+doi. org/ 10. 1016/j. jenvm an. 2024. 120497
+Roy D, Kundu P, Paul S, Sarkar BC (2024) Potential suitability 
+mapping evaluation for ecotourism development in Darjeeling 
+Himalayan region of India. J Ecotourism 23(3):414–435. https://  
+doi. org/ 10. 1080/ 14724 049. 2023. 22720 59
+Rypl J, Havlíček M, Dostál I (2021) Geotourism potential assessment: 
+a case study of the Czech-Austrian cross-border area. Geoherit-
+age 13(1):1. https:// doi. org/ 10. 1007/ s12371- 020- 00522-y
+--- PAGE 19 ---
+Geoheritage (2025) 17:34 
+ Page 19 of 19 34
+Saha S, Saha A, Santosh M, Kundu B, Sarkar R, Hembram TK (2024) 
+Integrating deep learning neural network and M5P with con-
+ventional statistical models for landslide susceptibility model-
+ling. Bull Eng Geol Environ 83(1):12. https:// doi. org/ 10. 1007/ 
+s10064- 023- 03498-5
+Sen S, Abouelresh MO, Joydas TV, Almusabeh A, Al-Ismail FS, Pulido 
+B (2024a) Geoheritage and geotourism potential of NEOM, Saudi 
+Arabia: linking geoethics, geoconservation, and geotourism. Geo-
+heritage 16(1):27. https:// doi. org/ 10. 1007/ s12371- 024- 00932-2
+Sen S, Abouelresh MO, Santra A, Al-Musabeh AH, Al-Ismail FS 
+(2024b) Geoheritage assessment of the geosites in Tuwaiq Moun-
+tain, Saudi Arabia: in the perspective of geoethics, geotourism, 
+and geoconservation. Geoheritage 16(1):2. https:// doi. org/ 10. 
+1007/ s12371- 023- 00908-8
+Sharma Y, Ahmed R, Saha TK, Bhuyan N, Kumari G, Pal S, Sajjad H 
+(2024) Assessment of groundwater potential and determination 
+of influencing factors using remote sensing and machine learning 
+algorithms: a study of Nainital district of Uttarakhand state, India. 
+Groundw Sustainable Dev 25:101094. https:// doi. org/ 10. 1016/j. 
+gsd. 2024. 101094
+Si Mhamdi H, Charroud A, Oukassou M, Alali A, Baidder L, Raji 
+M, Elouariti S (2023) Enhancing the geological heritage of 
+the Errachidia Area in the high Atlas, Morocco: inventory and 
+a proposal for a pedagogic and geotouristic trail. Geoheritage 
+15(2):45. https:// doi. org/ 10. 1007/ s12371- 023- 00813-0
+Siroosi H, Heshmati G, Salmanmahiny A (2020) Can empirically based 
+model results be fed into mathematical models? MCE for neural 
+network and logistic regression in tourism landscape planning. 
+Environ Dev Sustain 22(4):3701–3722. https:// doi. org/ 10. 1007/ 
+s10668- 019- 00363-y
+Su Q, Tao W, Mei S, Zhang X, Guo J, Yang Y (2021) Landslide sus-
+ceptibility zoning using C5.0 decision tree, random forest, support 
+vector machine and comparison of their performance in a coal 
+mine area. Front Earth Sci 1181. https:// doi. org/ 10. 3389/ feart. 
+2021. 781472
+Yousefi S, Avand M, Yariyan P, Goujani HJ, Costache R, Tavangar S, 
+Tiefenbacher JP (2021) Identification of the most suitable affor -
+estation sites by Juniperus excelsa species using machine learn-
+ing models: Firuzkuh semi-arid region, Iran. Ecol Inf 65:101427. 
+https:// doi. org/ 10. 1016/j. ecoinf. 2021. 101427
+Zakharovskyi V, Németh K, Gravis I, Twemlow C (2024) Geosite 
+recognition based on qualitative-quantitative assessment in the 
+light of core geological features of a Mio-Pliocene volcanic arc 
+setting of the Coromandel Peninsula, New Zealand. Geoheritage 
+16(1):19. https:// doi. org/ 10. 1007/ s12371- 024- 00933-1
+Publisher’s Note Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+Springer Nature or its licensor (e.g. a society or other partner) holds 
+exclusive rights to this article under a publishing agreement with the 
+author(s) or other rightsholder(s); author self-archiving of the accepted 
+manuscript version of this article is solely governed by the terms of 
+such publishing agreement and applicable law.

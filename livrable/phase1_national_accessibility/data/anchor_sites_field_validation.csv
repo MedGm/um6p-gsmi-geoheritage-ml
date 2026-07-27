@@ -1,0 +1,4 @@
+Geosite Name,Region,Dist Highway (m),Dist Piste (m),Fuzzy Score,MCDSS Target,AI Model Pred,Concordance
+Oued ElKelaa Gorge and waterfall,Tanger-Tétouan-Al Hoceïma,4266.925,1183.432,0.221,Difficult,Difficult,MATCH (100%)
+Lac Tislit,Draâ-Tafilalet,1183.432,0.0,0.858,Easy,Easy,MATCH (100%)
+Akchour landslide ,Tanger-Tétouan-Al Hoceïma,0.0,0.0,0.708,Easy,Easy,MATCH (100%)
