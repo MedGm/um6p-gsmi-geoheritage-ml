@@ -96,7 +96,7 @@ All read from the already-assembled `collected_data/` inventory (no re-fetching 
 
 ## Outputs
 
-All under a new directory, `livrable/phase1_v2_accessibility/data/`:
+All under a new directory, `geosite_v2_work/data/`:
 
 - `geosites_observations.csv` — **every** individual observation from every source, post-correction and post-border/region-check, each tagged with its `Locality_Group_Key` (source-stated) and (once Phase C runs) its resolved `Locality_ID`. This is the full-detail, nothing-discarded table.
 - `geosites_localities_master.csv` — one row per deduplicated locality: representative name/coordinates/region, member observation count, contributing sources. **This is what later stages (labeling, feature extraction, modeling) consume.**
@@ -105,7 +105,7 @@ All under a new directory, `livrable/phase1_v2_accessibility/data/`:
 - `geosites_region_mismatches.csv` — every observation whose declared region doesn't match its coordinate's actual location, nationwide.
 - `dms_parse_failures.csv` — any coordinate string (DMS or otherwise) that couldn't be confidently parsed.
 
-Code lives in `livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py`.
+Code lives in `geosite_v2_work/code/01_consolidate_geosite_catalog.py`.
 
 ## Explicitly out of scope for this stage
 

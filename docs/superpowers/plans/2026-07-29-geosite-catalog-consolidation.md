@@ -4,7 +4,7 @@
 
 **Goal:** Build one script that loads every known geosite data source into a provenance-preserving **Observation** table, applies per-observation correctness checks (documented corrections, Morocco border, nationwide regional plausibility), then deliberately groups observations into a deduplicated **Locality/Geosite Group** table — via explicit source-stated hierarchy where a source asserts it (the Excel file's shared-center-coordinate groups) and via cross-source fuzzy matching otherwise — with every conflict or ambiguous grouping routed to a review file instead of silently resolved.
 
-**Architecture:** A single pipeline script, `livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py`, in three tasks matching the spec's three process phases: (1) Phase A — load and normalize every source into the Observation schema, including a multi-format coordinate parser (UTM Zone 29N, two DMS variants, interval/midpoint) validated against the Excel source's own hidden `Feuil2` conversion legend; (2) Phase B — apply documented corrections, fold in report-verified ground truth, run the border and nationwide regional-plausibility checks, all at the observation level; (3) Phase C — group observations into localities (explicit hierarchy first, cross-source fuzzy matching second) and assemble the final locality table. Each task produces an inspectable intermediate CSV.
+**Architecture:** A single pipeline script, `geosite_v2_work/code/01_consolidate_geosite_catalog.py`, in three tasks matching the spec's three process phases: (1) Phase A — load and normalize every source into the Observation schema, including a multi-format coordinate parser (UTM Zone 29N, two DMS variants, interval/midpoint) validated against the Excel source's own hidden `Feuil2` conversion legend; (2) Phase B — apply documented corrections, fold in report-verified ground truth, run the border and nationwide regional-plausibility checks, all at the observation level; (3) Phase C — group observations into localities (explicit hierarchy first, cross-source fuzzy matching second) and assemble the final locality table. Each task produces an inspectable intermediate CSV.
 
 **Tech Stack:** Python 3.12, pandas, geopandas, shapely, rapidfuzz, openpyxl, pyproj (UTM29N→WGS84 conversion), requests (Natural Earth boundary fetch).
 
@@ -23,7 +23,7 @@
 ## File Structure
 
 ```
-livrable/phase1_v2_accessibility/
+geosite_v2_work/
   code/
     01_consolidate_geosite_catalog.py   # CREATE — the only script this plan produces
   data/
@@ -43,9 +43,9 @@ livrable/phase1_v2_accessibility/
 ### Task 1: Load and normalize every source into the Observation schema (Phase A)
 
 **Files:**
-- Create: `livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py` (this task writes the loading/parsing portion and a `main()` that runs only this much so far; Tasks 2 and 3 extend the same file)
-- Create: `livrable/phase1_v2_accessibility/data/geosites_observations_raw.csv`
-- Create: `livrable/phase1_v2_accessibility/data/dms_parse_failures.csv`
+- Create: `geosite_v2_work/code/01_consolidate_geosite_catalog.py` (this task writes the loading/parsing portion and a `main()` that runs only this much so far; Tasks 2 and 3 extend the same file)
+- Create: `geosite_v2_work/data/geosites_observations_raw.csv`
+- Create: `geosite_v2_work/data/dms_parse_failures.csv`
 
 **Interfaces:**
 - Consumes: `collected_data/main_checkout/livrable/phase1_national_accessibility/data/geosites_coordinates_clean.csv`, `.../phase2_regional_analytics/data/geosites_ttah_indexed.csv`, `.../geosites_bmk_indexed.csv`, `.../references/Data Classification_Geoheritage.xlsx` (`Data generale`, `Feuil2` for validation, `Feuil1` conditionally), `.../references/Morocco_Geosites_Graph_Data.xlsx`, `.../scratch/geosites_draa_tafilalet_indexed.csv` and 3 sibling scratch CSVs.
@@ -54,7 +54,7 @@ livrable/phase1_v2_accessibility/
 - [ ] **Step 1: Write the coordinate parser and validate it against `Feuil2` before writing anything else**
 
 ```python
-# livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py
+# geosite_v2_work/code/01_consolidate_geosite_catalog.py
 import os
 import re
 import numpy as np
@@ -62,7 +62,7 @@ import pandas as pd
 import openpyxl
 from pyproj import Transformer
 
-BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 COLLECTED = os.path.abspath(os.path.join(BASE, "..", "collected_data", "main_checkout"))
 OUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -311,7 +311,7 @@ if __name__ == "__main__":
 - [ ] **Step 7: Run and verify**
 
 ```bash
-python livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py
+python geosite_v2_work/code/01_consolidate_geosite_catalog.py
 ```
 
 Expected: `Feuil2 validation` line prints with `n_checked >= 5` and no assertion failure (if it fails, fix the parser — do not weaken the tolerance to force a pass); per-source and per-group counts printed; both `assert`s in `main()` pass; `geosites_observations_raw.csv` and `dms_parse_failures.csv` created.
@@ -321,7 +321,7 @@ Expected: `Feuil2 validation` line prints with `n_checked >= 5` and no assertion
 ```bash
 python -c "
 import pandas as pd
-df = pd.read_csv('livrable/phase1_v2_accessibility/data/geosites_observations_raw.csv')
+df = pd.read_csv('geosite_v2_work/data/geosites_observations_raw.csv')
 tislit = df[df['Geosite_Name'].str.contains('Tislit', case=False, na=False)]
 if len(tislit):
     key = tislit.iloc[0]['Locality_Group_Key']
@@ -339,9 +339,9 @@ else:
 - [ ] **Step 9: Commit**
 
 ```bash
-git add livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py \
-        livrable/phase1_v2_accessibility/data/geosites_observations_raw.csv \
-        livrable/phase1_v2_accessibility/data/dms_parse_failures.csv
+git add geosite_v2_work/code/01_consolidate_geosite_catalog.py \
+        geosite_v2_work/data/geosites_observations_raw.csv \
+        geosite_v2_work/data/dms_parse_failures.csv
 git commit -m "feat: load all geosite sources into a hierarchy-preserving Observation table"
 ```
 
@@ -350,10 +350,10 @@ git commit -m "feat: load all geosite sources into a hierarchy-preserving Observ
 ### Task 2: Per-observation corrections, ground truth, border and regional-plausibility checks (Phase B)
 
 **Files:**
-- Modify: `livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py`
-- Create: `livrable/phase1_v2_accessibility/data/geosites_outliers_removed.csv`
-- Create: `livrable/phase1_v2_accessibility/data/geosites_region_mismatches.csv`
-- Create: `livrable/phase1_v2_accessibility/data/geosites_observations.csv`
+- Modify: `geosite_v2_work/code/01_consolidate_geosite_catalog.py`
+- Create: `geosite_v2_work/data/geosites_outliers_removed.csv`
+- Create: `geosite_v2_work/data/geosites_region_mismatches.csv`
+- Create: `geosite_v2_work/data/geosites_observations.csv`
 
 **Interfaces:**
 - Consumes: `geosites_observations_raw.csv` (Task 1).
@@ -476,7 +476,7 @@ def regional_plausibility_check(df, region_gdf, region_name_col):
 - [ ] **Step 3: Run and verify**
 
 ```bash
-python livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py
+python geosite_v2_work/code/01_consolidate_geosite_catalog.py
 ```
 
 Expected: correction/ground-truth/border/region counts all printed; region mismatch count reported as whatever the check actually finds (do not expect exactly 1); Cap Malabata assertion passes; the three new CSVs created.
@@ -486,7 +486,7 @@ Expected: correction/ground-truth/border/region counts all printed; region misma
 ```bash
 python -c "
 import pandas as pd
-df = pd.read_csv('livrable/phase1_v2_accessibility/data/geosites_region_mismatches.csv')
+df = pd.read_csv('geosite_v2_work/data/geosites_region_mismatches.csv')
 print(df[df['Region'].str.contains('Dakhla', case=False, na=False)].to_string(index=False))
 print(f'Total mismatches found nationwide: {len(df)}')
 "
@@ -495,10 +495,10 @@ print(f'Total mismatches found nationwide: {len(df)}')
 - [ ] **Step 5: Commit**
 
 ```bash
-git add livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py \
-        livrable/phase1_v2_accessibility/data/geosites_outliers_removed.csv \
-        livrable/phase1_v2_accessibility/data/geosites_region_mismatches.csv \
-        livrable/phase1_v2_accessibility/data/geosites_observations.csv
+git add geosite_v2_work/code/01_consolidate_geosite_catalog.py \
+        geosite_v2_work/data/geosites_outliers_removed.csv \
+        geosite_v2_work/data/geosites_region_mismatches.csv \
+        geosite_v2_work/data/geosites_observations.csv
 git commit -m "feat: apply corrections, fold in ground truth, add border and nationwide regional-plausibility checks"
 ```
 
@@ -507,9 +507,9 @@ git commit -m "feat: apply corrections, fold in ground truth, add border and nat
 ### Task 3: Locality construction — explicit hierarchy first, cross-source fuzzy matching second (Phase C)
 
 **Files:**
-- Modify: `livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py`
-- Create: `livrable/phase1_v2_accessibility/data/geosites_localities_master.csv`
-- Create: `livrable/phase1_v2_accessibility/data/geosites_needs_review.csv`
+- Modify: `geosite_v2_work/code/01_consolidate_geosite_catalog.py`
+- Create: `geosite_v2_work/data/geosites_localities_master.csv`
+- Create: `geosite_v2_work/data/geosites_needs_review.csv`
 
 **Interfaces:**
 - Consumes: `geosites_observations.csv` (Task 2).
@@ -654,7 +654,7 @@ def _assemble_locality_row(locality_id, group):
 - [ ] **Step 3: Run the full pipeline end to end**
 
 ```bash
-python livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py
+python geosite_v2_work/code/01_consolidate_geosite_catalog.py
 ```
 
 Expected: full summary printed, all assertions pass, `geosites_localities_master.csv` and `geosites_needs_review.csv` created, `geosites_observations.csv` rewritten with the `Locality_ID` column populated.
@@ -664,7 +664,7 @@ Expected: full summary printed, all assertions pass, `geosites_localities_master
 ```bash
 python -c "
 import pandas as pd
-loc = pd.read_csv('livrable/phase1_v2_accessibility/data/geosites_localities_master.csv')
+loc = pd.read_csv('geosite_v2_work/data/geosites_localities_master.csv')
 tislit_loc = loc[loc['Geosite_Name'].str.contains('Tislit', case=False, na=False)]
 print(tislit_loc[['Locality_ID', 'Geosite_Name', 'Observation_Count', 'Source_Files']].to_string(index=False))
 if len(tislit_loc):
@@ -676,10 +676,10 @@ if len(tislit_loc):
 - [ ] **Step 5: Commit**
 
 ```bash
-git add livrable/phase1_v2_accessibility/code/01_consolidate_geosite_catalog.py \
-        livrable/phase1_v2_accessibility/data/geosites_localities_master.csv \
-        livrable/phase1_v2_accessibility/data/geosites_needs_review.csv \
-        livrable/phase1_v2_accessibility/data/geosites_observations.csv
+git add geosite_v2_work/code/01_consolidate_geosite_catalog.py \
+        geosite_v2_work/data/geosites_localities_master.csv \
+        geosite_v2_work/data/geosites_needs_review.csv \
+        geosite_v2_work/data/geosites_observations.csv
 git commit -m "feat: construct deduplicated locality table from observations via explicit hierarchy and cross-source fuzzy matching"
 ```
 
