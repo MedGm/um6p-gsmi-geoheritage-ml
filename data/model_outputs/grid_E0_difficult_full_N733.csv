@@ -1,0 +1,4 @@
+model,config,mean_acc,std_acc
+GBM,"{""learning_rate"": 0.1, ""max_depth"": 3, ""n_estimators"": 50}",0.7489423166526884,0.03144717980441851
+XGB,"{""learning_rate"": 0.08, ""max_depth"": 4, ""n_estimators"": 50}",0.7475724536389899,0.02732331695576616
+RF,"{""max_depth"": 4, ""min_samples_leaf"": 2, ""n_estimators"": 50}",0.6766284596030193,0.04135053789907214

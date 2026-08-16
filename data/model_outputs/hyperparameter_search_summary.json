@@ -1,0 +1,16 @@
+{
+  "best_single_config": {
+    "model": "XGB",
+    "n_est": 150.0,
+    "max_depth": 4.0,
+    "min_leaf": NaN,
+    "mean_acc": 0.6907384615384615,
+    "std_acc": 0.08543518391674225,
+    "lr": 0.03,
+    "C": NaN,
+    "gamma": NaN
+  },
+  "best_single_loocv_acc": 0.7091633466135459,
+  "tuned_ensemble_loocv_acc": 0.7250996015936255,
+  "total_time_s": 2556.5405111312866
+}

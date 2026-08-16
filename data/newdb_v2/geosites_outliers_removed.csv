@@ -1,0 +1,11 @@
+Observation_ID,Geosite_Name,Latitude_WGS84,Longitude_WGS84,Region,Geosite_Type,Geological_Domain,Locality_Center_Lat,Locality_Center_Lon,Locality_Group_Key,Coordinate_Precision,Source_File,Source_Row_Ref,Center_Coord_Source,Is_Merchich_Format,Correction_Applied,Ground_Truth_Note
+obs2_00315,Fossiliferous site of Tighalghalt,6.076388888888888,-32.19166666666666,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_expanded_20260809_group_28,point,geoheritage_expanded_20260809,418,,False,,
+obs2_00368,Cylindrical folds of Ordovician quartzites,28.222777777777775,-13.886666666666667,Dakhla-Oued Eddahab,St,Middle Atlas,,,geoheritage_expanded_20260809_group_33,point,geoheritage_expanded_20260809,582,,False,,
+obs2_00369,Breached fold east of the sebkha,28.222777777777775,-13.886666666666667,Dakhla-Oued Eddahab,Mo,Middle Atlas,,,geoheritage_expanded_20260809_group_33,point,geoheritage_expanded_20260809,583,,False,,
+obs2_00396,Phosphate de posit of Ganntour,32.13,8.5,Doukkala-Abda,T,Meseta,,,geoheritage_expanded_20260809_group_35,point,geoheritage_expanded_20260809,614,,False,,
+obs2_00405,Mohammed Azeroual,33.49861111111111,-42.135555555555555,,PL,Middle Atlas,,,geoheritage_expanded_20260809_group_36,point,geoheritage_expanded_20260809,624,,False,,
+obs2_00487,Rueda Nummilitic succession,35.21681867416516,-7.038234482553246,Tanger-Al Hoceima,,Rif,,,geoheritage_expanded_20260809_group_45,point,geoheritage_expanded_20260809,758,,True,,
+obs2_00511,Jbel Lakraa Panorama,35.22546728105963,-7.031513161569286,Tanger-Al Hoceima,,Rif,,,geoheritage_expanded_20260809_group_45,point,geoheritage_expanded_20260809,782,,True,,
+obs2_00562,Danou spring,39.19523,-5.178882,Tanger-Al Houceima,,Rif,,,geoheritage_expanded_20260809_group_48,point,geoheritage_expanded_20260809,845,,False,,
+obs2_00911,Aghbalou n’Bou Harch,3.2498916666666666,-5.071091666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_expanded_20260809_group_66,point,geoheritage_expanded_20260809,1202,,False,,
+obs2_00944,Ain Aghbal,-5.252077777777778,33.43946944444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_expanded_20260809_group_66,point,geoheritage_expanded_20260809,1235,,False,,

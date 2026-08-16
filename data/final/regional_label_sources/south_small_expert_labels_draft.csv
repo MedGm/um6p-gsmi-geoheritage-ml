@@ -1,0 +1,69 @@
+Locality_ID,Geosite_Name,Expert_Class,Confidence,Expert_Reasoning
+loc_00263,Rounded hills of nepheline syenite,Moderate,Medium,Located next to Awsard on the road to Dakhla (Recommended Geoheritage Trails in Southern Morocco) -- roadside outcrop in a remote region.
+loc_00264,Magmatic lineation,Moderate,Medium,Same site/access as loc_00263.
+loc_00265,Dliyat N’sour migmatite with large basic blocks crosscut by granite veins,Moderate,Medium,"A ridge ~10km north of Awsard, close to the Dakhla road (same geoheritage trail source)."
+loc_00267,Laglat mica-schists showing superimposed structures,Moderate,Medium,"Reached by a short drive on the road to Dakhla, part of the same geoheritage trail."
+loc_00266,Awsard panorama,Very Difficult,High,"Awsard described (Roads & Kingdoms) as extremely remote: closest water well 12 miles away, nearest food market 160 miles away, 'more or less a ghost village.'"
+loc_00261,Metabasite,Moderate,Medium,Road to Awsard crosses the largest metagabbro complex of the Adrar Souttouf massif -- roadside outcrop (ScienceDirect Adrar Souttouf geochemistry paper).
+loc_00262,Metagabbro of the Adrar Souttouf massif,Moderate,Medium,Same roadside-outcrop access as loc_00261.
+loc_00260,Neolithic engravings on Lower Cretaceous sandstones,Moderate,Medium,Engravings on red sandstone blocks on a small hill next to the road near Awsard (same geoheritage trail source).
+loc_00256,Dewatering fold,Moderate,Low,"Part of the same southern-Morocco geoheritage trail (Izik deposits), no explicit road-access detail found beyond regional trail context."
+loc_00257,Neptunian dyke in the Izik deposits,Moderate,Low,Same Izik-deposits geoheritage-trail context as loc_00256.
+loc_00258,Shark tooth,Moderate,Low,Same Izik-deposits geoheritage-trail context as loc_00256.
+loc_00259,Miocene-Pliocene succession,Moderate,Low,Same Izik-deposits geoheritage-trail context as loc_00256.
+loc_00251,Typical coastal cliff of the Dakhla peninsula,Moderate,Medium,"Coastal road runs directly along the Atlantic cliff top near Dakhla, described as a scenic roadside drive (Dakhla tourism guides)."
+loc_00252,North border of the Dakhla lagoon north of the artesian well,Moderate,Medium,Sphinx Rock cluster: isolated rock located close to the road to Awsard (geoheritage trail source).
+loc_00253,Sphinx Rock,Moderate,Medium,Same Sphinx Rock roadside-access context as loc_00252.
+loc_00254,Outcrops of Eocene formations beneath Miocene deposits,Moderate,Medium,Same Sphinx Rock cluster/roadside-access context.
+loc_00255,Lower Eocene Izik Formation with chert nodules,Moderate,Medium,Same Sphinx Rock cluster/roadside-access context.
+loc_00155,Khaoui Naàm Wadi,Difficult,High,Explicitly stated as 'only accessible to all-terrain vehicles' to reach the waterfall/gueltas (MDPI Khnefiss National Park geosites paper).
+loc_00156,Echguiguen Site,,Low,SKIP -- identified as an archaeological site near Laayoune/Akhfenir but no dedicated access-road information found.
+loc_00154,Tazgha salt Flats,Easy,High,"Easily accessible from Route Nationale 1, connecting Laayoune and Tan-Tan (La Vie eco / regional tourism sources)."
+loc_00150,Naїla Lagoon,Moderate,High,"Easily accessible off the major highway, but many routes around the park are sandy/unpaved requiring 4WD (Bewildered in Morocco - Naila Lagoon guide)."
+loc_00153,Tinouchad daya,Moderate,Medium,A small daya a few km from Akhfenir within Khnifiss park's sandy/unpaved network.
+loc_00152,Steady dunes,Difficult,Low-Medium,"Part of the Khnifiss dune-field system, reached via sandy unpaved park tracks -- inferred from park-wide description, no site-specific text."
+loc_00163,Asrir Oasis,Easy,High,"13km SE of Guelmim, has guesthouses, reachable via normal roads (Journal of Natural Sciences oasis-tourism article)."
+loc_00160,Abaynou station,Easy,High,"Reachable by taxi from Guelmim (30 min), ~15km from town (Petit Fute/RGON)."
+loc_00162,Assaka Basin,,Low,SKIP -- no site-specific tourism-access text found for the basin itself.
+loc_00159,Amtoudi waterfall and Bougaa source,Moderate,Medium,Village 235km SE of Agadir in a canyon; features require walking into gorges/gueltas beyond the village.
+loc_00158,Amtoudi travertines,Moderate,Medium,Same Amtoudi village/canyon-walk access as loc_00159.
+loc_00161,Pigeon cave,Easy,Low-Medium,"Guelmim geoheritage inventory assessed it as 'low risk of degradation, high potential for tourist use,' implying reasonably easy access -- summarized excerpt only."
+loc_00005,Sauropod tracksite,Moderate,Low-Medium,"Matches the Argana Basin/Tafaytour tracksite area (Middle Jurassic), described as paleoichnological heritage for sustainable geotourism, no explicit access detail."
+loc_00077,Arich OuzellaFm,Difficult,Low-Medium,Matches the Jbel Amsittene Range/geomorphosite (Essaouira Basin mountains); mountain-range formation implies foot access.
+loc_00057,Archaeoctic limestone,,Low,"SKIP -- no independent source specifically matching these coordinates (only a different, distant archaeocete site found)."
+loc_00065,Souira Lgdima,Moderate,Medium,"Beach site between Safi and Jorf Lihoudi, used for tourism and seaweed collection -- normal beach-road access (Safi province geosites inventory)."
+loc_00274,Zima Lake,,Low,SKIP -- salt lake (sebkha) location confirmed but no explicit access description found.
+loc_00275,Phosphate de posit of Ganntour,Difficult,Medium,"Active industrial OCP mining site (Benguerir/Youssoufia), not a general-public tourism site."
+loc_00066,Sidi Tiji Gypsum quarry,Difficult,Medium,Active/historical quarry 40km SE of Safi (Safi geosites inventory).
+loc_00067,Jorf Lihoudi,Moderate,Medium,"Beach positioned between Safi and Souira Lgdima, used for tourism/seaweed collection (same inventory)."
+loc_00058,Sidi Bouzid escarpment,Easy,High,"Marabout viewpoint on cliffs at Safi city edge, well-known frequented overlook/beach reached by normal roads (ViaMichelin/Safi tourism)."
+loc_00069,Panoramic view of the cliff,Easy,High,Same Sidi Bouzid viewpoint/roadside access as loc_00058.
+loc_00059,Chaâba valley,Moderate,Medium,"Home to Safi's traditional pottery district (100 potters, 74 workshops), implies road/village access."
+loc_00061,Sidi Abderrahmane dam,Easy,Medium-High,"~7km from Safi city center, a standard reservoir."
+loc_00060,Sidi Abderrahmane clayquarry,Moderate,Medium,"10km east of Safi, active/historical clay-extraction basin."
+loc_00062,Escarpment of Lalla Fatna,Moderate,High,"15km from Safi, reachable by local bus, then ~30 min walk down a steep serpentine road/2km descent to the beach (Roaming Surfer, pinyourfootsteps.com)."
+loc_00270,Lalla Fatna escarpment,Moderate,High,Same Lalla Fatna access as loc_00062.
+loc_00064,El Goraan cave,Difficult,Medium,"Karstic cave system near Cape Beddouzza requiring cave exploration/speleology (Safi geosites inventory, visitmorocco.com)."
+loc_00273,Sidi Moussa Lagoon,Moderate,Medium,"Undeveloped nature reserve, reached via a path/road along the lagoon and unpaved tracks further out (independent Oualidia-region travel blog)."
+loc_00269,Sidi Saïd Mâachou Basin,Difficult,Low,"Panorama paired in source with adjacent Boulaouane Kasbah, reached via a bone-shaking potholed single-track road 6km off the El Jadida-Settat road -- low confidence, not site-exact."
+loc_00272,ElKhénzira cave,Moderate,Medium,"Located near Jorf Lasfar port, ~1km from the coast at ~20m elevation, within reach of Moulay Abdallah municipality."
+loc_00271,Jorf Lasfar escarpment,Difficult,Medium,"Jorf Lasfar is a major industrial/mining port (OCP fertilizer complex), not open public tourism ground."
+loc_00268,Late Precambrian rhyolites of Sidi Daoui,Moderate,Low-Medium,"Listed within the Doukkala-Abda geoheritage inventory near El Jadida, co-located with an active phosphate mine -- restricted/industrial-adjacent access inferred."
+loc_01184,Continental uplift & coastal erosion,Moderate,Low,"Dist_to_Highway_m=691m -- coastal cliff/erosion feature on the Dakhla peninsula. No independent source found; class based on coastal-cliff terrain (crumbling ground, tidal caution plausible for this feature type) + moderate road proximity, not a citation."
+loc_01185,Artesian well,Moderate,Low,Dist_to_Highway_m=2322m -- a maintained well may have its own unpaved access track even without registering as a paved OSM road; softened from an initial 'Easy' claim (no independent source) to Moderate given the real 2.3km distance from any paved road.
+loc_01186,Marine fossils & phosphate genesis,Moderate,Low,"Dist_to_Highway_m=142m -- close to a paved road on the Dakhla coastal strip, but coastal cliff/fossil-bed terrain plausibly needs care. No independent source found."
+loc_01187,Continental fossils & sedimentaion,Moderate,Low,"Dist_to_Highway_m=4043m (~4km) -- softened from an initial 'Easy/very close to N1 Expressway' claim, which the real GIS distance does not support; 4km from pavement is a real trip, not a short walk. No independent source found."
+loc_01188,Continental sedimentation & unconformity,Difficult,Low,"Dist_to_Highway_m=23950m (~24km) -- genuinely remote, off paved infrastructure; softened from an initial '~80km inland' claim which the real GIS distance (24km) does not support, though the general direction (real off-road desert travel required) holds. No independent source found."
+loc_01189,Metagabbros,Difficult,Low,"Dist_to_Highway_m=22430m (~22km) -- remote desert interior, real off-road travel required. Downgraded from an initial 'Very Difficult, satellite comms required' claim with no independent source and a templated (not site-specific) justification; 22km, while remote, doesn't clearly warrant the most extreme category without real verification."
+loc_01192,Upper Ordovician glaciation & unconformity,Difficult,Low,"Dist_to_Highway_m=6828m (~7km) -- remote but less extreme than nearby cluster members. Downgraded from an initial 'Very Difficult' claim (templated justification, no independent source, and the GIS distance is far less extreme than the two dropped sites in the same original batch)."
+loc_01193,Nappe kinematics & metapelites,Difficult,Low,"Dist_to_Highway_m=10458m (~10.5km) -- remote desert interior near the Mauritania border zone; downgraded from an initial 'Very Difficult, permits/convoy required' claim (templated justification, no independent source). Border-zone administrative/security constraints are plausible general knowledge for this area but weren't independently verified for this specific site."
+loc_00402,Cap Beddouza,Easy,High,"El Hamidy & Errami (2025) Safi Province geosite inventory explicitly describes Cap Beddouza as a captivating tourist destination for hikers and beach visitors, with caves and monumental heritage attracting significant visitor numbers; 306m from paved coastal highway."
+loc_00403,beach of Sidi Bouzide,Easy,High,"El Hamidy, Errami & Orion (2024) Sidi Bouzid geosite paper describes the escarpment/beach as frequently visited by holidaymakers and used for geoeducational visitor activities; 210m from paved road."
+loc_00404,The source Lalla Mira,Easy,High,Included as a stop in the 2024 Sidi Bouzid paper's visitor-oriented geoeducational itinerary; an independent local description states the spring is reached via a small winding road from Sidi Bouzid with a cafe immediately nearby. 347m from paved road.
+loc_00405,The wave of Saf,Easy,Medium,"2024 Sidi Bouzid geosite paper identifies the Wave of Safi as a visitor feature of the developed Sidi Bouzid beach/escarpment area; 1228m from paved highway. Site-specific access detail is thinner than for loc_00403/loc_00404, hence Medium not High."
+loc_00413,Triassic-Quaternary contact,Easy,Medium,"Arrad et al. (2020) states the Jbel Amsittene geosite complex is easily accessible overall; this specific stratigraphic contact is only 71m from the paved road, directly supporting the general claim for this point."
+loc_00414,Quaternary-Jurassic contact,Easy,Medium,"Arrad et al. (2020) states the Jbel Amsittene geosite complex is easily accessible overall; this contact is 173m from the paved road, consistent with the general claim."
+loc_00418,Macrofossils,Easy,Medium,"Arrad et al. (2020) documents this macrofossil-bearing outcrop as part of the Jbel Amsittene complex described as easily accessible overall; 32m from paved road, directly roadside."
+loc_00420,Folded structure1,Easy,Medium,"Arrad et al. (2020) documents this folded outcrop within the Jbel Amsittene complex described as easily accessible overall; 11m from paved road, directly on the road edge."
+loc_00423,Amsittene folded structures,Easy,Medium,"Arrad et al. (2020) explicitly states the overall Jbel Amsittene massif is easily accessible; this prominent fold exposure is 35m from the paved road, directly supporting that claim."
+loc_00424,Alluvial cone,Easy,Medium,"Arrad et al. (2020) documents this Quaternary alluvial fan within the Jbel Amsittene complex described as easily accessible overall; 28m from paved road, directly on the road edge."

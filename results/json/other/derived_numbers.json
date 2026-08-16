@@ -1,0 +1,177 @@
+{
+  "dataset_composition": {
+    "Béni Mellal-Khénifra": {
+      "Difficult": 16,
+      "Easy": 47,
+      "Moderate": 94,
+      "Total": 157
+    },
+    "Drâa-Tafilalet": {
+      "Difficult": 20,
+      "Easy": 32,
+      "Moderate": 35,
+      "Total": 87
+    },
+    "Eddakhla-Oued Eddahab": {
+      "Difficult": 5,
+      "Easy": 0,
+      "Moderate": 20,
+      "Total": 25
+    },
+    "Fés-Meknés": {
+      "Difficult": 155,
+      "Easy": 84,
+      "Moderate": 83,
+      "Total": 322
+    },
+    "Grand Casablanca-Settat": {
+      "Difficult": 2,
+      "Easy": 0,
+      "Moderate": 3,
+      "Total": 5
+    },
+    "Guelmim-Oued Noun": {
+      "Difficult": 0,
+      "Easy": 3,
+      "Moderate": 2,
+      "Total": 5
+    },
+    "Laayoune-Sakia El Hamra": {
+      "Difficult": 2,
+      "Easy": 1,
+      "Moderate": 2,
+      "Total": 5
+    },
+    "Marrakech-Safi": {
+      "Difficult": 4,
+      "Easy": 13,
+      "Moderate": 7,
+      "Total": 24
+    },
+    "Rabat-Salé-Kénitra": {
+      "Difficult": 2,
+      "Easy": 8,
+      "Moderate": 11,
+      "Total": 21
+    },
+    "Souss-Massa": {
+      "Difficult": 2,
+      "Easy": 8,
+      "Moderate": 20,
+      "Total": 30
+    },
+    "Tanger-Tétouan-Al Hoceima": {
+      "Difficult": 6,
+      "Easy": 11,
+      "Moderate": 35,
+      "Total": 52
+    },
+    "Total": {
+      "Difficult": 214,
+      "Easy": 207,
+      "Moderate": 312,
+      "Total": 733
+    }
+  },
+  "confusion_derived": {
+    "difficult": {
+      "acc": 0.7408,
+      "pos": {
+        "precision": 0.5583,
+        "recall": 0.5374,
+        "f1": 0.5476
+      },
+      "neg": {
+        "precision": 0.8121,
+        "recall": 0.8247,
+        "f1": 0.8184
+      }
+    },
+    "easy": {
+      "acc": 0.7326,
+      "pos": {
+        "precision": 0.5274,
+        "recall": 0.5121,
+        "f1": 0.5196
+      },
+      "neg": {
+        "precision": 0.8102,
+        "recall": 0.8194,
+        "f1": 0.8147
+      }
+    }
+  },
+  "model_family_cluster_aware": {
+    "Logistic regression (multinomial)": 0.4638,
+    "k-NN, geographic distance (k=5-15)": 0.608,
+    "k-NN, feature-space distance (k=15-25)": 0.57,
+    "Gaussian Process (RBF, 10-fold group CV)": 0.5744,
+    "Tree ensemble (RF+XGB+GBM+LightGBM+CatBoost)": 0.5771
+  },
+  "leave_region_out_difficult": [
+    {
+      "region": "Béni Mellal-Khénifra",
+      "n_test": 157,
+      "acc": 0.707,
+      "local_majority": 0.898,
+      "gap_pp": -19.1,
+      "degenerate": false
+    },
+    {
+      "region": "Drâa-Tafilalet",
+      "n_test": 87,
+      "acc": 0.701,
+      "local_majority": 0.77,
+      "gap_pp": -6.9,
+      "degenerate": false
+    },
+    {
+      "region": "Fés-Meknés",
+      "n_test": 322,
+      "acc": 0.568,
+      "local_majority": 0.519,
+      "gap_pp": 5.0,
+      "degenerate": false
+    },
+    {
+      "region": "Rabat-Salé-Kénitra",
+      "n_test": 21,
+      "acc": 0.714,
+      "local_majority": 0.905,
+      "gap_pp": -19.0,
+      "degenerate": false
+    },
+    {
+      "region": "Souss-Massa",
+      "n_test": 30,
+      "acc": 0.833,
+      "local_majority": 0.933,
+      "gap_pp": -10.0,
+      "degenerate": false
+    },
+    {
+      "region": "Eddakhla-Oued Eddahab",
+      "n_test": 25,
+      "acc": 0.96,
+      "local_majority": 0.8,
+      "gap_pp": 16.0,
+      "degenerate": false
+    },
+    {
+      "region": "Marrakech-Safi",
+      "n_test": 24,
+      "acc": 0.833,
+      "local_majority": 0.833,
+      "gap_pp": 0.0,
+      "degenerate": true
+    },
+    {
+      "region": "Tanger-Tétouan-Al Hoceima",
+      "n_test": 52,
+      "acc": 0.788,
+      "local_majority": 0.885,
+      "gap_pp": -9.6,
+      "degenerate": false
+    }
+  ]
+}

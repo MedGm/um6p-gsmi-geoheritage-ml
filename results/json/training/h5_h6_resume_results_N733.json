@@ -1,0 +1,9 @@
+{
+  "H5_logistic_regression_baseline": {
+    "acc_logo_cluster": 0.4638
+  },
+  "H6_gaussian_process": {
+    "acc_group_cv_10fold": 0.5744,
+    "n_covered": 733
+  }
+}

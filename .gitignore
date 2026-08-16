@@ -16,6 +16,7 @@ venv.bak/
 .vscode/
 .idea/
 .DS_Store
+.claude/
 
 # Pipeline Logs
 logs/*.log
@@ -32,11 +33,19 @@ logs/*.log
 *.bbl
 *.blg
 
-# Temporary OSM Cache & Prototyping Shapefiles
-scratch/
-scratch/roads/
+# Prototyping shapefiles
 *.shp
 *.dbf
 *.shx
 *.prj
 *.cpg
+
+# Large / non-source directories (kept locally, not pushed to the repo)
+archive/
+cards_and_rasters/
+livrable/
+models/experimental/
+
+# Third-party copyrighted papers (not ours to redistribute)
+references/articles/978-3-031-27073-4.pdf
+references/articles/s12371-019-00347-4.pdf

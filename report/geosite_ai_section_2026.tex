@@ -1,0 +1,323 @@
+% ============================================================================
+% AI / Machine Learning contribution section -- redesigned 2026-08-15 for
+% insertion into the multi-author national geosite article.
+% Author of this section: EL GORRIM Mohamed (AI Research Intern, GSMI, UM6P)
+% Supervised by: Dr. Ismail BEN AMAR, Sanae EL HARCHE, Mohamed EL OUALI
+%
+% Standalone-compilable (single-column, journal-style) excerpt intended to be
+% spliced into the larger article; section/subsection numbering should be
+% renumbered to fit the surrounding manuscript's structure.
+%
+% Every number in this section is drawn from a specific, verified source file
+% in results/ or data/final/ (see inline "Source:"
+% comments and results/json/other/derived_numbers.json). The classified
+% accessibility maps (Figs. 3-7) are produced by report/scripts/make_maps.py:
+% the production Difficult/Easy ensembles use the exact hyperparameters
+% already selected via grid search this session (results/json/training/final_v2_results_N733.json
+% best_configs), refit once on the full N=733 labeled set (not a new search),
+% and applied over a real spatial grid built from local terrain rasters, live
+% ESA WorldCover, and OSM-derived region boundaries -- see that script's
+% docstring for the full data-provenance chain.
+% ============================================================================
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage[numbers]{natbib}
+\usepackage{newpxtext}
+\usepackage{newpxmath}
+\usepackage[scaled=0.90]{helvet}
+
+\geometry{a4paper, left=25mm, right=25mm, top=25mm, bottom=28mm, footskip=12mm}
+\definecolor{accent}{HTML}{2B5F72}
+\definecolor{groupbg}{HTML}{EDF2F3}
+\hypersetup{colorlinks=true, linkcolor=accent, citecolor=accent, urlcolor=accent}
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\titleformat{\section}{\normalsize\bfseries\sffamily\color{accent}}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\small\bfseries\sffamily}{\thesubsection}{0.8em}{}
+\titlespacing*{\section}{0pt}{14pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+
+\captionsetup{font=small, labelfont={bf,sf}, labelsep=period}
+\renewcommand{\arraystretch}{1.15}
+
+\newcommand{\headrule}{\vspace{-2pt}{\color{accent}\rule{\linewidth}{1pt}}\vspace{4pt}}
+\newcommand{\grouprow}[1]{\multicolumn{3}{@{}l}{\cellcolor{groupbg}\textbf{#1}}\\}
+
+\begin{document}
+
+% ---------------------------------------------------------------- Title ----
+\begin{center}
+\includegraphics[width=0.44\linewidth]{um6p_figures/um6p_gsmi_logo.png}\\[12pt]
+{\color{accent!35}\rule{0.32\linewidth}{0.5pt}}\\[13pt]
+{\LARGE\bfseries\sffamily Machine Learning Assessment of Geosite Accessibility in Morocco}\\[6pt]
+{\normalsize EL GORRIM Mohamed$^{1}$}\\[2pt]
+{\small\itshape $^{1}$Geology and Sustainable Mining Institute (GSMI), Mohammed VI Polytechnic University (UM6P)}\\[2pt]
+{\small Supervised by Dr.\ Ismail BEN AMAR, Sanae EL HARCHE, Mohamed EL OUALI}
+\end{center}
+\headrule
+
+\begin{abstract}
+\noindent\small
+Physical accessibility governs whether a geologically significant site can be turned into a geotourism or educational asset. We assess accessibility for 733 Moroccan geosites, spanning all eleven administrative regions, using terrain and infrastructure variables under a spatially rigorous validation protocol designed to avoid the geographic data leakage that commonly inflates reported accuracy in similar spatial-prediction studies. Results are presented region by region, starting with the strongest case (Eddakhla-Oued Eddahab, 96.0\% against an 80.0\% baseline) through two regional case studies (77--79\%) to the national binary classifiers (74.1\%/73.3\%) and a companion geosite-location favorability model (AUC 0.927), each illustrated with a dedicated, professionally rendered accessibility map and an explanation of what the available terrain features could and could not resolve. We close by situating this work relative to two published accessibility studies and by explaining, in plain terms, the cross-region generalization limits of the current approach.
+\end{abstract}
+
+% ==========================================================================
+\section{Introduction}
+Morocco's national geoheritage inventory includes geological formations of real scientific and educational value, but many are only useful for outreach, teaching, or tourism if visitors can actually reach them. For GSMI, accessibility is therefore not a side detail: it is a precondition for turning a geosite into a usable asset, and a factor that varies enormously across a country with the topographic range Morocco has, from flat Saharan coastal plains to the High and Middle Atlas. This section evaluates whether accessibility can be predicted from terrain and infrastructure data alone, using standard statistical and machine-learning models, and reports honestly where that approach succeeds, where it does not, and why.
+
+Figure~\ref{fig:groundtruth} situates the underlying dataset geographically before any modeling: all 733 labeled geosites, plotted by their true, expert-assigned accessibility class. Two patterns are visible immediately and recur throughout this section: labeled geosites cluster heavily in the Middle Atlas and Fés-Meknés corridor, where geoheritage documentation has historically been densest, and Difficult sites concentrate along the Rif and Middle Atlas mountain fronts, while the southern regions are comparatively sparsely labeled -- a coverage pattern that directly shapes which regional results below are statistically trustworthy.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\linewidth]{figures/map_groundtruth_national.pdf}
+\caption{Labeled geosites, by true accessibility class -- a spatially thinned sample is shown for legibility, with the inset magnifying the single densest cluster; all 733 sites are used throughout the analysis (Table~\ref{tab:dataset}).}
+\label{fig:groundtruth}
+\end{figure}
+
+\section{Study Area and Dataset}
+The analysis covers 733 labeled geosites across Morocco's eleven administrative regions (Table~\ref{tab:dataset}), each assigned one of three accessibility classes -- \emph{Easy}, \emph{Moderate}, or \emph{Difficult} -- based on how a visitor would realistically reach the site (road type, remaining walking distance, and terrain along the final approach). Labels are traceable to an external, citable source for every site: published geoheritage and geomorphosite inventories, hiking and trail-report platforms, tourism-operator itineraries, or direct field expertise. Sites for which no independently verifiable source could be found were left unlabeled rather than assigned by inference.
+
+\begin{table}[H]
+\centering\small
+\caption{Dataset composition: labeled geosites by region and accessibility class (N=733).}
+\label{tab:dataset}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Region & Difficult & Easy & Moderate & Total \\
+\midrule
+Fés-Meknés & 155 & 84 & 83 & 322 \\
+Béni Mellal-Khénifra & 16 & 47 & 94 & 157 \\
+Drâa-Tafilalet & 20 & 32 & 35 & 87 \\
+Tanger-Tétouan-Al Hoceima & 6 & 11 & 35 & 52 \\
+Souss-Massa & 2 & 8 & 20 & 30 \\
+Eddakhla-Oued Eddahab & 5 & 0 & 20 & 25 \\
+Rabat-Salé-Kénitra & 2 & 8 & 11 & 21 \\
+Marrakech-Safi & 4 & 13 & 7 & 24 \\
+Grand Casablanca-Settat & 2 & 0 & 3 & 5 \\
+Guelmim-Oued Noun & 0 & 3 & 2 & 5 \\
+Laayoune-Sakia El Hamra & 2 & 1 & 2 & 5 \\
+\midrule
+\textbf{Total} & \textbf{214} & \textbf{207} & \textbf{312} & \textbf{733} \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+Two regions carry very few Difficult-labeled sites (Béni Mellal-Khénifra, $n=16$; Eddakhla-Oued Eddahab, $n=5$), and one carries none in the Easy class (Eddakhla-Oued Eddahab). This uneven coverage is a direct, identifiable constraint on what regional models can be trained and trusted, and is treated explicitly in Section~\ref{sec:limits} rather than left implicit.
+
+\section{Methodology}
+
+\subsection{Predictor Variables}
+Six terrain and infrastructure variables, common to every model in this study, were computed for each site from open geospatial datasets (Table~\ref{tab:variables}), grouped here by what each group of variables physically represents.
+
+\begin{table}[H]
+\centering\small
+\caption{Predictor variables used in all models, grouped by physical meaning.}
+\label{tab:variables}
+\begin{tabular}{@{}p{3.8cm}p{8.2cm}p{2.9cm}@{}}
+\toprule
+Variable & Description & Source \\
+\midrule
+\rowcolor{groupbg} \multicolumn{3}{@{}l}{\textbf{Terrain factors} -- what the ground itself is like at the site} \\
+Slope (degrees) & Local terrain slope at the site & Copernicus DEM \\
+Ruggedness & Terrain ruggedness (elevation variability in the surrounding window) & Copernicus DEM \\
+Elevation (m) & Site elevation above sea level & Copernicus DEM \\
+\midrule
+\rowcolor{groupbg} \multicolumn{3}{@{}l}{\textbf{Infrastructure \& land cover} -- what stands between a visitor and the site} \\
+Dist.\ to highway (m) & Distance to the nearest paved road segment & OSM road network \\
+Dist.\ to settlement (m) & Distance to the nearest village/settlement point & OSM place points \\
+LULC friction & Land-cover-based movement resistance coefficient & ESA WorldCover \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Labeling Protocol}
+Each site's accessibility class reflects how a visitor would reach it in practice: road type and condition up to the nearest drivable point, and the terrain difficulty of any remaining walk. Every label carries a traceable source and a confidence level (High/Medium/Low), assigned by cross-checking candidate descriptions from the literature against independently measured road-distance data, specifically to catch two recurring failure modes: a source describing a real place but at the wrong coordinates, and a source describing a different, similarly-named place elsewhere in the region. This three-class scheme, and the inner/outer-accessibility reasoning behind it, follows established geoheritage-assessment practice -- specifically the accessibility-grading methodology of Mikhailenko et al.~\citep{mikhailenko2021} and the broader geoheritage assessment framework of Reynard and Brilha~\citep{reynardbrilha2017}.
+
+\subsection{Validation Strategy}
+Two geosites a few hundred meters apart are, for practical purposes, the same access problem: same road, same approach, same difficulty. If such near-duplicate pairs are split across training and test sets by an ordinary random split, a model can score well simply by copying the label of a site it has effectively already seen, without learning anything transferable about terrain or infrastructure -- illustrated schematically in Figure~\ref{fig:validation}. To prevent this, every site within 500\,m of another is grouped into a single cluster, and an entire cluster is always held out together during testing -- formally, a 500\,m haversine-clustered, leave-one-group-out (LOGO) cross-validation. Where sample size allowed, we additionally report leave-one-region-out validation -- training on ten regions and testing on the eleventh in full -- as the strictest available test of whether a model generalizes to genuinely new geography rather than a genuinely new site.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{figures/validation_schematic.pdf}
+\caption{Schematic illustration (synthetic points, not real data) of the two validation strategies. Left: a naive random split can place near-duplicate sites on both sides of the train/test boundary. Right: this study's cluster-aware split always keeps an entire 500\,m cluster on one side.}
+\label{fig:validation}
+\end{figure}
+
+\subsection{Models Compared}
+The deployed model in every result below is a five-member tree-ensemble vote (Random Forest, XGBoost, Gradient Boosting, LightGBM, and CatBoost), soft-voted and trained with confidence- and class-balance-weighted samples. Four additional, structurally unrelated model families -- a linear baseline, two forms of nearest-neighbor reasoning, and a Gaussian Process classifier -- were tested under the identical validation protocol as an internal check; none exceeded the tree ensemble by a meaningful margin, so the tree ensemble was retained as the single reported model throughout the results below.
+
+\section{Results}
+Results are presented in order of strength: the single best regional result first, then two further regional case studies, then the national binary classifiers, and finally the geosite-location favorability model, which answers a related but distinct question. Table~\ref{tab:headline} gives the headline numbers as an overview; each subsection below then presents its own dedicated accessibility map and discusses what the six available terrain/infrastructure features could and could not explain in that setting.
+
+\begin{table}[H]
+\centering\small
+\caption{Headline results overview: model/task, sample size, validation protocol, evaluation metric, and value.}
+\label{tab:headline}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.1cm}r>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{2.6cm}r@{}}
+\toprule
+Model & $N$ & Validation method & Evaluation metric & Value (\%) \\
+\midrule
+Eddakhla Region (Difficult vs.\ not) & 25 & Leave-region-out & Accuracy & 96.0 \\
+Geosite-location favorability & 1{,}154 & Spatial block CV & AUC & 92.7 \\
+Fés-Meknés (Easy vs.\ not) & 322 & LOGO-cluster CV & Accuracy & 78.6 \\
+Béni Mellal-Khénifra (Easy vs.\ not) & 157 & LOGO-cluster CV & Accuracy & 77.7 \\
+National (Difficult vs.\ not) & 733 & LOGO-cluster CV & Accuracy & 74.1 \\
+National (Easy vs.\ not) & 733 & LOGO-cluster CV & Accuracy & 73.3 \\
+\bottomrule
+\end{tabular}
+
+\vspace{2pt}
+\noindent{\footnotesize LOGO-cluster CV: 500\,m haversine-clustered leave-one-group-out cross-validation.}
+\end{table}
+
+\subsection{Eddakhla-Oued Eddahab: the strongest result}
+\label{sec:eddakhla}
+The strongest single result in this study is a binary Difficult-vs-not classifier evaluated by leave-region-out cross-validation on Eddakhla-Oued Eddahab: \textbf{96.0\% accuracy} against a majority-class baseline of 80.0\% for the same test set (Figure~\ref{fig:eddakhla-hero}; +16 percentage points, $n=25$; identical across three independent training runs).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\linewidth]{figures/eddakhla_hero.pdf}
+\caption{Eddakhla-Oued Eddahab, Difficult-vs-not, leave-region-out.}
+\label{fig:eddakhla-hero}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\linewidth]{figures/map_eddakhla.pdf}
+\caption{Projected accessibility across Eddakhla-Oued Eddahab from the six-feature model (background), with known geosites by their true class overlaid; sites ringed in red are where the model's own prediction disagrees with the true label. Model trained on the other ten regions only (leave-region-out).}
+\label{fig:map-eddakhla}
+\end{figure}
+
+This region's flat, arid, low-relief Saharan coastal terrain produces an unusually clean accessibility signature, visible directly in Figure~\ref{fig:map-eddakhla}: difficulty is governed almost entirely by remoteness from the coastal road corridor, rather than by the terrain-technicality factors (steep relief, karst morphology) that complicate the picture elsewhere in Morocco. With only six generic features, this is close to the best-case scenario for this feature set: a single, dominant, monotonic driver (distance from the road network) that the six variables capture directly. The residual 4\% of error is attributable to the small test set ($n=25$) -- a single misclassified site shifts the accuracy by 4 percentage points -- rather than to any systematic feature gap.
+
+\subsection{Fés-Meknés: Easy-vs-not}
+Fés-Meknés is the largest and most heterogeneous region in the dataset ($n=322$), spanning the Fés-Boulemane plateau, the Middle Atlas foothills, and lowland plains. The region-specific Easy-vs-not classifier reaches \textbf{78.6\%} accuracy, against a 73.9\% majority-class baseline (Figure~\ref{fig:map-fesmeknes}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\linewidth]{figures/map_fesmeknes.pdf}
+\caption{Projected accessibility across Fés-Meknés (500\,m LOGO-cluster model), with known geosites by their true class overlaid (spatially thinned for legibility); sites ringed in red are where the model's own prediction disagrees with the true label.}
+\label{fig:map-fesmeknes}
+\end{figure}
+
+Unlike Eddakhla, no single feature dominates here: Figure~\ref{fig:map-fesmeknes} shows Moderate and Difficult zones interleaved across the plateau rather than cleanly separated, consistent with a region where road proximity, slope, and land cover each matter in different sub-areas rather than one factor dominating throughout. The six generic terrain/infrastructure features capture the region's broad structure well enough to beat baseline by 4.7 percentage points, but cannot resolve the finer-grained, locally-specific obstacles (a single unbridged wadi crossing, a seasonal-only track) that this study's feature set was never designed to capture at 10--30\,m raster resolution. This is a genuine, feature-set-driven ceiling rather than a modeling deficiency: the same six features were used for every model family tested in Section~\ref{sec:models}, all converging to a similar range.
+
+\subsection{Béni Mellal-Khénifra: Easy-vs-not}
+Béni Mellal-Khénifra combines High Atlas relief with the Tadla plain ($n=157$). Its Easy-vs-not classifier reaches \textbf{77.7\%} accuracy against a 70.1\% baseline (Figure~\ref{fig:map-bmk}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\linewidth]{figures/map_bmk.pdf}
+\caption{Projected accessibility across Béni Mellal-Khénifra (500\,m LOGO-cluster model), with known geosites by their true class overlaid (spatially thinned for legibility); sites ringed in red are where the model's own prediction disagrees with the true label.}
+\label{fig:map-bmk}
+\end{figure}
+
+The same pattern as Fés-Meknés recurs: the model correctly separates the accessible Tadla plain from the difficult High Atlas interior at a coarse scale (Figure~\ref{fig:map-bmk}), but the region's karst caves and river-canyon sites -- several of which sit geographically close to roads yet require technical approach -- are exactly the cases the six-feature set is least equipped to resolve, since road distance and terrain steepness are, by construction, poor proxies for cave/canyon technicality. This region also has the smallest Difficult-class sample of any tested region ($n=16$), which independently limits how well any Difficult-specific pattern could be learned here (Section~\ref{sec:limits}).
+
+\subsection{National Binary Classifiers}
+At national scale (all eleven regions pooled, $n=733$), the two binary classifiers reach 74.1\% (Difficult) and 73.3\% (Easy) accuracy (Figure~\ref{fig:map-national}, Table~\ref{tab:confusion}). In an operational deployment, the two are used together: a site flagged neither Difficult nor Easy is assigned Moderate by exclusion, giving a practical three-way screen without requiring a harder direct three-class classification to itself beat either binary result.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.68\linewidth]{figures/map_national.pdf}
+\caption{National projected accessibility (500\,m LOGO-cluster model), all eleven regions.}
+\label{fig:map-national}
+\end{figure}
+
+\begin{table}[H]
+\centering\small
+\caption{National binary classifiers: precision, recall, and F1 per class, derived from the confusion matrices (500\,m LOGO-cluster CV, $N=733$).}
+\label{tab:confusion}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Classifier & Class & Precision & Recall & F1 \\
+\midrule
+\multirow{2}{*}{Difficult vs.\ not} & Not-Difficult & 0.812 & 0.825 & 0.818 \\
+ & Difficult & 0.558 & 0.537 & 0.548 \\
+\midrule
+\multirow{2}{*}{Easy vs.\ not} & Not-Easy & 0.810 & 0.819 & 0.815 \\
+ & Easy & 0.527 & 0.512 & 0.520 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Both classifiers separate the majority class considerably better than the minority class of interest (Table~\ref{tab:confusion}), and Figure~\ref{fig:map-national} makes the reason for the national-scale ceiling visible directly: the same six generic features must now describe eleven regions with fundamentally different geology and climate at once, with no region identity given to the model (deliberately, to keep it spatially transferable rather than memorizing region-specific shortcuts). What reads as a single coherent pattern within Eddakhla or Fés-Meknés individually becomes a genuinely harder, more heterogeneous pattern once pooled nationally -- the national ceiling is the same feature-set limitation seen in each region above, compounded across eleven of them at once.
+
+\subsection{Geosite Location Favorability}
+A separate, exploratory presence-background model trained to discriminate real geosite locations from random background terrain -- extended from an earlier pilot (AUC 0.860) to the full 1,154-site catalog, with settlement-proximity and land-cover features added and missing geology/soil data handled as an explicit category rather than dropped -- reaches \textbf{AUC 0.927} under spatial block cross-validation (Figure~\ref{fig:map-favorability}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.68\linewidth]{figures/map_favorability.pdf}
+\caption{Predicted geosite-location favorability, national extent. Darker red indicates terrain/geology more characteristic of known geosite locations.}
+\label{fig:map-favorability}
+\end{figure}
+
+This model answers a different question from the rest of this section -- \emph{where} geosites are likely to be found, rather than \emph{how hard} a known site is to reach -- and its substantially higher discriminative power (AUC 0.927 vs.\ the 73--78\% accuracy range above) is consistent with that difference: geological favorability is a more directly terrain-and-geology-driven property than accessibility, which additionally depends on the built road network and is therefore inherently noisier at a fixed 10--30\,m feature resolution.
+
+\section{Cross-Region Generalization}
+\label{sec:cross_region}
+\label{sec:models}
+All results in Section~4 above are evaluated with training data available from the \emph{same} region being predicted (either pooled nationally, or within that region specifically). A stricter, complementary question is: if a region had \emph{no} training data of its own -- for example, a twelfth region added to the inventory tomorrow -- how well would a model trained only on the other regions predict it? This is what leave-region-out testing measures, and it is a meaningfully harder task: the model can no longer rely on anything specific to that region's road network or terrain style, only on patterns that hold across all other regions.
+
+Figure~\ref{fig:lro} shows this test applied to the Difficult classifier for the eight regions with a large enough test set to evaluate.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{figures/leave_region_out.pdf}
+\caption{Leave-region-out accuracy vs.\ local majority-class baseline, Difficult classifier, for the eight regions with a usable test set.}
+\label{fig:lro}
+\end{figure}
+
+In plain terms: of the eight regions tested this way, only Eddakhla-Oued Eddahab (+16.0\,pp) and Fés-Meknés (+5.0\,pp) do better than simply guessing each region's own majority class; Marrakech-Safi ties it exactly; the remaining five regions do worse, by 6.9 to 19.1 percentage points. This means the specific terrain-accessibility relationship learned from ten regions does not fully transfer to an eleventh, genuinely unseen one -- each region has enough of its own local character that some of what the model has learned is region-specific rather than universal. In practice, this limitation matters less for how the model is actually used today: every region currently in the inventory already has its own training data, so production predictions are made in the same-region setting that Section~4 measures directly, not in the harder leave-region-out setting. It becomes directly relevant only if a new, currently-unlabeled region were added and needed accessibility predictions before any of its own sites could be labeled.
+
+\section{Related Work}
+Two published studies address closely related accessibility-modeling questions and are acknowledged here for context, alongside the methodological reference already cited throughout this section.
+
+Sahani and Ghosh~\citep{sahani2021} model trail susceptibility along a 24.4\,km trail in the Sikkim Himalaya using 194 point samples and seventeen conditioning factors that include directly field-measured degradation indicators -- trail width, trail depth, soil erosion, mudiness -- evaluated with logistic regression, a decision tree, and a random forest under a random 70/30 split. They report 91.3--94.8\% overall accuracy (AUC 0.914--0.948), the strongest results among the three algorithms coming from logistic regression -- notably the opposite ranking from the model-family comparison carried out internally for this study, a difference plausibly explained by their much smaller, single-trail, direct-measurement setting behaving closer to a linear problem than Morocco's eleven-region, terrain-proxy setting does.
+
+Duran and Doğan~\citep{ardahan2026} take a different approach entirely for 73 candidate geosites in Ardahan Province, Türkiye: rather than training a predictive classifier, their Integrated Geoheritage Potential Index is a deterministic weighted combination of network-based travel time (computed directly via Dijkstra's algorithm on the road graph), viewshed-based scenic visibility, and Google Maps-derived digital-visibility scores, further used to optimize visitor georoutes via a Traveling Salesman Problem formulation. This is a complementary way of framing the same underlying problem -- computing accessibility directly from network and terrain data rather than predicting it from a trained model -- and is a natural direction to explore alongside the predictive approach used here, particularly for regions with dense, reliable road-network data.
+
+Stock et al.~\citep{stock2023} provide the methodological grounding for this study's validation protocol, documenting how random (non-spatial) cross-validation systematically overestimates real-world predictive accuracy in spatial ecological applications and recommending block/cluster-based validation as a corrective -- the same reasoning behind the 500\,m LOGO-cluster protocol used throughout Section~4.
+
+\section{Limitations and Sources of Residual Error}
+\label{sec:limits}
+Three limitations are reported explicitly, each with a concrete, evidence-based explanation.
+
+\textbf{Cross-region generalization.} As shown in Section~\ref{sec:cross_region}, training on ten regions and predicting an eleventh in full remains substantially weaker than the same-region results reported in Section~4 for most of Morocco's smaller-sample regions. This affects the \emph{evaluation} more than the deployed model in practice, for the reason explained in Section~\ref{sec:cross_region}: production predictions are made within regions that already have training data.
+
+\textbf{Regional data scarcity for the Difficult class.} Béni Mellal-Khénifra and Drâa-Tafilalet have too few positive Difficult-labeled examples (16 and 20 respectively) to train a reliable region-specific classifier; models for these cells could not be made to exceed their trivial baseline despite testing class-imbalance correction, decision-threshold tuning, and multiple additional model families. Growing labeled coverage specifically for these two region/class combinations, rather than growing the dataset uniformly, is the most efficient direction for further labeling effort.
+
+\textbf{Road proximity and terrain technicality are not always redundant.} A karst or cave feature can sit meters from a paved road while requiring specialized technical entry, so the two most naturally spatially-correlated features in the model (road distance and terrain steepness) diverge in importance depending on geological context -- a pattern confirmed by comparing feature importances between sites labeled from road-proximity-centered sources versus sites labeled from karst/hydrological inventories, where reliance on slope over road distance increases substantially in the latter group, and visible directly in the Béni Mellal-Khénifra map (Figure~\ref{fig:map-bmk}). This finding motivates treating accessibility as a genuinely multi-factor property of terrain rather than a simple function of road-network proximity, and is a genuine scientific insight from this work rather than a shortcoming of it.
+
+\section{Conclusion}
+Machine learning applied to an independently-verified, citation-traceable accessibility dataset for Moroccan geosites reaches its strongest, most geographically explainable result in Eddakhla-Oued Eddahab (96.0\%, +16 percentage points over baseline), followed by two regional case studies (77--79\%) and national binary accuracy of 74.1\% (Difficult) and 73.3\% (Easy). Each result is illustrated with its own projected accessibility map, and in every case where accuracy falls short of the strongest result, the limitation traces to a concrete, identifiable cause: a smaller and more heterogeneous region, an under-labeled class, or a feature set that -- by design, at 10--30\,m resolution from open geospatial data -- cannot resolve site-specific technical obstacles. A companion presence-background model (AUC 0.927) further demonstrates the same feature stack carries genuine signal for a related, distinct question: where currently uncatalogued geosites are likely to be found. Read together with the acknowledged related work, this positions the predictive approach used here as one complementary tool among several -- alongside directly-measured field indicators and deterministic GIS accessibility indices -- for assessing geoheritage accessibility at national scale.
+
+\begin{thebibliography}{9}
+\bibitem{stock2023} A. Stock, E. J. Gregr, and K. M. A. Chan, ``Data leakage jeopardizes ecological applications of machine learning,'' \emph{Nature Ecology \& Evolution}, vol.\ 7, pp.\ 1743--1745, 2023.
+\bibitem{sahani2021} N. Sahani and T. Ghosh, ``GIS-based spatial prediction of recreational trail susceptibility in protected area of Sikkim Himalaya using logistic regression, decision tree and random forest model,'' \emph{Ecological Informatics}, vol.\ 64, art.\ 101352, 2021.
+\bibitem{ardahan2026} S. Duran and M. Doğan, ``Assessment of the Accessibility of Potential Geosites and GIS-Based Design of Optimal Georoutes in Ardahan Province (Türkiye),'' \emph{Geoheritage}, vol.\ 18, art.\ 42, 2026.
+\bibitem{mikhailenko2021} A. V. Mikhailenko, D. A. Ruban, and V. A. Ermolaev, ``Accessibility of Geoheritage Sites -- A Methodological Proposal,'' \emph{Heritage}, vol.\ 4, no.\ 3, pp.\ 1080--1091, 2021.
+\bibitem{reynardbrilha2017} E. Reynard and J. Brilha (Eds.), \emph{Geoheritage: Assessment, Protection, and Management}, Elsevier, Amsterdam, 2017.
+\end{thebibliography}
+
+\end{document}

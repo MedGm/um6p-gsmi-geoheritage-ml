@@ -1,0 +1,96 @@
+Verbatim terminal output pasted by the user during this session, from running
+code/22_comprehensive_final.py on the Z8 workstation (2026-08-14). H0-H4
+completed successfully before the run crashed on H5 (fixed separately by
+code/22b_h5_h6_resume.py -> h5_h6_resume_results_N733.json). Preserved here
+as the source-of-record for every H0-H4 number cited in the report, since the
+run crashed before its own json.dump() call and no JSON file exists for
+these five sub-experiments.
+
+PS C:\Users\saads\Desktop\ISMAIL\geosite_project1> python .\code\22_comprehensive_final.py
+[    0.0s] LightGBM: True  CatBoost: True
+[    0.0s] Loading labels
+[    0.0s] N=733, class balance: {'Moderate': 312, 'Difficult': 214, 'Easy': 207}
+[    0.0s] Soil_Class coverage: 269/733  Geology_Class: 268/733  LULC_Class_Name: 269/733
+
+======================================================================
+H0 -- CLUSTER-RADIUS SENSITIVITY (250/500/1000/2000m), 3-class
+======================================================================
+[    0.2s]   radius=250m: clusters=653 singleton_rate=92.3%
+[  163.3s]     grid_search: 8400 flat fits queued (['RF', 'XGB', 'GBM', 'LGBM', 'CAT'])
+[  268.1s]     logo_cluster_cv: 653 folds (weighted_vote=False)
+[  353.0s]   [radius=250m] LOGO-cluster CV acc=0.5662 adjacent=0.752 n_clusters=653
+[  353.1s]   radius=500m: clusters=622 singleton_rate=87.8%
+[  516.9s]     grid_search: 8400 flat fits queued (['RF', 'XGB', 'GBM', 'LGBM', 'CAT'])
+[  616.4s]     logo_cluster_cv: 622 folds (weighted_vote=False)
+[  697.0s]   [radius=500m] LOGO-cluster CV acc=0.5771 adjacent=0.755 n_clusters=622
+              region  n_test   acc  local_majority  gap_pp
+          Fés-Meknés     322 0.366           0.481   -11.5
+Béni Mellal-Khénifra     157 0.459           0.599   -14.0
+      Drâa-Tafilalet      87 0.483           0.402     8.0
+[  710.6s]   radius=1000m: clusters=547 singleton_rate=82.4%
+[  857.5s]     grid_search: 8400 flat fits queued (['RF', 'XGB', 'GBM', 'LGBM', 'CAT'])
+[  956.0s]     logo_cluster_cv: 547 folds (weighted_vote=False)
+[ 1023.0s]   [radius=1000m] LOGO-cluster CV acc=0.5539 adjacent=0.758 n_clusters=547
+[ 1023.1s]   radius=2000m: clusters=427 singleton_rate=69.6%
+[ 1134.7s]     grid_search: 8400 flat fits queued (['RF', 'XGB', 'GBM', 'LGBM', 'CAT'])
+[ 1233.4s]     logo_cluster_cv: 427 folds (weighted_vote=False)
+[ 1292.0s]   [radius=2000m] LOGO-cluster CV acc=0.5539 adjacent=0.765 n_clusters=427
+[ 1292.0s] H0 summary: 250m=0.5662  500m=0.5771  1000m=0.5539  2000m=0.5539
+
+======================================================================
+H1 -- k-NN: naive CV vs cluster-aware CV vs leave-region-out (leakage demo)
+======================================================================
+[ 1295.2s]   [geographic_haversine k=3] naive_random_cv=0.603  cluster_aware_500m=0.595  leave_region_out={'Fés-Meknés': 0.276, 'Béni Mellal-Khénifra': 0.439, 'Drâa-Tafilalet': 0.299}
+[ 1298.4s]   [geographic_haversine k=5] naive_random_cv=0.610  cluster_aware_500m=0.608  leave_region_out={'Fés-Meknés': 0.314, 'Béni Mellal-Khénifra': 0.522, 'Drâa-Tafilalet': 0.31}
+[ 1301.5s]   [geographic_haversine k=10] naive_random_cv=0.618  cluster_aware_500m=0.603  leave_region_out={'Fés-Meknés': 0.307, 'Béni Mellal-Khénifra': 0.49, 'Drâa-Tafilalet': 0.402}
+[ 1304.7s]   [geographic_haversine k=15] naive_random_cv=0.614  cluster_aware_500m=0.608  leave_region_out={'Fés-Meknés': 0.329, 'Béni Mellal-Khénifra': 0.484, 'Drâa-Tafilalet': 0.448}
+[ 1307.8s]   [geographic_haversine k=25] naive_random_cv=0.591  cluster_aware_500m=0.574  leave_region_out={'Fés-Meknés': 0.339, 'Béni Mellal-Khénifra': 0.484, 'Drâa-Tafilalet': 0.471}
+[ 1308.9s]   [feature_space_standardized k=3] naive_random_cv=0.595  cluster_aware_500m=0.533  leave_region_out={'Fés-Meknés': 0.295, 'Béni Mellal-Khénifra': 0.401, 'Drâa-Tafilalet': 0.345}
+[ 1310.0s]   [feature_space_standardized k=5] naive_random_cv=0.574  cluster_aware_500m=0.533  leave_region_out={'Fés-Meknés': 0.323, 'Béni Mellal-Khénifra': 0.452, 'Drâa-Tafilalet': 0.414}
+[ 1311.1s]   [feature_space_standardized k=10] naive_random_cv=0.598  cluster_aware_500m=0.570  leave_region_out={'Fés-Meknés': 0.301, 'Béni Mellal-Khénifra': 0.452, 'Drâa-Tafilalet': 0.46}
+[ 1312.2s]   [feature_space_standardized k=15] naive_random_cv=0.558  cluster_aware_500m=0.570  leave_region_out={'Fés-Meknés': 0.301, 'Béni Mellal-Khénifra': 0.408, 'Drâa-Tafilalet': 0.402}
+[ 1313.3s]   [feature_space_standardized k=25] naive_random_cv=0.547  cluster_aware_500m=0.550  leave_region_out={'Fés-Meknés': 0.283, 'Béni Mellal-Khénifra': 0.401, 'Drâa-Tafilalet': 0.471}
+
+======================================================================
+H2 -- + Soil_Class/Geology_Class/LULC_Class_Name (missing-as-category)
+======================================================================
+[ 1313.3s]   H2 feature count: 51 (base 6 + 45 categorical dummies)
+[ 1477.9s]     grid_search: 8400 flat fits queued (['RF', 'XGB', 'GBM', 'LGBM', 'CAT'])
+[ 1583.9s]     logo_cluster_cv: 622 folds (weighted_vote=False)
+[ 1670.0s]   [H2] LOGO-cluster CV acc=0.5757 adjacent=0.778 (H0 500m baseline was 0.5771)
+              region  n_test   acc  local_majority  gap_pp
+          Fés-Meknés     322 0.370           0.481   -11.2
+Béni Mellal-Khénifra     157 0.478           0.599   -12.1
+      Drâa-Tafilalet      87 0.448           0.402     4.6
+
+======================================================================
+H3 -- DATA-QUALITY DIAGNOSTIC (N_Raster_Cells_Imputed vs accuracy)
+======================================================================
+[ 1851.6s]     grid_search: 8400 flat fits queued (['RF', 'XGB', 'GBM', 'LGBM', 'CAT'])
+[ 1949.7s]     logo_cluster_cv: 622 folds (weighted_vote=False)
+[ 2030.5s]   accuracy by imputed-cell flag:
+                  mean  count
+imputed_flag
+False         0.592217    591
+True          0.514085    142
+
+======================================================================
+H4 -- WEIGHTED-VOTE (by each model's own CV acc) vs SIMPLE AVERAGE
+======================================================================
+[ 2030.5s]     logo_cluster_cv: 622 folds (weighted_vote=False)
+[ 2111.1s]     logo_cluster_cv: 622 folds (weighted_vote=True)
+[ 2193.3s]   simple_average=0.5771  weighted_by_cv_score=0.5771
+
+======================================================================
+H5 -- LOGISTIC REGRESSION BASELINE
+======================================================================
+Traceback (most recent call last):
+  File "C:\Users\saads\Desktop\ISMAIL\geosite_project1\code\22_comprehensive_final.py", line 414, in <module>
+    lr = LogisticRegression(max_iter=2000, multi_class="multinomial")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LogisticRegression.__init__() got an unexpected keyword argument 'multi_class'
+PS C:\Users\saads\Desktop\ISMAIL\geosite_project1>
+
+[H5 and H6 subsequently completed via code/22b_h5_h6_resume.py -- see
+h5_h6_resume_results_N733.json: H5 acc_logo_cluster=0.4638, H6 (10-fold
+group CV, RBF kernel) acc_group_cv_10fold=0.5744, n_covered=733/733.]

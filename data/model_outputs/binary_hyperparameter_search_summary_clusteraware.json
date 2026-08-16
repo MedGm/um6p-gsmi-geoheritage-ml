@@ -1,0 +1,30 @@
+{
+  "best_rf": {
+    "model": "RF",
+    "n_est": 200,
+    "max_depth": 7.0,
+    "min_leaf": 1.0,
+    "mean_acc": 0.7637410256410255,
+    "std_acc": 0.10956608785038191,
+    "lr": NaN
+  },
+  "best_xgb": {
+    "model": "XGB",
+    "n_est": 100,
+    "max_depth": 4.0,
+    "min_leaf": NaN,
+    "mean_acc": 0.7870461538461538,
+    "std_acc": 0.09444499966576946,
+    "lr": 0.03
+  },
+  "best_gbm": {
+    "model": "GBM",
+    "n_est": 100,
+    "max_depth": 2.0,
+    "min_leaf": NaN,
+    "mean_acc": 0.7641641025641026,
+    "std_acc": 0.0899729897375555,
+    "lr": 0.05
+  },
+  "cluster_holdout_acc": 0.7928286852589641
+}

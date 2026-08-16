@@ -1,0 +1,314 @@
+Locality_ID,Expert_Class,Geosite_Name,Confidence,Expert_Reasoning,Source
+loc_00147,Moderate,The travertine terraces of Bel Younech,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00142,Moderate,Mujer Muerta,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00141,Moderate,Abdessamad cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00140,Difficult,Jbel Younech Ruiniform aspects,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00145,Moderate,Jbel Chendir,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00146,Easy,Socio-cultural complex,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00179,Moderate,Akchour landslide,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00173,Easy,Stehat gneiss,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00176,Moderate,BeniBousera Peridotitic Complex,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00166,Moderate,Talâat Adrhosse Klippe,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00148,Difficult,Low coast of the SBEI of Jbel Moussa and islands,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00193,Easy,Jbel Bou Sliman,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00340,Easy,AmetrasseTertiary Fm Succession,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00180,Easy,Akchour Gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00182,Easy,Ras Ma Spring,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00278,Easy,The sandstone-mica flysch of the Oued Ledian coast,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00277,Easy,Current patterns and inverted series of the Tizirène nappe at Ksar Sghir,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00202,Easy,Tissimlane cherty limestone,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00181,Easy,Sidi Abdel Hamid,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00203,Moderate,Jbel Tissouka,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00279,Easy,Cap Malabata,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00183,Easy,BabTazaPhtanites,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00178,Moderate,Talambote Thrusting,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00328,Moderate,Talambote bad lands,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00318,Moderate,Oued Laou Gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00192,Moderate,Raghdat Southern,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00171,Difficult,"Dune,beachand cliffs of Kaâ Asrascoast",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00276,Moderate,The flute casts of Punta Cires,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00198,Moderate,Jbel Tellouja karst,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00375,Easy,Fahs-Anjra (Melloussa),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00200,Difficult,Pont de Dieu and Farda River,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00168,Moderate,Ibouharen Fold,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00191,Moderate,Kodiat Sbaâ,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00164,Moderate,Ali Thilat Dam,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00165,Moderate,Quarry of blocks,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00196,Difficult,Jbel Kelti,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00185,Difficult,Chrafate Spring,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00184,Moderate,Bouhala Landslice,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00201,Difficult,Oued ElKelaa Gorge and waterfall,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00194,Difficult,Jbel Lakraa,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00189,Difficult,Ametrasse rocks fall,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00188,Difficult,Jbel Chrafate,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00197,Difficult,Khzanat Spring,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00195,Difficult,Oued Tassikisste Gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00187,Difficult,Beni Derkoul Radiolarites,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00169,Difficult,Tirinesse Basin,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00170,Difficult,Koudiat Achacha,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00186,Difficult,Chrafate Alluvial Fan,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00199,Very Difficult,Raghdat Arimlal,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00263,Moderate,Rounded hills of nepheline syenite,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00264,Moderate,Magmatic lineation,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00265,Moderate,Dliyat N’sour migmatite with large basic blocks crosscut by granite veins,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00267,Moderate,Laglat mica-schists showing superimposed structures,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00266,Very Difficult,Awsard panorama,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00261,Moderate,Metabasite,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00262,Moderate,Metagabbro of the Adrar Souttouf massif,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00260,Moderate,Neolithic engravings on Lower Cretaceous sandstones,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00256,Moderate,Dewatering fold,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00257,Moderate,Neptunian dyke in the Izik deposits,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00258,Moderate,Shark tooth,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00259,Moderate,Miocene-Pliocene succession,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00251,Moderate,Typical coastal cliff of the Dakhla peninsula,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00252,Moderate,North border of the Dakhla lagoon north of the artesian well,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00253,Moderate,Sphinx Rock,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00254,Moderate,"Outcrops of Eocene for
+mations beneath Miocene deposits",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00255,Moderate,Lower Eocene Izik Formation with chert nodules,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00155,Difficult,Khaoui Naàm Wadi,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00154,Easy,Tazgha salt Flats,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00150,Moderate,Naїla Lagoon,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00153,Moderate,Tinouchad daya,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00152,Difficult,Steady dunes,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00163,Easy,Asrir Oasis,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00160,Easy,Abaynou station,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00159,Moderate,Amtoudi waterfall and Bougaa source,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00158,Moderate,Amtoudi travertines,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00161,Easy,Pigeon cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00005,Moderate,Sauropod tracksite,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00077,Difficult,Arich OuzellaFm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00065,Moderate,Souira Lgdima,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00275,Difficult,Phosphate de posit of Ganntour,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00066,Difficult,Sidi Tiji Gypsum quarry,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00067,Moderate,Jorf Lihoudi,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00058,Easy,Sidi Bouzid escarpment,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00069,Easy,Panoramic view of the cliff,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00059,Moderate,Chaâba valley,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00061,Easy,Sidi Abderrahmane dam,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00060,Moderate,Sidi Abderrahmane clayquarry,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00062,Moderate,Escarpment of Lalla Fatna,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00270,Moderate,Lalla Fatna escarpment,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00064,Difficult,El Goraan cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00273,Moderate,Sidi Moussa Lagoon,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00269,Difficult,Sidi Saïd Mâachou Basin,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00272,Moderate,ElKhénzira cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00271,Difficult,Jorf Lasfar escarpment,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00268,Moderate,Late Precambrian rhyolites of Sidi Daoui,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00215,Difficult,The El Karit mine: fillonien complex with the Tin and tungsten,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00216,Difficult,The El Karit mine: giant andalusite,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00213,Moderate,Variscan synoro genic Granite of Oulmes,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00214,Moderate,Oulmes Granite and metamorphism aureole contact,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00224,Moderate,Quaternary Basal tic flow of El Harcha,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00211,Moderate,Westphalian red conglomerates,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00210,Easy,Tournaisian reefal limestones Olistoliths of Tiddas,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00205,Moderate,Givetian reefal lime stones Stromatoporas,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00208,Moderate,Famenno-Tournai sian calcareous (Mid Devonian reef limestones) rocks falls of Tiliouine,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00207,Moderate,Givetian reefal lime stones Slump balls,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00206,Moderate,Givetian reefal lime stones Algal laminitis,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00223,Easy,Triassic-Miocene uncon of Maaziz,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00106,Moderate,Fam El Hisn water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00105,Moderate,Icht water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00131,Difficult,Tamanart canyon,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00133,Moderate,Addana Onion Peels,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00129,Moderate,Tadakoust gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00092,Moderate,Tadakoust Pyramids,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00095,Moderate,Tagmout mask,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00139,Moderate,Pyramids of Tadakoust,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00096,Easy,Alougoum Pyramid,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00097,Easy,Messalite cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00135,Moderate,"Badlands of Akka (glaciofluvial,
+ fluviomarine, & stream alluviums)",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00103,Easy,Akka water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00088,Moderate,Akka badlands,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00089,Moderate,Tata hearts,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00090,Moderate,Imitek Karsts,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00137,Moderate,Karsts of Imitek,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00102,Easy,Tata water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00125,Moderate,Agouliz gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00126,Moderate,Aygou gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00117,Moderate,Agouliz inlier,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00138,Moderate,ssafen’s Flatiron,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00093,Moderate,Issafen chevrons,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00091,Moderate,Issafenflat-irons,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00132,Easy,Foum Zguid mesa,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00100,Easy,Tissint water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00111,Moderate,Alougoum water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00134,Easy,Foum Zguid stream,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00099,Easy,Foum Zguid water gap,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00123,Difficult,Aguinane gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00121,Moderate,Alougoum gorge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00353,Difficult,Accident of Izelfane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00354,Difficult,Fossils of Ighzer Izelfane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00366,Easy,Boulemane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00355,Difficult,Diapir of Tittaouine,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00357,Difficult,Tittaouine Spring,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00367,Moderate,Guigou valley,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00374,Moderate,El Mers,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00369,Moderate,Taferdoust,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00361,Difficult,Sauropod footprints,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00371,Moderate,Anchrif,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00370,Moderate,Taghrout,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00372,Moderate,Skoura,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00072,Easy,Lake Ifrah (Dayet Ifrah),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00362,Very Difficult,Jbel Bou Naceur,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00071,Easy,Lake Aoua (Dayet Aoua),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00086,Moderate,Aïn Sebou,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00083,Difficult,Chaâra cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00081,Moderate,Ras El Oued cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00082,Difficult,Chaâra lapiaz,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00078,Moderate,Chiker polje,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00079,Moderate,Chiker cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00004,Difficult,Bleida granodiorite,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00003,Moderate,Oceanic Moho rocks,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00002,Moderate,Bou Offroh ophiolit,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00032,Moderate,Imider Tertiary strata,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00034,Moderate,Ait Youl Basalts,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00030,Moderate,Foum El Kouss Basalts,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00021,Easy,Tamlalet Monkey’s fingers structures,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00029,Moderate,Tinghir Paleozoic-Cretaceous unconformity,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00022,Moderate,Tissadrine Folds,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00020,Easy,Todgha Gorges,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00026,Moderate,"Tamtetoucht ""Red beds""",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00023,Moderate,"Msemrir ""Red Beds""",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00027,Difficult,Ait Hani Triassic salt cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00055,Moderate,Akhiam cave,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00050,Moderate,Late Jurassic theropod tracks,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00019,Difficult,"Ait Ali Ou-Ikkou ""Red beds""",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00048,Difficult,Msadrid ridge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00049,Difficult,Ait Ali Ou Ikkou's diapirsm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00044,Difficult,Dolerite dykes and sills,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00051,Moderate,Vertebrate tracks in the Isli Formation,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00046,Moderate,Meandering Melloul river,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00054,Difficult,Tassent ridge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00053,Moderate,Traces of Crocodylopodus meijidei,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00017,Moderate,Lac Tislit,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00043,Moderate,Tisli Lake,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00042,Difficult,Isli Lake,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00016,Difficult,Tridactyl footpreints,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00015,Difficult,Rhizocorallium burrows,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00013,Difficult,Limestone-marls  seq.,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00012,Difficult,Th. Burrows,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00011,Difficult,Current ripples,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00010,Difficult,Bioclastic limestone,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00009,Difficult,Synsedimentary Fd,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00008,Difficult,Turbidite/tempesitie,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00007,Difficult,Fault mirror,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00006,Difficult,Tension joints & veins,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00014,Difficult,Horst-graben structures,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00073,Moderate,Lake Aguelmame Sidi Ali,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00304,Moderate,"Beautiful views of the lake, the outlet and the meanders of Ahansal river",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00307,Moderate,Coffee built on the massive limestone of BIII,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00306,Moderate,Continental Guettioua Fm on the marine Fm BIII with a gap in the Tilougite Fm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00244,Moderate,Oued Ahençal river,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00305,Moderate,Panoramic view of the meanders,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00313,Moderate,"Limestone banks rich in fossils of gastropods, lamellibranch, brachio pods, ammonites, & places polypiers in the Ouaouizaght syncline",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00312,Moderate,"Oblique, cross-stratification, bioclasts of brachiopods & lamellibranchs on granary stone",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00311,Moderate,Well-distinguished fault making contact between the Fm m. BIII & the Guettioua Fm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00310,Moderate,Deep gorges in Fm BIII limestones from the Assif Assemssil river,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00246,Easy,Panoramic view of badlands and cuesta,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00303,Easy,The spectacular land scapes overlooking the entire Bine El Ouidane dam are panoramic,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00056,Difficult,The cliff granaries of Aoujgal,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00294,Moderate,Footprints of Theropod & Sauropod dinosaurs ( Saurischia dinosaurs) in silt beds of Bathonian-age (165 Ma),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00293,Easy,Passage of the marine carbonate deposits from FmBIII to the red layers (Middle and Upper Jurassic regression),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00295,Easy,YellowishTilouguite Fm of Upper Bajocian-Lower Bathonian age,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00292,Easy,"Black limestone beds of Fm BII with large ammonites  lamellibranchs, gasteropods, and polypiers",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00241,Easy,Dinosaur footprints,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00290,Easy,"Large lamellibranchs, gasteropods, and polypiers  (marl-limestones of Fm BII)",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00289,Easy,"Overfold affecting the marl-limestones of Fm
+ BII",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00288,Easy,"Rhynchonella-type brachiopods and big gasteropds ( marl-limestones of Fm
+ BII)",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00243,Easy,Assif Assemssil Bridge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00309,Easy,Cavities and caves  on the left bank of the Assif Assemsil,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00308,Easy,"Hotels, chalets and guest houses, coffee shop, and restaurants",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00286,Easy,Bine El Ouidane dam anchored in massive oncolithic limestones of the Fm BI,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00287,Easy,"Panoramic view on the Tadla plain and the Afourer
+ pumped storage power station (PSPS)",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00240,Easy,"Watercourse, river, lake, dam",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00242,Moderate,Panoramic view of the Ouaouizaght Syncline,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00297,Moderate,Panoramic view of the Ouaouizaght syncline (Cretaceous formation),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00299,Moderate,Euphorbia resinifiera (in Arabic Zakoum) couvering  the Iouardene Fm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00298,Moderate,Gypsum of the Iouaridene Fm of Lower Barremian (sabkha environment),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00245,Moderate,Oued el Abid Bridge,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00300,Moderate,The basaltic flow B2  (The Major effusive Upper Barremian event),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00301,Moderate,Mio-Pliocene alluvial terraces,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00302,Moderate,The acted conglomerates deposited by the ancient Oued El Abid River,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00237,Moderate,Fault-fold associated with the magmatic intrusion of Ait Boulmane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00225,Easy,Gabroic Intrusion of Idemrane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00232,Moderate,Dinosaur footprints of Ait wissadane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00239,Moderate,Folded structures Taghia-n-Ait Boulmane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00235,Moderate,Gabbroic intrusion of Taghia-n-Ait Boulmane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00234,Moderate,Karstic landscapes Taghia-n-Ait Boulmane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00238,Moderate,Taghia-n-Ait Boulmane gorges,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00226,Easy,Sills of Idemrane,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00285,Moderate,"Canyon Moudj, Foum El Ancer",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00248,Moderate,Moudj Canyon,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00284,Difficult,"Jbel Taçmit, Foum El Ancer",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00280,Easy,"Ain Asserdoune,  Béni Mellal city",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00247,Easy,Ain Asserdoune-Tamgnounte,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00314,Moderate,Spring of Ain Asserdoune,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00283,Moderate,"Sources d’Ouchrah, Tagzirte",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00249,Easy,Taghbaloute- n- Ouhlima,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00281,Easy,"Taghbaloute-n- Ouhlima, El Ksiba city",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00282,Easy,"Ain Tamda,  Zaouit Cheikh city",from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00076,Moderate,Famennian Zebra griottes limestones of Ziyar,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00075,Moderate,Famennian Griottes limestones of Bou Ounabdou,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00074,Moderate,Frasnian-Famennian Kellwasser black limestones of Bou Ounabdou,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00233,Moderate,Basaltic flow B1,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00229,Moderate,Chaos alteration of gabbros,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00231,Moderate,Dinosaur bone deposi tat Agard-n-Sgat,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00236,Moderate,Dyke of Taguelft,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00227,Moderate,Folded marly limstones of the Bine El OuidaneII  Fm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00228,Moderate,Fossil wood of the Azilal Fm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00291,Easy,Massive oncolitic limestones of Fm BIII ( beginning of Middle-Upper regression),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00230,Moderate,Red facies of the Guettioua Fm,from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00296,Moderate,The first basalt flow (the major effusive event of Middle Jurassic),from_old_pipeline,see data/final/regional_label_sources/,old_final_260
+loc_00726,Easy,Imi-n-Ifri natural bridge,High,"Multiple travel guides (Take Your Backpack, Atlas Nomads, Tripadvisor) confirm a paved road accessible year-round from Demnate (~6km) with public transport options; the bridge itself is a short 1-2hr walk from parking, no special skill needed.",bmk_pilot
+loc_00727,Easy,"Dinosaur footprints, Iwariden",High,"prehistoire-du-maroc.com (Iroutlane-Iwariden site page) states the trackway is located ""about fifteen meters from the road"" near the marabout of Sidi Boielkhalf, i.e. essentially roadside.",bmk_pilot
+loc_00728,Difficult,Jbel Rat ascension,Medium,"Peakery/PeakVisor/FastestKnownTime confirm a 3781m summit reached via the village of Agansou; travel descriptions note trails are ""not marked or maintained,"" recommending a local guide or GPS track -- a real, non-technical but remote high-mountain trek marketed as a multi-day ascension by trekking agency GEEKTRIP.",bmk_pilot
+loc_00729,Very Difficult,Jbel M'Goun ascension,High,"Wikiloc routes (""trek ascension M'Goun 4068,"" ""Jbel Mgoun 4071m - Ait Bouguemaz"") describe a 4-day trek from Ait Bougmez to the Tarkeddit plateau, with a 4-6hr summit day along a ridge sustained above 4000m; second-highest peak in Morocco.",bmk_pilot
+loc_00730,Moderate,Ait Bouguemez valley trek,High,"Trekking operators (climbingtoubkal.com, takeyourbackpack.com) rate the trail ""moderate""; valley floor is wide and flat with day-walk options between villages (Tabant, Agouti), reachable by public bus from Marrakech.",bmk_pilot
+loc_00731,Easy,"Dinosaur footprints, Ibakaliwine",Medium,"Travel-guide description (pinyourfootsteps.com et al.) places the footprints inside the village of Ibaqalliwn near Tabant, reached via a stone staircase (~30 steps) through a tunnel, or a 20-minute drive/1hr walk from Tabant center -- signposted with an information board.",bmk_pilot
+loc_00732,Moderate,Hiking lake Izoughar,Medium,"Lonely Planet and Wikiloc (""Ait bouguemaz -> lac izoughar"") describe an 11km round-trip hike from the village, ""pleasant hiking anytime of the year"" -- a real but manageable day hike.",bmk_pilot
+loc_00733,Difficult,Jbel Azourki ascension,Medium,"Wikiloc trails for Jbel Azourki (3677m) are rated Moderate-to-Difficult technical grade; can be done as a one-day trek starting ~1850m altitude, ~25km by car from Tabant village -- significant elevation gain, no technical climbing required.",bmk_pilot
+loc_00734,Very Difficult,Taghia sources,High,"UKClimbing destination guide and SummitPost/Pin Your Footsteps both describe Taghia village as ""accessible only on foot,"" one of the most isolated regions of the Atlas; reaching the gorges/sources takes ~6hrs hiking (often with donkeys), with associated climbing routes graded TD (Tres Difficile).",bmk_pilot
+loc_00735,Moderate,Cliffs of Ait Abdi Plateau,Medium,"Extrem-Sud trekking guide notes a modern bridge (inaugurated 2019) now allows vehicle crossing of the Assif Ait Abdi gorge, followed by a ~1km trail along the wadi to mountain shelters (azibs) and a hairpin ascent onto the plateau for trekking routes -- real hiking effort but not extreme.",bmk_pilot
+loc_00736,Moderate,Hiking around Imsfran Cathedral,Medium,"pinyourfootsteps.com describes it as ""a wonderful half-day hike""; bewilderedinmorocco.com recommends hiring a local guide if not an experienced mountain hiker. Located ~15km from Tilouguite village, Azilal province.",bmk_pilot
+loc_00737,Easy,Panoramic view of the Bin El Ouidane dam,High,"Serenity Morocco Tours / Morocco Magics describe the dam and Widiane terrace viewpoints as reachable directly by the paved provincial road from Beni Mellal/Azilal, with parking available -- no hiking required.",bmk_pilot
+loc_00738,Easy,Panoramic view of the Tadla plain,Medium,"Regional tourism sources describe the Afourer-Bin El Ouidane road as offering a ""much appreciated"" panoramic view over the Tadla plain; consistent with the site sitting just off a paved route (277m to nearest highway), a roadside viewpoint rather than a hike.",bmk_pilot
+loc_00756,Moderate,Ediacaran dyke structures,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00757,Moderate,Ediacaran-Lower Cambrian contact,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00758,Moderate,"Lower Cambrian ""Brèche à Micmacca""",High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00759,Moderate,Middle Cambrian Paradoxides-type trilobites,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00760,Moderate,Middle Cambrian regression sequences,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00761,Moderate,Lower Ordovician oncolite structures,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00762,Moderate,Middle Ordovician burrows and oolitic iron,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00763,Moderate,Upper Ordovician bioturbation and karstification,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00764,Moderate,Upper Ordovician sequences and faults,High,"El Ouali et al. 2026, Int. J. Geoheritage & Parks 14(1):127-146 (open access, DOI 10.1016/j.ijgeop.2026.01.003) -- Section 4.3 states directly: ""the nine geosites are logistically convenient; they can be visited in one to two days and are easily accessible on foot from the Imiter mining road, which connects to the N10 national road to the north. This provides convenient access for students and researchers."" All 9 sites require walking (1.5-4.8km from paved N10 per Dist_to_Highway_m) from an accessible mining road, not roadside/drive-up -- Moderate rather than Easy despite the paper calling it ""easily accessible.""",dt_pilot
+loc_00765,Easy,Visean–Infra-Cenomanian unconformity,Medium,"OSM/Nominatim reverse geocoding places this point directly on RN10 (tagged highway=primary), within the 'Nouvelle Tinghir' area of Ouaklim village, caïdat de Toudgha -- the entrance to the Tinghir-Todra Gorge corridor, independently documented by multiple tourism/hiking sources (Wikipedia, Komoot, travel guides) as a paved route ~15km/~20min drive from Tinghir. Source paper (El Ouali et al., 2026b) not accessible online to confirm its own access description.",dt_pilot
+loc_00766,Easy,Quaternary fluvial terraces,Medium,"OSM/Nominatim reverse geocoding places this point directly on RN10 (highway=primary) within Ouaklim village/Nouvelle Tinghir, same paved Tinghir-Todra Gorge corridor as loc_00765. Source paper (El Ouali et al., 2026b) not accessible online for its own access description.",dt_pilot
+loc_00767,Easy,Infra-Cenomanian gypsum & Quaternary travertine,Medium,"OSM/Nominatim reverse geocoding places this point directly on RN10 (highway=primary) within Ouaklim village/Nouvelle Tinghir, same paved corridor as loc_00765/766. Source paper (El Ouali et al., 2026b) not accessible online for its own access description.",dt_pilot
+loc_00747,Easy,Plain of Fezouata Shales,Medium,"Fezouata Shales outcrop cluster (Ternata Plain, geosites TER-PAL01-03) in Lahmidi (2021 PhD thesis, Fac. Sciences Rabat, underlying Lahmidi et al. 2020 Bani Geopark inventory, open access via toubkal.imist.ma/handle/123456789/33359). Source states several outcrops lie 'a moins de 100m de la route goudronnee' and that easy access is why fossil vendors dig there freely; 1.3km to highway fits this easily-accessed subset.",dt_pilot
+loc_00748,Moderate,Fossiliferous outcrop of Fezouata Shales 1,Medium,Part of the same Fezouata Shales outcrop cluster (Lahmidi 2021 thesis). The source explicitly flags one outcrop of this group (TER-PAL03) as having comparatively 'acces plus difficile' than the roadside sites. At 2.8km from the paved road this outcrop requires an unpaved-track stretch beyond the near-road outcrops.,dt_pilot
+loc_00749,Easy,Fossiliferous outcrop of Fezouata Shales 2,Medium,"Within the Fezouata Shales cluster (Lahmidi 2021 thesis), which states some outcrops (e.g. TER-PAL03) sit 'a moins de 100m de la route goudronnee.' At 577m from the highway, this outcrop matches that near-road, easily reached subset.",dt_pilot
+loc_00750,Moderate,Fossiliferous outcrop of Fezouata Shales 3,Medium,"Northernmost/most remote outcrop of the Fezouata Shales cluster (Lahmidi 2021 thesis). At 4.7km from the paved road it lies well beyond the roadside outcrops, consistent with the source's note that some Fezouata outcrops (TER-PAL03) have comparatively difficult, off-road access.",dt_pilot
+loc_00751,Moderate,Block1: Condensed series / Block 2: Hardground,Medium-High,"Matches the 'Bloc greseux de Zini' geosite pair in Lahmidi (2021 thesis): BEN-STR02 described as a 'serie condensee' and BEN-STR03 as a 'hard-ground siliciclastique', both noted as being in direct contact with the BEN-PAL01 Fezouata fossil outcrop. Reached via track off the Zagora-area roads, same general access class as the adjacent fossil sites.",dt_pilot
+loc_00752,Moderate,Desert landforms 1,Medium,"Matches the erg/reg geomorphological geosite category in Lahmidi (2021 thesis): source states these desert-landform sites are 'plus loin de la route goudronnee. Cependant, toutes ces zones sont facilement abordables depuis des pistes par des voiture tout terrain' (farther from pavement but easily reached by 4x4 off-road vehicle via track) -- standard desert-tour access, consistent with this site's 10km remoteness from any paved road.",dt_pilot
+loc_00753,Moderate,Desert landforms 2,Medium,"Same erg/reg geomorphological geosite category (Lahmidi 2021 thesis), which notes sites like ELI-GEO01 are 'pas loin de cette route nationale' yet still reached via piste/off-road vehicle rather than pavement. At 1.8km from the highway this fits that closer-in subset of desert-landform geosites.",dt_pilot
+loc_00754,Easy,The members of the first Bani are horizontal,High,"Matches geosite TAG-GEO03 in Lahmidi (2021 thesis): a Premier Bani cuesta observation point explicitly stated to be 'un paysage bien visible depuis de nombreux endroits le long de la route nationale qui connecte Tagounite a M'hamid El Ghizlane' -- i.e. visible and reached directly from the paved N9 national road, matching this site's 540m distance to the highway.",dt_pilot
+loc_00755,Easy,The first Bani constitutes a natural bar that blocks sand deposits,High,"Near-verbatim match to geosite TER-GEO04 in Lahmidi (2021 thesis), described as 'une barriere naturelle qui bloque l'action de vent' -- the same 'natural bar blocking sand' framing as the geosite name. The source notes a tourist camp was installed at this site specifically because of the sand accumulations, indicating routine vehicle/tour access despite being off the paved road (2.5km).",dt_pilot
+loc_00454,Easy,wadi Ziz canyon,High,"Within the Gorges du Ziz, traversed directly by the paved N13 highway (~55km Errachidia-Kerrandou) with marked lookout points/photo stops along the road itself; described as a must-do scenic drive (dangerousroads.org, Voyage-Maroc, Hertz Morocco 'Wonders of Ziz Valley').",dt_pilot
+loc_00455,Easy,Hammat Moulay Ali Cherif,High,"Developed thermal spa resort overlooking the Ziz gorges, with pools and sanitary blocks, 10dh entrance, recently renovated (Medias24, Sept 2024 'La station thermale Moulay Ali Cherif fait peau neuve'); organized day tours run there from Casablanca, confirming vehicle road access.",dt_pilot
+loc_00456,Easy,Hassan Addakhil Dam Lake,High,"Named, well-documented reservoir/lake just outside Errachidia on the Ziz; multiple tourism sources describe a walking trail down to the lake edge and it as a standard scenic stop on the Errachidia-Erfoud route (ThirdRockTourist, Expedia attraction listing, Wikipedia Ziz Gorges, dangerousroads.org).",dt_pilot
+loc_00457,Easy,Tunnel Zaabel,High,"The Tunnel du Légionnaire/Zaabel (built by the French, 1927-28) is a passage carved directly into the N13 highway through the gorge -- it IS the road (2m to highway confirms this); documented as a standard photo stop for anyone driving the gorge (zizvalley.com, maroc.eklablog.net, Wikipedia Ziz Gorges).",dt_pilot
+loc_00458,Easy,Ziz Valley Ait Atmane,Medium,"Ait Atmane is one of 8 roadside ksour (villages) strung along the paved Gorges du Ziz corridor between the Zaabel tunnel and Hassan Addakhil dam (multiple Ziz Valley travel guides); at least one hotel (Palma Ziz) is located in the village per booking listings, confirming vehicle road access.",dt_pilot
+loc_00776,Easy,Geosite 5,Medium-High,"Milu et al. 2019 poster (full text now available): Figure 4 shows ""Volcanic structures belonging to the Ouarzazate Supergroup... occurring at about 30 km South-East of Ouarzazate. Northeastward view from the road Ouarzazate-Zagora."" loc_00776 is 34.2km from Ouarzazate along the correct SE bearing toward Zagora -- strong distance and direction match. Described as viewed directly from the road.",dt_pilot
+loc_00739,Easy,Panorama of the Atlas Front,Medium,"Part of the Si Mhamdi et al. 2023 (Geoheritage 15:45) Errachidia 'Pedagogic and Geotouristic Trail', ~5km N of Errachidia town, explicitly designed for student/tourist accessibility; 42m from paved road consistent with a roadside viewpoint stop; full paper text paywalled so no direct site quote available.",dt_pilot
+loc_00740,Easy,South Atlas Fault,Medium,"Regional Errachidia stratigraphy literature states the High Atlas rises abruptly north of the South Atlas Fault right at the edge of Errachidia town, matching this site's position; included in Si Mhamdi et al. 2023 Errachidia geotouristic trail; 40m from paved road.",dt_pilot
+loc_00741,Easy,Jbel Hamdoun Anticline Structure,Medium,Jbel Hamdoun is a named peak/section within the Errachidia Platform stratigraphic sequence referenced in regional papers; part of Si Mhamdi et al. 2023 trail inventory; 204m from paved road.,dt_pilot
+loc_00742,Easy,Jurassic/Cretaceous Contact,Medium,Corresponds to the well-documented Jurassic-Cretaceous 'red beds' contact along the Msemrir-Errachidia transect described in regional stratigraphy papers; part of Si Mhamdi et al. 2023 trail; 144m from paved road.,dt_pilot
+loc_00743,Easy,Perched Syncline Between Two Atlassic Faults,Medium,"Structural stop within the Si Mhamdi et al. 2023 Errachidia geotouristic trail inventory, consistent with the South Atlas Fault front geology in this exact corridor; 53m from paved road.",dt_pilot
+loc_00744,Easy,Ait Atmane Fault (Amzouj Fault),Medium,"Ait Atmane fault zone is a real, separately field-studied structure (E3S Web of Conferences, Errachidia2024 volume); also part of Si Mhamdi et al. 2023 trail; 29m from paved road.",dt_pilot
+loc_00745,Easy,Panorama of El Hassan Addakhil Dam,High,"Barrage Hassan Addakhil is a named, well-documented dam on Oued Ziz N of Errachidia (in service since 1971), directly served by the paved Errachidia-Rich road, described in tourism/news sources as a scenic panoramic viewpoint; 16m from paved road.",dt_pilot
+loc_00746,Moderate,Dermchane Waterfall,Medium,"Confirmed as a real site: Wikimedia Commons 'Wiki Loves Earth' photos of 'الدرمشان' (Ad-Darmashan) waterfall geotagged ~250m from given coordinates, photographed by local contributors in 2015/2021; not a developed tourist stop, 3.3km from nearest paved road implying an unpaved track/hike to reach it.",dt_pilot
