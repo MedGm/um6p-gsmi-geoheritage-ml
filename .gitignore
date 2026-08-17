@@ -32,6 +32,8 @@ logs/*.log
 *.synctex.gz
 *.bbl
 *.blg
+*.nav
+*.snm
 
 # Prototyping shapefiles
 *.shp

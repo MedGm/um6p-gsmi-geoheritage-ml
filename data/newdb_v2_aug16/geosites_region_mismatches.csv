@@ -1,0 +1,204 @@
+Observation_ID,Geosite_Name,Latitude_WGS84,Longitude_WGS84,Region,Geosite_Type,Geological_Domain,Locality_Center_Lat,Locality_Center_Lon,Locality_Group_Key,Coordinate_Precision,Source_File,Source_Row_Ref,Center_Coord_Source,Is_Merchich_Format,Correction_Applied,Ground_Truth_Note,index_right,Detected_Region
+obs3_00092,Triassic/Ordovician unconformity of Azrou,33.464333333333336,-5.172,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,100,,False,,,8.0,Fés-Meknés
+obs3_00093,Triassic/upper Devonian unconformity of Tigrigra,33.48683333333334,-5.261666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,101,,False,,,8.0,Fés-Meknés
+obs3_00094,Triassic clays and basalts Concordance of Azrou,33.46333333333333,-5.169333333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,102,,False,,,8.0,Fés-Meknés
+obs3_00095,Triassic pillow lava of Azrou,33.46183333333333,-5.165166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,103,,False,,,8.0,Fés-Meknés
+obs3_00096,Triassic fractured pillow lava of Azrou,33.462666666666664,-5.168333333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,104,,False,,,8.0,Fés-Meknés
+obs3_00097,Lower Liassic dolomite of Akchmir,33.43516666666667,-5.223833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,105,,False,,,8.0,Fés-Meknés
+obs3_00099,Quaternary basalts balls of Sidi-Addi,33.389,-5.345833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,107,,False,,,8.0,Fés-Meknés
+obs3_00100,Quaternary/Triassic unconformity of Azrou,33.461666666666666,-5.165,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,108,,False,,,8.0,Fés-Meknés
+obs3_00117,Chtifat (C 1),33.31166666666666,-5.135000000000001,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,126,,False,,,8.0,Fés-Meknés
+obs3_00118,Chtifat (C 2),33.295833333333334,-5.128888888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,127,,False,,,8.0,Fés-Meknés
+obs3_00119,Lachmine Lakbir (LA 1),33.19499999999999,-5.111666666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,128,,False,,,8.0,Fés-Meknés
+obs3_00120,Ait Quassou,33.19222222222222,-5.0680555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,129,,False,,,8.0,Fés-Meknés
+obs3_00121,Lachmine Izyar,33.265,-5.110833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,130,,False,,,8.0,Fés-Meknés
+obs3_00122,Tahabrite (T 2),33.347500000000004,-5.126944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,131,,False,,,8.0,Fés-Meknés
+obs3_00123,Tahabrite (T 3),33.346944444444446,-5.120555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,132,,False,,,8.0,Fés-Meknés
+obs3_00124,Boutjatiout,33.362500000000004,-5.116111111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,133,,False,,,8.0,Fés-Meknés
+obs3_00125,Boutagarouine (B 2),33.283055555555556,-5.106944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,134,,False,,,8.0,Fés-Meknés
+obs3_00126,Tichout Tazouggaght,33.34583333333334,-5.160833333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,135,,False,,,8.0,Fés-Meknés
+obs3_00127,Tamarakoit,33.06166666666666,-5.066111111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,136,,False,,,8.0,Fés-Meknés
+obs3_00128,Tamahrart,33.51138888888889,-5.2525,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,137,,False,,,8.0,Fés-Meknés
+obs3_00129,Tizi Idguel,33.393055555555556,-5.159166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,138,,False,,,8.0,Fés-Meknés
+obs3_00130,Selrhert (S 1),33.17611111111111,-4.993055555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,139,,False,,,8.0,Fés-Meknés
+obs3_00131,Selrhert (S 2),33.18055555555555,-4.998888888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,140,,False,,,8.0,Fés-Meknés
+obs3_00132,Ta0issaouit (Ta 1),33.32194444444445,-5.096666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,141,,False,,,8.0,Fés-Meknés
+obs3_00133,Ta0issaouit (Ta 2),33.31805555555556,-5.113611111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,142,,False,,,8.0,Fés-Meknés
+obs3_00134,Sidi Boundouh,33.23638888888889,-5.076944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,143,,False,,,8.0,Fés-Meknés
+obs3_00135,Timahdite,33.23027777777778,-5.066944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,144,,False,,,8.0,Fés-Meknés
+obs3_00136,H1,33.37555555555556,-5.14638888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,145,,False,,,8.0,Fés-Meknés
+obs3_00137,H2,33.36388888888889,-5.153611111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,146,,False,,,8.0,Fés-Meknés
+obs3_00138,Ich Ouaharrouq (IO 1),33.401944444444446,-5.151666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,147,,False,,,8.0,Fés-Meknés
+obs3_00139,Ich Ouaharrouq (IO 2),33.39833333333333,-5.135000000000001,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,148,,False,,,8.0,Fés-Meknés
+obs3_00140,Chtifat (C 3),33.2975,-5.122777777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,149,,False,,,8.0,Fés-Meknés
+obs3_00141,Sud Izyar,33.245,-5.096388888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,150,,False,,,8.0,Fés-Meknés
+obs3_00142,Azougouash,32.972500000000004,-5.14138888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,151,,False,,,8.0,Fés-Meknés
+obs3_00143,Houirt,33.653055555555554,-4.614999999999999,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,152,,False,,,8.0,Fés-Meknés
+obs3_00144,Bekrit,33.0625,-5.240277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,153,,False,,,8.0,Fés-Meknés
+obs3_00145,Outgui,33.63388888888889,-5.248055555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,154,,False,,,8.0,Fés-Meknés
+obs3_00146,Si Mghid,33.19583333333333,-5.260555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,155,,False,,,8.0,Fés-Meknés
+obs3_00147,Ariana,33.51638888888889,-5.2427777777777775,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,156,,False,,,8.0,Fés-Meknés
+obs3_00148,Ain Kahla,33.22805555555556,-5.219166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,157,,False,,,8.0,Fés-Meknés
+obs3_00149,Sidi abdel aziz,33.261944444444445,-5.053888888888888,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,158,,False,,,8.0,Fés-Meknés
+obs3_00150,Louugnina,33.01083333333333,-4.832222222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,159,,False,,,5.0,Drâa-Tafilalet
+obs3_00151,Talsast,33.228611111111114,-5.281666666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,160,,False,,,8.0,Fés-Meknés
+obs3_00152,Lachmine N'kettane (LK 1),33.3825,-5.125555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,161,,False,,,8.0,Fés-Meknés
+obs3_00153,Lachmine Lakbir (LA2),33.191111111111105,-5.1025,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,162,,False,,,8.0,Fés-Meknés
+obs3_00154,Ali ou ahmed (A 1),33.22361111111111,-4.970277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,163,,False,,,8.0,Fés-Meknés
+obs3_00155,Ali ou ahmed (A 2),33.22361111111111,-4.970277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,164,,False,,,8.0,Fés-Meknés
+obs3_00156,Ich Ouaharrouq (IO 2),33.405,-5.139722222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,165,,False,,,8.0,Fés-Meknés
+obs3_00157,Ras Elma,33.45111111111111,-5.149166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,166,,False,,,8.0,Fés-Meknés
+obs3_00158,El koudiat (K 2),33.51722222222222,-5.163055555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,167,,False,,,8.0,Fés-Meknés
+obs3_00159,Regada,33.52027777777778,-4.966666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,168,,False,,,8.0,Fés-Meknés
+obs3_00160,Dayat Yfrah,33.57333333333334,-4.935555555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,169,,False,,,8.0,Fés-Meknés
+obs3_00161,Hebri,33.359722222222224,-5.140555555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,170,,False,,,8.0,Fés-Meknés
+obs3_00162,Tahabrite (T 1),33.343611111111116,-5.129444444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,171,,False,,,8.0,Fés-Meknés
+obs3_00163,Chmil Assou,33.280277777777776,-5.122777777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,172,,False,,,8.0,Fés-Meknés
+obs3_00164,Boutagarouine (B 4),33.28388888888889,-5.087222222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,174,,False,,,8.0,Fés-Meknés
+obs3_00165,Boutagarouine (B 5),33.28805555555555,-5.093611111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,175,,False,,,8.0,Fés-Meknés
+obs3_00166,Boutagarouine (B 6),33.28638888888889,-5.081666666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,176,,False,,,8.0,Fés-Meknés
+obs3_00167,Tabourit,33.18083333333333,-5.251666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,177,,False,,,8.0,Fés-Meknés
+obs3_00168,El koudiat (K 1),33.53138888888889,-5.155277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,178,,False,,,8.0,Fés-Meknés
+obs3_00169,Rabouba,33.23916666666667,-5.132222222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,179,,False,,,8.0,Fés-Meknés
+obs3_00170,Mijmouane,33.38611111111111,-5.1675,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,180,,False,,,8.0,Fés-Meknés
+obs3_00171,Am Larays,33.030833333333334,-4.89,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,181,,False,,,5.0,Drâa-Tafilalet
+obs3_00172,Ouaoussentecht,33.595,-4.681666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,182,,False,,,8.0,Fés-Meknés
+obs3_00173,Tichniouine,33.308055555555555,-5.094444444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,184,,False,,,8.0,Fés-Meknés
+obs3_00174,Masrabe,33.242222222222225,-5.044722222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,185,,False,,,8.0,Fés-Meknés
+obs3_00175,Habri,33.38333333333333,-5.156388888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,186,,False,,,8.0,Fés-Meknés
+obs3_00176,Jbel Outgui,33.646966666666664,-5.252919444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,187,,False,,,8.0,Fés-Meknés
+obs3_00177,El Koudiate,33.51776388888889,-5.149222222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,188,,False,,,8.0,Fés-Meknés
+obs3_00178,Mischliffen,33.40658888888889,-5.075019444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,189,,False,,,8.0,Fés-Meknés
+obs3_00179,Jbel Habri,33.38481111111111,-5.150961111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,190,,False,,,8.0,Fés-Meknés
+obs3_00180,Jbel Hebri,33.35199166666667,-5.134366666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,191,,False,,,8.0,Fés-Meknés
+obs3_00181,Tit Ouagmar,33.31097222222222,-5.1512,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,192,,False,,,8.0,Fés-Meknés
+obs3_00182,Bou Ibalrhatene,33.33536666666667,-5.0585305555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,193,,False,,,8.0,Fés-Meknés
+obs3_00183,Chedifat-Tit Ouagma,33.29895555555555,-5.1368,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,194,,False,,,8.0,Fés-Meknés
+obs3_00184,Bou Teguerouine,33.283477777777776,-5.106563888888888,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,195,,False,,,8.0,Fés-Meknés
+obs3_00185,Sidi Aziz,33.264375,-5.055613888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,196,,False,,,8.0,Fés-Meknés
+obs3_00186,Trou de Ifri-Ouska,33.291602777777776,-5.194583333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,197,,False,,,8.0,Fés-Meknés
+obs3_00187,Dayet Aoua,33.639577777777774,-5.038122222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,198,,False,,,8.0,Fés-Meknés
+obs3_00188,Tidrine,33.49245277777778,-5.055533333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,199,,False,,,8.0,Fés-Meknés
+obs3_00189,Dayet Hachlaff,33.55522777777777,-4.97565,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,200,,False,,,8.0,Fés-Meknés
+obs3_00190,Tisfoula,33.24078611111111,-5.356594444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,201,,False,,,8.0,Fés-Meknés
+obs3_00191,Afennourir,33.254102777777774,-5.272358333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,202,,False,,,8.0,Fés-Meknés
+obs3_00192,Dayet Ifrah,33.529872222222224,-4.979619444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,203,,False,,,8.0,Fés-Meknés
+obs3_00193,Polje de Ouiouane,33.53191944444444,-4.983661111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,204,,False,,,8.0,Fés-Meknés
+obs3_00194,Bassin de Agoulmam,33.50780555555556,-4.980669444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,205,,False,,,8.0,Fés-Meknés
+obs3_00195,Doline de Moutferraoun,33.493119444444446,-4.982372222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,206,,False,,,8.0,Fés-Meknés
+obs3_00196,Trou de la Panthe`re,33.20458888888889,-5.209005555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,207,,False,,,8.0,Fés-Meknés
+obs3_00197,Aguelmam Azigza,33.19105,-5.414786111111112,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,208,,False,,,8.0,Fés-Meknés
+obs3_00198,Tichilite,33.326686111111115,-5.1640194444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,209,,False,,,8.0,Fés-Meknés
+obs3_00199,Ifri-ou-Berid,33.20071388888889,-5.290311111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,210,,False,,,8.0,Fés-Meknés
+obs3_00200,Source Vittel,33.54771944444444,-5.110566666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,211,,False,,,8.0,Fés-Meknés
+obs3_00201,Cascades des Vierges,33.56184722222222,-5.119386111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,212,,False,,,8.0,Fés-Meknés
+obs3_00202,Ifrane Zaouia,33.183030555555554,-5.394347222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,213,,False,,,8.0,Fés-Meknés
+obs3_00203,Terrasses d’El Hajeb,33.689899999999994,-5.353913888888888,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,214,,False,,,8.0,Fés-Meknés
+obs3_00204,Jbel Irhoud,33.284369444444444,-5.305913888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,215,,False,,,8.0,Fés-Meknés
+obs3_00205,Sources Oum Er Rbia,33.18032777777778,-5.424855555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,216,,False,,,8.0,Fés-Meknés
+obs3_00206,Gorge de Azra Azegarh,33.748475,-5.230708333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,217,,False,,,8.0,Fés-Meknés
+obs3_00207,Méandre Oued Akkous,33.783586111111106,-5.254316666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,218,,False,,,8.0,Fés-Meknés
+obs3_00208,Gorge de l’Oued Defali,33.623491666666666,-5.439472222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,219,,False,,,8.0,Fés-Meknés
+obs3_00209,Village Bou Youssef,33.719275,-5.318138888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,220,,False,,,8.0,Fés-Meknés
+obs3_00210,Mohamed Messaoud,33.59363333333334,-5.375375,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,221,,False,,,8.0,Fés-Meknés
+obs3_00211,Paysage d’Ito,33.52139722222222,-5.315588888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,222,,False,,,8.0,Fés-Meknés
+obs3_00212,Creˆte de Tizra,33.553,-5.425538888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,223,,False,,,8.0,Fés-Meknés
+obs3_00213,Tammeroit,33.226508333333335,-5.426494444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,224,,False,,,8.0,Fés-Meknés
+obs3_00214,Balcon de Timahdite,33.269463888888886,-5.0059305555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,225,,False,,,8.0,Fés-Meknés
+obs3_00215,Chevrons Timahdite,33.27117777777778,-4.938552777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,226,,False,,,8.0,Fés-Meknés
+obs3_00216,Azrou unconformity,33.41831944444444,-5.163872222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,227,,False,,,8.0,Fés-Meknés
+obs3_00217,Douar Caid Ait Ouahi,33.32407222222223,-5.231183333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,228,,False,,,8.0,Fés-Meknés
+obs3_00222,Pillow lava of Malha valley,34.39453611111111,-5.383166666666666,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,233,,False,,,8.0,Fés-Meknés
+obs3_00238,Almou,33.379155555555556,-4.711366666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_10,point,geoheritage_aug16_2026,249,,False,,,8.0,Fés-Meknés
+obs3_00248,Aguelmam-n-Tghalouine,33.38636944444444,-5.095097222222222,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,259,,False,,,8.0,Fés-Meknés
+obs3_00249,Habri,33.382694444444446,-5.155816666666667,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,260,,False,,,8.0,Fés-Meknés
+obs3_00250,Mijmouane,33.364336111111115,-5.159780555555556,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,261,,False,,,8.0,Fés-Meknés
+obs3_00251,Lachmin n'Ait el Haj,33.38148611111111,-5.071080555555556,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,262,,False,,,8.0,Fés-Meknés
+obs3_00252,Hebri,33.359525,-5.140788888888889,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,263,,False,,,8.0,Fés-Meknés
+obs3_00253,Carry of Ouest Hebri,33.347297222222224,-5.161033333333334,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,264,,False,,,8.0,Fés-Meknés
+obs3_00254,Boutjetiout,33.34464722222222,-5.126955555555555,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,265,,False,,,8.0,Fés-Meknés
+obs3_00255,Taïssaouite,33.31863055555556,-5.109808333333333,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,266,,False,,,8.0,Fés-Meknés
+obs3_00256,Tit Ouagmar,33.32478888888889,-5.137197222222222,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,267,,False,,,8.0,Fés-Meknés
+obs3_00257,Bou Ahsine,33.32251666666667,-5.095727777777777,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,268,,False,,,8.0,Fés-Meknés
+obs3_00258,Bou-Tagarouine,33.282016666666664,-5.101694444444444,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,269,,False,,,8.0,Fés-Meknés
+obs3_00259,Foum El Kheneg,33.131194444444446,-5.0413,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,270,,False,,,8.0,Fés-Meknés
+obs3_00260,Aghbalou Aberchane,33.124180555555554,-5.052108333333333,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,271,,False,,,8.0,Fés-Meknés
+obs3_00261,Aguelmane Sidi Ali,33.085375,-4.995252777777778,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,272,,False,,,8.0,Fés-Meknés
+obs3_00262,Tamarrkoit,33.06227777777777,-5.062994444444445,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,273,,False,,,8.0,Fés-Meknés
+obs3_00342,El Mers Center,33.44300833333333,-4.450113888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,354,,False,,,8.0,Fés-Meknés
+obs3_00343,Ifri N'Tfrane,33.45962222222222,-4.4115527777777785,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,355,,False,,,8.0,Fés-Meknés
+obs3_00344,Laach O'Medda,33.462094444444446,-4.405919444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,356,,False,,,8.0,Fés-Meknés
+obs3_00345,Tassmante O'Moche,33.46461111111111,-4.392244444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,357,,False,,,8.0,Fés-Meknés
+obs3_00346,Tasra,33.44546666666666,-4.3900194444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,358,,False,,,8.0,Fés-Meknés
+obs3_00347,Inzar O'Founass,33.44166388888888,-4.398355555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,359,,False,,,8.0,Fés-Meknés
+obs3_00348,Benguerir,32.283725,-7.936480555555556,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,360,,False,,,6.0,Marrakech-Safi
+obs3_00349,Douar Mghila,32.929966666666665,-5.769566666666667,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,361,,False,,,4.0,Béni Mellal-Khénifra
+obs3_00350,Ksar Al Goraane,32.29689444444444,-3.6355805555555554,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,362,,False,,,0.0,Oriental
+obs3_00351,Tinjdad,31.573891666666665,-5.030261111111111,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,363,,False,,,5.0,Drâa-Tafilalet
+obs3_00352,Tamdakht,31.237433333333335,-7.21305,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,364,,False,,,5.0,Drâa-Tafilalet
+obs3_00353,Oued El Hdjar,30.19105,-6.269888888888889,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,365,,False,,,5.0,Drâa-Tafilalet
+obs3_00354,Bensour,30.08461111111111,-6.439855555555556,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,366,,False,,,5.0,Drâa-Tafilalet
+obs3_00355,Izarzar,30.13626111111111,-6.939791666666667,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,367,,False,,,11.0,Souss-Massa
+obs3_00356,Sidi Ali Ou Azza,29.871444444444446,-6.761644444444444,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,368,,False,,,11.0,Souss-Massa
+obs3_00357,Tissint,29.727641666666663,-7.289619444444444,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,369,,False,,,11.0,Souss-Massa
+obs3_00358,Tirhert,29.551733333333335,-7.833644444444444,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,370,,False,,,11.0,Souss-Massa
+obs3_00359,Kheng Ljouad,29.42676666666667,-8.585408333333334,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,371,,False,,,11.0,Souss-Massa
+obs3_00360,Mahbas Aaraid,28.058994444444444,-9.342263888888889,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,372,,False,,,2.0,Guelmim-Oued Noun
+obs3_00361,Zag,27.5832,-9.188877777777778,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,373,,False,,,2.0,Guelmim-Oued Noun
+obs3_00362,Itqly,26.750219444444443,-12.95539722222222,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,374,,False,,,9.0,Laayoune-Sakia El Hamra
+obs3_00363,Oudiat Sbaa,25.84144722222222,-12.369369444444445,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,375,,False,,,9.0,Laayoune-Sakia El Hamra
+obs3_00364,Gueltat Zemmour,25.19666388888889,-12.673663888888889,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,376,,False,,,9.0,Laayoune-Sakia El Hamra
+obs3_00365,Oum Dreya,24.406222222222222,-13.084286111111112,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,377,,False,,,3.0,Eddakhla-Oued Eddahab
+obs3_00389,Alluvial terraces of Aït Mallal,31.56131388888889,-6.465525,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,402,,False,,,5.0,Drâa-Tafilalet
+obs3_00410,Ras El Ma Waterfalls,34.14938611111111,-4.0049777777777775,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,544,,False,,,8.0,Fés-Meknés
+obs3_00411,Ras El Ma resurgence,34.14704444444445,-4.012736111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,545,,False,,,8.0,Fés-Meknés
+obs3_00412,Sidi Majbar complex,34.14333888888889,-4.031063888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,546,,False,,,8.0,Fés-Meknés
+obs3_00413,Generalized erosion at Sidi Majbar,34.13324444444444,-4.036352777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,547,,False,,,8.0,Fés-Meknés
+obs3_00414,Holm Oak on lapie,34.131194444444446,-4.042066666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,548,,False,,,8.0,Fés-Meknés
+obs3_00415,Jbel Bou Massoud lapies field,34.12572222222222,-4.052275,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,549,,False,,,8.0,Fés-Meknés
+obs3_00416,Ponor Dayet Chiker,34.10381944444445,-4.065458333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,550,,False,,,8.0,Fés-Meknés
+obs3_00417,Dayet Chiker chasm,34.10001388888889,-4.071772222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,551,,False,,,8.0,Fés-Meknés
+obs3_00418,Dayet Chiker Polje,34.099136111111115,-4.077411111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,552,,False,,,8.0,Fés-Meknés
+obs3_00419,Friouato chasm,34.09307777777778,-4.096919444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,553,,False,,,8.0,Fés-Meknés
+obs3_00420,Habiat under the Dayet Chiker escapment,34.09280555555556,-4.109363888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,554,,False,,,8.0,Fés-Meknés
+obs3_00421,Ain Becher doline,34.06598611111111,-4.10591111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,555,,False,,,8.0,Fés-Meknés
+obs3_00422,Old lead pencil,34.068983333333335,-4.117061111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,556,,False,,,8.0,Fés-Meknés
+obs3_00423,Jbel Bou Slama cave,34.070663888888895,-4.119969444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,557,,False,,,8.0,Fés-Meknés
+obs3_00424,Bab Boudir anticlinal,34.07970277777778,-4.137822222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,558,,False,,,8.0,Fés-Meknés
+obs3_00425,Bab Boudir complex,34.00445833333333,-4.172994444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,559,,False,,,8.0,Fés-Meknés
+obs3_00426,Dhar feurn waterfalls,34.085094444444444,-4.166172222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,560,,False,,,8.0,Fés-Meknés
+obs3_00427,Ain Admame exsurgence,34.07975833333334,-4.188772222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,561,,False,,,8.0,Fés-Meknés
+obs3_00428,Volcano-sedimentary complex,34.081294444444445,-4.1469000000000005,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,562,,False,,,8.0,Fés-Meknés
+obs3_00429,Beni Senane acriculture terraces,34.1597,-4.109958333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,563,,False,,,8.0,Fés-Meknés
+obs3_00430,Tazekka massif,34.1764,-4.110372222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,564,,False,,,8.0,Fés-Meknés
+obs3_00431,Ouled Lakhal gorges,34.169013888888884,-4.0989249999999995,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,565,,False,,,8.0,Fés-Meknés
+obs3_00432,El Qelaa complex,34.128566666666664,-4.127402777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,566,,False,,,8.0,Fés-Meknés
+obs3_00433,El Qelaa landslide,34.10535277777778,-4.066574999999999,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,567,,False,,,8.0,Fés-Meknés
+obs3_00434,Jbel Bou Massoud anticlinal,34.19662777777778,-4.2085333333333335,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,568,,False,,,8.0,Fés-Meknés
+obs3_00435,Jbel Bou Massoud fossilized lapies field,34.210994444444445,-4.167633333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,569,,False,,,8.0,Fés-Meknés
+obs3_00436,Tighigha fossilized lapies field,34.214708333333334,-4.135480555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,570,,False,,,8.0,Fés-Meknés
+obs3_00437,Tighigha complex,34.21790555555556,-4.090177777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,571,,False,,,8.0,Fés-Meknés
+obs3_00438,Clonial millitary camp,34.208419444444445,-4.1353583333333335,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,572,,False,,,8.0,Fés-Meknés
+obs3_00439,Ain Khebbab exsurgence,34.18175833333333,-4.161677777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,573,,False,,,8.0,Fés-Meknés
+obs3_00467,Cascade Sahbab,33.657377777777775,-4.041383333333333,Fès-Meknès,H,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,601,,False,,,0.0,Oriental
+obs3_00585,Canyon of High-Tessaout valley,31.560558333333333,-6.463308333333334,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,725,,False,,,5.0,Drâa-Tafilalet
+obs3_00586,Canyon of Ikiss,31.515316666666667,-6.457375,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,726,,False,,,5.0,Drâa-Tafilalet
+obs3_00590,Peak and cliffs of Tarkeddid mountain,31.482691666666664,-6.595744444444444,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,730,,False,,,5.0,Drâa-Tafilalet
+obs3_00591,Mount M’goun (4068 m),31.507213888888888,-6.443472222222223,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,731,,False,,,5.0,Drâa-Tafilalet
+obs3_00597,Glacial cirques and U-shaped valleys of M’goun,31.55526111111111,-6.462261111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,737,,False,,,5.0,Drâa-Tafilalet
+obs3_00611,Ordovician Trilobites of Zagora Area Site 2,29.938897222222224,-6.193888888888889,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,752,,False,,,5.0,Drâa-Tafilalet
+obs3_00612,Ordovician Trilobites of Zagora Area Site 3,29.93682777777778,-5.996452777777778,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,753,,False,,,5.0,Drâa-Tafilalet
+obs3_00613,Ordovician Trilobites of Zagora Area Site 4,30.000677777777778,-5.874175,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,754,,False,,,5.0,Drâa-Tafilalet
+obs3_00614,Ordovician Trilobites of Zagora Area Site 5,30.457102777777777,-5.630747222222222,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,755,,False,,,5.0,Drâa-Tafilalet
+obs3_00615,The Ergs,30.230741666666663,-5.606866666666666,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,757,,False,,,5.0,Drâa-Tafilalet
+obs3_00616,The Regs of Tinzouline,30.576999999999998,-6.149,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,758,,False,,,5.0,Drâa-Tafilalet
+obs3_00617,The Regs of Tamgroutat,30.2595,-5.684333333333334,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,759,,False,,,5.0,Drâa-Tafilalet
+obs3_00618,Foum Chenna,30.48193611111111,-6.167511111111112,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,760,,False,,,5.0,Drâa-Tafilalet
+obs3_00619,Assif Ouigane,30.45996388888889,-6.0931138888888885,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,761,,False,,,5.0,Drâa-Tafilalet
+obs3_00620,Cheaba Lbâida,30.433297222222222,-6.025127777777778,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,762,,False,,,5.0,Drâa-Tafilalet
+obs3_00621,Ordovician Trilobites of Zagora Area Site 6,30.42873888888889,-5.632844444444445,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,764,,False,,,5.0,Drâa-Tafilalet
+obs3_00622,Ordovician Trilobites of Zagora Area Site 7,30.311822222222222,-5.618038888888889,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,765,,False,,,5.0,Drâa-Tafilalet
+obs3_00623,Ordovician Trilobites of Zagora Area Site 8,30.24915277777778,-5.542544444444444,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,766,,False,,,5.0,Drâa-Tafilalet
+obs3_00624,Ordovician Trilobites of Zagora Area Site 9,30.376372222222223,-5.570494444444444,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,767,,False,,,5.0,Drâa-Tafilalet
+obs3_00625,Ordovician Trilobites of Zagora Area Site 10,30.439297222222223,-5.604897222222222,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,768,,False,,,5.0,Drâa-Tafilalet
+obs3_00626,Ordovician Trilobites of Zagora Area Site 11,30.477777777777778,-5.557497222222222,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,769,,False,,,5.0,Drâa-Tafilalet

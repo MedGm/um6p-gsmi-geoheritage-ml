@@ -37,7 +37,7 @@ BASE = os.path.abspath(os.path.join(HERE, ".."))
 PHYS_DIR = os.path.join(BASE, "archive", "gis_data", "physical")
 GEOLOGY_TIF = os.path.join(PHYS_DIR, "geology_classes.tif")
 SOIL_TIF = os.path.join(PHYS_DIR, "soil_classes.tif")
-MODEL_PATH = os.path.join(BASE, "models", "final", "geosite_location_pilot_model_v3.joblib")
+MODEL_PATH = os.path.join(BASE, "models", "final", "geosite_location_pilot_model_v4.joblib")
 CATALOG_CSV = os.path.join(BASE, "data", "final", "geosites_mcdm_national.csv")
 OUT_PNG = os.path.join(BASE, "report", "figures", "geosite_favorability_map_v3.png")
 

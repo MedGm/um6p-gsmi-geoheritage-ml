@@ -1,0 +1,660 @@
+Observation_ID,Geosite_Name,Latitude_WGS84,Longitude_WGS84,Region,Geosite_Type,Geological_Domain,Locality_Center_Lat,Locality_Center_Lon,Locality_Group_Key,Coordinate_Precision,Source_File,Source_Row_Ref,Center_Coord_Source,Is_Merchich_Format
+obs3_00000,Playa Blanca Beach,35.8243731,-5.7229291,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,3,,False
+obs3_00001,Marisat Beach,35.7998631,-5.7507168,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,4,,False
+obs3_00002,Ghandouri Beach,35.786932,-5.7633668,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,5,,False
+obs3_00003,Malabata Beach,35.7777695,-5.7775563,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,6,,False
+obs3_00004,Merkala Beach,35.7940544,-5.8344841,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,7,,False
+obs3_00005,Bouhendia Beach,35.7829225,-5.9307866,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,8,,False
+obs3_00006,Achakar Beach,35.776858,-5.9307889,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,9,,False
+obs3_00007,Mickey Beach,35.7723236,-5.9326896,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,10,,False
+obs3_00008,Sidi Kacem Beach,35.7379826,-5.9442736,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,11,,False
+obs3_00009,Ba Kacem Beach,35.7732541,-5.9331855,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,12,,False
+obs3_00010,Houara Beach,35.6329991,-5.9781537,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,13,,False
+obs3_00011,Tahadart Beach,35.5775096,-5.9895277,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,14,,False
+obs3_00012,American Beach,35.6798457,-5.9651715,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,15,,False
+obs3_00013,Al Manar Forest,35.8168801,-5.7486307,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,16,,False
+obs3_00014,Marisat Forest,35.7961267,-5.7491829,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,17,,False
+obs3_00015,Tangier balya Forest,35.7773448,-5.7711325,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,18,,False
+obs3_00016,Rmilat Forest,35.7929606,-5.8624116,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,19,,False
+obs3_00017,Rharha Forest,35.7619967,-5.8731593,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,20,,False
+obs3_00018,Mediouna Forest,35.7821557,-5.8925229,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,21,,False
+obs3_00019,Boubana Forest,35.7719636,-5.8927079,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,22,,False
+obs3_00020,Cape Spartel Reserve,35.6759744,-5.9462552,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,23,,False
+obs3_00021,Diplomatic Forest,35.6759744,-5.9462552,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,24,,False
+obs3_00022,Jumjum Rock,35.7899743,-5.8497473,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,25,,False
+obs3_00023,Gherab Rock,35.7946454,-5.85792,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,26,,False
+obs3_00024,Sutooh Rock,35.7627783,-5.8885488,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,27,,False
+obs3_00025,Bouhendia Rock,35.788318,-5.9291816,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,28,,False
+obs3_00026,Ras Aghmat,35.7974277,-5.8416951,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,29,,False
+obs3_00027,Hafa Rock,35.7913075,-5.8203332,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,30,,False
+obs3_00028,Maghayir Lake,35.7536291,-5.8957438,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,31,,False
+obs3_00029,Sidi Hassain Lake,35.6980445,-5.8249996,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,32,,False
+obs3_00030,Tahadart River,35.6253683,-5.9412174,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,33,,False
+obs3_00031,Rharha Lake,35.7691304,-5.8578318,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,34,,False
+obs3_00032,Al Manar Fortress,35.814639,-5.7393475,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,35,,False
+obs3_00033,Ghailan Fort,35.7795848,-5.7715313,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,36,,False
+obs3_00034,Villa Harris,35.7830876,-5.7652395,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,37,,False
+obs3_00035,Dar El Baroud Tower,35.7886196,-5.8081714,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,38,,False
+obs3_00036,Bab Dar Debbagh,35.7860073,-5.8094098,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,39,,False
+obs3_00037,Bab El Marsa,35.7842141,-5.8085094,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,40,,False
+obs3_00038,Bab El Fahs,35.7847304,-5.8129131,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,41,,False
+obs3_00039,Bab El Kasbah,35.788648,-5.815002,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,42,,False
+obs3_00040,Bab El Bahr,35.789007,-5.812113,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,43,,False
+obs3_00041,Bab Lassa,35.788119,-5.812018,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,44,,False
+obs3_00042,Bab El Hira,35.78653,-5.809422,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,45,,False
+obs3_00043,Bab American,35.783817,-5.810501,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,46,,False
+obs3_00044,Bab Haha,35.788671,-5.811854,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,47,,False
+obs3_00045,Bouanania Cemetery,35.7908171,-5.8200251,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,48,,False
+obs3_00046,Sour Al Maâkazine,35.7810852,-5.8117345,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,49,,False
+obs3_00047,Villa Perdicaris,35.7921543,-5.8601788,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,50,,False
+obs3_00048,Cape Spartel Lighthouse,35.7910567,-5.9238839,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,51,,False
+obs3_00049,Hercules Cave,35.7599335,-5.9392319,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,52,,False
+obs3_00050,Horse Cave,35.7613313,-5.9355535,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,53,,False
+obs3_00051,Marina Port,35.79109,-5.810278,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,54,,False
+obs3_00052,Continental Hotel,35.787464,-5.809423,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,55,,False
+obs3_00053,Old ‘Hafa’ Coffee shop,35.791346,-5.821947,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,56,,False
+obs3_00054,Souk Dakhel,35.784726,-5.812676,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,57,,False
+obs3_00055,Ibn Battuta Mausoleum,35.787414,-5.813693,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,58,,False
+obs3_00056,Bouarakiya Mausoleum,35.783531,-5.81884,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,59,,False
+obs3_00057,Sidi Hosni Mausoleum,35.7884747,-5.8116093,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,60,,False
+obs3_00058,Ben Raisoul Mausoleum,35.7875783,-5.8116361,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,61,,False
+obs3_00059,Wazzani Zawiya,35.784618,-5.812035,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,62,,False
+obs3_00060,Lalla Abla Mosque,35.789479,-5.807049,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,63,,False
+obs3_00061,Kasbah Mosque,35.788222,-5.812673,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,64,,False
+obs3_00062,Cathedral of the Holy,35.782167,-5.817982,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,65,,False
+obs3_00063,Andrew’s Anglican,35.783351,-5.81439,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,66,,False
+obs3_00064,Immaculate Conception,35.783351,-5.811323,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_1,point,geoheritage_aug16_2026,67,,False
+obs3_00065,Pont de Sebou Ordovician,33.83194,-4.64806,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,68,,False
+obs3_00066,Karkoura Ordovician,33.85611,-4.61389,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,69,,False
+obs3_00067,Oued Sebou Ordovician,33.84056,-4.64306,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,70,,False
+obs3_00068,Oued Sebou Triassic,33.83889,-4.64306,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,71,,False
+obs3_00069,Karkoura Triassic,33.8575,-4.61889,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,72,,False
+obs3_00070,Mellaha Triassic,33.77278,-4.58333,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,73,,False
+obs3_00071,Ain Sebou Jurassic,33.73667,-4.5325,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,74,,False
+obs3_00072,El Menzel Jurassic,33.845,-4.53778,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,75,,False
+obs3_00073,Taghit Ammonites,33.76583,-4.52194,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,76,,False
+obs3_00074,El Qualaa Travertines,33.84139,-4.54778,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,78,,False
+obs3_00075,El Menzel Paleosols,33.84667,-4.5425,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,79,,False
+obs3_00076,Beni Yazgha Thrust Fault,33.84611,-4.60944,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,80,,False
+obs3_00077,El Menzel Fault,33.83306,-4.53306,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,81,,False
+obs3_00078,Taghit Thrust Fault,33.76806,-4.51139,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,82,,False
+obs3_00079,Quasbat Beni Yazgha Polje,33.82833,-4.59361,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,83,,False
+obs3_00080,Jbel Taferguicht,33.81306,-4.62972,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,84,,False
+obs3_00081,Jbel El Knisiya,33.81556,-4.62222,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,85,,False
+obs3_00082,Oued Sebou,33.81139,-4.60917,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,86,,False
+obs3_00083,Allal El Fassi Dam,33.92278,-4.65083,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_2,point,geoheritage_aug16_2026,87,,False
+obs3_00084,Upper Devonian Kellwasser black limestones of Bou Ounabdou,33.142833333333336,-5.5175,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,88,,False
+obs3_00085,Paleozoic Gara outcrop with Mesozoic cover of Mrirt,3.1518333333333333,-5.503166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,90,,False
+obs3_00086,Ordovician plicative structures of Mrirt,33.1,-5.586833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,91,,False
+obs3_00087,Permian granitic dyke of Tighza,33.197833333333335,-5.617,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,92,,False
+obs3_00088,Clay matrix conglomerates of Permian in Khenifra,32.954,-5.685833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,96,,False
+obs3_00089,Permian alternating clay and sand stonebeds of Khenifra,32.9605,-5.688,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,97,,False
+obs3_00090,Permian/Ordovician unconformity of Iaarochen,33.02883333333333,-5.614333333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,98,,False
+obs3_00091,Permian/Ordovician unconformity of Assabera,33.0495,-5.614333333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,99,,False
+obs3_00092,Triassic/Ordovician unconformity of Azrou,33.464333333333336,-5.172,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,100,,False
+obs3_00093,Triassic/upper Devonian unconformity of Tigrigra,33.48683333333334,-5.261666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,101,,False
+obs3_00094,Triassic clays and basalts Concordance of Azrou,33.46333333333333,-5.169333333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,102,,False
+obs3_00095,Triassic pillow lava of Azrou,33.46183333333333,-5.165166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,103,,False
+obs3_00096,Triassic fractured pillow lava of Azrou,33.462666666666664,-5.168333333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,104,,False
+obs3_00097,Lower Liassic dolomite of Akchmir,33.43516666666667,-5.223833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,105,,False
+obs3_00098,Quaternary basalts of Oued Oum Er-Rbia,32.9955,-5.652,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,106,,False
+obs3_00099,Quaternary basalts balls of Sidi-Addi,33.389,-5.345833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,107,,False
+obs3_00100,Quaternary/Triassic unconformity of Azrou,33.461666666666666,-5.165,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_3,point,geoheritage_aug16_2026,108,,False
+obs3_00101,Tasraft,32.16011388888889,-5.9311138888888895,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,109,,False
+obs3_00102,Aftis,32.08293333333334,-5.938702777777778,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,110,,False
+obs3_00103,Moriq,32.101422222222226,-5.892983333333333,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,111,,False
+obs3_00104,Tamekaste,32.07391388888889,-5.918491666666667,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,112,,False
+obs3_00105,Anergui,32.06339444444444,-5.927097222222223,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,113,,False
+obs3_00106,Taguentourte,32.04814444444444,-5.935125,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,114,,False
+obs3_00107,Ouriz,32.03783055555555,-5.949066666666667,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,115,,False
+obs3_00108,Tagount,32.01144722222222,-5.942555555555556,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,116,,False
+obs3_00109,Tizi N'Dari,32.01065555555556,-5.929797222222223,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,117,,False
+obs3_00110,Batly,32.003619444444446,-5.923263888888889,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,118,,False
+obs3_00111,Inoufigun,31.99865,-5.929397222222223,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,119,,False
+obs3_00112,Imaouen N’Tfalouine,32.077875000000006,-5.95465,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,120,,False
+obs3_00113,Akhachane,32.054116666666665,-6.080561111111111,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,121,,False
+obs3_00114,Igra,32.06207777777777,-6.065869444444444,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,122,,False
+obs3_00115,Ifri N'Khettab,32.017538888888886,-6.201827777777778,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,123,,False
+obs3_00116,Ait Abdi,31.86734166666667,-5.98155,Beni Mellal-Khenifra,,High Atlas,,,geoheritage_aug16_2026_group_4,point,geoheritage_aug16_2026,124,,False
+obs3_00117,Chtifat (C 1),33.31166666666666,-5.135000000000001,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,126,,False
+obs3_00118,Chtifat (C 2),33.295833333333334,-5.128888888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,127,,False
+obs3_00119,Lachmine Lakbir (LA 1),33.19499999999999,-5.111666666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,128,,False
+obs3_00120,Ait Quassou,33.19222222222222,-5.0680555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,129,,False
+obs3_00121,Lachmine Izyar,33.265,-5.110833333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,130,,False
+obs3_00122,Tahabrite (T 2),33.347500000000004,-5.126944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,131,,False
+obs3_00123,Tahabrite (T 3),33.346944444444446,-5.120555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,132,,False
+obs3_00124,Boutjatiout,33.362500000000004,-5.116111111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,133,,False
+obs3_00125,Boutagarouine (B 2),33.283055555555556,-5.106944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,134,,False
+obs3_00126,Tichout Tazouggaght,33.34583333333334,-5.160833333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,135,,False
+obs3_00127,Tamarakoit,33.06166666666666,-5.066111111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,136,,False
+obs3_00128,Tamahrart,33.51138888888889,-5.2525,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,137,,False
+obs3_00129,Tizi Idguel,33.393055555555556,-5.159166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,138,,False
+obs3_00130,Selrhert (S 1),33.17611111111111,-4.993055555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,139,,False
+obs3_00131,Selrhert (S 2),33.18055555555555,-4.998888888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,140,,False
+obs3_00132,Ta0issaouit (Ta 1),33.32194444444445,-5.096666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,141,,False
+obs3_00133,Ta0issaouit (Ta 2),33.31805555555556,-5.113611111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,142,,False
+obs3_00134,Sidi Boundouh,33.23638888888889,-5.076944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,143,,False
+obs3_00135,Timahdite,33.23027777777778,-5.066944444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,144,,False
+obs3_00136,H1,33.37555555555556,-5.14638888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,145,,False
+obs3_00137,H2,33.36388888888889,-5.153611111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,146,,False
+obs3_00138,Ich Ouaharrouq (IO 1),33.401944444444446,-5.151666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,147,,False
+obs3_00139,Ich Ouaharrouq (IO 2),33.39833333333333,-5.135000000000001,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,148,,False
+obs3_00140,Chtifat (C 3),33.2975,-5.122777777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,149,,False
+obs3_00141,Sud Izyar,33.245,-5.096388888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,150,,False
+obs3_00142,Azougouash,32.972500000000004,-5.14138888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,151,,False
+obs3_00143,Houirt,33.653055555555554,-4.614999999999999,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,152,,False
+obs3_00144,Bekrit,33.0625,-5.240277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,153,,False
+obs3_00145,Outgui,33.63388888888889,-5.248055555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,154,,False
+obs3_00146,Si Mghid,33.19583333333333,-5.260555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,155,,False
+obs3_00147,Ariana,33.51638888888889,-5.2427777777777775,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,156,,False
+obs3_00148,Ain Kahla,33.22805555555556,-5.219166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,157,,False
+obs3_00149,Sidi abdel aziz,33.261944444444445,-5.053888888888888,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,158,,False
+obs3_00150,Louugnina,33.01083333333333,-4.832222222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,159,,False
+obs3_00151,Talsast,33.228611111111114,-5.281666666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,160,,False
+obs3_00152,Lachmine N'kettane (LK 1),33.3825,-5.125555555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,161,,False
+obs3_00153,Lachmine Lakbir (LA2),33.191111111111105,-5.1025,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,162,,False
+obs3_00154,Ali ou ahmed (A 1),33.22361111111111,-4.970277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,163,,False
+obs3_00155,Ali ou ahmed (A 2),33.22361111111111,-4.970277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,164,,False
+obs3_00156,Ich Ouaharrouq (IO 2),33.405,-5.139722222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,165,,False
+obs3_00157,Ras Elma,33.45111111111111,-5.149166666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,166,,False
+obs3_00158,El koudiat (K 2),33.51722222222222,-5.163055555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,167,,False
+obs3_00159,Regada,33.52027777777778,-4.966666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,168,,False
+obs3_00160,Dayat Yfrah,33.57333333333334,-4.935555555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,169,,False
+obs3_00161,Hebri,33.359722222222224,-5.140555555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,170,,False
+obs3_00162,Tahabrite (T 1),33.343611111111116,-5.129444444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,171,,False
+obs3_00163,Chmil Assou,33.280277777777776,-5.122777777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,172,,False
+obs3_00164,Boutagarouine (B 4),33.28388888888889,-5.087222222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,174,,False
+obs3_00165,Boutagarouine (B 5),33.28805555555555,-5.093611111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,175,,False
+obs3_00166,Boutagarouine (B 6),33.28638888888889,-5.081666666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,176,,False
+obs3_00167,Tabourit,33.18083333333333,-5.251666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,177,,False
+obs3_00168,El koudiat (K 1),33.53138888888889,-5.155277777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,178,,False
+obs3_00169,Rabouba,33.23916666666667,-5.132222222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,179,,False
+obs3_00170,Mijmouane,33.38611111111111,-5.1675,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,180,,False
+obs3_00171,Am Larays,33.030833333333334,-4.89,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,181,,False
+obs3_00172,Ouaoussentecht,33.595,-4.681666666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,182,,False
+obs3_00173,Tichniouine,33.308055555555555,-5.094444444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,184,,False
+obs3_00174,Masrabe,33.242222222222225,-5.044722222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,185,,False
+obs3_00175,Habri,33.38333333333333,-5.156388888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_5,point,geoheritage_aug16_2026,186,,False
+obs3_00176,Jbel Outgui,33.646966666666664,-5.252919444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,187,,False
+obs3_00177,El Koudiate,33.51776388888889,-5.149222222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,188,,False
+obs3_00178,Mischliffen,33.40658888888889,-5.075019444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,189,,False
+obs3_00179,Jbel Habri,33.38481111111111,-5.150961111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,190,,False
+obs3_00180,Jbel Hebri,33.35199166666667,-5.134366666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,191,,False
+obs3_00181,Tit Ouagmar,33.31097222222222,-5.1512,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,192,,False
+obs3_00182,Bou Ibalrhatene,33.33536666666667,-5.0585305555555555,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,193,,False
+obs3_00183,Chedifat-Tit Ouagma,33.29895555555555,-5.1368,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,194,,False
+obs3_00184,Bou Teguerouine,33.283477777777776,-5.106563888888888,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,195,,False
+obs3_00185,Sidi Aziz,33.264375,-5.055613888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,196,,False
+obs3_00186,Trou de Ifri-Ouska,33.291602777777776,-5.194583333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,197,,False
+obs3_00187,Dayet Aoua,33.639577777777774,-5.038122222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,198,,False
+obs3_00188,Tidrine,33.49245277777778,-5.055533333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,199,,False
+obs3_00189,Dayet Hachlaff,33.55522777777777,-4.97565,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,200,,False
+obs3_00190,Tisfoula,33.24078611111111,-5.356594444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,201,,False
+obs3_00191,Afennourir,33.254102777777774,-5.272358333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,202,,False
+obs3_00192,Dayet Ifrah,33.529872222222224,-4.979619444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,203,,False
+obs3_00193,Polje de Ouiouane,33.53191944444444,-4.983661111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,204,,False
+obs3_00194,Bassin de Agoulmam,33.50780555555556,-4.980669444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,205,,False
+obs3_00195,Doline de Moutferraoun,33.493119444444446,-4.982372222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,206,,False
+obs3_00196,Trou de la Panthe`re,33.20458888888889,-5.209005555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,207,,False
+obs3_00197,Aguelmam Azigza,33.19105,-5.414786111111112,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,208,,False
+obs3_00198,Tichilite,33.326686111111115,-5.1640194444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,209,,False
+obs3_00199,Ifri-ou-Berid,33.20071388888889,-5.290311111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,210,,False
+obs3_00200,Source Vittel,33.54771944444444,-5.110566666666666,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,211,,False
+obs3_00201,Cascades des Vierges,33.56184722222222,-5.119386111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,212,,False
+obs3_00202,Ifrane Zaouia,33.183030555555554,-5.394347222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,213,,False
+obs3_00203,Terrasses d’El Hajeb,33.689899999999994,-5.353913888888888,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,214,,False
+obs3_00204,Jbel Irhoud,33.284369444444444,-5.305913888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,215,,False
+obs3_00205,Sources Oum Er Rbia,33.18032777777778,-5.424855555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,216,,False
+obs3_00206,Gorge de Azra Azegarh,33.748475,-5.230708333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,217,,False
+obs3_00207,Méandre Oued Akkous,33.783586111111106,-5.254316666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,218,,False
+obs3_00208,Gorge de l’Oued Defali,33.623491666666666,-5.439472222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,219,,False
+obs3_00209,Village Bou Youssef,33.719275,-5.318138888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,220,,False
+obs3_00210,Mohamed Messaoud,33.59363333333334,-5.375375,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,221,,False
+obs3_00211,Paysage d’Ito,33.52139722222222,-5.315588888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,222,,False
+obs3_00212,Creˆte de Tizra,33.553,-5.425538888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,223,,False
+obs3_00213,Tammeroit,33.226508333333335,-5.426494444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,224,,False
+obs3_00214,Balcon de Timahdite,33.269463888888886,-5.0059305555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,225,,False
+obs3_00215,Chevrons Timahdite,33.27117777777778,-4.938552777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,226,,False
+obs3_00216,Azrou unconformity,33.41831944444444,-5.163872222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,227,,False
+obs3_00217,Douar Caid Ait Ouahi,33.32407222222223,-5.231183333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_6,point,geoheritage_aug16_2026,228,,False
+obs3_00218,Sidi Boulknadel pipes,34.126533333333334,-6.755861111111111,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,229,,False
+obs3_00219,Carboniferous hills of Korifla river panorama,33.74092777777778,-6.746533333333334,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,230,,False
+obs3_00220,Lower Devonian carbonate concretion east of Ezzehiliga,33.310024999999996,-6.543025,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,231,,False
+obs3_00221,Normal fault of El Malha river,34.57602222222223,-5.4805,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,232,,False
+obs3_00222,Pillow lava of Malha valley,34.39453611111111,-5.383166666666666,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,233,,False
+obs3_00223,Volcanic flow of Boulhmayl river,34.393255555555555,-6.469327777777778,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,234,,False
+obs3_00224,Gayville beach potholes,33.93679444444444,-6.946277777777778,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,235,,False
+obs3_00225,Koudiat Ech-Cherif,34.03132222222222,-6.843502777777777,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,236,,False
+obs3_00226,Sebt-Merchouch plateau Angular Unconformity,33.848572222222224,-6.966044444444445,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,237,,False
+obs3_00227,Zaër granite,34.554316666666665,-5.874338888888889,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,238,,False
+obs3_00228,Jbel Moghrane's Westphalian Molasse,34.39001666666667,-6.469991666666667,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,239,,False
+obs3_00229,Stratotype GSSP Tortonian- Messinian Limit,33.936299999999996,-6.788841666666666,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_7,point,geoheritage_aug16_2026,240,,False
+obs3_00230,Jorf Lakhdar Geosite,34.740766666666666,-2.0449166666666665,Oriental,,Middle Atlas,,,geoheritage_aug16_2026_group_8,point,geoheritage_aug16_2026,241,,False
+obs3_00231,Guilliz Geosite,34.47788611111111,-3.3419972222222225,Oriental,,Middle Atlas,,,geoheritage_aug16_2026_group_8,point,geoheritage_aug16_2026,242,,False
+obs3_00232,Dinosaur footprint site of Anza,30.445833333333333,-9.660833333333333,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_9,point,geoheritage_aug16_2026,243,,False
+obs3_00233,sedimentary and tectonic type: Quaternary conglomerate formation of Taghazout,30.53523888888889,-9.676272222222222,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_9,point,geoheritage_aug16_2026,244,,False
+obs3_00234,Karstic type geosite 3: Cap Ghir Cave,30.62918888888889,-9.833916666666667,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_9,point,geoheritage_aug16_2026,245,,False
+obs3_00235,Stratigraphic-type geosite 4: Tiguert Formation,30.629534166666666,-9.834047222222223,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_9,point,geoheritage_aug16_2026,246,,False
+obs3_00236,Stratigraphic Type: Oxfordian of Cap Ghir Reef,30.628327777777777,-9.836655555555556,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_9,point,geoheritage_aug16_2026,247,,False
+obs3_00237,Imi Ouaddar sedimentary geosite type : black shale-Imi-Ouaddar,30.56222222222222,-9.742455555555555,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_9,point,geoheritage_aug16_2026,248,,False
+obs3_00238,Almou,33.379155555555556,-4.711366666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_10,point,geoheritage_aug16_2026,249,,False
+obs3_00239,Cross‑Bedding Structures,29.941425,-5.625411111111112,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,250,,False
+obs3_00240,"Bioturbation, Trace Fossils, and Fossils",29.925708333333336,-5.614744444444444,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,251,,False
+obs3_00241,Wave Ripples,29.905974999999998,-5.5915333333333335,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,252,,False
+obs3_00242,Micro‑faulting and Hydrofracturing,29.895227777777777,-5.609219444444444,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,253,,False
+obs3_00243,Conglomerate and Conglomeratic Sandstone,29.896744444444444,-5.582991666666667,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,254,,False
+obs3_00244,Unconformities,29.9595,-5.637094444444444,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,255,,False
+obs3_00245,Joints and Rock Fall,29.980649999999997,-5.651988888888889,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,256,,False
+obs3_00246,Exfoliation,29.872122222222224,-5.547361111111111,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_11,point,geoheritage_aug16_2026,257,,False
+obs3_00247,Jbel Ardouz,31.558536111111113,-8.631069444444446,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,258,,False
+obs3_00248,Aguelmam-n-Tghalouine,33.38636944444444,-5.095097222222222,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,259,,False
+obs3_00249,Habri,33.382694444444446,-5.155816666666667,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,260,,False
+obs3_00250,Mijmouane,33.364336111111115,-5.159780555555556,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,261,,False
+obs3_00251,Lachmin n'Ait el Haj,33.38148611111111,-5.071080555555556,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,262,,False
+obs3_00252,Hebri,33.359525,-5.140788888888889,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,263,,False
+obs3_00253,Carry of Ouest Hebri,33.347297222222224,-5.161033333333334,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,264,,False
+obs3_00254,Boutjetiout,33.34464722222222,-5.126955555555555,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,265,,False
+obs3_00255,Taïssaouite,33.31863055555556,-5.109808333333333,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,266,,False
+obs3_00256,Tit Ouagmar,33.32478888888889,-5.137197222222222,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,267,,False
+obs3_00257,Bou Ahsine,33.32251666666667,-5.095727777777777,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,268,,False
+obs3_00258,Bou-Tagarouine,33.282016666666664,-5.101694444444444,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,269,,False
+obs3_00259,Foum El Kheneg,33.131194444444446,-5.0413,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,270,,False
+obs3_00260,Aghbalou Aberchane,33.124180555555554,-5.052108333333333,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,271,,False
+obs3_00261,Aguelmane Sidi Ali,33.085375,-4.995252777777778,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,272,,False
+obs3_00262,Tamarrkoit,33.06227777777777,-5.062994444444445,Marrakech-Safi,,Meseta,,,geoheritage_aug16_2026_group_12,point,geoheritage_aug16_2026,273,,False
+obs3_00263,Bab Boudir,34.06666666666667,-4.116666666666666,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,274,,False
+obs3_00264,Tazekka,34.18333333333333,-4.2,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,275,,False
+obs3_00265,Taza,34.21666666666667,-4.016666666666667,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,276,,False
+obs3_00266,Chaara Chasm,33.95682222222222,-4.247022222222222,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,277,,False
+obs3_00267,Chiker Cave,34.112944444444445,-4.045369444444444,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,278,,False
+obs3_00268,Iferouato Chasm,34.104016666666666,-4.071858333333333,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,279,,False
+obs3_00269,Izoura Chasm,34.08271388888889,-4.107749999999999,Fez-Meknes,,Middle Atlas,,,geoheritage_aug16_2026_group_13,point,geoheritage_aug16_2026,280,,False
+obs3_00270,Anza tracksite,30.444925,-9.659819444444445,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_14,point,geoheritage_aug16_2026,281,,False
+obs3_00271,Cascade of Akchor,35.23861111111111,-5.176530555555556,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,282,,False
+obs3_00272,Cascdes of Oued Laou,35.27912222222222,-5.238088888888889,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,283,,False
+obs3_00273,Crenulations in the Targha micaschist,35.282875,-4.914525,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,285,,False
+obs3_00274,Structural position of the geological units of the Internal Rif at Kodiat Achacha,35.265861111111114,-5.234911111111111,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,286,,False
+obs3_00275,Exhumation of peridotites in the Aarabe Valley,35.396366666666665,-5.0262,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,287,,False
+obs3_00276,Geosite 1,35.380925,-5.3518,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,288,,False
+obs3_00277,Geosite 2,35.377272222222224,-5.333597222222222,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,289,,False
+obs3_00278,Geosite 3,35.382958333333335,-5.201388888888889,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,290,,False
+obs3_00279,Geosite 4,35.382616666666664,-5.187169444444445,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,291,,False
+obs3_00280,Geosite 5,35.37940833333333,-5.175622222222223,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,292,,False
+obs3_00281,Geosite 6,35.239844444444444,-5.304963888888889,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,293,,False
+obs3_00282,Geosite 7,35.247569444444444,-5.299655555555556,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,294,,False
+obs3_00283,Geosite 8,35.246741666666665,-5.282819444444445,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,295,,False
+obs3_00284,Geosite 9,35.248850000000004,-5.284202777777778,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,296,,False
+obs3_00285,Geosite 10,35.263244444444446,-5.256766666666667,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,297,,False
+obs3_00286,Geosite 11,35.27701944444444,-5.244175,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,298,,False
+obs3_00287,Geosite 12,35.29886944444444,-5.218872222222222,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,299,,False
+obs3_00288,Geosite 13,35.347436111111115,-5.1865250000000005,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,300,,False
+obs3_00289,Geosite 14,35.25826388888889,-5.2222583333333334,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,301,,False
+obs3_00290,Geosite 15,35.25094722222222,-5.215055555555556,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,302,,False
+obs3_00291,Geosite 16,35.25453888888889,-5.207208333333334,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,303,,False
+obs3_00292,Geosite 17,35.24471666666667,-5.203758333333334,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,304,,False
+obs3_00293,Geosite 18,35.216950000000004,-5.1748722222222225,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,305,,False
+obs3_00294,Geosite 19,35.22786388888889,-5.1443972222222225,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,306,,False
+obs3_00295,Geosite 20,35.18326111111111,-5.270011111111111,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,307,,False
+obs3_00296,Geosite 21,35.17123888888889,-5.24315,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,308,,False
+obs3_00297,Geosite 22,35.17595,-5.223658333333334,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,309,,False
+obs3_00298,Geosite 23,35.06202222222222,-5.2079305555555555,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,310,,False
+obs3_00299,Geosite 24,35.06963888888889,-5.140063888888889,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,311,,False
+obs3_00300,Geosite 25,35.06913055555556,-5.110225,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,312,,False
+obs3_00301,Geosite 26,35.06165,-5.094925,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,313,,False
+obs3_00302,Geosite 27,35.07774166666667,-5.0828138888888885,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,314,,False
+obs3_00303,Geosite 28,35.077625000000005,-5.072286111111111,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,315,,False
+obs3_00304,Geosite 29,35.077402777777785,-5.060816666666667,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,316,,False
+obs3_00305,Geosite 30,35.06676388888889,-5.0513611111111105,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,317,,False
+obs3_00306,Geosite 31,35.05916388888889,-5.028905555555555,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,318,,False
+obs3_00307,Geosite 32,35.08853611111111,-5.154400000000001,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,319,,False
+obs3_00308,Geosite 33,35.11370277777778,-5.142227777777778,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,320,,False
+obs3_00309,Geosite 34,35.15210277777778,-5.146275,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,321,,False
+obs3_00310,Geosite 35,35.164313888888884,-5.240777777777778,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,322,,False
+obs3_00311,Geosite 36,35.175827777777776,-5.193530555555556,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,323,,False
+obs3_00312,Geosite 37,35.396208333333334,-5.069319444444444,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,324,,False
+obs3_00313,Geosite 38,35.38621944444444,-5.015280555555556,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,325,,False
+obs3_00314,Geosite 39,35.35146388888889,-4.973444444444445,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,326,,False
+obs3_00315,Geosite 40,35.32295277777778,-4.946266666666667,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,327,,False
+obs3_00316,Geosite 41,35.295088888888884,-4.933838888888889,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,328,,False
+obs3_00317,Geosite 42,35.29116666666666,-4.890113888888888,Tanger-Al Hoceima,,Rif,,,geoheritage_aug16_2026_group_15,point,geoheritage_aug16_2026,329,,False
+obs3_00318,Foum Chena site,30.48587777777778,-6.166716666666667,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_16,point,geoheritage_aug16_2026,330,,False
+obs3_00319,Ouigane site,30.456463888888887,-6.099186111111111,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_16,point,geoheritage_aug16_2026,331,,False
+obs3_00320,Cheaba Elbeida site,30.437183333333333,-6.049980555555555,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_16,point,geoheritage_aug16_2026,332,,False
+obs3_00321,Targua Wassai,29.207316666666667,-10.092175000000001,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,333,,False
+obs3_00322,Abeinou,29.08107777777778,-9.974233333333334,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,334,,False
+obs3_00323,Atlas Ifrane Essaghir,29.22500833333333,-9.702255555555555,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,335,,False
+obs3_00324,Taghjijt,29.117102777777777,-9.421058333333333,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,336,,False
+obs3_00325,Laksabi,29.01348611111111,-10.2247,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,337,,False
+obs3_00326,Chatiaalabied,28.90578611111111,-10.316127777777778,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,338,,False
+obs3_00327,Ras Oumlil,28.658716666666667,-10.486783333333333,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,339,,False
+obs3_00328,Aferket,28.6385,-10.325591666666666,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,340,,False
+obs3_00329,Tiglit,28.45379722222222,-10.305405555555556,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,341,,False
+obs3_00330,Labyar,28.762255555555555,-10.220372222222222,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,342,,False
+obs3_00331,Asrir-Tighmert,28.880133333333333,-10.012830555555556,Guelmim-Oued Noun,,Sahara,,,geoheritage_aug16_2026_group_17,point,geoheritage_aug16_2026,343,,False
+obs3_00332,Baryte deposits of Tarhoucht,31.302675,-5.021425,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,344,,False
+obs3_00333,Cambrian fossiliferous site of Tarhoucht,31.367911111111113,-5.017591666666666,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,345,,False
+obs3_00334,Columnar basalts,31.587197222222223,-4.834605555555555,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,346,,False
+obs3_00335,Ordovician tillites,31.473130555555553,-5.036347222222222,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,347,,False
+obs3_00336,Devonian formation of Oued Ferkla,31.43928888888889,-5.019838888888889,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,348,,False
+obs3_00337,ifr,31.529038888888888,-4.998469444444445,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,349,,False
+obs3_00338,Rock carvings of Taghia,31.535975,-5.009883333333334,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,350,,False
+obs3_00339,Khettara of Tinjdad,31.47904722222222,-5.256241666666667,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,351,,False
+obs3_00340,Ksour (fortified villages),31.491636111111113,-5.065388888888888,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_18,point,geoheritage_aug16_2026,352,,False
+obs3_00341,Ordovician‑Cambrian Palaeontological Heritage of Zagora Province,30.32475833333333,-5.796786111111111,Draa-Tafilalet,,Anti-Atlas,,,geoheritage_aug16_2026_group_19,point,geoheritage_aug16_2026,353,,False
+obs3_00342,El Mers Center,33.44300833333333,-4.450113888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,354,,False
+obs3_00343,Ifri N'Tfrane,33.45962222222222,-4.4115527777777785,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,355,,False
+obs3_00344,Laach O'Medda,33.462094444444446,-4.405919444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,356,,False
+obs3_00345,Tassmante O'Moche,33.46461111111111,-4.392244444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,357,,False
+obs3_00346,Tasra,33.44546666666666,-4.3900194444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,358,,False
+obs3_00347,Inzar O'Founass,33.44166388888888,-4.398355555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_20,point,geoheritage_aug16_2026,359,,False
+obs3_00348,Benguerir,32.283725,-7.936480555555556,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,360,,False
+obs3_00349,Douar Mghila,32.929966666666665,-5.769566666666667,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,361,,False
+obs3_00350,Ksar Al Goraane,32.29689444444444,-3.6355805555555554,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,362,,False
+obs3_00351,Tinjdad,31.573891666666665,-5.030261111111111,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,363,,False
+obs3_00352,Tamdakht,31.237433333333335,-7.21305,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,364,,False
+obs3_00353,Oued El Hdjar,30.19105,-6.269888888888889,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,365,,False
+obs3_00354,Bensour,30.08461111111111,-6.439855555555556,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,366,,False
+obs3_00355,Izarzar,30.13626111111111,-6.939791666666667,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,367,,False
+obs3_00356,Sidi Ali Ou Azza,29.871444444444446,-6.761644444444444,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,368,,False
+obs3_00357,Tissint,29.727641666666663,-7.289619444444444,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,369,,False
+obs3_00358,Tirhert,29.551733333333335,-7.833644444444444,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,370,,False
+obs3_00359,Kheng Ljouad,29.42676666666667,-8.585408333333334,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,371,,False
+obs3_00360,Mahbas Aaraid,28.058994444444444,-9.342263888888889,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,372,,False
+obs3_00361,Zag,27.5832,-9.188877777777778,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,373,,False
+obs3_00362,Itqly,26.750219444444443,-12.95539722222222,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,374,,False
+obs3_00363,Oudiat Sbaa,25.84144722222222,-12.369369444444445,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,375,,False
+obs3_00364,Gueltat Zemmour,25.19666388888889,-12.673663888888889,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,376,,False
+obs3_00365,Oum Dreya,24.406222222222222,-13.084286111111112,Morocco,,Morocco,,,geoheritage_aug16_2026_group_21,point,geoheritage_aug16_2026,377,,False
+obs3_00366,Fairy chimneys of Assamar,31.47618333333333,-6.962058333333333,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,378,,False
+obs3_00367,Alluvial terraces of Aït Mallal,31.455205555555555,-6.982922222222222,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,379,,False
+obs3_00368,Badlands of Igoulouane,31.464872222222223,-6.914383333333333,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,381,,False
+obs3_00369,Arouss valley,31.447041666666667,-6.915677777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,382,,False
+obs3_00370,Canyon of High-Tessaout valley,31.436733333333333,-6.919366666666667,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,383,,False
+obs3_00371,Canyon of Ikiss,31.470574999999997,-6.8829,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,384,,False
+obs3_00372,Canyon of Abachkou valley,31.533983333333335,-6.947044444444445,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,385,,False
+obs3_00373,Canyon of Rougoult valley,31.430525000000003,-6.895311111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,386,,False
+obs3_00374,Rat syncline,31.432100000000002,-6.818516666666667,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,387,,False
+obs3_00375,Peak and cliffs of Tarkeddid mountain,31.72493611111111,-6.964933333333334,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,388,,False
+obs3_00376,Mount M’goun (4068 m),31.395658333333333,-6.793727777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,389,,False
+obs3_00377,The unconf Paleozoic basement-Mesozoic sedimentary cover of Aït Mallal,31.741458333333334,-6.851061111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,390,,False
+obs3_00378,Rougoult waterfall,31.736975,-6.869158333333334,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,391,,False
+obs3_00379,Springs of Oued Lakhdar (green river),31.708283333333334,-6.853627777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,392,,False
+obs3_00380,Springs and waterfall of Ikiss,31.717716666666664,-6.815847222222222,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,393,,False
+obs3_00381,Sinkholes of the Rat mountain,31.72513611111111,-6.970002777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,394,,False
+obs3_00382,Glacial cirques and U-shaped valleys of M’goun,31.534986111111113,-6.933286111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,395,,False
+obs3_00383,Glacial cirques and U-shaped valleys of Rat mountain,31.52438611111111,-6.942316666666667,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,396,,False
+obs3_00384,Scree and talus deposits of Rat mountain,31.50797777777778,-6.934944444444445,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,397,,False
+obs3_00385,Scree and talus deposits of Tarkeddid mountain,31.50014722222222,-6.926411111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,398,,False
+obs3_00386,Troglodyte caves of Igoulouane,31.546483333333335,-6.971002777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,399,,False
+obs3_00387,Rock engravings of Tizi-n-Tirghyst,31.558316666666666,-6.995580555555556,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,400,,False
+obs3_00388,Lake sediment of Aït Bougmez valley,31.492847222222224,-6.917519444444444,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_22,point,geoheritage_aug16_2026,401,,False
+obs3_00389,Alluvial terraces of Aït Mallal,31.56131388888889,-6.465525,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,402,,False
+obs3_00390,Aït Mallal valley,31.56103888888889,-6.472736111111111,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,403,,False
+obs3_00391,Badlands of Igoulouane,31.589966666666665,-6.475405555555556,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,404,,False
+obs3_00392,Arouss valley,31.657102777777776,-6.41965,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,405,,False
+obs3_00393,Canyon of Rougoult valley,31.521252777777775,-6.703430555555555,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,406,,False
+obs3_00394,Canyon of Abachkou valley,31.625316666666667,-6.626622222222223,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,407,,False
+obs3_00395,Canyon of High-Tessaout valley,31.633255555555557,-6.585486111111111,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,408,,False
+obs3_00396,Glacial cirques and U-shaped valleys of Rat mountain,31.52679722222222,-6.744063888888889,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,409,,False
+obs3_00397,Scree and talus deposits of Rat mountain,31.543436111111113,-6.734586111111112,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,410,,False
+obs3_00398,Scree and talus deposits of Tarkeddid mountain,31.560661111111113,-6.7567,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,411,,False
+obs3_00399,Fairy chimneys of Assamar,31.681522222222224,-6.668716666666667,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,412,,False
+obs3_00400,Canyon of Ikiss,31.60168888888889,-6.6045638888888885,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,413,,False
+obs3_00401,Rat syncline,31.60590277777778,-6.575658333333333,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,414,,False
+obs3_00402,Peak and cliffs of Tarkeddid mountain,31.575369444444444,-6.6589,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,415,,False
+obs3_00403,Mount M’goun (4068 m),31.562691666666666,-6.61011111111111,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,416,,False
+obs3_00404,The unconformity between Paleozoic basement and Mesozoic sedimentary cover of Aït Mallal,31.551094444444445,-6.5847,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,417,,False
+obs3_00405,Rougoult waterfall,31.53590555555556,-6.646369444444444,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,419,,False
+obs3_00406,Springs of Oued Lakhdar (green river),31.538647222222224,-6.587663888888889,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,420,,False
+obs3_00407,Springs and waterfall of Ikiss,31.5248,-6.5918777777777775,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,421,,False
+obs3_00408,Sinkholes of the Rat mountain,31.53021111111111,-6.552005555555556,Béni Mellal-Khénifra ,G,Central Hight Atlas,,,geoheritage_aug16_2026_group_23,point,geoheritage_aug16_2026,422,,False
+obs3_00409,Ida-Ou’Zal massif of the Argana Basin,30.681166666666666,-9.100333333333333,Souss-Massa,,Western High Atlas,,,geoheritage_aug16_2026_group_25,point,geoheritage_aug16_2026,543,,False
+obs3_00410,Ras El Ma Waterfalls,34.14938611111111,-4.0049777777777775,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,544,,False
+obs3_00411,Ras El Ma resurgence,34.14704444444445,-4.012736111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,545,,False
+obs3_00412,Sidi Majbar complex,34.14333888888889,-4.031063888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,546,,False
+obs3_00413,Generalized erosion at Sidi Majbar,34.13324444444444,-4.036352777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,547,,False
+obs3_00414,Holm Oak on lapie,34.131194444444446,-4.042066666666667,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,548,,False
+obs3_00415,Jbel Bou Massoud lapies field,34.12572222222222,-4.052275,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,549,,False
+obs3_00416,Ponor Dayet Chiker,34.10381944444445,-4.065458333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,550,,False
+obs3_00417,Dayet Chiker chasm,34.10001388888889,-4.071772222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,551,,False
+obs3_00418,Dayet Chiker Polje,34.099136111111115,-4.077411111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,552,,False
+obs3_00419,Friouato chasm,34.09307777777778,-4.096919444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,553,,False
+obs3_00420,Habiat under the Dayet Chiker escapment,34.09280555555556,-4.109363888888889,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,554,,False
+obs3_00421,Ain Becher doline,34.06598611111111,-4.10591111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,555,,False
+obs3_00422,Old lead pencil,34.068983333333335,-4.117061111111111,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,556,,False
+obs3_00423,Jbel Bou Slama cave,34.070663888888895,-4.119969444444444,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,557,,False
+obs3_00424,Bab Boudir anticlinal,34.07970277777778,-4.137822222222223,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,558,,False
+obs3_00425,Bab Boudir complex,34.00445833333333,-4.172994444444445,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,559,,False
+obs3_00426,Dhar feurn waterfalls,34.085094444444444,-4.166172222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,560,,False
+obs3_00427,Ain Admame exsurgence,34.07975833333334,-4.188772222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,561,,False
+obs3_00428,Volcano-sedimentary complex,34.081294444444445,-4.1469000000000005,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,562,,False
+obs3_00429,Beni Senane acriculture terraces,34.1597,-4.109958333333333,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,563,,False
+obs3_00430,Tazekka massif,34.1764,-4.110372222222222,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,564,,False
+obs3_00431,Ouled Lakhal gorges,34.169013888888884,-4.0989249999999995,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,565,,False
+obs3_00432,El Qelaa complex,34.128566666666664,-4.127402777777777,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,566,,False
+obs3_00433,El Qelaa landslide,34.10535277777778,-4.066574999999999,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,567,,False
+obs3_00434,Jbel Bou Massoud anticlinal,34.19662777777778,-4.2085333333333335,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,568,,False
+obs3_00435,Jbel Bou Massoud fossilized lapies field,34.210994444444445,-4.167633333333334,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,569,,False
+obs3_00436,Tighigha fossilized lapies field,34.214708333333334,-4.135480555555556,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,570,,False
+obs3_00437,Tighigha complex,34.21790555555556,-4.090177777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,571,,False
+obs3_00438,Clonial millitary camp,34.208419444444445,-4.1353583333333335,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,572,,False
+obs3_00439,Ain Khebbab exsurgence,34.18175833333333,-4.161677777777778,Beni Mellal-Khenifra,,Middle Atlas,,,geoheritage_aug16_2026_group_26,point,geoheritage_aug16_2026,573,,False
+obs3_00440,The massive dolomites of the Tizgarine unit,35.872908333333335,-5.421022222222223,Tanger-Tétouan-Al Hoceïma,M,Rif,,,geoheritage_aug16_2026_group_27,point,geoheritage_aug16_2026,574,,False
+obs3_00441,Calipso cave,35.885980555555555,-5.409766666666667,Tanger-Tétouan-Al Hoceïma,G,Rif,,,geoheritage_aug16_2026_group_27,point,geoheritage_aug16_2026,575,,False
+obs3_00442,the source and catchment basin of the water,35.88771944444444,-5.3905166666666675,Tanger-Tétouan-Al Hoceïma,H&G,Rif,,,geoheritage_aug16_2026_group_27,point,geoheritage_aug16_2026,576,,False
+obs3_00443,"Ras Leona rocky coast and Karst (Lapiés, doline and cave)",35.920677777777776,-5.401880555555556,Tanger-Tétouan-Al Hoceïma,"G,S",Rif,,,geoheritage_aug16_2026_group_27,point,geoheritage_aug16_2026,577,,False
+obs3_00444,Predorsal sandstone of Bel Younech,35.90768055555555,-5.385816666666667,Tanger-Tétouan-Al Hoceïma,S&PT,Rif,,,geoheritage_aug16_2026_group_27,point,geoheritage_aug16_2026,578,,False
+obs3_00445,The cliff of Ras Leona,35.91231388888889,-5.405483333333334,Tanger-Tétouan-Al Hoceïma,SG&G,Rif,,,geoheritage_aug16_2026_group_27,point,geoheritage_aug16_2026,579,,False
+obs3_00446,Ammonitico-rosso of Taffert,33.65582777777777,-4.187444444444445,Fès-Meknès,PL,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,580,,False
+obs3_00447,Volcano of Bou-Iblane,33.66074166666667,-4.111491666666666,Fès-Meknès,V,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,581,,False
+obs3_00448,Reefs of Ich Maalam,33.64151944444444,-4.282616666666667,Fès-Meknès,PL,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,582,,False
+obs3_00449,Cornish limestones of Serhla,33.630291666666665,-4.278788888888889,Fès-Meknès,S,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,583,,False
+obs3_00450,Hayane canyon,33.68071111111111,-4.23295,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,584,,False
+obs3_00451,Askour Cave,33.707350000000005,-4.299841666666667,Fès-Meknès,K,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,585,,False
+obs3_00452,Tamezyidan Rbi,33.656188888888884,-4.282172222222222,Fès-Meknès,K,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,586,,False
+obs3_00453,Guelta Tameda,33.925266666666666,-4.095975,Fès-Meknès,K,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,587,,False
+obs3_00454,Source Oued el Bared,33.80676944444444,-4.375911111111111,Fès-Meknès,S,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,588,,False
+obs3_00455,Oued el Bared cave,33.652052777777776,-4.174741666666667,Fès-Meknès,K,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,589,,False
+obs3_00456,Discordance Ribata lKhayr,33.606430555555555,-4.202916666666667,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,590,,False
+obs3_00457,Tizi Bou-Zaabel,33.853922222222224,-4.034847222222222,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,591,,False
+obs3_00458,Bou-Iblane-Issouka,33.93060555555555,-4.146019444444445,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,592,,False
+obs3_00459,Periclinal Taffajight,33.85335277777778,-4.029011111111111,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,593,,False
+obs3_00460,Malachites of Talzemt,33.92628333333333,-4.034172222222222,Fès-Meknès,M,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,594,,False
+obs3_00461,Discordance Jbel Abdous,33.86557777777778,-4.034458333333333,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,595,,False
+obs3_00462,Mallal cascade,33.815875,-4.133719444444445,Fès-Meknès,H,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,596,,False
+obs3_00463,Jbel el Kalaa,33.80313888888889,-4.161325000000001,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,597,,False
+obs3_00464,Tmourhout valley,33.75717222222222,-4.067008333333333,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,598,,False
+obs3_00465,Bizi canyon,33.705286111111114,-4.124786111111111,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,599,,False
+obs3_00466,Fault Tmourhout,33.690061111111106,-4.160183333333333,Fès-Meknès,S,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,600,,False
+obs3_00467,Cascade Sahbab,33.657377777777775,-4.041383333333333,Fès-Meknès,H,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,601,,False
+obs3_00468,Tmourhout Cascade,33.58704166666667,-4.211975,Fès-Meknès,H,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,602,,False
+obs3_00469,Synclinal Zloul,33.572188888888896,-4.261980555555556,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,603,,False
+obs3_00470,Ain Sebou,33.473708333333335,-4.296916666666666,Fès-Meknès,H,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,604,,False
+obs3_00471,Synclinal Tilmirat,33.457769444444445,-4.332880555555556,Fès-Meknès,SG,Middle Atlas,,,geoheritage_aug16_2026_group_28,point,geoheritage_aug16_2026,605,,False
+obs3_00472,"Watercourse, river, lake, dam",32.10894444444445,-6.4633416666666665,Beni Mellal-Khénifra,H,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,609,,False
+obs3_00473,Dinosaur footprints,32.10691388888889,-6.458327777777778,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,610,,False
+obs3_00474,Panoramic view of the Ouaouizaght Syncline,32.13167777777778,-6.397130555555556,Beni Mellal-Khénifra,SG&S,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,611,,False
+obs3_00475,"Inverse fault, anticlinal fold and joint",32.08508611111111,-6.431527777777778,Beni Mellal-Khénifra,SG,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,612,,False
+obs3_00476,Assif Assemssil Bridge,32.10832777777778,-6.472758333333333,Beni Mellal-Khénifra,H,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,613,,False
+obs3_00477,Oued Ahençal river,32.069947222222225,-6.4240305555555555,Beni Mellal-Khénifra,H,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,614,,False
+obs3_00478,Oued el Abid Bridge,32.13381666666667,-6.311780555555555,Beni Mellal-Khénifra,S,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,615,,False
+obs3_00479,Panoramic view of badlands and cuesta,32.09181944444445,-6.331558333333333,Beni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,616,,False
+obs3_00480,Ain Asserdoune-Tamgnounte,32.3241,-6.3375,Beni Mellal-Khénifra,"H,K&C",Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,617,,False
+obs3_00481,Ain El Ghazi cave,32.08428611111111,-6.384997222222222,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,618,,False
+obs3_00482,Ruiniform landscape of Moudj,32.32635833333334,-6.340052777777777,Beni Mellal-Khénifra,G&H,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,620,,False
+obs3_00483,Idemrane landslide,32.339975,-6.3209333333333335,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,621,,False
+obs3_00484,Adouz dejection cone,32.31991388888889,-6.3556888888888885,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,622,,False
+obs3_00485,Ajojjar waterfall,32.32220277777778,-6.315575,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,623,,False
+obs3_00486,Ouchrah site,32.352627777777776,-6.2916083333333335,Beni Mellal-Khénifra,H,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,624,,False
+obs3_00487,Tafrent Polje,32.36804166666667,-6.258297222222223,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,625,,False
+obs3_00488,Hançais,32.26388611111111,-6.312141666666666,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,626,,False
+obs3_00489,Ain Fachtals,32.25786111111111,-6.2741444444444445,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,627,,False
+obs3_00490,Ain Ikhourba,32.24431666666667,-6.2989138888888885,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,628,,False
+obs3_00491,Taghbaloute- n- Ouhlima,32.23753055555556,-6.290352777777778,Beni Mellal-Khénifra,"H,K,C&E",Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,629,,False
+obs3_00492,Jbel Boutarwa,32.250305555555556,-6.2639611111111115,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,630,,False
+obs3_00493,Tit-n-Ziza Geomorphosite,32.244397222222226,-6.258502777777778,Beni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,631,,False
+obs3_00494,Afla Ifran Geomorphosite,32.20150277777778,-6.281852777777778,Beni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,632,,False
+obs3_00495,Chkounda Geomorphosite,32.213880555555555,-6.259605555555556,Beni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,633,,False
+obs3_00496,Tichniwine Rocks,32.17773888888889,-6.266066666666666,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,634,,False
+obs3_00497,Iferd Ait Masaoud Polje,32.18183611111111,-6.237288888888889,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,635,,False
+obs3_00498,Ben Cherrou Valley,32.17372222222222,-6.190272222222222,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,636,,False
+obs3_00499,Jbel Tadawt Karst,32.13916944444444,-6.241613888888889,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,637,,False
+obs3_00500,Jbel Wawngarf karstic plateau,32.165841666666665,-6.179147222222222,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,638,,False
+obs3_00501,El Haounet karstic plateau,32.162791666666664,-6.157447222222222,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,639,,False
+obs3_00502,The Walous cliff granaries,32.23994722222222,-6.10668611111111,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,640,,False
+obs3_00503,Ain Askar,32.30008055555555,-6.015122222222222,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,641,,False
+obs3_00504,Oued El Abid meanders,32.26376666666667,-5.923236111111112,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,642,,False
+obs3_00505,Gabbroic intrusion of Idemrane,32.50248888888889,-5.939594444444444,Beni Mellal-Khénifra,Mg,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,643,,False
+obs3_00506,Sills of Idemrane,32.43943611111111,-6.026855555555556,Beni Mellal-Khénifra,Mg,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,644,,False
+obs3_00507,Folded marly limstones of the Bine El Ouidane II Fm,32.472861111111115,-6.068297222222222,Beni Mellal-Khénifra,SG,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,645,,False
+obs3_00508,Fossil wood of the Azilal Fm,32.50250555555556,-6.039413888888888,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,646,,False
+obs3_00509,Chaos alteration of gabbros,32.582236111111115,-5.935472222222223,Beni Mellal-Khénifra,S,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,647,,False
+obs3_00510,Red facies of the Guettioua Fm,32.55121666666666,-6.005508333333333,Beni Mellal-Khénifra,S,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,648,,False
+obs3_00511,Dinosaur bone deposit of Agard-n-Sgat,32.551291666666664,-6.031252777777778,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,649,,False
+obs3_00512,Dinosaur footprints at Ait Wissadane,32.55221944444444,-6.046180555555555,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,650,,False
+obs3_00513,Basaltic flow B1,32.55650833333333,-6.047619444444444,Beni Mellal-Khénifra,Mg,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,651,,False
+obs3_00514,The Taghia-n-Ait Boulmane intrusion,32.530252777777775,-6.069772222222222,Beni Mellal-Khénifra,Mg,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,652,,False
+obs3_00515,Dyke of Taguelft,32.537299999999995,-6.070855555555555,Beni Mellal-Khénifra,Mg,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,653,,False
+obs3_00516,Fault-fold associated with the magmatic intrusion of Ait Boulmane,32.492891666666665,-6.121133333333333,Beni Mellal-Khénifra,SG,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,654,,False
+obs3_00517,Ouzoud waterfalls,32.450697222222225,-6.1746694444444445,Beni Mellal-Khénifra,H,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,655,,False
+obs3_00518,Karstic spring of Ouzoud,32.414627777777774,-6.206419444444444,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,656,,False
+obs3_00519,Oued El Abid Gorges,32.375258333333335,-6.1688,Beni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,657,,False
+obs3_00520,Estuary of Oued Tissakht (Ouzoud caves),32.360933333333335,-6.112299999999999,Beni Mellal-Khénifra,H&K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,658,,False
+obs3_00521,Doleritic sill of Ouzoud,32.18674444444444,-6.495072222222222,Beni Mellal-Khénifra,SG,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,659,,False
+obs3_00522,Zauia of Tanaghmelt,32.19753333333333,-6.4971,Beni Mellal-Khénifra,R,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,660,,False
+obs3_00523,Basaltic flows of Ouzoud,32.18718611111111,-6.552241666666666,Beni Mellal-Khénifra,Mg,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,661,,False
+obs3_00524,Chocolate marl intruded by Tanaghmelt sil,32.164674999999995,-6.5732333333333335,Beni Mellal-Khénifra,St,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,662,,False
+obs3_00525,Ouzoud travertines,32.15880555555555,-6.587463888888888,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,663,,False
+obs3_00526,Moudj’s lapiez,32.171080555555555,-6.790813888888889,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,664,,False
+obs3_00527,Timskar Waterfalls,32.14246111111111,-6.731552777777778,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,665,,False
+obs3_00528,Tazerkount Ruiniformes Landscapes,32.1412,-6.714827777777778,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,666,,False
+obs3_00529,Caves of Orbiaa,32.102361111111115,-6.703855555555556,Beni Mellal-Khénifra,K&Hi,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,667,,False
+obs3_00530,Ain Orbiaa,32.08921111111111,-6.696075,Beni Mellal-Khénifra,K&R,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,668,,False
+obs3_00531,Ruiniformes Landscapes of Tacmit,32.081950000000006,-6.669544444444445,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,669,,False
+obs3_00532,Timskar’s travertines,32.08453333333333,-6.639611111111111,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,670,,False
+obs3_00533,Tazzerkount Tepee Structures,32.099761111111114,-6.594802777777778,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,671,,False
+obs3_00534,travertines of El Ksiba,32.11569166666667,-6.5541527777777775,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,672,,False
+obs3_00535,Ruiniformes Landscapes of EL Ksiba,32.058899999999994,-6.681425,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,673,,False
+obs3_00536,Fossils of Moudj,32.029066666666665,-6.726363888888889,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,674,,False
+obs3_00537,Panoramic view of Rurate,32.01476944444445,-6.714555555555556,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,675,,False
+obs3_00538,Spring of Lala Kamria,32.0179,-6.741741666666667,Beni Mellal-Khénifra,K,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,676,,False
+obs3_00539,Panoramic view of overturned bar of Iferghas,32.00463055555556,-6.740880555555556,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,677,,False
+obs3_00540,Karst cliff of Ighir-n-Oumejjad,31.9776,-6.705905555555556,Beni Mellal-Khénifra,SG,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,678,,False
+obs3_00541,Panoramic view of the Ait Attab syncline,32.12541111111111,-6.832025,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,679,,False
+obs3_00542,The tectonic deformations of Jbel Hassan,32.10018055555555,-6.834963888888889,Beni Mellal-Khénifra,SG,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,680,,False
+obs3_00543,The ruiniform limestones with ammonite of the Ben Cherrou formation,32.10639722222222,-6.819066666666666,Beni Mellal-Khénifra,PL,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,681,,False
+obs3_00544,Panoramic view of the Cretaceous cuestas,32.09368333333334,-6.766983333333333,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,682,,False
+obs3_00545,The bad land of Ait Ouabit,32.47123611111111,-5.9957972222222224,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,683,,False
+obs3_00546,Gorges of Ait Ouabit,32.43338055555555,-5.988777777777778,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,684,,False
+obs3_00547,Conglomerate terraces of Oued El Abid,32.415638888888886,-5.989605555555555,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,685,,False
+obs3_00548,The footprints of sauropod dinosaurs of Ayt Bouiqban,32.26287222222222,-6.001338888888889,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,686,,False
+obs3_00549,Lower limit of the basaltic flow B2,32.273491666666665,-6.114119444444444,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,687,,False
+obs3_00550,Jurassic-Cretaceous unconformity and volcanic activities,32.18554722222222,-6.103391666666666,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,688,,False
+obs3_00551,Bioclastic limestone with ammonite of the Bine El Ouidane BIII formation,32.185313888888885,-6.085536111111111,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,689,,False
+obs3_00552,Panoramic view of Oued El Abid from the old Caida of Taounza,32.12229722222222,-6.103816666666666,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,690,,False
+obs3_00553,Caves of cats and the spring of Tisqui,32.17446944444444,-6.5258416666666665,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,691,,False
+obs3_00554,Bioclastic marly limestone of Ait Tafelt formation,32.16252222222222,-6.528505555555555,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,692,,False
+obs3_00555,Eroded sandstone of Jbel Ilaghmane,32.15674444444444,-6.377458333333333,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,693,,False
+obs3_00556,Panoramic view of the red formations separated by the BI and BII magmatic events,32.161541666666665,-6.290386111111111,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,694,,False
+obs3_00557,Ruiniform reliefs of Jbel Al Maqçoura,32.159838888888885,-6.258836111111111,Beni Mellal-Khénifra,,Central High Atlas,,,geoheritage_aug16_2026_group_29,point,geoheritage_aug16_2026,695,,False
+obs3_00558,Zenaga Inlier,30.789275,-6.530641666666667,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,696,,False
+obs3_00559,"Neoproterozoic doleritic dykes (Zenaga, Central AA)",31.358700000000002,-5.882772222222223,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,697,,False
+obs3_00560,Tholeiitic dyke swarms (Zenaga inlier),31.254994444444446,-5.814813888888889,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,698,,False
+obs3_00561,Well preserved Pre-Pan-African sedimentary features,30.548716666666667,-6.813752777777777,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,699,,False
+obs3_00562,"Pan-African ophiolites of Bou Azzer and Siroua inliers, central AA)",30.564877777777777,-7.203411111111111,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,700,,False
+obs3_00563,Major Anti-Atlas Fault (central AA),30.552702777777778,-7.264191666666667,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,701,,False
+obs3_00564,"Pan-African Diamictites (Bou-Azzer and Siroua inliers, central AA)",30.535986111111114,-7.125977777777777,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,702,,False
+obs3_00565,Ediacarian Iknioun granodiorites,30.301130555555556,-7.251827777777778,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,703,,False
+obs3_00566,Late Neoproterozoic stromatolites,30.495266666666666,-7.043958333333333,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,704,,False
+obs3_00567,"Contacts Pan-African Groups: Saghro, Mgouna and Ouarzazate Groups",30.638841666666668,-7.145236111111111,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,705,,False
+obs3_00568,"Contacts Palaeoproterozoic Zenaga complex, late Neoproterozoic Ouarzazate Supergroup and the Cambrian Tata Group",30.54810555555556,-6.634427777777777,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,706,,False
+obs3_00569,Appalachian type folding in western AA,28.939308333333333,-8.814366666666668,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,708,,False
+obs3_00570,Large Cambrian trilobite Paradoxides,30.500936111111113,-6.6941250000000005,,GH&C,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,709,,False
+obs3_00571,Ordovician outcrop of Jbel Kissane,30.70671388888889,-6.322402777777778,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,710,,False
+obs3_00572,Large Ordovician trilobites (Asaphus) death assemblages,30.472627777777777,-7.000352777777778,,GH&C,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,711,,False
+obs3_00573,Silurian and lowermost Devonian Orthoceras-rich limestones and ammonite-rich limestones,30.62295277777778,-7.227963888888889,,GH&C,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,712,,False
+obs3_00574,Early Devonian Kess Kess carbonate mounds,30.724555555555554,-7.226127777777778,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,714,,False
+obs3_00575,Middle Devonian coral stromatoporoid biostrome,30.709730555555556,-7.01655,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,715,,False
+obs3_00576,Green eyes and red Devonian phacopid trilobite,30.741841666666666,-6.674591666666667,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,716,,False
+obs3_00577,Frasnian plants from the Drâa Valley,30.454708333333333,-5.942752777777778,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,717,,False
+obs3_00578,Well preserved shallow-water sedimentary features in Cambrian rocks,30.646455555555555,-6.418683333333334,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,718,,False
+obs3_00579,Foum-Zguid Jurassic dyke,30.154627777777776,-6.843063888888889,,GH,Anti-Atlas,,,geoheritage_aug16_2026_group_30,point,geoheritage_aug16_2026,719,,False
+obs3_00580,Fairy chimneys of Assamar,31.571852777777778,-6.663672222222223,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,720,,False
+obs3_00581,Alluvial terraces of Aït Mallal,31.536694444444446,-6.645352777777777,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,721,,False
+obs3_00582,Aït Mallal valley,31.523663888888887,-6.705125,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,722,,False
+obs3_00583,Badlands of Igoulouane,31.608958333333334,-6.574558333333333,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,723,,False
+obs3_00584,Arouss valley,31.569902777777777,-6.747588888888889,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,724,,False
+obs3_00585,Canyon of High-Tessaout valley,31.560558333333333,-6.463308333333334,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,725,,False
+obs3_00586,Canyon of Ikiss,31.515316666666667,-6.457375,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,726,,False
+obs3_00587,Canyon of Abachkou valley,31.623808333333333,-6.628875000000001,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,727,,False
+obs3_00588,Canyon of Rougoult valley,31.55171388888889,-6.590441666666666,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,728,,False
+obs3_00589,Rat syncline,31.541644444444447,-6.748036111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,729,,False
+obs3_00590,Peak and cliffs of Tarkeddid mountain,31.482691666666664,-6.595744444444444,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,730,,False
+obs3_00591,Mount M’goun (4068 m),31.507213888888888,-6.443472222222223,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,731,,False
+obs3_00592,The unconf Paleozoic basement-Mesozoic sedimentary cover of Aït Mallal,31.547347222222225,-6.611577777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,732,,False
+obs3_00593,Rougoult waterfall,31.562505555555557,-6.611708333333333,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,733,,False
+obs3_00594,Springs of Oued Lakhdar (green river),31.658188888888887,-6.402627777777778,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,734,,False
+obs3_00595,Springs and waterfall of Ikiss,31.625469444444445,-6.747558333333333,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,735,,False
+obs3_00596,Sinkholes of the Rat mountain,31.521475,-6.742991666666667,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,736,,False
+obs3_00597,Glacial cirques and U-shaped valleys of M’goun,31.55526111111111,-6.462261111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,737,,False
+obs3_00598,Glacial cirques and U-shaped valleys of Rat mountain,31.604041666666667,-6.4819,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,738,,False
+obs3_00599,Scree and talus deposits of Rat mountain,31.55313611111111,-6.7308972222222225,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,739,,False
+obs3_00600,Scree and talus deposits of Tarkeddid mountain,31.505033333333333,-6.654311111111111,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,740,,False
+obs3_00601,Troglodyte caves of Igoulouane,31.600350000000002,-6.6081916666666665,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,741,,False
+obs3_00602,Rock engravings of Tizi-n-Tirghyst,31.613733333333336,-6.744722222222222,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,742,,False
+obs3_00603,Lake sediment of Aït Bougmez valley,31.64987222222222,-6.444083333333333,Béni Mellal-Khénifra,G,Central High Atlas,,,geoheritage_aug16_2026_group_31,point,geoheritage_aug16_2026,743,,False
+obs3_00604,Hercynian folds in Devonian series of Tazoult,29.46580833333333,-8.003161111111112,Souss-Massa,S,Anti-Atlas,,,geoheritage_aug16_2026_group_32,point,geoheritage_aug16_2026,744,,False
+obs3_00605,Lower Cambrian series crescent or boomerang around the Tagragra of Tata inlier 1,29.877294444444445,-8.013680555555556,Souss-Massa,S,Anti-Atlas,,,geoheritage_aug16_2026_group_32,point,geoheritage_aug16_2026,745,,False
+obs3_00606,Lower Cambrian series crescent or boomerang around the Tagragra of Tata inlier 2,29.848527777777775,-7.9363166666666665,Souss-Massa,S,Anti-Atlas,,,geoheritage_aug16_2026_group_32,point,geoheritage_aug16_2026,746,,False
+obs3_00607,Lower Cambrian series crescent or boomerang around the Tagragra of Tata inlier3,29.820794444444445,-7.822294444444444,Souss-Massa,S,Anti-Atlas,,,geoheritage_aug16_2026_group_32,point,geoheritage_aug16_2026,747,,False
+obs3_00608,Interference folds as a mushroom pattern in the lower Cambrian east of the Issafen syncline,29.86016111111111,-8.523236111111112,Souss-Massa,S,Anti-Atlas,,,geoheritage_aug16_2026_group_32,point,geoheritage_aug16_2026,748,,False
+obs3_00609,Interference folds as a mushroom pattern in the lower Cambriansouth of Agouliz’s inlier,29.758008333333333,-8.207316666666665,Souss-Massa,S,Anti-Atlas,,,geoheritage_aug16_2026_group_32,point,geoheritage_aug16_2026,749,,False
+obs3_00610,Ordovician Trilobites of Zagora Area Site 1,30.02298888888889,-6.433980555555555,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,751,,False
+obs3_00611,Ordovician Trilobites of Zagora Area Site 2,29.938897222222224,-6.193888888888889,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,752,,False
+obs3_00612,Ordovician Trilobites of Zagora Area Site 3,29.93682777777778,-5.996452777777778,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,753,,False
+obs3_00613,Ordovician Trilobites of Zagora Area Site 4,30.000677777777778,-5.874175,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,754,,False
+obs3_00614,Ordovician Trilobites of Zagora Area Site 5,30.457102777777777,-5.630747222222222,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,755,,False
+obs3_00615,The Ergs,30.230741666666663,-5.606866666666666,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,757,,False
+obs3_00616,The Regs of Tinzouline,30.576999999999998,-6.149,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,758,,False
+obs3_00617,The Regs of Tamgroutat,30.2595,-5.684333333333334,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,759,,False
+obs3_00618,Foum Chenna,30.48193611111111,-6.167511111111112,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,760,,False
+obs3_00619,Assif Ouigane,30.45996388888889,-6.0931138888888885,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,761,,False
+obs3_00620,Cheaba Lbâida,30.433297222222222,-6.025127777777778,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,762,,False
+obs3_00621,Ordovician Trilobites of Zagora Area Site 6,30.42873888888889,-5.632844444444445,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,764,,False
+obs3_00622,Ordovician Trilobites of Zagora Area Site 7,30.311822222222222,-5.618038888888889,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,765,,False
+obs3_00623,Ordovician Trilobites of Zagora Area Site 8,30.24915277777778,-5.542544444444444,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,766,,False
+obs3_00624,Ordovician Trilobites of Zagora Area Site 9,30.376372222222223,-5.570494444444444,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,767,,False
+obs3_00625,Ordovician Trilobites of Zagora Area Site 10,30.439297222222223,-5.604897222222222,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,768,,False
+obs3_00626,Ordovician Trilobites of Zagora Area Site 11,30.477777777777778,-5.557497222222222,Souss-Massa,,Anti-Atlas,,,geoheritage_aug16_2026_group_33,point,geoheritage_aug16_2026,769,,False
+obs3_00627,Messinian/Tortonian in GSP / Stratotype of Oued Akerch,33.93694444444444,-6.8125,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,770,,False
+obs3_00628,Upper Devonian Oued Akerch,33.942791666666665,-6.788352777777778,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,771,,False
+obs3_00629,Lower Ordovician Amphibolite of Rabat,33.93553333333333,-6.766963888888889,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,772,,False
+obs3_00630,Lower Ordovician Flow lava,33.94070555555555,-6.789577777777778,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,773,,False
+obs3_00631,Siluro-Lockhovian-T? (Tunisia),33.93931388888888,-6.790733333333333,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,774,,False
+obs3_00632,Pragian Nodular limestone,33.938624999999995,-6.792391666666666,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,775,,False
+obs3_00633,Ed?ian Granite of Tiflet,33.835322222222224,-6.423994444444444,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,776,,False
+obs3_00634,Strunian Limestone Conglomerate of Tiflet,33.88125,-6.209594444444445,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,777,,False
+obs3_00635,Lower Visean red conglomerate,33.94484444444444,-6.771775,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,778,,False
+obs3_00636,Lower Ordovician–Upper Silurian unconformity,33.939586111111105,-6.790580555555556,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,779,,False
+obs3_00637,Miocene/Lower Devonian unconformity,33.94251388888888,-6.788677777777778,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,780,,False
+obs3_00638,Miocene/Lower Visean unconformity,33.94284722222222,-6.788352777777778,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,781,,False
+obs3_00639,Pliocene–Quaternary unconformity,33.94291111111111,-6.788686111111111,Rabat-Sale-Kenitra,,Meseta,,,geoheritage_aug16_2026_group_34,point,geoheritage_aug16_2026,782,,False
+obs3_00640,Panoramic view of overturned bar of Iferghas,32.200747213512344,-6.588045484218163,Béni Mellal-Khénifra,S,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,783,,True
+obs3_00641,Karst cliff of Ighir-n-Oumejjad,32.18225109028007,-6.620698952332202,Béni Mellal-Khénifra,Kar02,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,784,,True
+obs3_00642,Panoramic view of the Ait Attab syncline,32.159680934736734,-6.649538278384349,Béni Mellal-Khénifra,Stra03,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,785,,True
+obs3_00643,The tectonic deformations of Jbel Hassan,32.152467784397246,-6.649245897042148,Béni Mellal-Khénifra,Stru04,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,786,,True
+obs3_00644,The ruiniform limestones with ammonite of the Ben Cherrou Formation,32.264766660813265,-6.699960717896586,Béni Mellal-Khénifra,Pal05,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,787,,True
+obs3_00645,Panoramic view of the Cretaceous cuestas,32.053978781448976,-2.4446410047780387,Béni Mellal-Khénifra,Geom06,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,788,,True
+obs3_00646,The bad land of Ait Ouabit,32.07759081656388,-6.679095748009553,Béni Mellal-Khénifra,Flu07,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,789,,True
+obs3_00647,Gorges of Ait Ouabit,32.06070740501096,-6.678895097216187,Béni Mellal-Khénifra,Geom08,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,790,,True
+obs3_00648,Conglomerate terraces of Oued El Abid,32.07440426435131,-6.658424108341601,Béni Mellal-Khénifra,Stra9,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,791,,True
+obs3_00649,The footprints of sauropod dinosaurs of Ayt Bouiqban,32.072222204330075,-6.645988410516982,Béni Mellal-Khénifra,Pal10,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,792,,True
+obs3_00650,Lower limit of the basaltic flow B2,32.090625326292034,-6.6996269298507185,Béni Mellal-Khénifra,Stra11,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,793,,True
+obs3_00651,Jurassic-Cretaceous unconformity and volcanic activities,32.12088142376265,-6.546541712327494,Béni Mellal-Khénifra,Stra12,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,794,,True
+obs3_00652,Bioclastic limestone with ammonite of the Bine El Ouadane BIII Formation,32.11674844820348,-6.5525083161210995,Béni Mellal-Khénifra,Pal13,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,795,,True
+obs3_00653,Panoramic view of Oued El Abid from the old Caïda of Taounza,32.09175972251299,-6.594322697286596,Béni Mellal-Khénifra,Flu14,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,796,,True
+obs3_00654,Caves of cats and the spring of Tisgui,32.10495452985012,-6.762286699631312,Béni Mellal-Khénifra,Spe15,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,797,,True
+obs3_00655,Bioclastic marly limestone of Ait Taifelt Formation,32.1223439150025,-6.713658338118903,Béni Mellal-Khénifra,Pal16,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,798,,True
+obs3_00656,Eroded sandstone of Jbel Taghmane,32.126827436234024,-6.723678000505694,Béni Mellal-Khénifra,Geom17,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,799,,True
+obs3_00657,Panoramic view of the red formations separated by the BI and BII magmatic events,32.12787953957747,-6.728983116670538,Béni Mellal-Khénifra,Stra18,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,800,,True
+obs3_00658,Ruiniform of Jbel Al Maqourra,32.160183007937235,-6.777852623363809,Béni Mellal-Khénifra,Kar19,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,801,,True

@@ -1,0 +1,224 @@
+{
+  "difficult": {
+    "acc_logo_cluster_sanity_check": 0.7435,
+    "brier_score": 0.1797,
+    "ece": 0.0917,
+    "reliability_diagram": [
+      {
+        "bin": [
+          0.0,
+          0.1
+        ],
+        "n": 215,
+        "mean_predicted": 0.0483,
+        "empirical_freq": 0.1116
+      },
+      {
+        "bin": [
+          0.1,
+          0.2
+        ],
+        "n": 126,
+        "mean_predicted": 0.1387,
+        "empirical_freq": 0.1825
+      },
+      {
+        "bin": [
+          0.2,
+          0.3
+        ],
+        "n": 71,
+        "mean_predicted": 0.2457,
+        "empirical_freq": 0.2113
+      },
+      {
+        "bin": [
+          0.3,
+          0.4
+        ],
+        "n": 62,
+        "mean_predicted": 0.3504,
+        "empirical_freq": 0.3065
+      },
+      {
+        "bin": [
+          0.4,
+          0.5
+        ],
+        "n": 53,
+        "mean_predicted": 0.4492,
+        "empirical_freq": 0.3208
+      },
+      {
+        "bin": [
+          0.5,
+          0.6
+        ],
+        "n": 45,
+        "mean_predicted": 0.5533,
+        "empirical_freq": 0.3778
+      },
+      {
+        "bin": [
+          0.6,
+          0.7
+        ],
+        "n": 34,
+        "mean_predicted": 0.6549,
+        "empirical_freq": 0.5
+      },
+      {
+        "bin": [
+          0.7,
+          0.8
+        ],
+        "n": 51,
+        "mean_predicted": 0.7574,
+        "empirical_freq": 0.5294
+      },
+      {
+        "bin": [
+          0.8,
+          0.9
+        ],
+        "n": 56,
+        "mean_predicted": 0.8489,
+        "empirical_freq": 0.75
+      },
+      {
+        "bin": [
+          0.9,
+          1.0
+        ],
+        "n": 20,
+        "mean_predicted": 0.9367,
+        "empirical_freq": 0.65
+      }
+    ],
+    "isotonic_calibrated": {
+      "brier_score": 0.1632,
+      "ece": 0.0
+    },
+    "split_conformal_90pct": {
+      "alpha": 0.1,
+      "target_coverage": 0.9,
+      "qhat": 0.8058,
+      "n_calibration": 366,
+      "n_validation": 367,
+      "empirical_coverage": 0.9183,
+      "mean_set_size": 1.436,
+      "pct_singleton_sets": 0.564
+    }
+  },
+  "easy": {
+    "acc_logo_cluster_sanity_check": 0.7258,
+    "brier_score": 0.1863,
+    "ece": 0.0989,
+    "reliability_diagram": [
+      {
+        "bin": [
+          0.0,
+          0.1
+        ],
+        "n": 188,
+        "mean_predicted": 0.0535,
+        "empirical_freq": 0.1117
+      },
+      {
+        "bin": [
+          0.1,
+          0.2
+        ],
+        "n": 135,
+        "mean_predicted": 0.1461,
+        "empirical_freq": 0.1778
+      },
+      {
+        "bin": [
+          0.2,
+          0.3
+        ],
+        "n": 99,
+        "mean_predicted": 0.2468,
+        "empirical_freq": 0.2323
+      },
+      {
+        "bin": [
+          0.3,
+          0.4
+        ],
+        "n": 58,
+        "mean_predicted": 0.3487,
+        "empirical_freq": 0.2069
+      },
+      {
+        "bin": [
+          0.4,
+          0.5
+        ],
+        "n": 49,
+        "mean_predicted": 0.4486,
+        "empirical_freq": 0.449
+      },
+      {
+        "bin": [
+          0.5,
+          0.6
+        ],
+        "n": 37,
+        "mean_predicted": 0.5517,
+        "empirical_freq": 0.3784
+      },
+      {
+        "bin": [
+          0.6,
+          0.7
+        ],
+        "n": 44,
+        "mean_predicted": 0.649,
+        "empirical_freq": 0.4091
+      },
+      {
+        "bin": [
+          0.7,
+          0.8
+        ],
+        "n": 37,
+        "mean_predicted": 0.7455,
+        "empirical_freq": 0.2432
+      },
+      {
+        "bin": [
+          0.8,
+          0.9
+        ],
+        "n": 54,
+        "mean_predicted": 0.8515,
+        "empirical_freq": 0.7037
+      },
+      {
+        "bin": [
+          0.9,
+          1.0
+        ],
+        "n": 32,
+        "mean_predicted": 0.9402,
+        "empirical_freq": 0.8125
+      }
+    ],
+    "isotonic_calibrated": {
+      "brier_score": 0.1613,
+      "ece": 0.0
+    },
+    "split_conformal_90pct": {
+      "alpha": 0.1,
+      "target_coverage": 0.9,
+      "qhat": 0.802,
+      "n_calibration": 366,
+      "n_validation": 367,
+      "empirical_coverage": 0.9237,
+      "mean_set_size": 1.4332,
+      "pct_singleton_sets": 0.5668
+    }
+  }
+}

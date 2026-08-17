@@ -1,0 +1,88 @@
+{
+  "difficult": {
+    "acc": {
+      "mixed_effects": 0.7749,
+      "deployed_ensemble": 0.7435,
+      "base_rf_only": 0.7312,
+      "favorability_rf": 0.7462
+    },
+    "mixed_effects_vs_baseline": {
+      "chi2": 15.8897,
+      "p": 0.0001,
+      "n_a_right_b_wrong": 97,
+      "n_a_wrong_b_right": 48,
+      "n_valid": 733
+    },
+    "ensemble_vs_baseline_SANITY_CHECK": {
+      "chi2": 3.034,
+      "p": 0.0815,
+      "n_a_right_b_wrong": 116,
+      "n_a_wrong_b_right": 90,
+      "n_valid": 733
+    },
+    "mixed_effects_vs_ensemble": {
+      "chi2": 3.3846,
+      "p": 0.0658,
+      "n_a_right_b_wrong": 83,
+      "n_a_wrong_b_right": 60,
+      "n_valid": 733
+    },
+    "favorability_rf_vs_baseline": {
+      "chi2": 3.1974,
+      "p": 0.0738,
+      "n_a_right_b_wrong": 128,
+      "n_a_wrong_b_right": 100,
+      "n_valid": 733
+    },
+    "favorability_rf_vs_base_rf": {
+      "chi2": 1.8868,
+      "p": 0.1696,
+      "n_a_right_b_wrong": 32,
+      "n_a_wrong_b_right": 21,
+      "n_valid": 733
+    }
+  },
+  "easy": {
+    "acc": {
+      "mixed_effects": 0.7012,
+      "deployed_ensemble": 0.7258,
+      "base_rf_only": 0.7258,
+      "favorability_rf": 0.7258
+    },
+    "mixed_effects_vs_baseline": {
+      "chi2": 1.5921,
+      "p": 0.207,
+      "n_a_right_b_wrong": 32,
+      "n_a_wrong_b_right": 44,
+      "n_valid": 733
+    },
+    "ensemble_vs_baseline_SANITY_CHECK": {
+      "chi2": 0.1225,
+      "p": 0.7263,
+      "n_a_right_b_wrong": 105,
+      "n_a_wrong_b_right": 99,
+      "n_valid": 733
+    },
+    "mixed_effects_vs_ensemble": {
+      "chi2": 1.5052,
+      "p": 0.2199,
+      "n_a_right_b_wrong": 87,
+      "n_a_wrong_b_right": 105,
+      "n_valid": 733
+    },
+    "favorability_rf_vs_baseline": {
+      "chi2": 0.1157,
+      "p": 0.7337,
+      "n_a_right_b_wrong": 111,
+      "n_a_wrong_b_right": 105,
+      "n_valid": 733
+    },
+    "favorability_rf_vs_base_rf": {
+      "chi2": 0.0185,
+      "p": 0.8918,
+      "n_a_right_b_wrong": 27,
+      "n_a_wrong_b_right": 27,
+      "n_valid": 733
+    }
+  }
+}

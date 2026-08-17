@@ -1,0 +1,1467 @@
+Locality_ID,Region,target,y_true,oof_prob
+loc_00304,Béni Mellal-Khénifra,difficult,0,0.1403
+loc_00307,Béni Mellal-Khénifra,difficult,0,0.1403
+loc_00306,Béni Mellal-Khénifra,difficult,0,0.1403
+loc_00244,Béni Mellal-Khénifra,difficult,0,0.1403
+loc_00305,Béni Mellal-Khénifra,difficult,0,0.1403
+loc_00313,Béni Mellal-Khénifra,difficult,0,0.1073
+loc_00312,Béni Mellal-Khénifra,difficult,0,0.1073
+loc_00311,Béni Mellal-Khénifra,difficult,0,0.1073
+loc_00310,Béni Mellal-Khénifra,difficult,0,0.7093
+loc_00246,Béni Mellal-Khénifra,difficult,0,0.1042
+loc_00303,Béni Mellal-Khénifra,difficult,0,0.1042
+loc_00056,Béni Mellal-Khénifra,difficult,1,0.3501
+loc_00294,Béni Mellal-Khénifra,difficult,0,0.0209
+loc_00293,Béni Mellal-Khénifra,difficult,0,0.0209
+loc_00295,Béni Mellal-Khénifra,difficult,0,0.0209
+loc_00292,Béni Mellal-Khénifra,difficult,0,0.0106
+loc_00241,Béni Mellal-Khénifra,difficult,0,0.0106
+loc_00290,Béni Mellal-Khénifra,difficult,0,0.0106
+loc_00289,Béni Mellal-Khénifra,difficult,0,0.0106
+loc_00288,Béni Mellal-Khénifra,difficult,0,0.0106
+loc_00243,Béni Mellal-Khénifra,difficult,0,0.0151
+loc_00309,Béni Mellal-Khénifra,difficult,0,0.0151
+loc_00308,Béni Mellal-Khénifra,difficult,0,0.0151
+loc_00286,Béni Mellal-Khénifra,difficult,0,0.0196
+loc_00287,Béni Mellal-Khénifra,difficult,0,0.0196
+loc_00240,Béni Mellal-Khénifra,difficult,0,0.0196
+loc_00242,Béni Mellal-Khénifra,difficult,0,0.1102
+loc_00297,Béni Mellal-Khénifra,difficult,0,0.1102
+loc_00299,Béni Mellal-Khénifra,difficult,0,0.0193
+loc_00298,Béni Mellal-Khénifra,difficult,0,0.0193
+loc_00245,Béni Mellal-Khénifra,difficult,0,0.0193
+loc_00300,Béni Mellal-Khénifra,difficult,0,0.0193
+loc_00301,Béni Mellal-Khénifra,difficult,0,0.0611
+loc_00302,Béni Mellal-Khénifra,difficult,0,0.0611
+loc_00237,Béni Mellal-Khénifra,difficult,0,0.3929
+loc_00225,Béni Mellal-Khénifra,difficult,0,0.5026
+loc_00232,Béni Mellal-Khénifra,difficult,0,0.1227
+loc_00239,Béni Mellal-Khénifra,difficult,0,0.0213
+loc_00235,Béni Mellal-Khénifra,difficult,0,0.0213
+loc_00234,Béni Mellal-Khénifra,difficult,0,0.0213
+loc_00238,Béni Mellal-Khénifra,difficult,0,0.0213
+loc_00226,Béni Mellal-Khénifra,difficult,0,0.1736
+loc_00285,Béni Mellal-Khénifra,difficult,0,0.0803
+loc_00248,Béni Mellal-Khénifra,difficult,0,0.0803
+loc_00284,Béni Mellal-Khénifra,difficult,1,0.4871
+loc_00280,Béni Mellal-Khénifra,difficult,0,0.058
+loc_00247,Béni Mellal-Khénifra,difficult,0,0.058
+loc_00314,Béni Mellal-Khénifra,difficult,0,0.8462
+loc_00283,Béni Mellal-Khénifra,difficult,0,0.0464
+loc_00249,Béni Mellal-Khénifra,difficult,0,0.4142
+loc_00281,Béni Mellal-Khénifra,difficult,0,0.4142
+loc_00282,Béni Mellal-Khénifra,difficult,0,0.2054
+loc_00076,Béni Mellal-Khénifra,difficult,0,0.0426
+loc_00075,Béni Mellal-Khénifra,difficult,0,0.3501
+loc_00074,Béni Mellal-Khénifra,difficult,0,0.4212
+loc_00233,Béni Mellal-Khénifra,difficult,0,0.2648
+loc_00229,Béni Mellal-Khénifra,difficult,0,0.1699
+loc_00231,Béni Mellal-Khénifra,difficult,0,0.7519
+loc_00236,Béni Mellal-Khénifra,difficult,0,0.3878
+loc_00227,Béni Mellal-Khénifra,difficult,0,0.4019
+loc_00228,Béni Mellal-Khénifra,difficult,0,0.1074
+loc_00291,Béni Mellal-Khénifra,difficult,0,0.0311
+loc_00230,Béni Mellal-Khénifra,difficult,0,0.1031
+loc_00296,Béni Mellal-Khénifra,difficult,0,0.0343
+loc_00726,Béni Mellal-Khénifra,difficult,0,0.3025
+loc_00727,Béni Mellal-Khénifra,difficult,0,0.0597
+loc_00728,Béni Mellal-Khénifra,difficult,1,0.7107
+loc_00729,Béni Mellal-Khénifra,difficult,1,0.1489
+loc_00730,Béni Mellal-Khénifra,difficult,0,0.2317
+loc_00731,Béni Mellal-Khénifra,difficult,0,0.3708
+loc_00732,Béni Mellal-Khénifra,difficult,0,0.8742
+loc_00733,Béni Mellal-Khénifra,difficult,1,0.933
+loc_00734,Béni Mellal-Khénifra,difficult,1,0.8392
+loc_00735,Béni Mellal-Khénifra,difficult,0,0.7062
+loc_00736,Béni Mellal-Khénifra,difficult,0,0.7864
+loc_00737,Béni Mellal-Khénifra,difficult,0,0.3041
+loc_00738,Béni Mellal-Khénifra,difficult,0,0.8491
+loc_00484,Béni Mellal-Khénifra,difficult,0,0.0607
+loc_00485,Béni Mellal-Khénifra,difficult,0,0.2848
+loc_00486,Béni Mellal-Khénifra,difficult,0,0.4372
+loc_00487,Béni Mellal-Khénifra,difficult,0,0.6185
+loc_00488,Béni Mellal-Khénifra,difficult,1,0.1278
+loc_00408,Béni Mellal-Khénifra,difficult,1,0.4998
+loc_01194,Béni Mellal-Khénifra,difficult,1,0.3888
+loc_00489,Béni Mellal-Khénifra,difficult,0,0.262
+loc_00490,Béni Mellal-Khénifra,difficult,1,0.6579
+loc_00493,Béni Mellal-Khénifra,difficult,0,0.0585
+loc_00495,Béni Mellal-Khénifra,difficult,0,0.0291
+loc_00497,Béni Mellal-Khénifra,difficult,0,0.3036
+loc_00500,Béni Mellal-Khénifra,difficult,0,0.1432
+loc_00501,Béni Mellal-Khénifra,difficult,0,0.1054
+loc_00502,Béni Mellal-Khénifra,difficult,0,0.096
+loc_00503,Béni Mellal-Khénifra,difficult,1,0.1947
+loc_00504,Béni Mellal-Khénifra,difficult,0,0.421
+loc_00505,Béni Mellal-Khénifra,difficult,0,0.0324
+loc_00378,Béni Mellal-Khénifra,difficult,0,0.0351
+loc_00379,Béni Mellal-Khénifra,difficult,0,0.2054
+loc_00382,Béni Mellal-Khénifra,difficult,0,0.3464
+loc_00385,Béni Mellal-Khénifra,difficult,1,0.7868
+loc_00387,Béni Mellal-Khénifra,difficult,0,0.3266
+loc_00388,Béni Mellal-Khénifra,difficult,0,0.8475
+loc_00389,Béni Mellal-Khénifra,difficult,1,0.8282
+loc_00392,Béni Mellal-Khénifra,difficult,0,0.3472
+loc_00704,Béni Mellal-Khénifra,difficult,1,0.63
+loc_00705,Béni Mellal-Khénifra,difficult,0,0.3155
+loc_00706,Béni Mellal-Khénifra,difficult,0,0.2199
+loc_00707,Béni Mellal-Khénifra,difficult,0,0.0257
+loc_00708,Béni Mellal-Khénifra,difficult,0,0.5303
+loc_00709,Béni Mellal-Khénifra,difficult,0,0.3547
+loc_00710,Béni Mellal-Khénifra,difficult,0,0.5705
+loc_00711,Béni Mellal-Khénifra,difficult,0,0.0502
+loc_00712,Béni Mellal-Khénifra,difficult,0,0.2779
+loc_00443,Béni Mellal-Khénifra,difficult,0,0.0729
+loc_00444,Béni Mellal-Khénifra,difficult,0,0.1062
+loc_00445,Béni Mellal-Khénifra,difficult,0,0.4167
+loc_00446,Béni Mellal-Khénifra,difficult,0,0.5219
+loc_00447,Béni Mellal-Khénifra,difficult,0,0.6823
+loc_00449,Béni Mellal-Khénifra,difficult,0,0.1202
+loc_00450,Béni Mellal-Khénifra,difficult,0,0.1119
+loc_00451,Béni Mellal-Khénifra,difficult,0,0.4373
+loc_00453,Béni Mellal-Khénifra,difficult,0,0.5675
+loc_00491,Béni Mellal-Khénifra,difficult,0,0.6551
+loc_00494,Béni Mellal-Khénifra,difficult,0,0.0305
+loc_00498,Béni Mellal-Khénifra,difficult,0,0.2813
+loc_00785,Béni Mellal-Khénifra,difficult,0,0.1296
+loc_00786,Béni Mellal-Khénifra,difficult,0,0.0164
+loc_00787,Béni Mellal-Khénifra,difficult,0,0.0399
+loc_00790,Béni Mellal-Khénifra,difficult,0,0.848
+loc_00792,Béni Mellal-Khénifra,difficult,0,0.0289
+loc_00799,Béni Mellal-Khénifra,difficult,0,0.0073
+loc_00803,Béni Mellal-Khénifra,difficult,1,0.1746
+loc_00806,Béni Mellal-Khénifra,difficult,0,0.3134
+loc_00781,Béni Mellal-Khénifra,difficult,0,0.0734
+loc_00782,Béni Mellal-Khénifra,difficult,0,0.0171
+loc_00783,Béni Mellal-Khénifra,difficult,0,0.1109
+loc_00784,Béni Mellal-Khénifra,difficult,0,0.0661
+loc_00788,Béni Mellal-Khénifra,difficult,0,0.0179
+loc_00789,Béni Mellal-Khénifra,difficult,0,0.1009
+loc_00791,Béni Mellal-Khénifra,difficult,0,0.5556
+loc_00795,Béni Mellal-Khénifra,difficult,0,0.0232
+loc_00796,Béni Mellal-Khénifra,difficult,0,0.3327
+loc_00797,Béni Mellal-Khénifra,difficult,0,0.1009
+loc_00798,Béni Mellal-Khénifra,difficult,0,0.4028
+loc_00800,Béni Mellal-Khénifra,difficult,0,0.0325
+loc_00801,Béni Mellal-Khénifra,difficult,0,0.2519
+loc_00802,Béni Mellal-Khénifra,difficult,0,0.0621
+loc_00804,Béni Mellal-Khénifra,difficult,0,0.097
+loc_00805,Béni Mellal-Khénifra,difficult,0,0.0971
+loc_00807,Béni Mellal-Khénifra,difficult,0,0.7584
+loc_00808,Béni Mellal-Khénifra,difficult,0,0.042
+loc_00809,Béni Mellal-Khénifra,difficult,0,0.5803
+loc_00810,Béni Mellal-Khénifra,difficult,0,0.2575
+loc_00811,Béni Mellal-Khénifra,difficult,0,0.0162
+loc_00812,Béni Mellal-Khénifra,difficult,0,0.0671
+loc_00813,Béni Mellal-Khénifra,difficult,0,0.047
+loc_00793,Béni Mellal-Khénifra,difficult,0,0.8001
+loc_00794,Béni Mellal-Khénifra,difficult,1,0.7561
+loc_00004,Drâa-Tafilalet,difficult,1,0.2411
+loc_00003,Drâa-Tafilalet,difficult,0,0.7687
+loc_00002,Drâa-Tafilalet,difficult,0,0.254
+loc_00001,Drâa-Tafilalet,difficult,0,0.0907
+loc_00033,Drâa-Tafilalet,difficult,0,0.1576
+loc_00032,Drâa-Tafilalet,difficult,0,0.2112
+loc_00025,Drâa-Tafilalet,difficult,0,0.1109
+loc_00031,Drâa-Tafilalet,difficult,0,0.0863
+loc_00034,Drâa-Tafilalet,difficult,0,0.2667
+loc_00030,Drâa-Tafilalet,difficult,0,0.0196
+loc_00035,Drâa-Tafilalet,difficult,0,0.4991
+loc_00021,Drâa-Tafilalet,difficult,0,0.5061
+loc_00036,Drâa-Tafilalet,difficult,0,0.2675
+loc_00029,Drâa-Tafilalet,difficult,0,0.0415
+loc_00022,Drâa-Tafilalet,difficult,0,0.3981
+loc_00037,Drâa-Tafilalet,difficult,0,0.269
+loc_00024,Drâa-Tafilalet,difficult,0,0.0422
+loc_00020,Drâa-Tafilalet,difficult,0,0.0767
+loc_00026,Drâa-Tafilalet,difficult,0,0.2563
+loc_00023,Drâa-Tafilalet,difficult,0,0.3225
+loc_00038,Drâa-Tafilalet,difficult,1,0.8718
+loc_00039,Drâa-Tafilalet,difficult,0,0.3264
+loc_00027,Drâa-Tafilalet,difficult,1,0.079
+loc_00055,Drâa-Tafilalet,difficult,0,0.9601
+loc_00028,Drâa-Tafilalet,difficult,0,0.4476
+loc_00050,Drâa-Tafilalet,difficult,0,0.8775
+loc_00019,Drâa-Tafilalet,difficult,1,0.817
+loc_00048,Drâa-Tafilalet,difficult,1,0.2063
+loc_00049,Drâa-Tafilalet,difficult,1,0.2063
+loc_00044,Drâa-Tafilalet,difficult,1,0.7586
+loc_00018,Drâa-Tafilalet,difficult,0,0.3074
+loc_00051,Drâa-Tafilalet,difficult,0,0.14
+loc_00046,Drâa-Tafilalet,difficult,0,0.1523
+loc_00054,Drâa-Tafilalet,difficult,1,0.5162
+loc_00040,Drâa-Tafilalet,difficult,0,0.2612
+loc_00053,Drâa-Tafilalet,difficult,0,0.4925
+loc_00017,Drâa-Tafilalet,difficult,0,0.0851
+loc_00043,Drâa-Tafilalet,difficult,0,0.3845
+loc_00042,Drâa-Tafilalet,difficult,1,0.8017
+loc_00016,Drâa-Tafilalet,difficult,1,0.0956
+loc_00015,Drâa-Tafilalet,difficult,1,0.046
+loc_00013,Drâa-Tafilalet,difficult,1,0.0545
+loc_00012,Drâa-Tafilalet,difficult,1,0.0495
+loc_00011,Drâa-Tafilalet,difficult,1,0.0495
+loc_00010,Drâa-Tafilalet,difficult,1,0.0435
+loc_00009,Drâa-Tafilalet,difficult,1,0.0604
+loc_00008,Drâa-Tafilalet,difficult,1,0.052
+loc_00007,Drâa-Tafilalet,difficult,1,0.1782
+loc_00006,Drâa-Tafilalet,difficult,1,0.0386
+loc_00014,Drâa-Tafilalet,difficult,1,0.0545
+loc_00073,Drâa-Tafilalet,difficult,0,0.1224
+loc_00756,Drâa-Tafilalet,difficult,0,0.2981
+loc_00757,Drâa-Tafilalet,difficult,0,0.1344
+loc_00758,Drâa-Tafilalet,difficult,0,0.1747
+loc_00759,Drâa-Tafilalet,difficult,0,0.1505
+loc_00760,Drâa-Tafilalet,difficult,0,0.1463
+loc_00761,Drâa-Tafilalet,difficult,0,0.2151
+loc_00762,Drâa-Tafilalet,difficult,0,0.1036
+loc_00763,Drâa-Tafilalet,difficult,0,0.0708
+loc_00764,Drâa-Tafilalet,difficult,0,0.1045
+loc_00765,Drâa-Tafilalet,difficult,0,0.2495
+loc_00766,Drâa-Tafilalet,difficult,0,0.1196
+loc_00767,Drâa-Tafilalet,difficult,0,0.084
+loc_00747,Drâa-Tafilalet,difficult,0,0.1751
+loc_00748,Drâa-Tafilalet,difficult,0,0.11
+loc_00749,Drâa-Tafilalet,difficult,0,0.0687
+loc_00750,Drâa-Tafilalet,difficult,0,0.3321
+loc_00751,Drâa-Tafilalet,difficult,0,0.1218
+loc_00752,Drâa-Tafilalet,difficult,0,0.3644
+loc_00753,Drâa-Tafilalet,difficult,0,0.2994
+loc_00754,Drâa-Tafilalet,difficult,0,0.0308
+loc_00755,Drâa-Tafilalet,difficult,0,0.0644
+loc_00454,Drâa-Tafilalet,difficult,0,0.1116
+loc_00455,Drâa-Tafilalet,difficult,0,0.3458
+loc_00456,Drâa-Tafilalet,difficult,0,0.0802
+loc_00457,Drâa-Tafilalet,difficult,0,0.0627
+loc_00458,Drâa-Tafilalet,difficult,0,0.0345
+loc_00775,Drâa-Tafilalet,difficult,0,0.2414
+loc_00776,Drâa-Tafilalet,difficult,0,0.2309
+loc_00739,Drâa-Tafilalet,difficult,0,0.0092
+loc_00740,Drâa-Tafilalet,difficult,0,0.0492
+loc_00741,Drâa-Tafilalet,difficult,0,0.0715
+loc_00742,Drâa-Tafilalet,difficult,0,0.0736
+loc_00743,Drâa-Tafilalet,difficult,0,0.0142
+loc_00744,Drâa-Tafilalet,difficult,0,0.097
+loc_00745,Drâa-Tafilalet,difficult,0,0.114
+loc_00746,Drâa-Tafilalet,difficult,0,0.393
+loc_00353,Fés-Meknés,difficult,1,0.5508
+loc_00354,Fés-Meknés,difficult,1,0.4993
+loc_00366,Fés-Meknés,difficult,0,0.1955
+loc_00355,Fés-Meknés,difficult,1,0.8887
+loc_00357,Fés-Meknés,difficult,1,0.2935
+loc_00367,Fés-Meknés,difficult,0,0.1704
+loc_00374,Fés-Meknés,difficult,0,0.0875
+loc_00369,Fés-Meknés,difficult,0,0.3033
+loc_00361,Fés-Meknés,difficult,1,0.8222
+loc_00371,Fés-Meknés,difficult,0,0.5975
+loc_00370,Fés-Meknés,difficult,0,0.4852
+loc_00372,Fés-Meknés,difficult,0,0.2266
+loc_00072,Fés-Meknés,difficult,0,0.42
+loc_00362,Fés-Meknés,difficult,1,0.5859
+loc_00071,Fés-Meknés,difficult,0,0.2433
+loc_00086,Fés-Meknés,difficult,0,0.3649
+loc_00083,Fés-Meknés,difficult,1,0.6808
+loc_00081,Fés-Meknés,difficult,0,0.234
+loc_00082,Fés-Meknés,difficult,1,0.7768
+loc_00078,Fés-Meknés,difficult,0,0.0842
+loc_00079,Fés-Meknés,difficult,0,0.046
+loc_01047,Fés-Meknés,difficult,1,0.3755
+loc_01051,Fés-Meknés,difficult,0,0.3668
+loc_01055,Fés-Meknés,difficult,0,0.3964
+loc_01065,Fés-Meknés,difficult,1,0.3973
+loc_01066,Fés-Meknés,difficult,0,0.7746
+loc_00917,Fés-Meknés,difficult,0,0.2686
+loc_00918,Fés-Meknés,difficult,0,0.2008
+loc_00919,Fés-Meknés,difficult,0,0.2433
+loc_00920,Fés-Meknés,difficult,0,0.0583
+loc_00921,Fés-Meknés,difficult,0,0.1184
+loc_00922,Fés-Meknés,difficult,0,0.1204
+loc_00923,Fés-Meknés,difficult,0,0.4581
+loc_00924,Fés-Meknés,difficult,0,0.0271
+loc_00925,Fés-Meknés,difficult,0,0.1184
+loc_00926,Fés-Meknés,difficult,0,0.1181
+loc_00927,Fés-Meknés,difficult,0,0.0071
+loc_00928,Fés-Meknés,difficult,0,0.054
+loc_00929,Fés-Meknés,difficult,0,0.158
+loc_00930,Fés-Meknés,difficult,0,0.3448
+loc_00931,Fés-Meknés,difficult,0,0.0308
+loc_00932,Fés-Meknés,difficult,0,0.0204
+loc_00933,Fés-Meknés,difficult,0,0.1001
+loc_00934,Fés-Meknés,difficult,0,0.0751
+loc_00935,Fés-Meknés,difficult,0,0.0903
+loc_00936,Fés-Meknés,difficult,0,0.1416
+loc_00937,Fés-Meknés,difficult,0,0.7851
+loc_00938,Fés-Meknés,difficult,0,0.8869
+loc_00939,Fés-Meknés,difficult,0,0.0269
+loc_00940,Fés-Meknés,difficult,0,0.6703
+loc_00941,Fés-Meknés,difficult,0,0.8191
+loc_00942,Fés-Meknés,difficult,1,0.792
+loc_00943,Fés-Meknés,difficult,1,0.8701
+loc_00944,Fés-Meknés,difficult,0,0.5437
+loc_00945,Fés-Meknés,difficult,1,0.4298
+loc_00947,Fés-Meknés,difficult,0,0.6784
+loc_00948,Fés-Meknés,difficult,1,0.8645
+loc_00949,Fés-Meknés,difficult,1,0.4892
+loc_00950,Fés-Meknés,difficult,1,0.3801
+loc_00951,Fés-Meknés,difficult,1,0.8205
+loc_00952,Fés-Meknés,difficult,1,0.6364
+loc_00953,Fés-Meknés,difficult,0,0.1042
+loc_00954,Fés-Meknés,difficult,0,0.2129
+loc_00956,Fés-Meknés,difficult,0,0.9046
+loc_00957,Fés-Meknés,difficult,0,0.1994
+loc_00958,Fés-Meknés,difficult,1,0.5054
+loc_00959,Fés-Meknés,difficult,1,0.8509
+loc_00960,Fés-Meknés,difficult,1,0.4644
+loc_00961,Fés-Meknés,difficult,1,0.1692
+loc_00962,Fés-Meknés,difficult,1,0.8478
+loc_00963,Fés-Meknés,difficult,1,0.2582
+loc_00964,Fés-Meknés,difficult,1,0.2655
+loc_00965,Fés-Meknés,difficult,0,0.0285
+loc_00966,Fés-Meknés,difficult,1,0.4875
+loc_00967,Fés-Meknés,difficult,0,0.5944
+loc_00968,Fés-Meknés,difficult,0,0.4294
+loc_00969,Fés-Meknés,difficult,1,0.077
+loc_00970,Fés-Meknés,difficult,0,0.5743
+loc_00971,Fés-Meknés,difficult,1,0.9083
+loc_00972,Fés-Meknés,difficult,1,0.5876
+loc_00973,Fés-Meknés,difficult,1,0.1132
+loc_00974,Fés-Meknés,difficult,1,0.0818
+loc_00975,Fés-Meknés,difficult,1,0.173
+loc_00976,Fés-Meknés,difficult,1,0.1511
+loc_00977,Fés-Meknés,difficult,0,0.4694
+loc_00978,Fés-Meknés,difficult,0,0.0126
+loc_00979,Fés-Meknés,difficult,0,0.0122
+loc_00980,Fés-Meknés,difficult,0,0.1354
+loc_00981,Fés-Meknés,difficult,0,0.3772
+loc_00982,Fés-Meknés,difficult,1,0.8156
+loc_00983,Fés-Meknés,difficult,1,0.0268
+loc_00984,Fés-Meknés,difficult,1,0.8484
+loc_00985,Fés-Meknés,difficult,1,0.2371
+loc_00987,Fés-Meknés,difficult,0,0.3037
+loc_00988,Fés-Meknés,difficult,1,0.2781
+loc_00989,Fés-Meknés,difficult,0,0.2513
+loc_00990,Fés-Meknés,difficult,0,0.1269
+loc_00991,Fés-Meknés,difficult,1,0.908
+loc_00992,Fés-Meknés,difficult,0,0.7745
+loc_00993,Fés-Meknés,difficult,1,0.67
+loc_00995,Fés-Meknés,difficult,0,0.1663
+loc_00996,Fés-Meknés,difficult,0,0.023
+loc_00997,Fés-Meknés,difficult,0,0.0754
+loc_01071,Fés-Meknés,difficult,0,0.0331
+loc_00998,Fés-Meknés,difficult,0,0.0578
+loc_00999,Fés-Meknés,difficult,0,0.1011
+loc_01000,Fés-Meknés,difficult,0,0.0243
+loc_01001,Fés-Meknés,difficult,0,0.0425
+loc_01002,Fés-Meknés,difficult,0,0.5314
+loc_01003,Fés-Meknés,difficult,0,0.1859
+loc_01004,Fés-Meknés,difficult,0,0.059
+loc_01005,Fés-Meknés,difficult,0,0.7984
+loc_01006,Fés-Meknés,difficult,0,0.0603
+loc_01007,Fés-Meknés,difficult,1,0.0402
+loc_01008,Fés-Meknés,difficult,0,0.7422
+loc_01009,Fés-Meknés,difficult,0,0.0215
+loc_01010,Fés-Meknés,difficult,1,0.3698
+loc_01011,Fés-Meknés,difficult,0,0.2513
+loc_01012,Fés-Meknés,difficult,0,0.6258
+loc_01013,Fés-Meknés,difficult,1,0.1171
+loc_01014,Fés-Meknés,difficult,1,0.8088
+loc_01015,Fés-Meknés,difficult,0,0.9501
+loc_01016,Fés-Meknés,difficult,0,0.7981
+loc_01017,Fés-Meknés,difficult,0,0.2138
+loc_01036,Fés-Meknés,difficult,1,0.0467
+loc_01018,Fés-Meknés,difficult,0,0.2208
+loc_01019,Fés-Meknés,difficult,0,0.1866
+loc_00946,Fés-Meknés,difficult,0,0.1309
+loc_01041,Fés-Meknés,difficult,0,0.8538
+loc_00955,Fés-Meknés,difficult,0,0.0596
+loc_01042,Fés-Meknés,difficult,0,0.8653
+loc_00994,Fés-Meknés,difficult,0,0.0298
+loc_01039,Fés-Meknés,difficult,0,0.0406
+loc_01040,Fés-Meknés,difficult,0,0.0636
+loc_01119,Fés-Meknés,difficult,1,0.663
+loc_01043,Fés-Meknés,difficult,1,0.1331
+loc_01044,Fés-Meknés,difficult,1,0.2423
+loc_01045,Fés-Meknés,difficult,1,0.8359
+loc_01046,Fés-Meknés,difficult,0,0.2899
+loc_01048,Fés-Meknés,difficult,0,0.0496
+loc_01049,Fés-Meknés,difficult,1,0.9536
+loc_01050,Fés-Meknés,difficult,0,0.7553
+loc_01052,Fés-Meknés,difficult,0,0.5236
+loc_01053,Fés-Meknés,difficult,1,0.4445
+loc_01054,Fés-Meknés,difficult,0,0.7534
+loc_00842,Fés-Meknés,difficult,1,0.574
+loc_01056,Fés-Meknés,difficult,1,0.395
+loc_01057,Fés-Meknés,difficult,1,0.3861
+loc_01058,Fés-Meknés,difficult,1,0.9347
+loc_01059,Fés-Meknés,difficult,1,0.7035
+loc_01060,Fés-Meknés,difficult,1,0.7328
+loc_01061,Fés-Meknés,difficult,1,0.805
+loc_01062,Fés-Meknés,difficult,1,0.7626
+loc_01063,Fés-Meknés,difficult,1,0.4118
+loc_01064,Fés-Meknés,difficult,0,0.805
+loc_01067,Fés-Meknés,difficult,1,0.8968
+loc_01068,Fés-Meknés,difficult,1,0.2239
+loc_01069,Fés-Meknés,difficult,1,0.6406
+loc_01070,Fés-Meknés,difficult,1,0.5178
+loc_01072,Fés-Meknés,difficult,1,0.9313
+loc_01073,Fés-Meknés,difficult,1,0.2686
+loc_01074,Fés-Meknés,difficult,1,0.7598
+loc_01075,Fés-Meknés,difficult,1,0.8759
+loc_01076,Fés-Meknés,difficult,1,0.0714
+loc_01077,Fés-Meknés,difficult,1,0.3168
+loc_01079,Fés-Meknés,difficult,1,0.8304
+loc_01080,Fés-Meknés,difficult,0,0.732
+loc_01081,Fés-Meknés,difficult,1,0.7124
+loc_01082,Fés-Meknés,difficult,1,0.5234
+loc_01083,Fés-Meknés,difficult,1,0.8418
+loc_01084,Fés-Meknés,difficult,1,0.7205
+loc_01085,Fés-Meknés,difficult,1,0.9441
+loc_01086,Fés-Meknés,difficult,1,0.8612
+loc_01087,Fés-Meknés,difficult,1,0.595
+loc_01088,Fés-Meknés,difficult,1,0.8021
+loc_01089,Fés-Meknés,difficult,1,0.7055
+loc_01090,Fés-Meknés,difficult,1,0.5547
+loc_01091,Fés-Meknés,difficult,1,0.5926
+loc_01092,Fés-Meknés,difficult,1,0.797
+loc_01093,Fés-Meknés,difficult,1,0.831
+loc_01094,Fés-Meknés,difficult,1,0.366
+loc_01095,Fés-Meknés,difficult,1,0.1017
+loc_01096,Fés-Meknés,difficult,1,0.6749
+loc_01097,Fés-Meknés,difficult,1,0.6755
+loc_01098,Fés-Meknés,difficult,1,0.4486
+loc_01099,Fés-Meknés,difficult,1,0.8004
+loc_01100,Fés-Meknés,difficult,1,0.1901
+loc_01101,Fés-Meknés,difficult,1,0.6065
+loc_01102,Fés-Meknés,difficult,1,0.595
+loc_01103,Fés-Meknés,difficult,1,0.9307
+loc_01104,Fés-Meknés,difficult,1,0.2427
+loc_01105,Fés-Meknés,difficult,1,0.8366
+loc_01106,Fés-Meknés,difficult,1,0.7845
+loc_01107,Fés-Meknés,difficult,0,0.898
+loc_01108,Fés-Meknés,difficult,1,0.7782
+loc_01109,Fés-Meknés,difficult,0,0.7846
+loc_01110,Fés-Meknés,difficult,1,0.894
+loc_01111,Fés-Meknés,difficult,1,0.8654
+loc_01112,Fés-Meknés,difficult,0,0.642
+loc_01113,Fés-Meknés,difficult,0,0.3681
+loc_01114,Fés-Meknés,difficult,1,0.8699
+loc_01115,Fés-Meknés,difficult,1,0.3153
+loc_01116,Fés-Meknés,difficult,0,0.448
+loc_01117,Fés-Meknés,difficult,0,0.0524
+loc_01118,Fés-Meknés,difficult,1,0.3338
+loc_01120,Fés-Meknés,difficult,1,0.6596
+loc_01121,Fés-Meknés,difficult,1,0.395
+loc_01122,Fés-Meknés,difficult,1,0.1541
+loc_01123,Fés-Meknés,difficult,1,0.2421
+loc_01124,Fés-Meknés,difficult,0,0.9586
+loc_01125,Fés-Meknés,difficult,0,0.6105
+loc_01126,Fés-Meknés,difficult,1,0.7497
+loc_01127,Fés-Meknés,difficult,1,0.4392
+loc_01128,Fés-Meknés,difficult,0,0.7496
+loc_01129,Fés-Meknés,difficult,1,0.5103
+loc_01130,Fés-Meknés,difficult,1,0.931
+loc_01131,Fés-Meknés,difficult,1,0.7852
+loc_01132,Fés-Meknés,difficult,0,0.9184
+loc_01133,Fés-Meknés,difficult,1,0.9673
+loc_01134,Fés-Meknés,difficult,1,0.891
+loc_01135,Fés-Meknés,difficult,0,0.3643
+loc_01136,Fés-Meknés,difficult,1,0.8724
+loc_01137,Fés-Meknés,difficult,0,0.2753
+loc_01138,Fés-Meknés,difficult,1,0.1252
+loc_01139,Fés-Meknés,difficult,1,0.7756
+loc_01140,Fés-Meknés,difficult,1,0.795
+loc_00916,Fés-Meknés,difficult,1,0.7667
+loc_01141,Fés-Meknés,difficult,1,0.8015
+loc_01142,Fés-Meknés,difficult,0,0.0447
+loc_01143,Fés-Meknés,difficult,0,0.6758
+loc_01144,Fés-Meknés,difficult,1,0.7089
+loc_01145,Fés-Meknés,difficult,1,0.4032
+loc_01146,Fés-Meknés,difficult,0,0.9757
+loc_01147,Fés-Meknés,difficult,0,0.0707
+loc_00820,Fés-Meknés,difficult,1,0.9149
+loc_00821,Fés-Meknés,difficult,0,0.3319
+loc_00822,Fés-Meknés,difficult,1,0.1331
+loc_00823,Fés-Meknés,difficult,0,0.5469
+loc_00824,Fés-Meknés,difficult,1,0.8505
+loc_00825,Fés-Meknés,difficult,1,0.863
+loc_00826,Fés-Meknés,difficult,0,0.5665
+loc_00827,Fés-Meknés,difficult,1,0.6318
+loc_00828,Fés-Meknés,difficult,1,0.3567
+loc_00829,Fés-Meknés,difficult,1,0.8721
+loc_00830,Fés-Meknés,difficult,0,0.1579
+loc_00831,Fés-Meknés,difficult,1,0.4634
+loc_00832,Fés-Meknés,difficult,0,0.949
+loc_00833,Fés-Meknés,difficult,0,0.7264
+loc_00834,Fés-Meknés,difficult,1,0.5557
+loc_00835,Fés-Meknés,difficult,1,0.7783
+loc_00836,Fés-Meknés,difficult,1,0.8862
+loc_00837,Fés-Meknés,difficult,1,0.7846
+loc_00838,Fés-Meknés,difficult,1,0.7144
+loc_00839,Fés-Meknés,difficult,0,0.8378
+loc_00840,Fés-Meknés,difficult,1,0.1817
+loc_00841,Fés-Meknés,difficult,0,0.588
+loc_00867,Fés-Meknés,difficult,0,0.492
+loc_00868,Fés-Meknés,difficult,0,0.2452
+loc_00869,Fés-Meknés,difficult,0,0.6533
+loc_00870,Fés-Meknés,difficult,1,0.5801
+loc_00871,Fés-Meknés,difficult,0,0.2562
+loc_00872,Fés-Meknés,difficult,0,0.1557
+loc_00873,Fés-Meknés,difficult,0,0.0382
+loc_00874,Fés-Meknés,difficult,0,0.2996
+loc_00875,Fés-Meknés,difficult,1,0.6413
+loc_00876,Fés-Meknés,difficult,0,0.5299
+loc_00877,Fés-Meknés,difficult,1,0.1214
+loc_00878,Fés-Meknés,difficult,1,0.0986
+loc_00879,Fés-Meknés,difficult,0,0.0907
+loc_00880,Fés-Meknés,difficult,0,0.6561
+loc_00881,Fés-Meknés,difficult,0,0.0314
+loc_00882,Fés-Meknés,difficult,0,0.0912
+loc_00883,Fés-Meknés,difficult,0,0.1313
+loc_00884,Fés-Meknés,difficult,0,0.1936
+loc_00885,Fés-Meknés,difficult,0,0.5258
+loc_00886,Fés-Meknés,difficult,0,0.2964
+loc_00887,Fés-Meknés,difficult,0,0.363
+loc_00888,Fés-Meknés,difficult,0,0.0841
+loc_00889,Fés-Meknés,difficult,0,0.1022
+loc_00890,Fés-Meknés,difficult,0,0.2093
+loc_00891,Fés-Meknés,difficult,0,0.5752
+loc_00892,Fés-Meknés,difficult,0,0.2032
+loc_00893,Fés-Meknés,difficult,0,0.1292
+loc_00894,Fés-Meknés,difficult,1,0.3089
+loc_00895,Fés-Meknés,difficult,0,0.443
+loc_00896,Fés-Meknés,difficult,0,0.3237
+loc_00897,Fés-Meknés,difficult,0,0.2937
+loc_00898,Fés-Meknés,difficult,0,0.1992
+loc_00899,Fés-Meknés,difficult,0,0.1087
+loc_00900,Fés-Meknés,difficult,0,0.207
+loc_00901,Fés-Meknés,difficult,0,0.1754
+loc_00902,Fés-Meknés,difficult,0,0.2216
+loc_00903,Fés-Meknés,difficult,0,0.6322
+loc_00904,Fés-Meknés,difficult,0,0.0537
+loc_00905,Fés-Meknés,difficult,0,0.1941
+loc_00906,Fés-Meknés,difficult,0,0.5978
+loc_00907,Fés-Meknés,difficult,0,0.4344
+loc_00908,Fés-Meknés,difficult,0,0.0585
+loc_00909,Fés-Meknés,difficult,0,0.5239
+loc_00910,Fés-Meknés,difficult,0,0.6969
+loc_00912,Fés-Meknés,difficult,0,0.1009
+loc_00913,Fés-Meknés,difficult,0,0.4734
+loc_00914,Fés-Meknés,difficult,0,0.1376
+loc_00915,Fés-Meknés,difficult,0,0.6867
+loc_01020,Fés-Meknés,difficult,1,0.8368
+loc_01021,Fés-Meknés,difficult,1,0.6888
+loc_01022,Fés-Meknés,difficult,1,0.4574
+loc_01023,Fés-Meknés,difficult,0,0.5521
+loc_01024,Fés-Meknés,difficult,1,0.6906
+loc_01025,Fés-Meknés,difficult,0,0.769
+loc_01026,Fés-Meknés,difficult,1,0.826
+loc_01027,Fés-Meknés,difficult,1,0.8387
+loc_01028,Fés-Meknés,difficult,1,0.6839
+loc_01029,Fés-Meknés,difficult,1,0.3251
+loc_01030,Fés-Meknés,difficult,1,0.8611
+loc_01031,Fés-Meknés,difficult,1,0.489
+loc_01032,Fés-Meknés,difficult,1,0.4948
+loc_01033,Fés-Meknés,difficult,1,0.3587
+loc_01034,Fés-Meknés,difficult,1,0.5092
+loc_01035,Fés-Meknés,difficult,0,0.7672
+loc_01037,Fés-Meknés,difficult,0,0.5725
+loc_01038,Fés-Meknés,difficult,1,0.4409
+loc_00212,Rabat-Salé-Kénitra,difficult,0,0.2235
+loc_00215,Rabat-Salé-Kénitra,difficult,1,0.0935
+loc_00216,Rabat-Salé-Kénitra,difficult,1,0.1765
+loc_00213,Rabat-Salé-Kénitra,difficult,0,0.743
+loc_00214,Rabat-Salé-Kénitra,difficult,0,0.743
+loc_00224,Rabat-Salé-Kénitra,difficult,0,0.2509
+loc_00211,Rabat-Salé-Kénitra,difficult,0,0.1425
+loc_00210,Rabat-Salé-Kénitra,difficult,0,0.0616
+loc_00205,Rabat-Salé-Kénitra,difficult,0,0.1178
+loc_00208,Rabat-Salé-Kénitra,difficult,0,0.0699
+loc_00207,Rabat-Salé-Kénitra,difficult,0,0.2032
+loc_00209,Rabat-Salé-Kénitra,difficult,0,0.3332
+loc_00206,Rabat-Salé-Kénitra,difficult,0,0.7264
+loc_00222,Rabat-Salé-Kénitra,difficult,0,0.0214
+loc_00218,Rabat-Salé-Kénitra,difficult,0,0.1802
+loc_00204,Rabat-Salé-Kénitra,difficult,0,0.0405
+loc_00223,Rabat-Salé-Kénitra,difficult,0,0.1389
+loc_00221,Rabat-Salé-Kénitra,difficult,0,0.44
+loc_00219,Rabat-Salé-Kénitra,difficult,0,0.0245
+loc_00217,Rabat-Salé-Kénitra,difficult,0,0.0456
+loc_00220,Rabat-Salé-Kénitra,difficult,0,0.0142
+loc_00106,Souss-Massa,difficult,0,0.4054
+loc_00105,Souss-Massa,difficult,0,0.1745
+loc_00131,Souss-Massa,difficult,1,0.1047
+loc_00133,Souss-Massa,difficult,0,0.2676
+loc_00129,Souss-Massa,difficult,0,0.2317
+loc_00092,Souss-Massa,difficult,0,0.0627
+loc_00095,Souss-Massa,difficult,0,0.0627
+loc_00139,Souss-Massa,difficult,0,0.0568
+loc_00096,Souss-Massa,difficult,0,0.0602
+loc_00097,Souss-Massa,difficult,0,0.0602
+loc_00135,Souss-Massa,difficult,0,0.0544
+loc_00103,Souss-Massa,difficult,0,0.0336
+loc_00088,Souss-Massa,difficult,0,0.0638
+loc_00089,Souss-Massa,difficult,0,0.0638
+loc_00090,Souss-Massa,difficult,0,0.5916
+loc_00137,Souss-Massa,difficult,0,0.1859
+loc_00102,Souss-Massa,difficult,0,0.047
+loc_00125,Souss-Massa,difficult,0,0.1682
+loc_00126,Souss-Massa,difficult,0,0.584
+loc_00117,Souss-Massa,difficult,0,0.4185
+loc_00138,Souss-Massa,difficult,0,0.1093
+loc_00093,Souss-Massa,difficult,0,0.2515
+loc_00091,Souss-Massa,difficult,0,0.1046
+loc_00132,Souss-Massa,difficult,0,0.469
+loc_00100,Souss-Massa,difficult,0,0.099
+loc_00111,Souss-Massa,difficult,0,0.1517
+loc_00134,Souss-Massa,difficult,0,0.4734
+loc_00099,Souss-Massa,difficult,0,0.0454
+loc_00123,Souss-Massa,difficult,1,0.5302
+loc_00121,Souss-Massa,difficult,0,0.0718
+loc_00263,Eddakhla-Oued Eddahab,difficult,0,0.4165
+loc_00264,Eddakhla-Oued Eddahab,difficult,0,0.4165
+loc_00265,Eddakhla-Oued Eddahab,difficult,0,0.175
+loc_00267,Eddakhla-Oued Eddahab,difficult,0,0.3278
+loc_00266,Eddakhla-Oued Eddahab,difficult,1,0.1008
+loc_00261,Eddakhla-Oued Eddahab,difficult,0,0.1078
+loc_00262,Eddakhla-Oued Eddahab,difficult,0,0.1078
+loc_00260,Eddakhla-Oued Eddahab,difficult,0,0.0687
+loc_00256,Eddakhla-Oued Eddahab,difficult,0,0.024
+loc_00257,Eddakhla-Oued Eddahab,difficult,0,0.024
+loc_00258,Eddakhla-Oued Eddahab,difficult,0,0.024
+loc_00259,Eddakhla-Oued Eddahab,difficult,0,0.024
+loc_00251,Eddakhla-Oued Eddahab,difficult,0,0.0187
+loc_00252,Eddakhla-Oued Eddahab,difficult,0,0.0698
+loc_00253,Eddakhla-Oued Eddahab,difficult,0,0.0698
+loc_00254,Eddakhla-Oued Eddahab,difficult,0,0.0698
+loc_00255,Eddakhla-Oued Eddahab,difficult,0,0.0698
+loc_00155,Laayoune-Sakia El Hamra,difficult,1,0.8958
+loc_00154,Laayoune-Sakia El Hamra,difficult,0,0.1565
+loc_00150,Laayoune-Sakia El Hamra,difficult,0,0.2053
+loc_00153,Laayoune-Sakia El Hamra,difficult,0,0.3725
+loc_00152,Laayoune-Sakia El Hamra,difficult,1,0.1688
+loc_00163,Guelmim-Oued Noun,difficult,0,0.0518
+loc_00160,Guelmim-Oued Noun,difficult,0,0.0429
+loc_00159,Guelmim-Oued Noun,difficult,0,0.3423
+loc_00158,Guelmim-Oued Noun,difficult,0,0.3423
+loc_00161,Guelmim-Oued Noun,difficult,0,0.7699
+loc_00005,Marrakech-Safi,difficult,0,0.0298
+loc_00077,Marrakech-Safi,difficult,1,0.1118
+loc_00065,Marrakech-Safi,difficult,0,0.0311
+loc_00275,Marrakech-Safi,difficult,1,0.0356
+loc_00066,Marrakech-Safi,difficult,1,0.2116
+loc_00067,Marrakech-Safi,difficult,0,0.1008
+loc_00058,Marrakech-Safi,difficult,0,0.033
+loc_00069,Marrakech-Safi,difficult,0,0.033
+loc_00059,Marrakech-Safi,difficult,0,0.0329
+loc_00061,Marrakech-Safi,difficult,0,0.0266
+loc_00060,Marrakech-Safi,difficult,0,0.0689
+loc_00062,Marrakech-Safi,difficult,0,0.0397
+loc_00270,Marrakech-Safi,difficult,0,0.0586
+loc_00064,Marrakech-Safi,difficult,1,0.065
+loc_00273,Grand Casablanca-Settat,difficult,0,0.0446
+loc_00269,Grand Casablanca-Settat,difficult,1,0.0388
+loc_00272,Grand Casablanca-Settat,difficult,0,0.0255
+loc_00271,Grand Casablanca-Settat,difficult,1,0.0589
+loc_00268,Grand Casablanca-Settat,difficult,0,0.022
+loc_01184,Eddakhla-Oued Eddahab,difficult,0,0.0469
+loc_01185,Eddakhla-Oued Eddahab,difficult,0,0.0865
+loc_01186,Eddakhla-Oued Eddahab,difficult,0,0.0909
+loc_01187,Eddakhla-Oued Eddahab,difficult,0,0.1514
+loc_01188,Eddakhla-Oued Eddahab,difficult,1,0.782
+loc_01189,Eddakhla-Oued Eddahab,difficult,1,0.9404
+loc_01192,Eddakhla-Oued Eddahab,difficult,1,0.8934
+loc_01193,Eddakhla-Oued Eddahab,difficult,1,0.9202
+loc_00402,Marrakech-Safi,difficult,0,0.5211
+loc_00403,Marrakech-Safi,difficult,0,0.0122
+loc_00404,Marrakech-Safi,difficult,0,0.0128
+loc_00405,Marrakech-Safi,difficult,0,0.0396
+loc_00413,Marrakech-Safi,difficult,0,0.3282
+loc_00414,Marrakech-Safi,difficult,0,0.1156
+loc_00418,Marrakech-Safi,difficult,0,0.1778
+loc_00420,Marrakech-Safi,difficult,0,0.1095
+loc_00423,Marrakech-Safi,difficult,0,0.1185
+loc_00424,Marrakech-Safi,difficult,0,0.058
+loc_00179,Tanger-Tétouan-Al Hoceima,difficult,0,0.0476
+loc_00173,Tanger-Tétouan-Al Hoceima,difficult,0,0.177
+loc_00176,Tanger-Tétouan-Al Hoceima,difficult,0,0.0608
+loc_00166,Tanger-Tétouan-Al Hoceima,difficult,0,0.0486
+loc_00193,Tanger-Tétouan-Al Hoceima,difficult,0,0.4632
+loc_00340,Tanger-Tétouan-Al Hoceima,difficult,0,0.0228
+loc_00180,Tanger-Tétouan-Al Hoceima,difficult,0,0.0655
+loc_00182,Tanger-Tétouan-Al Hoceima,difficult,0,0.0523
+loc_00202,Tanger-Tétouan-Al Hoceima,difficult,0,0.0778
+loc_00181,Tanger-Tétouan-Al Hoceima,difficult,0,0.0686
+loc_00203,Tanger-Tétouan-Al Hoceima,difficult,0,0.069
+loc_00183,Tanger-Tétouan-Al Hoceima,difficult,0,0.4603
+loc_00178,Tanger-Tétouan-Al Hoceima,difficult,0,0.4271
+loc_00328,Tanger-Tétouan-Al Hoceima,difficult,0,0.2638
+loc_00192,Tanger-Tétouan-Al Hoceima,difficult,0,0.19
+loc_00171,Tanger-Tétouan-Al Hoceima,difficult,0,0.189
+loc_00198,Tanger-Tétouan-Al Hoceima,difficult,0,0.1312
+loc_00200,Tanger-Tétouan-Al Hoceima,difficult,0,0.0552
+loc_00168,Tanger-Tétouan-Al Hoceima,difficult,0,0.1738
+loc_00191,Tanger-Tétouan-Al Hoceima,difficult,0,0.0464
+loc_00164,Tanger-Tétouan-Al Hoceima,difficult,0,0.2397
+loc_00165,Tanger-Tétouan-Al Hoceima,difficult,0,0.4234
+loc_00196,Tanger-Tétouan-Al Hoceima,difficult,1,0.3704
+loc_00185,Tanger-Tétouan-Al Hoceima,difficult,0,0.3704
+loc_00184,Tanger-Tétouan-Al Hoceima,difficult,0,0.1476
+loc_00201,Tanger-Tétouan-Al Hoceima,difficult,1,0.3559
+loc_00194,Tanger-Tétouan-Al Hoceima,difficult,1,0.0656
+loc_00189,Tanger-Tétouan-Al Hoceima,difficult,0,0.6024
+loc_00188,Tanger-Tétouan-Al Hoceima,difficult,0,0.6024
+loc_00197,Tanger-Tétouan-Al Hoceima,difficult,1,0.6953
+loc_00195,Tanger-Tétouan-Al Hoceima,difficult,1,0.251
+loc_00187,Tanger-Tétouan-Al Hoceima,difficult,0,0.472
+loc_00169,Tanger-Tétouan-Al Hoceima,difficult,0,0.6519
+loc_00170,Tanger-Tétouan-Al Hoceima,difficult,0,0.4733
+loc_00186,Tanger-Tétouan-Al Hoceima,difficult,0,0.0713
+loc_00199,Tanger-Tétouan-Al Hoceima,difficult,1,0.7761
+loc_00543,Tanger-Tétouan-Al Hoceima,difficult,0,0.0323
+loc_00544,Tanger-Tétouan-Al Hoceima,difficult,0,0.0288
+loc_00545,Tanger-Tétouan-Al Hoceima,difficult,0,0.2119
+loc_00546,Tanger-Tétouan-Al Hoceima,difficult,0,0.5396
+loc_00552,Tanger-Tétouan-Al Hoceima,difficult,0,0.0957
+loc_00553,Tanger-Tétouan-Al Hoceima,difficult,0,0.0612
+loc_00555,Tanger-Tétouan-Al Hoceima,difficult,0,0.1971
+loc_00556,Tanger-Tétouan-Al Hoceima,difficult,0,0.4383
+loc_00561,Tanger-Tétouan-Al Hoceima,difficult,0,0.1072
+loc_00562,Tanger-Tétouan-Al Hoceima,difficult,0,0.045
+loc_00568,Tanger-Tétouan-Al Hoceima,difficult,0,0.0403
+loc_00570,Tanger-Tétouan-Al Hoceima,difficult,0,0.1269
+loc_00571,Tanger-Tétouan-Al Hoceima,difficult,0,0.0977
+loc_00440,Tanger-Tétouan-Al Hoceima,difficult,0,0.114
+loc_00441,Tanger-Tétouan-Al Hoceima,difficult,0,0.3343
+loc_00442,Tanger-Tétouan-Al Hoceima,difficult,0,0.0661
+loc_00304,Béni Mellal-Khénifra,easy,0,0.0867
+loc_00307,Béni Mellal-Khénifra,easy,0,0.0867
+loc_00306,Béni Mellal-Khénifra,easy,0,0.0867
+loc_00244,Béni Mellal-Khénifra,easy,0,0.0867
+loc_00305,Béni Mellal-Khénifra,easy,0,0.0867
+loc_00313,Béni Mellal-Khénifra,easy,0,0.2076
+loc_00312,Béni Mellal-Khénifra,easy,0,0.2076
+loc_00311,Béni Mellal-Khénifra,easy,0,0.2076
+loc_00310,Béni Mellal-Khénifra,easy,0,0.0871
+loc_00246,Béni Mellal-Khénifra,easy,1,0.3418
+loc_00303,Béni Mellal-Khénifra,easy,1,0.3418
+loc_00056,Béni Mellal-Khénifra,easy,0,0.0311
+loc_00294,Béni Mellal-Khénifra,easy,0,0.8886
+loc_00293,Béni Mellal-Khénifra,easy,1,0.8886
+loc_00295,Béni Mellal-Khénifra,easy,1,0.8886
+loc_00292,Béni Mellal-Khénifra,easy,1,0.8642
+loc_00241,Béni Mellal-Khénifra,easy,1,0.8642
+loc_00290,Béni Mellal-Khénifra,easy,1,0.8642
+loc_00289,Béni Mellal-Khénifra,easy,1,0.8642
+loc_00288,Béni Mellal-Khénifra,easy,1,0.8642
+loc_00243,Béni Mellal-Khénifra,easy,1,0.86
+loc_00309,Béni Mellal-Khénifra,easy,1,0.86
+loc_00308,Béni Mellal-Khénifra,easy,1,0.86
+loc_00286,Béni Mellal-Khénifra,easy,1,0.933
+loc_00287,Béni Mellal-Khénifra,easy,1,0.933
+loc_00240,Béni Mellal-Khénifra,easy,1,0.933
+loc_00242,Béni Mellal-Khénifra,easy,0,0.2074
+loc_00297,Béni Mellal-Khénifra,easy,0,0.2074
+loc_00299,Béni Mellal-Khénifra,easy,0,0.7779
+loc_00298,Béni Mellal-Khénifra,easy,0,0.7779
+loc_00245,Béni Mellal-Khénifra,easy,0,0.7779
+loc_00300,Béni Mellal-Khénifra,easy,0,0.7779
+loc_00301,Béni Mellal-Khénifra,easy,0,0.716
+loc_00302,Béni Mellal-Khénifra,easy,0,0.716
+loc_00237,Béni Mellal-Khénifra,easy,0,0.0228
+loc_00225,Béni Mellal-Khénifra,easy,1,0.0622
+loc_00232,Béni Mellal-Khénifra,easy,0,0.21
+loc_00239,Béni Mellal-Khénifra,easy,0,0.7197
+loc_00235,Béni Mellal-Khénifra,easy,0,0.7197
+loc_00234,Béni Mellal-Khénifra,easy,0,0.7197
+loc_00238,Béni Mellal-Khénifra,easy,0,0.7197
+loc_00226,Béni Mellal-Khénifra,easy,1,0.6693
+loc_00285,Béni Mellal-Khénifra,easy,0,0.5911
+loc_00248,Béni Mellal-Khénifra,easy,0,0.5911
+loc_00284,Béni Mellal-Khénifra,easy,0,0.0608
+loc_00280,Béni Mellal-Khénifra,easy,1,0.8945
+loc_00247,Béni Mellal-Khénifra,easy,1,0.8945
+loc_00314,Béni Mellal-Khénifra,easy,0,0.0342
+loc_00283,Béni Mellal-Khénifra,easy,0,0.0719
+loc_00249,Béni Mellal-Khénifra,easy,1,0.3379
+loc_00281,Béni Mellal-Khénifra,easy,1,0.3379
+loc_00282,Béni Mellal-Khénifra,easy,1,0.2052
+loc_00076,Béni Mellal-Khénifra,easy,0,0.6065
+loc_00075,Béni Mellal-Khénifra,easy,0,0.2318
+loc_00074,Béni Mellal-Khénifra,easy,0,0.2631
+loc_00233,Béni Mellal-Khénifra,easy,0,0.0361
+loc_00229,Béni Mellal-Khénifra,easy,0,0.8073
+loc_00231,Béni Mellal-Khénifra,easy,0,0.1788
+loc_00236,Béni Mellal-Khénifra,easy,0,0.0547
+loc_00227,Béni Mellal-Khénifra,easy,0,0.4626
+loc_00228,Béni Mellal-Khénifra,easy,0,0.8249
+loc_00291,Béni Mellal-Khénifra,easy,1,0.8636
+loc_00230,Béni Mellal-Khénifra,easy,0,0.6169
+loc_00296,Béni Mellal-Khénifra,easy,0,0.2451
+loc_00726,Béni Mellal-Khénifra,easy,1,0.4914
+loc_00727,Béni Mellal-Khénifra,easy,1,0.6136
+loc_00728,Béni Mellal-Khénifra,easy,0,0.0383
+loc_00729,Béni Mellal-Khénifra,easy,0,0.6424
+loc_00730,Béni Mellal-Khénifra,easy,0,0.498
+loc_00731,Béni Mellal-Khénifra,easy,1,0.412
+loc_00732,Béni Mellal-Khénifra,easy,0,0.0747
+loc_00733,Béni Mellal-Khénifra,easy,0,0.0429
+loc_00734,Béni Mellal-Khénifra,easy,0,0.0102
+loc_00735,Béni Mellal-Khénifra,easy,0,0.1708
+loc_00736,Béni Mellal-Khénifra,easy,0,0.4826
+loc_00737,Béni Mellal-Khénifra,easy,1,0.4328
+loc_00738,Béni Mellal-Khénifra,easy,1,0.1309
+loc_00484,Béni Mellal-Khénifra,easy,0,0.2928
+loc_00485,Béni Mellal-Khénifra,easy,0,0.3974
+loc_00486,Béni Mellal-Khénifra,easy,0,0.4405
+loc_00487,Béni Mellal-Khénifra,easy,0,0.0516
+loc_00488,Béni Mellal-Khénifra,easy,0,0.2239
+loc_00408,Béni Mellal-Khénifra,easy,0,0.4751
+loc_01194,Béni Mellal-Khénifra,easy,0,0.3332
+loc_00489,Béni Mellal-Khénifra,easy,1,0.4584
+loc_00490,Béni Mellal-Khénifra,easy,0,0.0954
+loc_00493,Béni Mellal-Khénifra,easy,0,0.0875
+loc_00495,Béni Mellal-Khénifra,easy,0,0.0544
+loc_00497,Béni Mellal-Khénifra,easy,0,0.1319
+loc_00500,Béni Mellal-Khénifra,easy,0,0.3654
+loc_00501,Béni Mellal-Khénifra,easy,0,0.2565
+loc_00502,Béni Mellal-Khénifra,easy,1,0.6786
+loc_00503,Béni Mellal-Khénifra,easy,0,0.5481
+loc_00504,Béni Mellal-Khénifra,easy,0,0.195
+loc_00505,Béni Mellal-Khénifra,easy,0,0.0387
+loc_00378,Béni Mellal-Khénifra,easy,1,0.7827
+loc_00379,Béni Mellal-Khénifra,easy,1,0.4191
+loc_00382,Béni Mellal-Khénifra,easy,0,0.0645
+loc_00385,Béni Mellal-Khénifra,easy,0,0.0306
+loc_00387,Béni Mellal-Khénifra,easy,1,0.3943
+loc_00388,Béni Mellal-Khénifra,easy,0,0.0676
+loc_00389,Béni Mellal-Khénifra,easy,0,0.0549
+loc_00392,Béni Mellal-Khénifra,easy,0,0.0269
+loc_00704,Béni Mellal-Khénifra,easy,0,0.1845
+loc_00705,Béni Mellal-Khénifra,easy,0,0.7628
+loc_00706,Béni Mellal-Khénifra,easy,0,0.5359
+loc_00707,Béni Mellal-Khénifra,easy,0,0.1911
+loc_00708,Béni Mellal-Khénifra,easy,1,0.2307
+loc_00709,Béni Mellal-Khénifra,easy,1,0.7564
+loc_00710,Béni Mellal-Khénifra,easy,1,0.1141
+loc_00711,Béni Mellal-Khénifra,easy,0,0.6577
+loc_00712,Béni Mellal-Khénifra,easy,1,0.4134
+loc_00443,Béni Mellal-Khénifra,easy,1,0.1994
+loc_00444,Béni Mellal-Khénifra,easy,0,0.3874
+loc_00445,Béni Mellal-Khénifra,easy,0,0.1657
+loc_00446,Béni Mellal-Khénifra,easy,0,0.0865
+loc_00447,Béni Mellal-Khénifra,easy,0,0.1663
+loc_00449,Béni Mellal-Khénifra,easy,0,0.5928
+loc_00450,Béni Mellal-Khénifra,easy,0,0.0818
+loc_00451,Béni Mellal-Khénifra,easy,0,0.0678
+loc_00453,Béni Mellal-Khénifra,easy,0,0.0244
+loc_00491,Béni Mellal-Khénifra,easy,0,0.2712
+loc_00494,Béni Mellal-Khénifra,easy,0,0.4476
+loc_00498,Béni Mellal-Khénifra,easy,1,0.6605
+loc_00785,Béni Mellal-Khénifra,easy,0,0.1525
+loc_00786,Béni Mellal-Khénifra,easy,0,0.3248
+loc_00787,Béni Mellal-Khénifra,easy,0,0.2633
+loc_00790,Béni Mellal-Khénifra,easy,1,0.0717
+loc_00792,Béni Mellal-Khénifra,easy,0,0.8894
+loc_00799,Béni Mellal-Khénifra,easy,0,0.1813
+loc_00803,Béni Mellal-Khénifra,easy,0,0.0489
+loc_00806,Béni Mellal-Khénifra,easy,1,0.297
+loc_00781,Béni Mellal-Khénifra,easy,1,0.1672
+loc_00782,Béni Mellal-Khénifra,easy,1,0.7963
+loc_00783,Béni Mellal-Khénifra,easy,1,0.5847
+loc_00784,Béni Mellal-Khénifra,easy,1,0.0997
+loc_00788,Béni Mellal-Khénifra,easy,0,0.2667
+loc_00789,Béni Mellal-Khénifra,easy,1,0.0362
+loc_00791,Béni Mellal-Khénifra,easy,1,0.0878
+loc_00795,Béni Mellal-Khénifra,easy,0,0.253
+loc_00796,Béni Mellal-Khénifra,easy,0,0.0216
+loc_00797,Béni Mellal-Khénifra,easy,0,0.0362
+loc_00798,Béni Mellal-Khénifra,easy,0,0.2728
+loc_00800,Béni Mellal-Khénifra,easy,0,0.1282
+loc_00801,Béni Mellal-Khénifra,easy,0,0.333
+loc_00802,Béni Mellal-Khénifra,easy,0,0.158
+loc_00804,Béni Mellal-Khénifra,easy,0,0.1299
+loc_00805,Béni Mellal-Khénifra,easy,0,0.0285
+loc_00807,Béni Mellal-Khénifra,easy,0,0.0582
+loc_00808,Béni Mellal-Khénifra,easy,0,0.3897
+loc_00809,Béni Mellal-Khénifra,easy,0,0.0545
+loc_00810,Béni Mellal-Khénifra,easy,0,0.1023
+loc_00811,Béni Mellal-Khénifra,easy,0,0.5688
+loc_00812,Béni Mellal-Khénifra,easy,0,0.1234
+loc_00813,Béni Mellal-Khénifra,easy,0,0.2235
+loc_00793,Béni Mellal-Khénifra,easy,0,0.0655
+loc_00794,Béni Mellal-Khénifra,easy,0,0.1089
+loc_00004,Drâa-Tafilalet,easy,0,0.2595
+loc_00003,Drâa-Tafilalet,easy,0,0.0945
+loc_00002,Drâa-Tafilalet,easy,0,0.1086
+loc_00001,Drâa-Tafilalet,easy,1,0.2763
+loc_00033,Drâa-Tafilalet,easy,1,0.094
+loc_00032,Drâa-Tafilalet,easy,0,0.4472
+loc_00025,Drâa-Tafilalet,easy,0,0.1157
+loc_00031,Drâa-Tafilalet,easy,1,0.4796
+loc_00034,Drâa-Tafilalet,easy,0,0.0979
+loc_00030,Drâa-Tafilalet,easy,0,0.4329
+loc_00035,Drâa-Tafilalet,easy,1,0.2493
+loc_00021,Drâa-Tafilalet,easy,1,0.4839
+loc_00036,Drâa-Tafilalet,easy,1,0.1511
+loc_00029,Drâa-Tafilalet,easy,0,0.8299
+loc_00022,Drâa-Tafilalet,easy,0,0.2707
+loc_00037,Drâa-Tafilalet,easy,1,0.8027
+loc_00024,Drâa-Tafilalet,easy,1,0.8751
+loc_00020,Drâa-Tafilalet,easy,1,0.5696
+loc_00026,Drâa-Tafilalet,easy,0,0.412
+loc_00023,Drâa-Tafilalet,easy,0,0.7569
+loc_00038,Drâa-Tafilalet,easy,0,0.0562
+loc_00039,Drâa-Tafilalet,easy,0,0.4787
+loc_00027,Drâa-Tafilalet,easy,0,0.7294
+loc_00055,Drâa-Tafilalet,easy,0,0.019
+loc_00028,Drâa-Tafilalet,easy,1,0.3399
+loc_00050,Drâa-Tafilalet,easy,0,0.1647
+loc_00019,Drâa-Tafilalet,easy,0,0.0337
+loc_00048,Drâa-Tafilalet,easy,0,0.5715
+loc_00049,Drâa-Tafilalet,easy,0,0.5715
+loc_00044,Drâa-Tafilalet,easy,0,0.0706
+loc_00018,Drâa-Tafilalet,easy,1,0.2099
+loc_00051,Drâa-Tafilalet,easy,0,0.2857
+loc_00046,Drâa-Tafilalet,easy,0,0.2734
+loc_00054,Drâa-Tafilalet,easy,0,0.0598
+loc_00040,Drâa-Tafilalet,easy,1,0.1307
+loc_00053,Drâa-Tafilalet,easy,0,0.2254
+loc_00017,Drâa-Tafilalet,easy,0,0.3814
+loc_00043,Drâa-Tafilalet,easy,0,0.0775
+loc_00042,Drâa-Tafilalet,easy,0,0.1532
+loc_00016,Drâa-Tafilalet,easy,0,0.1477
+loc_00015,Drâa-Tafilalet,easy,0,0.1477
+loc_00013,Drâa-Tafilalet,easy,0,0.1304
+loc_00012,Drâa-Tafilalet,easy,0,0.1286
+loc_00011,Drâa-Tafilalet,easy,0,0.1292
+loc_00010,Drâa-Tafilalet,easy,0,0.1481
+loc_00009,Drâa-Tafilalet,easy,0,0.1892
+loc_00008,Drâa-Tafilalet,easy,0,0.1517
+loc_00007,Drâa-Tafilalet,easy,0,0.3845
+loc_00006,Drâa-Tafilalet,easy,0,0.4536
+loc_00014,Drâa-Tafilalet,easy,0,0.1304
+loc_00073,Drâa-Tafilalet,easy,0,0.3046
+loc_00756,Drâa-Tafilalet,easy,0,0.0486
+loc_00757,Drâa-Tafilalet,easy,0,0.0508
+loc_00758,Drâa-Tafilalet,easy,0,0.0577
+loc_00759,Drâa-Tafilalet,easy,0,0.0523
+loc_00760,Drâa-Tafilalet,easy,0,0.3219
+loc_00761,Drâa-Tafilalet,easy,0,0.1475
+loc_00762,Drâa-Tafilalet,easy,0,0.5828
+loc_00763,Drâa-Tafilalet,easy,0,0.3582
+loc_00764,Drâa-Tafilalet,easy,0,0.3669
+loc_00765,Drâa-Tafilalet,easy,1,0.1691
+loc_00766,Drâa-Tafilalet,easy,1,0.8121
+loc_00767,Drâa-Tafilalet,easy,1,0.8712
+loc_00747,Drâa-Tafilalet,easy,1,0.4978
+loc_00748,Drâa-Tafilalet,easy,0,0.3765
+loc_00749,Drâa-Tafilalet,easy,1,0.9324
+loc_00750,Drâa-Tafilalet,easy,0,0.0516
+loc_00751,Drâa-Tafilalet,easy,0,0.1455
+loc_00752,Drâa-Tafilalet,easy,0,0.0333
+loc_00753,Drâa-Tafilalet,easy,0,0.1174
+loc_00754,Drâa-Tafilalet,easy,1,0.6553
+loc_00755,Drâa-Tafilalet,easy,1,0.2006
+loc_00454,Drâa-Tafilalet,easy,1,0.5203
+loc_00455,Drâa-Tafilalet,easy,1,0.2434
+loc_00456,Drâa-Tafilalet,easy,1,0.827
+loc_00457,Drâa-Tafilalet,easy,1,0.6498
+loc_00458,Drâa-Tafilalet,easy,1,0.9064
+loc_00775,Drâa-Tafilalet,easy,0,0.5658
+loc_00776,Drâa-Tafilalet,easy,1,0.048
+loc_00739,Drâa-Tafilalet,easy,1,0.9798
+loc_00740,Drâa-Tafilalet,easy,1,0.9373
+loc_00741,Drâa-Tafilalet,easy,1,0.9691
+loc_00742,Drâa-Tafilalet,easy,1,0.9563
+loc_00743,Drâa-Tafilalet,easy,1,0.9508
+loc_00744,Drâa-Tafilalet,easy,1,0.4446
+loc_00745,Drâa-Tafilalet,easy,1,0.2277
+loc_00746,Drâa-Tafilalet,easy,0,0.0764
+loc_00353,Fés-Meknés,easy,0,0.4496
+loc_00354,Fés-Meknés,easy,0,0.3526
+loc_00366,Fés-Meknés,easy,1,0.1942
+loc_00355,Fés-Meknés,easy,0,0.0687
+loc_00357,Fés-Meknés,easy,0,0.2844
+loc_00367,Fés-Meknés,easy,0,0.678
+loc_00374,Fés-Meknés,easy,0,0.162
+loc_00369,Fés-Meknés,easy,0,0.1788
+loc_00361,Fés-Meknés,easy,0,0.1407
+loc_00371,Fés-Meknés,easy,0,0.199
+loc_00370,Fés-Meknés,easy,0,0.2422
+loc_00372,Fés-Meknés,easy,0,0.7337
+loc_00072,Fés-Meknés,easy,1,0.2334
+loc_00362,Fés-Meknés,easy,0,0.0395
+loc_00071,Fés-Meknés,easy,1,0.2227
+loc_00086,Fés-Meknés,easy,0,0.4357
+loc_00083,Fés-Meknés,easy,0,0.0395
+loc_00081,Fés-Meknés,easy,0,0.0693
+loc_00082,Fés-Meknés,easy,0,0.3297
+loc_00078,Fés-Meknés,easy,0,0.6677
+loc_00079,Fés-Meknés,easy,0,0.2009
+loc_01047,Fés-Meknés,easy,0,0.371
+loc_01051,Fés-Meknés,easy,0,0.5339
+loc_01055,Fés-Meknés,easy,0,0.6504
+loc_01065,Fés-Meknés,easy,0,0.1385
+loc_01066,Fés-Meknés,easy,0,0.0217
+loc_00917,Fés-Meknés,easy,1,0.2113
+loc_00918,Fés-Meknés,easy,1,0.7123
+loc_00919,Fés-Meknés,easy,1,0.1991
+loc_00920,Fés-Meknés,easy,1,0.9104
+loc_00921,Fés-Meknés,easy,1,0.2625
+loc_00922,Fés-Meknés,easy,1,0.6367
+loc_00923,Fés-Meknés,easy,1,0.078
+loc_00924,Fés-Meknés,easy,1,0.2232
+loc_00925,Fés-Meknés,easy,1,0.2625
+loc_00926,Fés-Meknés,easy,1,0.9566
+loc_00927,Fés-Meknés,easy,1,0.8331
+loc_00928,Fés-Meknés,easy,1,0.2047
+loc_00929,Fés-Meknés,easy,1,0.5151
+loc_00930,Fés-Meknés,easy,1,0.5548
+loc_00931,Fés-Meknés,easy,1,0.9775
+loc_00932,Fés-Meknés,easy,0,0.8134
+loc_00933,Fés-Meknés,easy,0,0.8274
+loc_00934,Fés-Meknés,easy,1,0.9353
+loc_00935,Fés-Meknés,easy,0,0.924
+loc_00936,Fés-Meknés,easy,1,0.4277
+loc_00937,Fés-Meknés,easy,1,0.1164
+loc_00938,Fés-Meknés,easy,1,0.1012
+loc_00939,Fés-Meknés,easy,1,0.4835
+loc_00940,Fés-Meknés,easy,1,0.1947
+loc_00941,Fés-Meknés,easy,1,0.0591
+loc_00942,Fés-Meknés,easy,0,0.2337
+loc_00943,Fés-Meknés,easy,0,0.0489
+loc_00944,Fés-Meknés,easy,1,0.2004
+loc_00945,Fés-Meknés,easy,0,0.898
+loc_00947,Fés-Meknés,easy,1,0.0412
+loc_00948,Fés-Meknés,easy,0,0.0413
+loc_00949,Fés-Meknés,easy,0,0.0674
+loc_00950,Fés-Meknés,easy,0,0.2686
+loc_00951,Fés-Meknés,easy,0,0.0945
+loc_00952,Fés-Meknés,easy,0,0.1035
+loc_00953,Fés-Meknés,easy,1,0.8102
+loc_00954,Fés-Meknés,easy,1,0.107
+loc_00956,Fés-Meknés,easy,1,0.0788
+loc_00957,Fés-Meknés,easy,1,0.8178
+loc_00958,Fés-Meknés,easy,0,0.2389
+loc_00959,Fés-Meknés,easy,0,0.2758
+loc_00960,Fés-Meknés,easy,0,0.1711
+loc_00961,Fés-Meknés,easy,0,0.2158
+loc_00962,Fés-Meknés,easy,0,0.0497
+loc_00963,Fés-Meknés,easy,0,0.6247
+loc_00964,Fés-Meknés,easy,0,0.2991
+loc_00965,Fés-Meknés,easy,1,0.8133
+loc_00966,Fés-Meknés,easy,0,0.6813
+loc_00967,Fés-Meknés,easy,0,0.082
+loc_00968,Fés-Meknés,easy,1,0.1439
+loc_00969,Fés-Meknés,easy,0,0.5118
+loc_00970,Fés-Meknés,easy,0,0.2976
+loc_00971,Fés-Meknés,easy,0,0.0542
+loc_00972,Fés-Meknés,easy,0,0.1162
+loc_00973,Fés-Meknés,easy,0,0.5876
+loc_00974,Fés-Meknés,easy,0,0.2834
+loc_00975,Fés-Meknés,easy,0,0.6028
+loc_00976,Fés-Meknés,easy,0,0.1873
+loc_00977,Fés-Meknés,easy,1,0.6584
+loc_00978,Fés-Meknés,easy,1,0.9735
+loc_00979,Fés-Meknés,easy,1,0.9713
+loc_00980,Fés-Meknés,easy,1,0.4645
+loc_00981,Fés-Meknés,easy,0,0.0499
+loc_00982,Fés-Meknés,easy,0,0.3938
+loc_00983,Fés-Meknés,easy,0,0.8623
+loc_00984,Fés-Meknés,easy,0,0.2425
+loc_00985,Fés-Meknés,easy,0,0.83
+loc_00987,Fés-Meknés,easy,0,0.2027
+loc_00988,Fés-Meknés,easy,0,0.0195
+loc_00989,Fés-Meknés,easy,1,0.5428
+loc_00990,Fés-Meknés,easy,1,0.1774
+loc_00991,Fés-Meknés,easy,0,0.0684
+loc_00992,Fés-Meknés,easy,1,0.1266
+loc_00993,Fés-Meknés,easy,0,0.4097
+loc_00995,Fés-Meknés,easy,1,0.7734
+loc_00996,Fés-Meknés,easy,1,0.8787
+loc_00997,Fés-Meknés,easy,1,0.8602
+loc_01071,Fés-Meknés,easy,1,0.9414
+loc_00998,Fés-Meknés,easy,1,0.8648
+loc_00999,Fés-Meknés,easy,1,0.5655
+loc_01000,Fés-Meknés,easy,1,0.9008
+loc_01001,Fés-Meknés,easy,1,0.6169
+loc_01002,Fés-Meknés,easy,0,0.8495
+loc_01003,Fés-Meknés,easy,1,0.8718
+loc_01004,Fés-Meknés,easy,1,0.831
+loc_01005,Fés-Meknés,easy,1,0.1193
+loc_01006,Fés-Meknés,easy,1,0.6894
+loc_01007,Fés-Meknés,easy,0,0.9552
+loc_01008,Fés-Meknés,easy,1,0.0423
+loc_01009,Fés-Meknés,easy,0,0.8645
+loc_01010,Fés-Meknés,easy,0,0.383
+loc_01011,Fés-Meknés,easy,1,0.5428
+loc_01012,Fés-Meknés,easy,1,0.4016
+loc_01013,Fés-Meknés,easy,0,0.914
+loc_01014,Fés-Meknés,easy,0,0.0177
+loc_01015,Fés-Meknés,easy,1,0.0268
+loc_01016,Fés-Meknés,easy,0,0.0744
+loc_01017,Fés-Meknés,easy,1,0.5419
+loc_01036,Fés-Meknés,easy,0,0.9266
+loc_01018,Fés-Meknés,easy,1,0.3832
+loc_01019,Fés-Meknés,easy,1,0.7651
+loc_00946,Fés-Meknés,easy,1,0.6576
+loc_01041,Fés-Meknés,easy,1,0.0647
+loc_00955,Fés-Meknés,easy,1,0.9503
+loc_01042,Fés-Meknés,easy,1,0.2098
+loc_00994,Fés-Meknés,easy,1,0.952
+loc_01039,Fés-Meknés,easy,0,0.8607
+loc_01040,Fés-Meknés,easy,0,0.6671
+loc_01119,Fés-Meknés,easy,0,0.722
+loc_01043,Fés-Meknés,easy,0,0.7748
+loc_01044,Fés-Meknés,easy,0,0.2537
+loc_01045,Fés-Meknés,easy,0,0.0136
+loc_01046,Fés-Meknés,easy,0,0.5501
+loc_01048,Fés-Meknés,easy,0,0.7244
+loc_01049,Fés-Meknés,easy,0,0.0081
+loc_01050,Fés-Meknés,easy,0,0.1196
+loc_01052,Fés-Meknés,easy,0,0.4173
+loc_01053,Fés-Meknés,easy,0,0.2379
+loc_01054,Fés-Meknés,easy,0,0.2777
+loc_00842,Fés-Meknés,easy,0,0.0179
+loc_01056,Fés-Meknés,easy,0,0.0849
+loc_01057,Fés-Meknés,easy,0,0.1352
+loc_01058,Fés-Meknés,easy,0,0.0366
+loc_01059,Fés-Meknés,easy,0,0.1172
+loc_01060,Fés-Meknés,easy,0,0.131
+loc_01061,Fés-Meknés,easy,0,0.0173
+loc_01062,Fés-Meknés,easy,0,0.3379
+loc_01063,Fés-Meknés,easy,0,0.0437
+loc_01064,Fés-Meknés,easy,0,0.0573
+loc_01067,Fés-Meknés,easy,0,0.0836
+loc_01068,Fés-Meknés,easy,0,0.0908
+loc_01069,Fés-Meknés,easy,0,0.112
+loc_01070,Fés-Meknés,easy,0,0.1104
+loc_01072,Fés-Meknés,easy,0,0.061
+loc_01073,Fés-Meknés,easy,0,0.2923
+loc_01074,Fés-Meknés,easy,0,0.0247
+loc_01075,Fés-Meknés,easy,0,0.214
+loc_01076,Fés-Meknés,easy,0,0.6609
+loc_01077,Fés-Meknés,easy,0,0.0343
+loc_01079,Fés-Meknés,easy,0,0.0897
+loc_01080,Fés-Meknés,easy,1,0.3888
+loc_01081,Fés-Meknés,easy,0,0.4309
+loc_01082,Fés-Meknés,easy,0,0.0652
+loc_01083,Fés-Meknés,easy,0,0.0395
+loc_01084,Fés-Meknés,easy,0,0.0509
+loc_01085,Fés-Meknés,easy,0,0.0632
+loc_01086,Fés-Meknés,easy,0,0.0807
+loc_01087,Fés-Meknés,easy,0,0.6338
+loc_01088,Fés-Meknés,easy,0,0.0759
+loc_01089,Fés-Meknés,easy,0,0.1381
+loc_01090,Fés-Meknés,easy,0,0.2948
+loc_01091,Fés-Meknés,easy,0,0.0738
+loc_01092,Fés-Meknés,easy,0,0.1818
+loc_01093,Fés-Meknés,easy,0,0.2182
+loc_01094,Fés-Meknés,easy,0,0.5768
+loc_01095,Fés-Meknés,easy,0,0.7088
+loc_01096,Fés-Meknés,easy,0,0.2198
+loc_01097,Fés-Meknés,easy,0,0.1015
+loc_01098,Fés-Meknés,easy,0,0.1507
+loc_01099,Fés-Meknés,easy,0,0.0687
+loc_01100,Fés-Meknés,easy,0,0.5302
+loc_01101,Fés-Meknés,easy,0,0.1393
+loc_01102,Fés-Meknés,easy,0,0.6338
+loc_01103,Fés-Meknés,easy,0,0.1165
+loc_01104,Fés-Meknés,easy,0,0.6803
+loc_01105,Fés-Meknés,easy,0,0.1691
+loc_01106,Fés-Meknés,easy,0,0.1348
+loc_01107,Fés-Meknés,easy,0,0.0612
+loc_01108,Fés-Meknés,easy,0,0.1814
+loc_01109,Fés-Meknés,easy,0,0.1456
+loc_01110,Fés-Meknés,easy,0,0.1897
+loc_01111,Fés-Meknés,easy,0,0.0431
+loc_01112,Fés-Meknés,easy,0,0.0451
+loc_01113,Fés-Meknés,easy,0,0.2084
+loc_01114,Fés-Meknés,easy,0,0.1108
+loc_01115,Fés-Meknés,easy,0,0.2594
+loc_01116,Fés-Meknés,easy,0,0.0792
+loc_01117,Fés-Meknés,easy,0,0.9426
+loc_01118,Fés-Meknés,easy,0,0.3442
+loc_01120,Fés-Meknés,easy,0,0.0223
+loc_01121,Fés-Meknés,easy,0,0.0849
+loc_01122,Fés-Meknés,easy,0,0.0232
+loc_01123,Fés-Meknés,easy,0,0.0212
+loc_01124,Fés-Meknés,easy,0,0.0191
+loc_01125,Fés-Meknés,easy,0,0.2192
+loc_01126,Fés-Meknés,easy,0,0.0522
+loc_01127,Fés-Meknés,easy,0,0.1155
+loc_01128,Fés-Meknés,easy,0,0.1409
+loc_01129,Fés-Meknés,easy,0,0.2906
+loc_01130,Fés-Meknés,easy,0,0.2584
+loc_01131,Fés-Meknés,easy,0,0.1208
+loc_01132,Fés-Meknés,easy,1,0.3332
+loc_01133,Fés-Meknés,easy,0,0.0543
+loc_01134,Fés-Meknés,easy,0,0.0359
+loc_01135,Fés-Meknés,easy,0,0.0249
+loc_01136,Fés-Meknés,easy,0,0.0205
+loc_01137,Fés-Meknés,easy,1,0.8494
+loc_01138,Fés-Meknés,easy,0,0.6993
+loc_01139,Fés-Meknés,easy,0,0.104
+loc_01140,Fés-Meknés,easy,0,0.2586
+loc_00916,Fés-Meknés,easy,0,0.2599
+loc_01141,Fés-Meknés,easy,0,0.0504
+loc_01142,Fés-Meknés,easy,1,0.5036
+loc_01143,Fés-Meknés,easy,0,0.3159
+loc_01144,Fés-Meknés,easy,0,0.0654
+loc_01145,Fés-Meknés,easy,0,0.2841
+loc_01146,Fés-Meknés,easy,0,0.0138
+loc_01147,Fés-Meknés,easy,0,0.5891
+loc_00820,Fés-Meknés,easy,0,0.042
+loc_00821,Fés-Meknés,easy,0,0.3405
+loc_00822,Fés-Meknés,easy,0,0.571
+loc_00823,Fés-Meknés,easy,0,0.3479
+loc_00824,Fés-Meknés,easy,0,0.0241
+loc_00825,Fés-Meknés,easy,0,0.2281
+loc_00826,Fés-Meknés,easy,0,0.2992
+loc_00827,Fés-Meknés,easy,0,0.1525
+loc_00828,Fés-Meknés,easy,0,0.4923
+loc_00829,Fés-Meknés,easy,0,0.1869
+loc_00830,Fés-Meknés,easy,1,0.8096
+loc_00831,Fés-Meknés,easy,0,0.3051
+loc_00832,Fés-Meknés,easy,0,0.0278
+loc_00833,Fés-Meknés,easy,0,0.1168
+loc_00834,Fés-Meknés,easy,0,0.1061
+loc_00835,Fés-Meknés,easy,0,0.0622
+loc_00836,Fés-Meknés,easy,0,0.0403
+loc_00837,Fés-Meknés,easy,0,0.0384
+loc_00838,Fés-Meknés,easy,0,0.0529
+loc_00839,Fés-Meknés,easy,0,0.0658
+loc_00840,Fés-Meknés,easy,0,0.0567
+loc_00841,Fés-Meknés,easy,1,0.4652
+loc_00867,Fés-Meknés,easy,1,0.2892
+loc_00868,Fés-Meknés,easy,1,0.6637
+loc_00869,Fés-Meknés,easy,1,0.1132
+loc_00870,Fés-Meknés,easy,0,0.2592
+loc_00871,Fés-Meknés,easy,0,0.1237
+loc_00872,Fés-Meknés,easy,1,0.8629
+loc_00873,Fés-Meknés,easy,1,0.9616
+loc_00874,Fés-Meknés,easy,0,0.0505
+loc_00875,Fés-Meknés,easy,0,0.1913
+loc_00876,Fés-Meknés,easy,0,0.433
+loc_00877,Fés-Meknés,easy,0,0.1413
+loc_00878,Fés-Meknés,easy,0,0.0222
+loc_00879,Fés-Meknés,easy,1,0.8303
+loc_00880,Fés-Meknés,easy,1,0.0785
+loc_00881,Fés-Meknés,easy,1,0.8625
+loc_00882,Fés-Meknés,easy,0,0.364
+loc_00883,Fés-Meknés,easy,1,0.5322
+loc_00884,Fés-Meknés,easy,1,0.7484
+loc_00885,Fés-Meknés,easy,1,0.1986
+loc_00886,Fés-Meknés,easy,0,0.4357
+loc_00887,Fés-Meknés,easy,0,0.1782
+loc_00888,Fés-Meknés,easy,0,0.3183
+loc_00889,Fés-Meknés,easy,0,0.4066
+loc_00890,Fés-Meknés,easy,0,0.2062
+loc_00891,Fés-Meknés,easy,0,0.0345
+loc_00892,Fés-Meknés,easy,0,0.2041
+loc_00893,Fés-Meknés,easy,0,0.1582
+loc_00894,Fés-Meknés,easy,0,0.3502
+loc_00895,Fés-Meknés,easy,0,0.1964
+loc_00896,Fés-Meknés,easy,0,0.1411
+loc_00897,Fés-Meknés,easy,1,0.7702
+loc_00898,Fés-Meknés,easy,0,0.0401
+loc_00899,Fés-Meknés,easy,0,0.1092
+loc_00900,Fés-Meknés,easy,0,0.1754
+loc_00901,Fés-Meknés,easy,0,0.0382
+loc_00902,Fés-Meknés,easy,0,0.0972
+loc_00903,Fés-Meknés,easy,0,0.1387
+loc_00904,Fés-Meknés,easy,1,0.6541
+loc_00905,Fés-Meknés,easy,0,0.1906
+loc_00906,Fés-Meknés,easy,0,0.0327
+loc_00907,Fés-Meknés,easy,0,0.0492
+loc_00908,Fés-Meknés,easy,0,0.3703
+loc_00909,Fés-Meknés,easy,0,0.0473
+loc_00910,Fés-Meknés,easy,0,0.0655
+loc_00912,Fés-Meknés,easy,0,0.0241
+loc_00913,Fés-Meknés,easy,0,0.0774
+loc_00914,Fés-Meknés,easy,0,0.2227
+loc_00915,Fés-Meknés,easy,0,0.1995
+loc_01020,Fés-Meknés,easy,0,0.184
+loc_01021,Fés-Meknés,easy,0,0.0369
+loc_01022,Fés-Meknés,easy,0,0.161
+loc_01023,Fés-Meknés,easy,1,0.3358
+loc_01024,Fés-Meknés,easy,0,0.067
+loc_01025,Fés-Meknés,easy,0,0.5235
+loc_01026,Fés-Meknés,easy,0,0.4711
+loc_01027,Fés-Meknés,easy,0,0.0554
+loc_01028,Fés-Meknés,easy,0,0.225
+loc_01029,Fés-Meknés,easy,0,0.1354
+loc_01030,Fés-Meknés,easy,0,0.0585
+loc_01031,Fés-Meknés,easy,0,0.6003
+loc_01032,Fés-Meknés,easy,0,0.0562
+loc_01033,Fés-Meknés,easy,0,0.1282
+loc_01034,Fés-Meknés,easy,0,0.117
+loc_01035,Fés-Meknés,easy,0,0.24
+loc_01037,Fés-Meknés,easy,0,0.0568
+loc_01038,Fés-Meknés,easy,0,0.7045
+loc_00212,Rabat-Salé-Kénitra,easy,1,0.6113
+loc_00215,Rabat-Salé-Kénitra,easy,0,0.538
+loc_00216,Rabat-Salé-Kénitra,easy,0,0.3439
+loc_00213,Rabat-Salé-Kénitra,easy,0,0.3058
+loc_00214,Rabat-Salé-Kénitra,easy,0,0.3058
+loc_00224,Rabat-Salé-Kénitra,easy,0,0.2369
+loc_00211,Rabat-Salé-Kénitra,easy,0,0.9214
+loc_00210,Rabat-Salé-Kénitra,easy,1,0.6635
+loc_00205,Rabat-Salé-Kénitra,easy,0,0.265
+loc_00208,Rabat-Salé-Kénitra,easy,0,0.3201
+loc_00207,Rabat-Salé-Kénitra,easy,0,0.2846
+loc_00209,Rabat-Salé-Kénitra,easy,0,0.1813
+loc_00206,Rabat-Salé-Kénitra,easy,0,0.248
+loc_00222,Rabat-Salé-Kénitra,easy,1,0.8755
+loc_00218,Rabat-Salé-Kénitra,easy,0,0.7631
+loc_00204,Rabat-Salé-Kénitra,easy,1,0.5858
+loc_00223,Rabat-Salé-Kénitra,easy,1,0.1428
+loc_00221,Rabat-Salé-Kénitra,easy,1,0.3066
+loc_00219,Rabat-Salé-Kénitra,easy,1,0.2992
+loc_00217,Rabat-Salé-Kénitra,easy,1,0.4148
+loc_00220,Rabat-Salé-Kénitra,easy,0,0.7165
+loc_00106,Souss-Massa,easy,0,0.0246
+loc_00105,Souss-Massa,easy,0,0.0963
+loc_00131,Souss-Massa,easy,0,0.5161
+loc_00133,Souss-Massa,easy,0,0.1162
+loc_00129,Souss-Massa,easy,0,0.8738
+loc_00092,Souss-Massa,easy,0,0.1732
+loc_00095,Souss-Massa,easy,0,0.1732
+loc_00139,Souss-Massa,easy,0,0.1307
+loc_00096,Souss-Massa,easy,1,0.4467
+loc_00097,Souss-Massa,easy,1,0.4467
+loc_00135,Souss-Massa,easy,0,0.4275
+loc_00103,Souss-Massa,easy,1,0.2659
+loc_00088,Souss-Massa,easy,0,0.3292
+loc_00089,Souss-Massa,easy,0,0.3292
+loc_00090,Souss-Massa,easy,0,0.2035
+loc_00137,Souss-Massa,easy,0,0.3279
+loc_00102,Souss-Massa,easy,1,0.8458
+loc_00125,Souss-Massa,easy,0,0.0846
+loc_00126,Souss-Massa,easy,0,0.0692
+loc_00117,Souss-Massa,easy,0,0.0392
+loc_00138,Souss-Massa,easy,0,0.1294
+loc_00093,Souss-Massa,easy,0,0.1163
+loc_00091,Souss-Massa,easy,0,0.1897
+loc_00132,Souss-Massa,easy,1,0.0377
+loc_00100,Souss-Massa,easy,1,0.4115
+loc_00111,Souss-Massa,easy,0,0.3097
+loc_00134,Souss-Massa,easy,1,0.0996
+loc_00099,Souss-Massa,easy,1,0.8464
+loc_00123,Souss-Massa,easy,0,0.2878
+loc_00121,Souss-Massa,easy,0,0.2923
+loc_00263,Eddakhla-Oued Eddahab,easy,0,0.3272
+loc_00264,Eddakhla-Oued Eddahab,easy,0,0.3272
+loc_00265,Eddakhla-Oued Eddahab,easy,0,0.7093
+loc_00267,Eddakhla-Oued Eddahab,easy,0,0.399
+loc_00266,Eddakhla-Oued Eddahab,easy,0,0.0411
+loc_00261,Eddakhla-Oued Eddahab,easy,0,0.1163
+loc_00262,Eddakhla-Oued Eddahab,easy,0,0.1163
+loc_00260,Eddakhla-Oued Eddahab,easy,0,0.6338
+loc_00256,Eddakhla-Oued Eddahab,easy,0,0.642
+loc_00257,Eddakhla-Oued Eddahab,easy,0,0.642
+loc_00258,Eddakhla-Oued Eddahab,easy,0,0.642
+loc_00259,Eddakhla-Oued Eddahab,easy,0,0.642
+loc_00251,Eddakhla-Oued Eddahab,easy,0,0.7515
+loc_00252,Eddakhla-Oued Eddahab,easy,0,0.1392
+loc_00253,Eddakhla-Oued Eddahab,easy,0,0.1392
+loc_00254,Eddakhla-Oued Eddahab,easy,0,0.1392
+loc_00255,Eddakhla-Oued Eddahab,easy,0,0.1392
+loc_00155,Laayoune-Sakia El Hamra,easy,0,0.0543
+loc_00154,Laayoune-Sakia El Hamra,easy,1,0.0674
+loc_00150,Laayoune-Sakia El Hamra,easy,0,0.0877
+loc_00153,Laayoune-Sakia El Hamra,easy,0,0.0579
+loc_00152,Laayoune-Sakia El Hamra,easy,0,0.0247
+loc_00163,Guelmim-Oued Noun,easy,1,0.4674
+loc_00160,Guelmim-Oued Noun,easy,1,0.4623
+loc_00159,Guelmim-Oued Noun,easy,0,0.1014
+loc_00158,Guelmim-Oued Noun,easy,0,0.1014
+loc_00161,Guelmim-Oued Noun,easy,1,0.0474
+loc_00005,Marrakech-Safi,easy,0,0.6741
+loc_00077,Marrakech-Safi,easy,0,0.6794
+loc_00065,Marrakech-Safi,easy,0,0.452
+loc_00275,Marrakech-Safi,easy,0,0.2555
+loc_00066,Marrakech-Safi,easy,0,0.3563
+loc_00067,Marrakech-Safi,easy,0,0.5032
+loc_00058,Marrakech-Safi,easy,1,0.9062
+loc_00069,Marrakech-Safi,easy,1,0.9062
+loc_00059,Marrakech-Safi,easy,0,0.4954
+loc_00061,Marrakech-Safi,easy,1,0.8788
+loc_00060,Marrakech-Safi,easy,0,0.3874
+loc_00062,Marrakech-Safi,easy,0,0.2582
+loc_00270,Marrakech-Safi,easy,0,0.3474
+loc_00064,Marrakech-Safi,easy,0,0.649
+loc_00273,Grand Casablanca-Settat,easy,0,0.7752
+loc_00269,Grand Casablanca-Settat,easy,0,0.3901
+loc_00272,Grand Casablanca-Settat,easy,0,0.5285
+loc_00271,Grand Casablanca-Settat,easy,0,0.775
+loc_00268,Grand Casablanca-Settat,easy,0,0.7898
+loc_01184,Eddakhla-Oued Eddahab,easy,0,0.2769
+loc_01185,Eddakhla-Oued Eddahab,easy,0,0.0925
+loc_01186,Eddakhla-Oued Eddahab,easy,0,0.22
+loc_01187,Eddakhla-Oued Eddahab,easy,0,0.0559
+loc_01188,Eddakhla-Oued Eddahab,easy,0,0.0289
+loc_01189,Eddakhla-Oued Eddahab,easy,0,0.0233
+loc_01192,Eddakhla-Oued Eddahab,easy,0,0.013
+loc_01193,Eddakhla-Oued Eddahab,easy,0,0.0124
+loc_00402,Marrakech-Safi,easy,1,0.2432
+loc_00403,Marrakech-Safi,easy,1,0.6195
+loc_00404,Marrakech-Safi,easy,1,0.9813
+loc_00405,Marrakech-Safi,easy,1,0.8588
+loc_00413,Marrakech-Safi,easy,1,0.6348
+loc_00414,Marrakech-Safi,easy,1,0.6396
+loc_00418,Marrakech-Safi,easy,1,0.3241
+loc_00420,Marrakech-Safi,easy,1,0.7106
+loc_00423,Marrakech-Safi,easy,1,0.9241
+loc_00424,Marrakech-Safi,easy,1,0.924
+loc_00179,Tanger-Tétouan-Al Hoceima,easy,1,0.1422
+loc_00173,Tanger-Tétouan-Al Hoceima,easy,1,0.502
+loc_00176,Tanger-Tétouan-Al Hoceima,easy,1,0.457
+loc_00166,Tanger-Tétouan-Al Hoceima,easy,1,0.5737
+loc_00193,Tanger-Tétouan-Al Hoceima,easy,0,0.1773
+loc_00340,Tanger-Tétouan-Al Hoceima,easy,1,0.8122
+loc_00180,Tanger-Tétouan-Al Hoceima,easy,0,0.4369
+loc_00182,Tanger-Tétouan-Al Hoceima,easy,1,0.1522
+loc_00202,Tanger-Tétouan-Al Hoceima,easy,0,0.8005
+loc_00181,Tanger-Tétouan-Al Hoceima,easy,0,0.8273
+loc_00203,Tanger-Tétouan-Al Hoceima,easy,0,0.1699
+loc_00183,Tanger-Tétouan-Al Hoceima,easy,1,0.0918
+loc_00178,Tanger-Tétouan-Al Hoceima,easy,0,0.2678
+loc_00328,Tanger-Tétouan-Al Hoceima,easy,0,0.2898
+loc_00192,Tanger-Tétouan-Al Hoceima,easy,0,0.3655
+loc_00171,Tanger-Tétouan-Al Hoceima,easy,1,0.2402
+loc_00198,Tanger-Tétouan-Al Hoceima,easy,0,0.0989
+loc_00200,Tanger-Tétouan-Al Hoceima,easy,0,0.0855
+loc_00168,Tanger-Tétouan-Al Hoceima,easy,0,0.0251
+loc_00191,Tanger-Tétouan-Al Hoceima,easy,0,0.1242
+loc_00164,Tanger-Tétouan-Al Hoceima,easy,0,0.1142
+loc_00165,Tanger-Tétouan-Al Hoceima,easy,0,0.0967
+loc_00196,Tanger-Tétouan-Al Hoceima,easy,0,0.0118
+loc_00185,Tanger-Tétouan-Al Hoceima,easy,1,0.0118
+loc_00184,Tanger-Tétouan-Al Hoceima,easy,0,0.1614
+loc_00201,Tanger-Tétouan-Al Hoceima,easy,0,0.0203
+loc_00194,Tanger-Tétouan-Al Hoceima,easy,0,0.0695
+loc_00189,Tanger-Tétouan-Al Hoceima,easy,0,0.2315
+loc_00188,Tanger-Tétouan-Al Hoceima,easy,0,0.2315
+loc_00197,Tanger-Tétouan-Al Hoceima,easy,0,0.0273
+loc_00195,Tanger-Tétouan-Al Hoceima,easy,0,0.0491
+loc_00187,Tanger-Tétouan-Al Hoceima,easy,0,0.2324
+loc_00169,Tanger-Tétouan-Al Hoceima,easy,0,0.0248
+loc_00170,Tanger-Tétouan-Al Hoceima,easy,0,0.0329
+loc_00186,Tanger-Tétouan-Al Hoceima,easy,0,0.0992
+loc_00199,Tanger-Tétouan-Al Hoceima,easy,0,0.0192
+loc_00543,Tanger-Tétouan-Al Hoceima,easy,0,0.058
+loc_00544,Tanger-Tétouan-Al Hoceima,easy,0,0.1081
+loc_00545,Tanger-Tétouan-Al Hoceima,easy,0,0.0502
+loc_00546,Tanger-Tétouan-Al Hoceima,easy,0,0.166
+loc_00552,Tanger-Tétouan-Al Hoceima,easy,0,0.4334
+loc_00553,Tanger-Tétouan-Al Hoceima,easy,0,0.4393
+loc_00555,Tanger-Tétouan-Al Hoceima,easy,1,0.1712
+loc_00556,Tanger-Tétouan-Al Hoceima,easy,0,0.6751
+loc_00561,Tanger-Tétouan-Al Hoceima,easy,0,0.133
+loc_00562,Tanger-Tétouan-Al Hoceima,easy,0,0.3391
+loc_00568,Tanger-Tétouan-Al Hoceima,easy,0,0.1221
+loc_00570,Tanger-Tétouan-Al Hoceima,easy,0,0.7191
+loc_00571,Tanger-Tétouan-Al Hoceima,easy,0,0.182
+loc_00440,Tanger-Tétouan-Al Hoceima,easy,0,0.7288
+loc_00441,Tanger-Tétouan-Al Hoceima,easy,1,0.1542
+loc_00442,Tanger-Tétouan-Al Hoceima,easy,0,0.1318

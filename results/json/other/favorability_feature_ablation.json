@@ -1,0 +1,12 @@
+{
+  "difficult": {
+    "acc_6feat_RF_only": 0.7312,
+    "acc_7feat_with_favorability": 0.7462,
+    "delta_pp": 1.5
+  },
+  "easy": {
+    "acc_6feat_RF_only": 0.7258,
+    "acc_7feat_with_favorability": 0.7258,
+    "delta_pp": 0.0
+  }
+}

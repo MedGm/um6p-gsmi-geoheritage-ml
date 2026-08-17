@@ -3,8 +3,21 @@ numpy==2.5.1
 pandas==3.0.3
 scikit-learn==1.9.0
 xgboost==3.3.0
+lightgbm==4.7.0
 scipy==1.18.0
 joblib==1.5.3
+
+# Used only by code/22_comprehensive_final.py's separate model-family robustness
+# check (not by code/20, the script that produces every Table 3 headline number)
+catboost==1.2.10
+
+# Mixed-effects region modeling (code/24, 28, 30) and least-cost-path friction
+# surface (code/23, skimage.graph.MCP_Geometric)
+statsmodels==0.14.6
+scikit-image==0.26.0
+
+# Fuzzy name matching for catalog ingestion/dedup (code/01, 11, 31)
+rapidfuzz==3.14.5
 
 # GIS & Spatial Stack
 rasterio==1.5.0

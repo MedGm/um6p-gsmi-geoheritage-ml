@@ -1,0 +1,30 @@
+{
+  "difficult": {
+    "LCP_replace": {
+      "bmk_acc_logo_cluster": 0.8025,
+      "national_acc_logo_cluster": 0.7244
+    },
+    "LCP_add": {
+      "bmk_acc_logo_cluster": 0.8025,
+      "national_acc_logo_cluster": 0.7312
+    },
+    "G0a_baseline": {
+      "bmk_acc_logo_cluster": 0.8344,
+      "national_acc_logo_cluster": 0.7462
+    }
+  },
+  "easy": {
+    "LCP_replace": {
+      "bmk_acc_logo_cluster": 0.6943,
+      "national_acc_logo_cluster": 0.7353
+    },
+    "LCP_add": {
+      "bmk_acc_logo_cluster": 0.707,
+      "national_acc_logo_cluster": 0.7422
+    },
+    "G0a_baseline": {
+      "bmk_acc_logo_cluster": 0.6943,
+      "national_acc_logo_cluster": 0.7299
+    }
+  }
+}

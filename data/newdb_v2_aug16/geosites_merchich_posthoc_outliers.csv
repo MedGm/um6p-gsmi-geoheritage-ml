@@ -1,0 +1,2 @@
+Observation_ID,Geosite_Name,Latitude_WGS84,Longitude_WGS84,Region,Geosite_Type,Geological_Domain,Locality_Center_Lat,Locality_Center_Lon,Locality_Group_Key,Coordinate_Precision,Source_File,Source_Row_Ref,Center_Coord_Source,Is_Merchich_Format,Correction_Applied,Ground_Truth_Note
+obs3_00645,Panoramic view of the Cretaceous cuestas,32.053978781448976,-2.4446410047780387,Béni Mellal-Khénifra,Geom06,Central High Atlas,,,geoheritage_aug16_2026_group_35,point,geoheritage_aug16_2026,788,,True,,

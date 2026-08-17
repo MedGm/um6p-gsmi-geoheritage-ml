@@ -1,0 +1,36 @@
+{
+  "difficult": {
+    "A_population": {
+      "acc_logo_cluster": 0.749,
+      "n_valid": 733,
+      "n_failed_folds": 0
+    },
+    "B_fixed_dummy": {
+      "acc_logo_cluster": 0.7694,
+      "n_valid": 733,
+      "n_failed_folds": 0
+    },
+    "C_random_intercept": {
+      "acc_logo_cluster": 0.7749,
+      "n_valid": 733,
+      "n_failed_folds": 0
+    }
+  },
+  "easy": {
+    "A_population": {
+      "acc_logo_cluster": 0.7026,
+      "n_valid": 733,
+      "n_failed_folds": 0
+    },
+    "B_fixed_dummy": {
+      "acc_logo_cluster": 0.7149,
+      "n_valid": 733,
+      "n_failed_folds": 0
+    },
+    "C_random_intercept": {
+      "acc_logo_cluster": 0.7012,
+      "n_valid": 733,
+      "n_failed_folds": 0
+    }
+  }
+}

@@ -44,8 +44,8 @@ FW = os.path.abspath(os.path.join(HERE, "..", ".."))
 BASE = FW
 PROJ_CRS = "EPSG:26191"
 
-print("[1] Loading v3 model...", flush=True)
-bundle = joblib.load(os.path.join(BASE, "models", "final", "geosite_location_pilot_model_v3.joblib"))
+print("[1] Loading v4 model (retrained 2026-08-17 on the 1,667-site catalog)...", flush=True)
+bundle = joblib.load(os.path.join(BASE, "models", "final", "geosite_location_pilot_model_v4.joblib"))
 model, FEATURES = bundle["model"], bundle["features"]
 print("    features:", FEATURES, flush=True)
 

@@ -70,7 +70,7 @@
   \includegraphics[width=0.34\linewidth]{../report/um6p_figures/um6p_gsmi_logo.png}\\[0.9cm]
   {\color{accent!35}\rule{0.32\linewidth}{0.5pt}}\\[0.9cm]
   {\Large\bfseries\color{accent} Mod\'elisation de l'accessibilit\'e des g\'eosites au Maroc}\\[0.35cm]
-  {\normalsize\color{darktext} Point hebdomadaire : nouvelle base de donn\'ees, r\'esultats finaux, finalisation du rapport}\\[0.9cm]
+  {\normalsize\color{darktext} Point hebdomadaire : donn\'ees, m\'ethode, r\'esultats et limites}\\[0.9cm]
   {\footnotesize\itshape\color{graytext} Geology and Sustainable Mining Institute (GSMI), UM6P}\\[0.6cm]
   {\footnotesize\color{graytext} Ao\^ut 2026}
 \end{frame}
@@ -79,12 +79,16 @@
 % ============================================================ Plan ========
 \begin{frame}{Plan}
   \begin{enumerate}
-    \setlength\itemsep{0.5em}
+    \setlength\itemsep{0.45em}
     \item Contexte : de l'ancien catalogue \`a la nouvelle base
-    \item M\'ethodologie finale
-    \item R\'esultats principaux
-    \item Cartes : ce que chacune montre
-    \item Limites de g\'en\'eralisation inter-r\'egions
+    \item Donn\'ees : catalogue et \'etiquetage
+    \item Variables pr\'edictives
+    \item R\`egle de d\'ecision \`a trois classes
+    \item Mod\`eles test\'es et mod\`ele retenu
+    \item Protocole de validation
+    \item R\'esultats : vue d'ensemble, puis carte par carte
+    \item Nouveaux r\'esultats : effet r\'egional et incertitude calibr\'ee
+    \item Limites : pourquoi certains mod\`eles ne font pas mieux
   \end{enumerate}
 \end{frame}
 
@@ -93,7 +97,7 @@
   \begin{itemize}
     \setlength\itemsep{0.8em}
     \item Avant : \textbf{324} g\'eosites catalogu\'es, dont \textbf{251} \'etiquet\'es (77,5\,\%)
-    \item Maintenant : \textbf{1\,154} g\'eosites catalogu\'es, dont \textbf{733} \'etiquet\'es
+    \item Maintenant : \textbf{1\,667} g\'eosites catalogu\'es, dont \textbf{733} \'etiquet\'es
     \item Avant d'exploiter ce catalogue \'elargi, v\'erification que la taille seule
       n'expliquait pas un gain de pr\'ecision : cinq familles de mod\`eles diff\'erentes
       test\'ees sous le m\^eme protocole de validation -- aucune n'a d\'epass\'e
@@ -105,20 +109,129 @@
   validation crois\'ee du rapport actuel (catalogue actuel).}
 \end{frame}
 
-% ============================================================ Methodologie
-\begin{frame}{M\'ethodologie finale}
+% ============================================================ Donnees =====
+\begin{frame}{Donn\'ees : catalogue et \'etiquetage}
+  \footnotesize
+  \begin{itemize}
+    \setlength\itemsep{0.4em}
+    \item \textbf{733 g\'eosites \'etiquet\'es} (sur 1\,667 catalogu\'es), r\'epartis en
+      trois classes d'accessibilit\'e : \emph{Facile}, \emph{Mod\'er\'e}, \emph{Difficile}
+    \item Chaque \'etiquette est \textbf{tra\c{c}able \`a une source externe citable}
+      (inventaires publi\'es, plateformes de randonn\'ee, itin\'eraires d'op\'erateurs,
+      expertise de terrain) -- aucune \'etiquette n'est d\'eriv\'ee par formule
+    \item Sites sans source v\'erifiable : laiss\'es \textbf{non \'etiquet\'es}, pas
+      assign\'es par inf\'erence
+    \item R\'epartition tr\`es in\'egale entre r\'egions -- voir Limites en fin d'expos\'e
+  \end{itemize}
+  \vspace{0.2cm}
+  \centering\footnotesize
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.4cm}rrrr@{}}
+    \toprule
+    R\'egion & Difficile & Facile & Mod\'er\'e & Total \\
+    \midrule
+    F\'es-Mekn\'es & 155 & 84 & 83 & 322 \\
+    B\'eni Mellal-Kh\'enifra & 16 & 47 & 94 & 157 \\
+    Dr\^aa-Tafilalet & 20 & 32 & 35 & 87 \\
+    Tanger-T\'etouan-Al Hoceima & 6 & 11 & 35 & 52 \\
+    \emph{(7 autres r\'egions)} & 17 & 33 & 65 & 115 \\
+    \midrule
+    \textbf{Total} & \textbf{214} & \textbf{207} & \textbf{312} & \textbf{733} \\
+    \bottomrule
+  \end{tabular}
+  \vfill
+  \source{Table 1 du rapport (Section \guillemotleft\,Study Area and Dataset\,\guillemotright).}
+\end{frame}
+
+% ============================================================ Variables ===
+\begin{frame}{Variables pr\'edictives}
+  Six variables, identiques pour tous les mod\`eles d'accessibilit\'e :
+  \vspace{0.2cm}
+  \small
+  \begin{itemize}
+    \setlength\itemsep{0.55em}
+    \item \textbf{Distance \`a la route} (OSM, routes pav\'ees) -- proximit\'e du
+      r\'eseau routier praticable
+    \item \textbf{Pente} (Copernicus GLO-30, $\sim$30\,m) -- difficult\'e physique de
+      la derni\`ere approche
+    \item \textbf{Rugosit\'e} (d\'eriv\'ee du m\^eme DEM) -- irr\'egularit\'e locale du
+      relief autour du site
+    \item \textbf{\'El\'evation} (Copernicus GLO-30) -- altitude, corr\'el\'ee au climat
+      et \`a l'effort d'acc\`es
+    \item \textbf{Friction d'occupation du sol} (ESA WorldCover) -- v\'eg\'etation dense,
+      eau ou terrain b\^ati ralentissent le d\'eplacement
+    \item \textbf{Distance \`a la localit\'e la plus proche} (haversine, 55 villes de
+      r\'ef\'erence) -- \'eloignement des infrastructures et services
+  \end{itemize}
+  \vfill
+  \source{M\^emes six variables pour les 733 sites \'etiquet\'es ; le mod\`ele de
+  favorabilit\'e (diapositive R\'esultats) utilise un jeu diff\'erent, orient\'e
+  g\'eologie/sol plut\^ot qu'infrastructure.}
+\end{frame}
+
+% ============================================================ Regle =======
+\begin{frame}{R\`egle de d\'ecision \`a trois classes}
   \begin{itemize}
     \setlength\itemsep{0.9em}
-    \item \textbf{Variables} : pente, rugosit\'e, \'elévation, distance \`a la route,
-      distance aux localit\'es, friction d'occupation du sol (LULC) -- six au total
-    \item \textbf{Mod\`eles test\'es} : r\'egression logistique, $k$-NN (distance
-      g\'eographique), $k$-NN (distance dans l'espace des variables), Processus
-      Gaussien, ensemble d'arbres -- \textbf{mod\`ele retenu : l'ensemble d'arbres}
-      (Random Forest + XGBoost + Gradient Boosting + LightGBM)
-    \item \textbf{Validation} : validation crois\'ee LOGO par cluster de 500\,m,
-      validation \guillemotleft\,leave-region-out\,\guillemotright, et validation par
-      blocs spatiaux pour le mod\`ele de favorabilit\'e
+    \item \textbf{Aucun mod\`ele \`a trois classes n'est jamais entra\^in\'e.} Chaque
+      r\'esultat provient de l'un de deux classificateurs binaires ind\'ependants,
+      chacun entra\^in\'e et valid\'e s\'epar\'ement contre sa propre v\'erit\'e terrain :
+      \emph{Difficile-vs-non} et \emph{Facile-vs-non}
+    \item L'\'ecran op\'erationnel \`a trois classes est une combinaison
+      \textbf{d\'eterministe}, pas un troisi\`eme mod\`ele entra\^in\'e :
+      \begin{itemize}
+        \item un site est \textbf{Difficile} si le classificateur Difficile-vs-non le
+          signale
+        \item \textbf{Facile} si le classificateur Facile-vs-non le signale et que
+          Difficile ne l'a pas signal\'e
+        \item \textbf{Mod\'er\'e} sinon -- c'est-\`a-dire l'intersection de
+          \emph{non-Difficile} et \emph{non-Facile}
+      \end{itemize}
+    \item Chaque pourcentage de pr\'ecision de cet expos\'e est donc une
+      \textbf{exactitude binaire} contre une v\'erit\'e terrain r\'eelle -- aucun chiffre
+      ne d\'ecrit directement la combinaison \`a trois classes
   \end{itemize}
+  \vfill
+  \source{Section \guillemotleft\,Three-Way Decision Rule\,\guillemotright\ du rapport.}
+\end{frame}
+
+% ============================================================ Modeles =====
+\begin{frame}{Mod\`eles test\'es et mod\`ele retenu}
+  \begin{itemize}
+    \setlength\itemsep{0.8em}
+    \item \textbf{Cinq familles de mod\`eles compar\'ees} sous le m\^eme protocole :
+      r\'egression logistique, $k$-NN (distance g\'eographique), $k$-NN (distance dans
+      l'espace des variables), Processus Gaussien, ensemble d'arbres
+    \item Aucune ne d\'epasse l'ensemble d'arbres de mani\`ere significative --
+      confirme un \textbf{plafond li\'e aux variables disponibles}, pas un probl\`eme de
+      choix d'algorithme
+    \item \textbf{Mod\`ele retenu} : ensemble \`a vote souple \`a quatre membres
+      (Random Forest + XGBoost + Gradient Boosting + LightGBM), pond\'er\'e par
+      confiance de l'\'etiquette et par \'equilibre des classes
+    \item Configuration retenue une fois par recherche en grille sur l'ensemble des
+      donn\'ees group\'ees, puis r\'eutilis\'ee pour chaque pli de validation --
+      simplification courante en pratique, disclos\'ee comme limite (voir fin d'expos\'e)
+  \end{itemize}
+\end{frame}
+
+% ============================================================ Validation ==
+\begin{frame}{Protocole de validation}
+  \centering
+  \includegraphics[width=0.52\linewidth]{../report/figures/validation_schematic.pdf}
+  \vspace{0.05cm}
+  \footnotesize
+  \begin{itemize}
+    \setlength\itemsep{0.2em}
+    \item \textbf{LOGO-cluster (500\,m)} : les sites tr\`es proches (quasi-doublons) sont
+      group\'es et retir\'es ensemble \`a chaque pli -- \'evite la fuite de donn\'ees qui
+      gonflerait artificiellement l'exactitude d'un partage al\'eatoire naïf
+    \item \textbf{Leave-region-out} : entra\^in\'e sur dix r\'egions, test\'e sur la
+      onzi\`eme enti\`erement retenue -- g\'en\'eralisation plus stricte, utilis\'ee pour
+      Eddakhla et pour l'analyse des limites
+    \item \textbf{CV par blocs spatiaux} (0,5$^\circ$$\times$0,5$^\circ$) : utilis\'ee
+      uniquement pour le mod\`ele de favorabilit\'e des g\'eosites
+  \end{itemize}
+  \vfill
+  \source{figures/validation\_schematic.pdf ; Section \guillemotleft\,Validation Strategy\,\guillemotright\ du rapport.}
 \end{frame}
 
 % ============================================================ Resultats ===
@@ -131,7 +244,7 @@
     Mod\`ele & $N$ & M\'ethode de validation & M\'etrique & Valeur (\%) \\
     \midrule
     Eddakhla (Difficile vs.\ non) & 25 & Leave-region-out & Exactitude & 96,0 \\
-    Favorabilit\'e des g\'eosites & 1\,154 & CV par blocs spatiaux & AUC & 92,7 \\
+    Favorabilit\'e des g\'eosites & 1\,667 & CV par blocs spatiaux & AUC & 95,6 \\
     F\'es-Mekn\'es (Facile vs.\ non) & 322 & LOGO-cluster & Exactitude & 78,6 \\
     B\'eni Mellal-Kh\'enifra (Facile vs.\ non) & 157 & LOGO-cluster & Exactitude & 77,7 \\
     National (Difficile vs.\ non) & 733 & LOGO-cluster & Exactitude & 74,1 \\
@@ -140,57 +253,194 @@
   \end{tabular}
   \end{center}
   \vfill
-  \source{Table 3 du rapport. LOGO-cluster = validation crois\'ee \guillemotleft\,leave-one-group-out\,\guillemotright\ par cluster haversine de 500\,m.}
+  \source{Table 3 du rapport. Les diapositives suivantes reprennent chaque r\'esultat
+  avec sa carte et son explication.}
 \end{frame}
 
-% ============================================================ Cartes ======
 \begin{frame}{V\'erit\'e terrain : 733 g\'eosites, classe r\'eelle}
   \centering
   \includegraphics[height=5.1cm]{../report/figures/map_groundtruth_national.pdf}
   \vfill
   \source{Les g\'eosites \'etiquet\'es se concentrent dans le corridor Moyen Atlas /
   F\'es-Mekn\'es ; les sites Difficiles se concentrent le long du Rif et du front du
-  Moyen Atlas.}
+  Moyen Atlas -- utile pour lire les cartes de r\'esultats qui suivent.}
 \end{frame}
 
 \begin{frame}{Cas le plus favorable : Eddakhla-Oued Eddahab}
-  \centering
-  \includegraphics[height=4.8cm]{../report/figures/eddakhla_hero.pdf}%
-  \hspace{0.4cm}%
-  \includegraphics[height=4.8cm]{../report/figures/map_eddakhla.pdf}
-  \vfill
-  \source{Leave-region-out : entra\^in\'e sur les dix autres r\'egions uniquement,
-  test\'e sur les 25 sites d'Eddakhla en totalit\'e. 96,0\,\% contre une base de
-  80,0\,\% (classe majoritaire locale).}
+  \begin{columns}[T]
+    \begin{column}{0.58\textwidth}
+      \centering
+      \includegraphics[height=2.6cm]{../report/figures/eddakhla_hero.pdf}\\[0.15cm]
+      \includegraphics[height=2.6cm]{../report/figures/map_eddakhla.pdf}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \footnotesize
+      \textbf{96,0\,\%} contre une base de 80,0\,\% (classe majoritaire locale),
+      en leave-region-out (entra\^in\'e sur les dix autres r\'egions, test\'e sur les
+      25 sites d'Eddakhla en totalit\'e).
+
+      \vspace{0.3cm}
+      Relief plat et homog\`ene du Sahara c\^otier : la difficult\'e y est gouvern\'ee
+      presque enti\`erement par l'\'eloignement du corridor routier c\^otier, un
+      facteur unique que le mod\`ele capture bien.
+
+      \vfill
+      \source{IC 95\,\% [80,5\,\%, 99,3\,\%] sur $n=25$.}
+    \end{column}
+  \end{columns}
 \end{frame}
 
-\begin{frame}{\'Etudes de cas r\'egionales}
-  \centering
-  \includegraphics[height=5.0cm]{../report/figures/map_fesmeknes.pdf}%
-  \hspace{0.3cm}%
-  \includegraphics[height=5.0cm]{../report/figures/map_bmk.pdf}
-  \vfill
-  \source{Chaque carte provient d'un classificateur entra\^in\'e et valid\'e
-  uniquement sur les donn\'ees propres \`a cette r\'egion, pas du mod\`ele national
-  group\'e.}
+\begin{frame}{F\'es-Mekn\'es (Facile vs.\ non)}
+  \begin{columns}[T]
+    \begin{column}{0.58\textwidth}
+      \centering
+      \includegraphics[height=5.3cm]{../report/figures/map_fesmeknes.pdf}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \footnotesize
+      \textbf{78,6\,\%} en LOGO-cluster, sur le plus grand \'echantillon r\'egional
+      (N=322) -- l'\'echantillon le plus large favorise directement la
+      g\'en\'eralisation (voir aussi la diapositive Limites).
+
+      \vspace{0.3cm}
+      Mod\`ele entra\^in\'e et valid\'e uniquement sur les donn\'ees propres \`a
+      cette r\'egion, pas le mod\`ele national group\'e.
+
+      \vfill
+      \source{IC 95\,\% [73,8\,\%, 82,7\,\%].}
+    \end{column}
+  \end{columns}
 \end{frame}
 
-\begin{frame}{\'Echelle nationale et favorabilit\'e des g\'eosites}
-  \centering
-  \includegraphics[height=5.0cm]{../report/figures/map_national.pdf}%
-  \hspace{0.3cm}%
-  \includegraphics[height=5.0cm]{../report/figures/map_favorability.pdf}
+\begin{frame}{B\'eni Mellal-Kh\'enifra (Facile vs.\ non)}
+  \begin{columns}[T]
+    \begin{column}{0.58\textwidth}
+      \centering
+      \includegraphics[height=5.3cm]{../report/figures/map_bmk.pdf}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \footnotesize
+      \textbf{77,7\,\%} en LOGO-cluster pour Facile-vs-non. Le classificateur
+      Difficile-vs-non de cette m\^eme r\'egion, lui, ne d\'epasse pas sa base
+      triviale -- trop peu d'exemples Difficile (16) et un relief qui m\'elange
+      Haut Atlas et plaine du Tadla.
+
+      \vspace{0.3cm}
+      Les grottes karstiques et gorges de la r\'egion illustrent directement la
+      limite \guillemotleft\,route proche $\ne$ acc\`es facile\,\guillemotright.
+
+      \vfill
+      \source{IC 95\,\% [70,6\,\%, 83,5\,\%].}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{\'Echelle nationale (onze r\'egions group\'ees)}
+  \begin{columns}[T]
+    \begin{column}{0.58\textwidth}
+      \centering
+      \includegraphics[height=5.3cm]{../report/figures/map_national.pdf}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \footnotesize
+      \textbf{74,1\,\%} (Difficile) / \textbf{73,3\,\%} (Facile), sans identit\'e de
+      r\'egion donn\'ee au mod\`ele (pour rester transf\'erable \`a d'autres r\'egions).
+
+      \vspace{0.2cm}
+      Ces chiffres sont sup\'erieurs \`a la base de d\'epart (deviner la classe la
+      plus fr\'equente : 70,8\,\%/71,8\,\%), mais l'\'ecart est encore petit \`a
+      l'\'echelle du pays entier. Un test statistique standard, qui v\'erifie si un
+      \'ecart pourrait simplement venir du hasard, montre qu'\`a cette \'echelle
+      nationale, \textbf{on ne peut pas encore affirmer avec certitude} que ce gain
+      est r\'eel -- \`a lire comme coh\'erent avec les r\'esultats r\'egionaux
+      (plus solides ci-dessus), pas comme une confirmation ind\'ependante.
+
+      \vfill
+      {\fontsize{5.3}{6.3}\selectfont\color{graytext}Test de McNemar (comparaison
+      statistique appari\'ee) : $\chi^2=2,57$, $p=0,109$ / $\chi^2=0,50$, $p=0,481$.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Favorabilit\'e des g\'eosites (question distincte)}
+  \begin{columns}[T]
+    \begin{column}{0.58\textwidth}
+      \centering
+      \includegraphics[height=5.3cm]{../report/figures/map_favorability.pdf}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \footnotesize
+      \textbf{AUC 0,956} (contre 0,927 avant l'expansion du catalogue \`a 1\,667
+      sites, m\^eme protocole).
+
+      \vspace{0.3cm}
+      R\'epond \`a une question diff\'erente du reste de l'expos\'e : \emph{o\`u}
+      des g\'eosites sont probablement situ\'es, plut\^ot que la difficult\'e
+      d'acc\`es d'un site d\'ej\`a connu -- pouvoir discriminant plus \'elev\'e
+      car directement li\'e \`a la g\'eologie/relief, sans d\'ependre du r\'eseau
+      routier.
+
+      \vfill
+      \source{CV par blocs spatiaux 0,5$^\circ\times$0,5$^\circ$.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ============================================================ Nouveaux ====
+\begin{frame}{Nouveau : donner au mod\`ele une notion de r\'egion, prudemment}
+  \footnotesize
+  \begin{itemize}
+    \setlength\itemsep{0.55em}
+    \item Le mod\`ele national ci-dessus ne re\c{c}oit \textbf{aucune information de
+      r\'egion}, pour rester utilisable ailleurs. Test compl\'ementaire : lui donner
+      la r\'egion, mais de fa\c{c}on statistiquement prudente -- chaque r\'egion tire
+      la pr\'ediction vers sa propre tendance, sans lui laisser une libert\'e totale
+      (\'evite qu'une petite r\'egion \guillemotleft\,trompe\,\guillemotright\ le mod\`ele)
+    \item Pour la classe Difficile : \textbf{77,5\,\%}, et cette fois le test
+      statistique \textbf{confirme} que ce n'est pas d\^u au hasard -- l\`a o\`u le
+      mod\`ele principal ne pouvait pas l'affirmer (diapositive pr\'ec\'edente)
+    \item Compar\'e directement au mod\`ele principal (mêmes 733 sites) : l'avantage
+      va dans le bon sens, mais reste \`a la limite de ce qu'on peut affirmer avec
+      confiance -- pas encore un r\'esultat clairement tranch\'e
+    \item Tient m\^eme quand on teste sur une r\'egion \textbf{compl\`etement absente
+      de l'entra\^inement} (72,8\,\% contre 66,8\,\% pour le mod\`ele principal) --
+      sauf \`a Eddakhla sp\'ecifiquement, o\`u le mod\`ele principal reste meilleur
+      (96,0\,\% contre 92,0\,\%)
+    \item \textbf{Aucun gain} \'equivalent pour la classe Facile
+  \end{itemize}
   \vfill
-  \source{\`A gauche : mod\`ele group\'e sur les onze r\'egions (74,1\,\%/73,3\,\%).
-  \`A droite : un mod\`ele distinct r\'epondant \`a une autre question -- \emph{o\`u}
-  se trouvent probablement des g\'eosites, plut\^ot que la difficult\'e d'acc\`es d'un
-  site connu (AUC 0,927).}
+  \source{Test de McNemar : $\chi^2=15,89$, $p=0,0001$ (vs.\ base) ; $\chi^2=3,38$,
+  $p=0,066$ (vs.\ mod\`ele principal). results/json/other/mcnemar\_batch\_results.json.}
+\end{frame}
+
+\begin{frame}{Nouveau : \`a quel point peut-on faire confiance \`a une pr\'ediction ?}
+  \footnotesize
+  \begin{itemize}
+    \setlength\itemsep{0.6em}
+    \item Un pourcentage d'exactitude global ne dit pas, \textbf{site par site}, \`a
+      quel point le mod\`ele est s\^ur de sa r\'eponse. Nouveau : le mod\`ele donne
+      aussi une probabilit\'e de confiance pour chaque site, et on peut v\'erifier
+      si ces probabilit\'es sont fiables
+    \item \textbf{Premi\`ere v\'erification} : quand le mod\`ele annonce, par exemple,
+      \guillemotleft\,80\,\% de chances d'\^etre Difficile\,\guillemotright, ce chiffre
+      est-il r\'ealiste ? R\'eponse : d'assez bonne qualit\'e, et encore am\'elior\'e
+      par un ajustement statistique simple
+    \item \textbf{Deuxi\`eme v\'erification, plus utile en pratique} : \`a quelle
+      fr\'equence peut-on faire confiance \`a un appel du mod\`ele \`a une seule
+      classe ? Test\'e honn\^etement sur des sites jamais utilis\'es pour ce r\'eglage
+    \item R\'esultat : le mod\`ele donne un \textbf{appel confiant \`a une seule classe
+      pour environ 56--57\,\%} des sites, et dit honn\^etement
+      \guillemotleft\,\c{c}a pourrait \^etre l'une ou l'autre\,\guillemotright\ pour
+      le reste -- plut\^ot que de forcer une r\'eponse dans les cas ambigus
+  \end{itemize}
+  \vfill
+  \source{results/json/other/calibration\_conformal\_results.json.}
 \end{frame}
 
 % ============================================================ LRO limits ==
-\begin{frame}{Limites de g\'en\'eralisation inter-r\'egions}
+\begin{frame}{Limite 1 : g\'en\'eralisation inter-r\'egions}
   \centering
-  \includegraphics[height=3.1cm]{../report/figures/leave_region_out.pdf}
+  \includegraphics[height=2.7cm]{../report/figures/leave_region_out.pdf}
 
   \vspace{0.1cm}
   \scriptsize
@@ -208,9 +458,48 @@
       \textbf{Rabat-Sal\'e-K\'enitra} (-19,0) : \'echantillons trop petits
       (21 \`a 52 sites) pour apprendre un motif transf\'erable
   \end{itemize}
+  \vspace{0.1cm}
+  \scriptsize En pratique, cette limite touche surtout l'\'evaluation : chaque
+  r\'egion du catalogue actuel poss\`ede d\'ej\`a ses propres donn\'ees
+  d'entra\^inement, donc les pr\'edictions r\'eelles se font toujours dans le cadre
+  \guillemotleft\,m\^eme r\'egion\,\guillemotright, pas leave-region-out.
   \vfill
   \source{\'Ecarts par rapport \`a la base de classe majoritaire locale, classificateur
   Difficile, leave-region-out (final\_v2\_results\_N733.json).}
+\end{frame}
+
+\begin{frame}{Limite 2 : raret\'e des donn\'ees pour la classe Difficile}
+  \begin{itemize}
+    \setlength\itemsep{0.9em}
+    \item B\'eni Mellal-Kh\'enifra (n=16) et Dr\^aa-Tafilalet (n=20) n'ont pas assez
+      d'exemples \textbf{positifs} Difficile pour entra\^iner un classificateur
+      r\'egional fiable
+    \item Plusieurs correctifs test\'es sans succ\`es : correction du d\'es\'equilibre de
+      classes, ajustement du seuil de d\'ecision, plusieurs familles de mod\`eles
+      suppl\'ementaires -- aucun ne d\'epasse la base triviale de mani\`ere fiable pour
+      ces deux cellules r\'egion/classe
+    \item Direction la plus efficace pour la suite : \textbf{augmenter l'\'etiquetage
+      cibl\'e} sur ces deux combinaisons pr\'ecises, plut\^ot qu'\'elargir le catalogue
+      uniform\'ement
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Limite 3 : proximit\'e routi\`ere $\ne$ technicit\'e du terrain}
+  \begin{itemize}
+    \setlength\itemsep{0.9em}
+    \item Une grotte karstique peut se trouver \`a quelques m\`etres d'une route pav\'ee
+      tout en exigeant une entr\'ee technique sp\'ecialis\'ee -- la distance \`a la route
+      et la pente divergent alors en importance selon le contexte g\'eologique
+    \item Confirm\'e en comparant l'importance des variables entre sites \'etiquet\'es
+      depuis des sources centr\'ees route et sites \'etiquet\'es depuis des inventaires
+      karstiques/hydrologiques : la pente prend le pas sur la distance \`a la route dans
+      ce second groupe
+    \item Visible directement sur la carte de B\'eni Mellal-Kh\'enifra (diapositive
+      r\'esultats) -- trait\'e comme un \textbf{constat scientifique r\'eel}, pas comme
+      une faiblesse \`a corriger
+    \item Motive de traiter l'accessibilit\'e comme une propri\'et\'e vraiment
+      multi-facteurs du terrain, pas une simple fonction de la proximit\'e routi\`ere
+  \end{itemize}
 \end{frame}
 
 % ============================================================ Fin =========
