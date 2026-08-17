@@ -60,8 +60,14 @@ confidence- and class-balance-weighted. Five structurally different model famili
 (logistic regression, two forms of *k*-NN, Gaussian Process, tree ensemble) were
 compared under the identical protocol as an internal check — none beat the tree
 ensemble by a meaningful margin, confirming a feature-set ceiling rather than an
-algorithm-choice problem. Full detail, per-region results, and honest discussion of
-limitations: [`report/geosite_ai_section_2026.pdf`](report/geosite_ai_section_2026.pdf).
+algorithm-choice problem. Every headline number is checked with a paired McNemar
+significance test against a trivial baseline, not just reported as a raw percentage;
+a region-aware (mixed-effects) alternative is also tested and shown to clear that
+significance bar for the national Difficult classifier where the deployed ensemble
+does not, and split-conformal prediction is used to report a calibrated confidence
+statement (a confident call for ~56–57% of sites, an honest "could be either" for the
+rest) rather than accuracy alone. Full detail, per-region results, and honest
+discussion of limitations: [`report/geosite_ai_section_2026.pdf`](report/geosite_ai_section_2026.pdf).
 
 ## Acknowledgments
 
