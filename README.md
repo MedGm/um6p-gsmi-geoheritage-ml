@@ -40,21 +40,11 @@ own local majority-class baseline (see the regional paper for the full 20-row
 region-by-region breakdown, including the five region/target combinations that do
 *not* clear their local baseline).
 
-<p align="center">
-  <img src="report/figures/map_national_preview.png" width="300" alt="National accessibility projection">
-  &nbsp;&nbsp;
-  <img src="report/figures/map_favorability_preview.png" width="300" alt="Geosite-location favorability">
-</p>
-<p align="center">
-  <img src="report/figures/map_national_mosaic_preview.png" width="300" alt="Regional-mosaic accessibility map">
-  &nbsp;&nbsp;
-  <img src="report/figures/paper2_gap_chart_single_preview.png" width="300" alt="Regional accuracy vs. local majority baseline">
-</p>
-<p align="center"><em>Top left: national accessibility projection (pooled model). Top right: predicted
-geosite-location favorability -- where terrain/geology resembles known geosite
-locations, not accessibility. Bottom left: regional paper's national mosaic, assembled
-from per-region best models. Bottom right: single-region accuracy vs. each region's own
-local majority baseline, gap labeled.</em></p>
+| <img src="report/figures/map_national_preview.png" width="380" alt="National accessibility projection"> | <img src="report/figures/map_favorability_preview.png" width="380" alt="Geosite-location favorability"> |
+|:---:|:---:|
+| National accessibility projection (pooled model) | Geosite-location favorability -- where terrain/geology resembles known geosite locations, not accessibility |
+| <img src="report/figures/map_national_mosaic_preview.png" width="380" alt="Regional-mosaic accessibility map"> | <img src="report/figures/paper2_gap_chart_single_preview.png" width="380" alt="Regional accuracy vs. local majority baseline"> |
+| Regional paper's national mosaic, assembled from per-region best models | Single-region accuracy vs. each region's own local majority baseline, gap labeled |
 
 Full-resolution figures: [`report/figures/`](report/figures/).
 
