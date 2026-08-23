@@ -1,0 +1,832 @@
+[
+  {
+    "group": "South_GuelmimLaayoune",
+    "regions": [
+      "Guelmim-Oued Noun",
+      "Laayoune-Sakia El Hamra"
+    ],
+    "target": "Difficult",
+    "N": 22,
+    "n_pos": 4,
+    "local_majority": 0.818,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.8636,
+        "acc_tuned": 0.9091,
+        "tuned_threshold": 0.32,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 5,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 5,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.8636,
+        "acc_tuned": 0.7273,
+        "tuned_threshold": 0.24,
+        "best_acc": 0.8636,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 3,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 2,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.8182,
+        "acc_tuned": 0.8636,
+        "tuned_threshold": 0.63,
+        "best_acc": 0.8636,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 5,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 2,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Baseline",
+    "best_acc": 0.9091
+  },
+  {
+    "group": "South_GuelmimLaayoune",
+    "regions": [
+      "Guelmim-Oued Noun",
+      "Laayoune-Sakia El Hamra"
+    ],
+    "target": "Easy",
+    "N": 22,
+    "n_pos": 9,
+    "local_majority": 0.591,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.8182,
+        "acc_tuned": 0.9091,
+        "tuned_threshold": 0.57,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 4,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": -1,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.8182,
+        "acc_tuned": 0.9091,
+        "tuned_threshold": 0.58,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 7,
+              "min_samples_leaf": 2,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 4,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": -1,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.8182,
+        "acc_tuned": 0.8182,
+        "tuned_threshold": 0.5,
+        "best_acc": 0.8182,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 4,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 6,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Baseline",
+    "best_acc": 0.9091
+  },
+  {
+    "group": "South_GuelmimLaayouneEddakhla",
+    "regions": [
+      "Guelmim-Oued Noun",
+      "Laayoune-Sakia El Hamra",
+      "Eddakhla-Oued Eddahab"
+    ],
+    "target": "Difficult",
+    "N": 55,
+    "n_pos": 12,
+    "local_majority": 0.782,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.9091,
+        "acc_tuned": 0.8909,
+        "tuned_threshold": 0.41,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": null,
+              "min_samples_leaf": 2,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 4,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 5,
+              "n_estimators": 200,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.9091,
+        "acc_tuned": 0.8727,
+        "tuned_threshold": 0.43,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 5,
+              "min_samples_leaf": 1,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 3,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": -1,
+              "n_estimators": 200,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.8727,
+        "acc_tuned": 0.8909,
+        "tuned_threshold": 0.3,
+        "best_acc": 0.8909,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 5,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 4,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 5,
+              "n_estimators": 200,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Baseline",
+    "best_acc": 0.9091
+  },
+  {
+    "group": "South_GuelmimLaayouneEddakhla",
+    "regions": [
+      "Guelmim-Oued Noun",
+      "Laayoune-Sakia El Hamra",
+      "Eddakhla-Oued Eddahab"
+    ],
+    "target": "Easy",
+    "N": 55,
+    "n_pos": 12,
+    "local_majority": 0.782,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.7091,
+        "acc_tuned": 0.8545,
+        "tuned_threshold": 0.73,
+        "best_acc": 0.8545,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": null,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 3,
+              "n_estimators": 200,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.8545,
+        "acc_tuned": 0.8545,
+        "tuned_threshold": 0.5,
+        "best_acc": 0.8545,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 8,
+              "min_samples_leaf": 1,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 3,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 5,
+              "n_estimators": 200,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.7455,
+        "acc_tuned": 0.7636,
+        "tuned_threshold": 0.46,
+        "best_acc": 0.7636,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 6,
+              "min_samples_leaf": 2,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.08,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 2,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 5,
+              "n_estimators": 200,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Baseline",
+    "best_acc": 0.8545
+  },
+  {
+    "group": "RabatCasablanca",
+    "regions": [
+      "Rabat-Sal\u00e9-K\u00e9nitra",
+      "Grand Casablanca-Settat"
+    ],
+    "target": "Difficult",
+    "N": 28,
+    "n_pos": 4,
+    "local_majority": 0.857,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.7857,
+        "acc_tuned": 0.1429,
+        "tuned_threshold": 0.05,
+        "best_acc": 0.7857,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 5,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.08,
+              "max_depth": 3,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 2,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": -1,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.8214,
+        "acc_tuned": 0.1429,
+        "tuned_threshold": 0.05,
+        "best_acc": 0.8214,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": null,
+              "min_samples_leaf": 1,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 4,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 2,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": -1,
+              "n_estimators": 100,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.7143,
+        "acc_tuned": 0.1429,
+        "tuned_threshold": 0.05,
+        "best_acc": 0.7143,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 6,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 4,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 5,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Domain",
+    "best_acc": 0.8214
+  },
+  {
+    "group": "RabatCasablanca",
+    "regions": [
+      "Rabat-Sal\u00e9-K\u00e9nitra",
+      "Grand Casablanca-Settat"
+    ],
+    "target": "Easy",
+    "N": 28,
+    "n_pos": 10,
+    "local_majority": 0.643,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.4286,
+        "acc_tuned": 0.6429,
+        "tuned_threshold": 0.34,
+        "best_acc": 0.6429,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 5,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 2,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.5357,
+        "acc_tuned": 0.6429,
+        "tuned_threshold": 0.31,
+        "best_acc": 0.6429,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 3,
+              "n_estimators": 150
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.7857,
+        "acc_tuned": 0.7857,
+        "tuned_threshold": 0.5,
+        "best_acc": 0.7857,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.08,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Infra",
+    "best_acc": 0.7857
+  }
+]

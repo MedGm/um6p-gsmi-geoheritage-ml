@@ -1,0 +1,44 @@
+{
+  "difficult": {
+    "overall_acc": 0.7487,
+    "by_origin": [
+      {
+        "origin": "original_733",
+        "n": 733,
+        "n_pos": 215,
+        "acc": 0.7572,
+        "local_majority": 0.7067,
+        "gap_pp": 5.0
+      },
+      {
+        "origin": "el_ouali_2026",
+        "n": 206,
+        "n_pos": 35,
+        "acc": 0.7184,
+        "local_majority": 0.8301,
+        "gap_pp": -11.2
+      }
+    ]
+  },
+  "easy": {
+    "overall_acc": 0.7167,
+    "by_origin": [
+      {
+        "origin": "original_733",
+        "n": 733,
+        "n_pos": 205,
+        "acc": 0.7271,
+        "local_majority": 0.7203,
+        "gap_pp": 0.7
+      },
+      {
+        "origin": "el_ouali_2026",
+        "n": 206,
+        "n_pos": 90,
+        "acc": 0.6796,
+        "local_majority": 0.5631,
+        "gap_pp": 11.7
+      }
+    ]
+  }
+}

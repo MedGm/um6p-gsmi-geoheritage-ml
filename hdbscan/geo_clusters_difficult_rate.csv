@@ -1,0 +1,58 @@
+cluster,n,difficult_rate,vs_national,regions
+8,11,1.0,0.708,Drâa-Tafilalet
+53,5,1.0,0.708,Fés-Meknés
+18,7,0.857,0.565,Fés-Meknés
+51,13,0.846,0.554,Fés-Meknés
+56,10,0.8,0.508,Fés-Meknés
+48,28,0.786,0.494,Fés-Meknés
+55,18,0.778,0.486,Fés-Meknés
+52,20,0.7,0.408,Fés-Meknés
+50,5,0.6,0.308,Fés-Meknés
+23,7,0.571,0.279,Béni Mellal-Khénifra
+49,18,0.556,0.264,Fés-Meknés
+54,18,0.5,0.208,Fés-Meknés
+40,8,0.5,0.208,Fés-Meknés
+3,7,0.429,0.137,Eddakhla-Oued Eddahab
+22,17,0.412,0.12,Drâa-Tafilalet
+2,5,0.4,0.108,Eddakhla-Oued Eddahab
+0,5,0.4,0.108,Laayoune-Sakia El Hamra
+46,13,0.385,0.093,Fés-Meknés
+28,6,0.333,0.041,Fés-Meknés
+45,18,0.278,-0.014,Fés-Meknés
+47,36,0.222,-0.07,Fés-Meknés
+29,5,0.2,-0.092,Béni Mellal-Khénifra
+35,5,0.2,-0.092,Béni Mellal-Khénifra
+12,5,0.2,-0.092,"Grand Casablanca-Settat, Marrakech-Safi"
+41,5,0.2,-0.092,Fés-Meknés
+38,5,0.2,-0.092,"Béni Mellal-Khénifra, Fés-Meknés"
+44,6,0.167,-0.125,Fés-Meknés
+10,13,0.154,-0.138,"Drâa-Tafilalet, Souss-Massa"
+32,26,0.154,-0.138,Fés-Meknés
+24,14,0.143,-0.149,Béni Mellal-Khénifra
+13,14,0.143,-0.149,Marrakech-Safi
+4,8,0.125,-0.167,Marrakech-Safi
+17,9,0.111,-0.181,Tanger-Tétouan-Al Hoceima
+20,9,0.111,-0.181,"Guelmim-Oued Noun, Souss-Massa"
+11,21,0.095,-0.197,Rabat-Salé-Kénitra
+14,11,0.091,-0.201,Tanger-Tétouan-Al Hoceima
+33,12,0.083,-0.209,Fés-Meknés
+43,14,0.071,-0.221,"Béni Mellal-Khénifra, Fés-Meknés"
+16,15,0.067,-0.225,Tanger-Tétouan-Al Hoceima
+6,9,0.0,-0.292,Drâa-Tafilalet
+7,6,0.0,-0.292,Tanger-Tétouan-Al Hoceima
+21,6,0.0,-0.292,Drâa-Tafilalet
+19,16,0.0,-0.292,Souss-Massa
+9,13,0.0,-0.292,Drâa-Tafilalet
+15,7,0.0,-0.292,Béni Mellal-Khénifra
+1,13,0.0,-0.292,Eddakhla-Oued Eddahab
+5,7,0.0,-0.292,Tanger-Tétouan-Al Hoceima
+39,13,0.0,-0.292,Béni Mellal-Khénifra
+31,15,0.0,-0.292,Béni Mellal-Khénifra
+25,5,0.0,-0.292,Drâa-Tafilalet
+37,7,0.0,-0.292,Béni Mellal-Khénifra
+34,5,0.0,-0.292,Béni Mellal-Khénifra
+36,12,0.0,-0.292,Béni Mellal-Khénifra
+27,9,0.0,-0.292,Béni Mellal-Khénifra
+26,11,0.0,-0.292,Drâa-Tafilalet
+30,14,0.0,-0.292,Béni Mellal-Khénifra
+42,5,0.0,-0.292,Fés-Meknés

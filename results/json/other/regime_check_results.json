@@ -1,0 +1,32 @@
+{
+  "regime_pooled": {
+    "mountain_nearroad": {
+      "mean": 0.47953216374269003,
+      "count": 171
+    },
+    "remote_lowland": {
+      "mean": 0.5189873417721519,
+      "count": 79
+    }
+  },
+  "original733_fesmeknes_vs_rest": {
+    "F\u00e9s-Mekn\u00e9s": {
+      "n": 155,
+      "acc": 0.5806451612903226
+    },
+    "rest": {
+      "n": 60,
+      "acc": 0.3333333333333333
+    }
+  },
+  "original733_regime_only": {
+    "mountain_nearroad": {
+      "mean": 0.4968944099378882,
+      "count": 161
+    },
+    "remote_lowland": {
+      "mean": 0.5555555555555556,
+      "count": 54
+    }
+  }
+}

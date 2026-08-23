@@ -84,23 +84,26 @@ WC_FRICTION = {
     70: 0.70, 80: 0.90, 90: 0.75, 95: 0.75, 100: 0.60,
 }
 
+# Updated 2026-08-22 to Baseline_939's best_configs (results/json/training/
+# phase5_modeling_results.json) -- N=733-era configs replaced for the N=939
+# audited/batch-integrated dataset, confidence weighting dropped (see below).
 BEST_CONFIGS = {
     "difficult": {
-        "RF": dict(max_depth=None, min_samples_leaf=2, n_estimators=200),
-        "XGB": dict(learning_rate=0.08, max_depth=6, n_estimators=150),
+        "RF": dict(max_depth=None, min_samples_leaf=1, n_estimators=400),
+        "XGB": dict(learning_rate=0.15, max_depth=5, n_estimators=250),
         "GBM": dict(learning_rate=0.1, max_depth=4, n_estimators=200),
-        "LGBM": dict(learning_rate=0.05, max_depth=-1, n_estimators=200, num_leaves=31),
+        "LGBM": dict(learning_rate=0.1, max_depth=-1, n_estimators=200, num_leaves=31),
     },
     "easy": {
         "RF": dict(max_depth=None, min_samples_leaf=1, n_estimators=400),
-        "XGB": dict(learning_rate=0.08, max_depth=6, n_estimators=100),
-        "GBM": dict(learning_rate=0.1, max_depth=4, n_estimators=200),
+        "XGB": dict(learning_rate=0.08, max_depth=6, n_estimators=250),
+        "GBM": dict(learning_rate=0.05, max_depth=4, n_estimators=200),
         "LGBM": dict(learning_rate=0.1, max_depth=-1, n_estimators=200, num_leaves=31),
     },
 }
 
 # ============================================================ 1. Load data & fit ==
-print("[1] Loading N=733 labels + fitting production ensembles ...", flush=True)
+print("[1] Loading N=939 labels (733 original + 206 el_ouali_2026, audited) + fitting production ensembles ...", flush=True)
 import glob
 frames = []
 for f in sorted(glob.glob(os.path.join(FW, "data/final/regional_label_sources/*.csv"))):
@@ -109,9 +112,7 @@ for f in sorted(glob.glob(os.path.join(FW, "data/final/regional_label_sources/*.
         continue
     df = pd.read_csv(f)
     labeled = df[df["Expert_Class"].notna() & (df["Expert_Class"] != "")].copy()
-    if "Confidence" not in labeled.columns:
-        labeled["Confidence"] = "Medium"
-    frames.append(labeled[["Locality_ID", "Expert_Class", "Confidence"]])
+    frames.append(labeled[["Locality_ID", "Expert_Class"]])
 all_labels = pd.concat(frames, ignore_index=True).drop_duplicates("Locality_ID")
 catalog = pd.read_csv(os.path.join(FW, "data/final/geosites_mcdm_national.csv"))
 merged = all_labels.merge(
@@ -119,9 +120,10 @@ merged = all_labels.merge(
     on="Locality_ID", how="inner")
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
-assert len(merged) == 733
+assert len(merged) == 939
 
-conf_w = merged["Confidence"].map(CONF_WEIGHT).fillna(0.7).values
+# Confidence-weighting retired project-wide 2026-08-21 (class-balance weighting only) --
+# see [[project-geosite-accessibility-status]] memory / data_audit/03_phase5_modeling.py.
 X = merged[FEATURES].values
 
 def make_ensemble(target_cfg):
@@ -134,7 +136,7 @@ def make_ensemble(target_cfg):
     return models
 
 def fit_binary(y_binary, cfg):
-    sw = conf_w * compute_sample_weight("balanced", y_binary)
+    sw = compute_sample_weight("balanced", y_binary)
     fitted = []
     for name, mdl in make_ensemble(cfg):
         mdl.fit(X, y_binary, sample_weight=sw)
@@ -284,7 +286,13 @@ def fit_region_specific(region_name, target):
     exactly mirroring code/20's G1 block. Returns (fitted_ensemble, threshold, best_acc)."""
     sub = merged[merged["Region"] == region_name].reset_index(drop=True)
     Xr = sub[FEATURES].values
-    cwr = sub["Confidence"].map(CONF_WEIGHT).fillna(0.7).values
+    # Confidence-weighting retired project-wide (see line ~125) -- this function
+    # predates that and was left referencing a "Confidence" column that no longer
+    # exists in `merged`, never caught because the cache-reuse shortcut below
+    # always skipped this path in practice. Neutral weight matches every other
+    # script's post-retirement behavior (class-balance weighting only, applied
+    # inside fit_binary_subset).
+    cwr = np.ones(len(sub))
     yr = (sub["Expert_Merged"] == target).astype(int).values
     groups = cluster_of(sub)
     best = region_grid_search(Xr, yr, cwr, groups)
@@ -300,21 +308,33 @@ def fit_region_specific(region_name, target):
     fitted = fit_binary_subset(Xr, yr, cwr, dict(best))
     return fitted, threshold, best_acc
 
-print("  Eddakhla-Oued Eddahab (leave-region-out, national hyperparameters) ...", flush=True)
-_mask_not_eddakhla = (merged["Region"] != "Eddakhla-Oued Eddahab").values
-fitted_eddakhla_diff = fit_binary_subset(X[_mask_not_eddakhla], y_difficult[_mask_not_eddakhla],
-                                          conf_w[_mask_not_eddakhla], BEST_CONFIGS["difficult"])
-fitted_eddakhla_easy = fit_binary_subset(X[_mask_not_eddakhla], y_easy[_mask_not_eddakhla],
-                                          conf_w[_mask_not_eddakhla], BEST_CONFIGS["easy"])
+# 2026-08-22: Paper 1 (national) update only -- this region-specific fitting
+# (Eddakhla leave-region-out, Fés-Meknés/BMK own-region grid search) feeds
+# only the regional maps, which are Paper 2's deferred scope. Skip the
+# expensive refit when a cached map_grids.pkl already exists; the national
+# block below never touches these variables.
+_map_grids_cache = os.path.join(FW, "results", "grids", "map_grids.pkl")
+_reuse_regional_cache = os.path.exists(_map_grids_cache)
+if not _reuse_regional_cache:
+    print("  Eddakhla-Oued Eddahab (leave-region-out, national hyperparameters) ...", flush=True)
+    _mask_not_eddakhla = (merged["Region"] != "Eddakhla-Oued Eddahab").values
+    fitted_eddakhla_diff = fit_binary_subset(X[_mask_not_eddakhla], y_difficult[_mask_not_eddakhla],
+                                              compute_sample_weight("balanced", y_difficult[_mask_not_eddakhla]),
+                                              BEST_CONFIGS["difficult"])
+    fitted_eddakhla_easy = fit_binary_subset(X[_mask_not_eddakhla], y_easy[_mask_not_eddakhla],
+                                              compute_sample_weight("balanced", y_easy[_mask_not_eddakhla]),
+                                              BEST_CONFIGS["easy"])
 
-print("  Fes-Meknes (own-region grid search + threshold tuning) ...", flush=True)
-fitted_fesmeknes_diff, thresh_fesmeknes_diff, _ = fit_region_specific("Fés-Meknés", "Difficult")
-fitted_fesmeknes_easy, thresh_fesmeknes_easy, _ = fit_region_specific("Fés-Meknés", "Easy")
+    print("  Fes-Meknes (own-region grid search + threshold tuning) ...", flush=True)
+    fitted_fesmeknes_diff, thresh_fesmeknes_diff, _ = fit_region_specific("Fés-Meknés", "Difficult")
+    fitted_fesmeknes_easy, thresh_fesmeknes_easy, _ = fit_region_specific("Fés-Meknés", "Easy")
 
-print("  Beni Mellal-Khenifra (own-region grid search + threshold tuning) ...", flush=True)
-fitted_bmk_diff, thresh_bmk_diff, _ = fit_region_specific("Béni Mellal-Khénifra", "Difficult")
-fitted_bmk_easy, thresh_bmk_easy, _ = fit_region_specific("Béni Mellal-Khénifra", "Easy")
-print("    done.", flush=True)
+    print("  Beni Mellal-Khenifra (own-region grid search + threshold tuning) ...", flush=True)
+    fitted_bmk_diff, thresh_bmk_diff, _ = fit_region_specific("Béni Mellal-Khénifra", "Difficult")
+    fitted_bmk_easy, thresh_bmk_easy, _ = fit_region_specific("Béni Mellal-Khénifra", "Easy")
+    print("    done.", flush=True)
+else:
+    print("  Reusing cached regional models (Paper 1/national update only) -- skipping region-specific refit.", flush=True)
 
 # ============================================================ 2. Boundaries =======
 def fetch_boundary(cache_name, query):
@@ -354,29 +374,55 @@ print("    done.", flush=True)
 
 # ============================================================ 3. Raster stack =====
 print("[3] Loading local terrain raster stack ...", flush=True)
-PHYS = os.path.join(BASE, "archive/gis_data/physical")
+# Elevation/Slope/Ruggedness read from physical_task2_corrected/, not physical/ --
+# see report/scripts/make_paper2_region_maps.py's raster-loading block for the full
+# investigation. Confirmed concretely: physical/elevation_meters.tif missed with
+# raw -9999 nodata on 33% of real catalog site queries and was off by 500-1100m
+# even where valid; physical_task2_corrected/ (documented as "registration-
+# corrected via coastline calibration", and what code/02_extract_terrain_road_
+# features.py actually used to build the CATALOG features the models were trained
+# and evaluated on) + nodata-fill brings that to a ~130-200m median bias, in line
+# with ordinary coarse-DEM-vs-ground-truth variation at 1.2km resolution.
+# Dist_to_Highway_m has no corrected raster (only a "_PRE_CALIBRATION" file exists
+# there) because the catalog computes it differently -- true vector distance to
+# roads, not raster sampling -- so it stays sourced from physical/, which checked
+# out fine against the catalog (quantization-scale differences only).
+PHYS = os.path.join(BASE, "archive/gis_data/physical_task2_corrected")
+PHYS_OLD = os.path.join(BASE, "archive/gis_data/physical")
 raster_arrays = {}
-raster_transform = None
+raster_transforms = {}  # per-key: the corrected rasters use a different affine
+                         # origin than the old ones (~24.85km Y-shift -- exactly
+                         # the coastline calibration), so they are NOT
+                         # interchangeable under one shared transform.
 raster_crs = None
-for key, fname in [("Elevation_m", "elevation_meters.tif"), ("Slope_deg", "slope_degrees.tif"),
-                    ("Ruggedness", "ruggedness.tif"), ("Dist_to_Highway_m", "distance_to_highways_meters.tif")]:
-    with rasterio.open(os.path.join(PHYS, fname)) as src:
-        raster_arrays[key] = src.read(1)
-        raster_transform = src.transform
-        raster_crs = src.crs
+for key, fname, phys_dir in [("Elevation_m", "elevation_meters.tif", PHYS),
+                              ("Slope_deg", "slope_degrees.tif", PHYS),
+                              ("Ruggedness", "ruggedness.tif", PHYS),
+                              ("Dist_to_Highway_m", "distance_to_highways_meters.tif", PHYS_OLD)]:
+    with rasterio.open(os.path.join(phys_dir, fname)) as src:
+        arr = src.read(1)
+        nodata = src.nodata
+        if nodata is not None and (arr == nodata).any():
+            from scipy.ndimage import distance_transform_edt as _edt
+            invalid = (arr == nodata)
+            idx = _edt(invalid, return_distances=False, return_indices=True)
+            arr = arr[tuple(idx)]
+        raster_arrays[key] = arr
+        raster_transforms[key] = src.transform
+        raster_crs = src.crs  # same CRS (EPSG:26191) for both directories, safe to share
 print("    done.", flush=True)
 
 to_26191 = Transformer.from_crs("EPSG:4326", raster_crs, always_xy=True)
-inv_transform = ~raster_transform
+inv_transforms = {k: ~t for k, t in raster_transforms.items()}
 
 def sample_local_stack(lon, lat):
     x, y = to_26191.transform(lon, lat)
-    col, row = inv_transform * (x, y)
-    row = np.clip(np.round(row).astype(int), 0, raster_arrays["Elevation_m"].shape[0] - 1)
-    col = np.clip(np.round(col).astype(int), 0, raster_arrays["Elevation_m"].shape[1] - 1)
     out = {}
     for key in ["Elevation_m", "Slope_deg", "Ruggedness", "Dist_to_Highway_m"]:
-        out[key] = raster_arrays[key][row, col]
+        col, row = inv_transforms[key] * (x, y)
+        row_i = np.clip(np.round(row).astype(int), 0, raster_arrays[key].shape[0] - 1)
+        col_i = np.clip(np.round(col).astype(int), 0, raster_arrays[key].shape[1] - 1)
+        out[key] = raster_arrays[key][row_i, col_i]
     return out
 
 # ============================================================ 4. Settlements ======
@@ -471,19 +517,21 @@ def point_in_polygon_mask(lon2d, lat2d, gdf):
         mask |= inside.reshape(lon2d.shape)
     return mask
 
-REGION_MODELS = {
-    "eddakhla": dict(diff=fitted_eddakhla_diff, easy=fitted_eddakhla_easy, t_diff=0.5, t_easy=0.5),
-    "fesmeknes": dict(diff=fitted_fesmeknes_diff, easy=fitted_fesmeknes_easy,
-                       t_diff=thresh_fesmeknes_diff, t_easy=thresh_fesmeknes_easy),
-    "bmk": dict(diff=fitted_bmk_diff, easy=fitted_bmk_easy, t_diff=thresh_bmk_diff, t_easy=thresh_bmk_easy),
-}
+if not _reuse_regional_cache:
+    REGION_MODELS = {
+        "eddakhla": dict(diff=fitted_eddakhla_diff, easy=fitted_eddakhla_easy, t_diff=0.5, t_easy=0.5),
+        "fesmeknes": dict(diff=fitted_fesmeknes_diff, easy=fitted_fesmeknes_easy,
+                           t_diff=thresh_fesmeknes_diff, t_easy=thresh_fesmeknes_easy),
+        "bmk": dict(diff=fitted_bmk_diff, easy=fitted_bmk_easy, t_diff=thresh_bmk_diff, t_easy=thresh_bmk_easy),
+    }
+else:
+    REGION_MODELS = {}  # unused: run_region() is never called when reusing the cache
 
 def run_region(key, meta):
     print(f"[region] {meta['label']} ...", flush=True)
     gdf = meta["gdf"]
     lon2d, lat2d, bounds, nx, ny = build_region_grid(gdf, meta["n_grid"])
     minx, miny, maxx, maxy = bounds
-    inside = point_in_polygon_mask(lon2d, lat2d, gdf)
 
     local = sample_local_stack(lon2d, lat2d)
     friction = worldcover_friction_grid(minx, miny, maxx, maxy, ny, nx)
@@ -510,19 +558,37 @@ def run_region(key, meta):
     cls = np.full(lon2d.shape, 1, dtype=int)  # 0=Easy,1=Moderate,2=Difficult
     cls[p_diff >= rm["t_diff"]] = 2
     cls[(p_diff < rm["t_diff"]) & (p_easy >= rm["t_easy"])] = 0
-    cls = np.where(inside, cls, -1)
+    # No coarse-grid inside/outside masking here (previously `cls = np.where(inside,
+    # cls, -1)`) -- that coarse cell-center-in-polygon test is imperfect right at the
+    # boundary (grid too coarse relative to the true vector shape) and left visible
+    # gaps of unmasked hillshade peeking through near edges even after the render-time
+    # clip_path fix. The classification is now computed for the full grid and the
+    # render script clips it to the EXACT polygon boundary at draw time instead --
+    # correct regardless of grid resolution, with no gap and no bleed.
 
     return dict(lon2d=lon2d, lat2d=lat2d, bounds=bounds, cls=cls,
                 elev=local["Elevation_m"], gdf=gdf)
 
-results = {}
-for key, meta in REGIONS.items():
-    results[key] = run_region(key, meta)
+# 2026-08-22: Paper 1 (national) update only -- the regional loop below
+# (eddakhla/fesmeknes/bmk: WorldCover tile fetching + per-region grid search)
+# is Paper 2's scope, deferred by the user's own sequencing. Reuse the
+# existing cached regional entries unchanged rather than rerunning that
+# network-dependent, slower pipeline for no reason right now.
+import pickle as _pickle
+_cache_path = os.path.join(FW, "results", "grids", "map_grids.pkl")
+if os.path.exists(_cache_path):
+    with open(_cache_path, "rb") as _f:
+        _cached = _pickle.load(_f)
+    results = _cached["results"]
+    print(f"[region] Reusing cached regional entries: {list(results.keys())}", flush=True)
+else:
+    results = {}
+    for key, meta in REGIONS.items():
+        results[key] = run_region(key, meta)
 
 print("[region] National ...", flush=True)
 lon2d, lat2d, bounds, nx, ny = build_region_grid(national_gdf, 170)
 minx, miny, maxx, maxy = bounds
-inside = point_in_polygon_mask(lon2d, lat2d, national_gdf)
 local = sample_local_stack(lon2d, lat2d)
 friction = worldcover_friction_grid(minx, miny, maxx, maxy, ny, nx)
 dsettle = dist_to_settlement(lon2d, lat2d)
@@ -535,7 +601,8 @@ p_easy = predict_proba_ensemble(fitted_easy, Xg).reshape(lon2d.shape)
 cls = np.full(lon2d.shape, 1, dtype=int)
 cls[p_diff >= 0.5] = 2
 cls[(p_diff < 0.5) & (p_easy >= 0.5)] = 0
-cls = np.where(inside, cls, -1)
+# No inside/outside masking -- see run_region's comment above; the render
+# script's clip_path handles the exact boundary shaping instead.
 results["national"] = dict(lon2d=lon2d, lat2d=lat2d, bounds=(minx, miny, maxx, maxy),
                             cls=cls, elev=local["Elevation_m"], gdf=national_gdf)
 print("    all regions done.", flush=True)

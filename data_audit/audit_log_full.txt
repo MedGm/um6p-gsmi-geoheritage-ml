@@ -1,0 +1,191 @@
+======================================================================
+A. SCHEMA + MISSINGNESS
+======================================================================
+
+Full catalog (N=1667):
+  Locality_ID                    null=    0 (  0.0%)  dtype=str
+  Geosite_Name                   null=    0 (  0.0%)  dtype=str
+  Latitude_WGS84                 null=    0 (  0.0%)  dtype=float64
+  Longitude_WGS84                null=    0 (  0.0%)  dtype=float64
+  Region                         null=   23 (  1.4%)  dtype=str
+  Dist_to_Highway_m              null=    0 (  0.0%)  dtype=float64
+  Slope_deg                      null=    0 (  0.0%)  dtype=float64
+  Ruggedness                     null=    0 (  0.0%)  dtype=float64
+  Elevation_m                    null=    0 (  0.0%)  dtype=float64
+  LULC_Friction                  null=    0 (  0.0%)  dtype=float64
+  Dist_to_Settlement_m           null=    0 (  0.0%)  dtype=float64
+  Soil_Class                     null=  831 ( 49.9%)  dtype=float64
+  Geology_Class                  null=  832 ( 49.9%)  dtype=float64
+  LULC_Class_Name_WorldCover     null= 1343 ( 80.6%)  dtype=str
+  Coordinate_Precision           null=    0 (  0.0%)  dtype=str
+  N_Raster_Cells_Imputed         null=  513 ( 30.8%)  dtype=float64
+  MCDM_Score                     null= 1343 ( 80.6%)  dtype=float64
+  MCDM_Class                     null= 1343 ( 80.6%)  dtype=str
+  National_Model_Class           null= 1343 ( 80.6%)  dtype=str
+
+Labeled subset (N=733), original Expert_Class (pre-merge) distribution:
+Expert_Class
+Moderate          393
+Easy              296
+Difficult         245
+Very Difficult      5
+
+'Very Difficult' collapsed into 'Difficult': 5 sites
+
+Expert_Merged (used everywhere in modeling) distribution:
+Expert_Merged
+Moderate     393
+Easy         296
+Difficult    250
+
+======================================================================
+B. DOMAIN-IMPLAUSIBILITY CHECKS (full catalog, N=1667)
+======================================================================
+  Dist_to_Highway_m < 0                                       0 rows
+  Dist_to_Highway_m == 0 exactly                              0 rows
+  Dist_to_Settlement_m < 0                                    0 rows
+  Slope_deg < 0                                               0 rows
+  Slope_deg > 60 (very steep, verify not a DEM artifact)      1 rows
+  Slope_deg > 90 (impossible)                                 0 rows
+  Elevation_m < -100 (well below sea level, verify)           0 rows
+  Elevation_m > 4200 (above Toubkal, verify)                  0 rows
+  LULC_Friction outside [0,1]                                 0 rows
+  Ruggedness < 0                                              0 rows
+  Latitude outside Morocco+WS bbox [20.5,36]                  0 rows
+  Longitude outside Morocco+WS bbox [-17.2,-1]                0 rows
+  -> saved flagged rows to B_domain_implausible_rows.xlsx
+
+======================================================================
+C. STATISTICAL OUTLIERS PER FEATURE, WITHIN EACH CLASS (labeled N=733)
+======================================================================
+  Dist_to_Highway_m      class=Easy       extreme outliers (3xIQR): 15 (bounds [-3007.5, 4153.0], class range [0.6, 20059.2])
+  Dist_to_Highway_m      class=Moderate   extreme outliers (3xIQR): 3 (bounds [-7183.0, 10237.5], class range [0.6, 12192.4])
+  Dist_to_Highway_m      class=Difficult  extreme outliers (3xIQR): 5 (bounds [-10207.4, 14672.3], class range [10.9, 28225.7])
+  Ruggedness             class=Easy       extreme outliers (3xIQR): 2 (bounds [-40.0, 57.3], class range [0.0, 78.0])
+  Ruggedness             class=Moderate   extreme outliers (3xIQR): 5 (bounds [-35.1, 54.2], class range [0.0, 62.0])
+  Ruggedness             class=Difficult  extreme outliers (3xIQR): 2 (bounds [-29.5, 51.3], class range [0.1, 58.4])
+  Dist_to_Settlement_m   class=Easy       extreme outliers (3xIQR): 5 (bounds [-78803.7, 139908.6], class range [661.0, 213424.9])
+  Dist_to_Settlement_m   class=Moderate   extreme outliers (3xIQR): 8 (bounds [-55280.8, 116566.3], class range [397.0, 236049.5])
+  Dist_to_Settlement_m   class=Difficult  extreme outliers (3xIQR): 9 (bounds [-61472.0, 131585.6], class range [452.0, 237089.4])
+
+  -> saved 54 flagged rows to C_statistical_outliers_per_class.csv
+
+======================================================================
+D. EXACT-DUPLICATE COORDINATES (distinct Locality_ID, identical lat/lon)
+======================================================================
+  102 rows share coordinates with at least one other row, in 41 groups
+  -> saved to D_exact_duplicate_coordinates.csv
+  Of these, 89 are in the 733-site LABELED set (same coordinates, potentially different labels -- checked below)
+    CONFLICT at (29.646508, -7.756531): [{'Locality_ID': 'loc_00112', 'Geosite_Name': 'Desert mermaid', 'Expert_Merged': 'Difficult'}, {'Locality_ID': 'loc_00113', 'Geosite_Name': 'Tata oyster', 'Expert_Merged': 'Difficult'}, {'Locality_ID': 'loc_00114', 'Geosite_Name': 'Akka Phillyrea', 'Expert_Merged': 'Moderate'}]
+  -> 1 coordinate groups have DIFFERENT labels among same-coordinate sites
+  -> saved to D_label_conflicts_same_coords.csv
+
+======================================================================
+E. LABEL-VS-FEATURE CONTRADICTION SCAN (transparent scoring, not a model)
+======================================================================
+Simple difficulty score: z-scored (Dist_to_Highway_m + Slope_deg + Ruggedness + Dist_to_Settlement_m)
+minus z-scored Elevation_m contribution is NOT included (elevation's relationship to difficulty is
+context-dependent, not monotonic) -- kept deliberately simple and inspectable, not a claim of ground truth.
+
+Top 10 'Easy'-labeled sites with the HIGHEST feature-based difficulty score (most surprising if truly Easy):
+Locality_ID                             Geosite_Name                    Region Confidence  difficulty_score  Dist_to_Highway_m  Slope_deg  Ruggedness  Elevation_m
+  loc_00132                          Foum Zguid mesa               Souss-Massa     Medium         11.075640       16007.485861  29.376100   36.243155   694.315613
+  loc_00037               Taghia N’Ait Hammou Gorges            Drâa-Tafilalet        Low          8.660998          25.372243  49.679390   78.038582  1871.838989
+  loc_00128                           Tamzrart gorge               Souss-Massa     Medium          6.365035        5223.264190  35.772210   34.938054   629.822510
+  loc_00098             Tamzrart Petrified waterfall               Souss-Massa     Medium          6.230635        3458.115825  29.397211   46.131295   736.959412
+  loc_00515                               Sebkha Tah   Laayoune-Sakia El Hamra     Medium          5.769757       20059.152329   0.251048    0.074477   -58.472462
+  loc_00115                   Draa double winged eye               Souss-Massa     Medium          5.512703       11284.951948  11.662845   14.350941   785.283020
+  loc_00020                            Todgha Gorges            Drâa-Tafilalet       High          5.367190          46.449353  36.743859   64.641974  1482.126953
+  loc_00435 Petrified wood intruded by iron deposits Tanger-Tétouan-Al Hoceima     Medium          5.232681        8150.119613  32.634616   21.815586   883.791199
+  loc_00360                           Calcite quarry                Fés-Meknés     Medium          3.949859         709.031986  26.333892   34.576709  1747.427612
+  loc_01019                           Zaouiat Ifrane                Fés-Meknés       High          3.873373         408.877771  39.117003   36.209912  1314.415894
+
+Top 10 'Difficult'-labeled sites with the LOWEST feature-based difficulty score (most surprising if truly Difficult):
+Locality_ID                      Geosite_Name                  Region Confidence  difficulty_score  Dist_to_Highway_m  Slope_deg  Ruggedness  Elevation_m
+  loc_00275    Phosphate de posit of Ganntour          Marrakech-Safi     Medium         -3.165337        1124.075473   0.943490    1.144283   510.080109
+  loc_00985               Cascade des vierges              Fés-Meknés       High         -3.010010          69.428408   6.932281    5.565674  1633.775513
+  loc_01087                    Kef Bou Hayati              Fés-Meknés       High         -2.908715          60.612600   5.342725    2.387925  1382.806519
+  loc_01102                        Kef Izoura              Fés-Meknés       High         -2.908715          60.612600   5.342725    2.387925  1382.806519
+  loc_00269           Sidi Saïd Mâachou Basin Grand Casablanca-Settat        Low         -2.878505         175.725606   0.488164    0.603248   208.836533
+  loc_01036                      Tiguelmamine              Fés-Meknés       High         -2.744482        1370.180920   0.291391    0.091396   884.776184
+  loc_00960                        Ain Mezdou              Fés-Meknés       High         -2.649877         721.668572   7.585037    3.898359  1226.644287
+  loc_01098                        Kef El Sao              Fés-Meknés       High         -2.647920         775.224336   6.716723    3.017397  1510.119995
+  loc_00503 Caves of the cliffs of Timoulilte    Béni Mellal-Khénifra     Medium         -2.628600         697.769146   5.866705    2.628542   821.672180
+  loc_00975                     Ain Tifratine              Fés-Meknés       High         -2.531576          23.423652   5.493952    3.276484  1951.288452
+
+  -> saved to E_label_feature_contradictions.csv
+
+======================================================================
+F. REGION-ASSIGNMENT GEOMETRIC CHECK (733 labeled sites: declared vs geometric region)
+======================================================================
+  6/939 labeled sites: declared Region disagrees with geometric containment
+Locality_ID                          Geosite_Name                      Region              nom_region Expert_Merged
+  loc_00406         The caldera of the Michliffen Draa-Tafilalet & Fès-Méknès              Fés-Meknés          Easy
+  loc_00407                   Ruiniform landscape Draa-Tafilalet & Fès-Méknès              Fés-Meknés     Difficult
+  loc_00473                           Jbel Irhoud               Doukkala-Abda          Marrakech-Safi          Easy
+  loc_00474 Consolidated and unconsolidated dunes               Doukkala-Abda          Marrakech-Safi          Easy
+  loc_00475                        Oualidia caves               Doukkala-Abda Grand Casablanca-Settat          Easy
+  loc_00476                       Oualidia Lagoon               Doukkala-Abda Grand Casablanca-Settat          Easy
+  -> saved to F_region_mismatches_labeled_sites.csv
+  15 labeled sites fell outside all 12 region polygons entirely (coastal/border precision issue)
+
+======================================================================
+G. LABEL CONFIDENCE DISTRIBUTION
+======================================================================
+
+By class:
+Confidence     High  Low  Low-Medium  Medium  Medium-High
+Expert_Merged                                            
+Difficult       157    8           6      76            3
+Easy            137    3           2     151            3
+Moderate        134   20          14     214           11
+
+By region:
+Confidence                   High  Low  Low-Medium  Medium  Medium-High
+Region                                                                 
+Béni Mellal-Khénifra           62    6           4      96            6
+Doukkala-Abda                   0    0           0       4            0
+Draa-Tafilalet & Fès-Méknès     0    0           0       2            0
+Drâa-Tafilalet                 25    8           2      53            4
+Eddakhla-Oued Eddahab           1   12           0      20            0
+Fés-Meknés                    303    1           4      25            2
+Grand Casablanca-Settat         0    1           1       3            0
+Guelmim-Oued Noun               2    0           1       4            0
+Laayoune-Dakhla                 0    0           0       3            0
+Laayoune-Sakia El Hamra         3    0           1       8            0
+Marrakech-Safi                  7    0           2      46            1
+Rabat-Salé-Kénitra              7    3           2       9            0
+Souss-Massa                     3    0           5      55            4
+Tanger-Tétouan-Al Hoceima      15    0           0     113            0
+
+Low/Low-Medium confidence rate by region (highest first):
+Region
+Grand Casablanca-Settat        0.400
+Eddakhla-Oued Eddahab          0.364
+Rabat-Salé-Kénitra             0.238
+Guelmim-Oued Noun              0.143
+Drâa-Tafilalet                 0.109
+Laayoune-Sakia El Hamra        0.083
+Souss-Massa                    0.075
+Béni Mellal-Khénifra           0.057
+Marrakech-Safi                 0.036
+Fés-Meknés                     0.015
+Draa-Tafilalet & Fès-Méknès    0.000
+Doukkala-Abda                  0.000
+Laayoune-Dakhla                0.000
+Tanger-Tétouan-Al Hoceima      0.000
+
+======================================================================
+H. LEGACY MCDM_Class / National_Model_Class vs EXPERT LABEL (confirm not used as a feature)
+======================================================================
+  Labeled sites with a non-null legacy MCDM_Class: 323/939
+  Agreement rate MCDM_Class vs Expert_Merged (where both exist): 0.300
+MCDM_Class     Difficult  Easy  Moderate  Very Difficult
+Expert_Merged                                           
+Difficult             13     9        21              13
+Easy                  14    33        43               3
+Moderate              31    64        51              28
+
+  Confirming MCDM_Class/National_Model_Class are NOT in the training FEATURES list used by any script:
+  FEATURES = ['Dist_to_Highway_m', 'Slope_deg', 'Ruggedness', 'Elevation_m', 'LULC_Friction', 'Dist_to_Settlement_m']
+  (both legacy columns absent from this list -- verified by inspection, not just asserted)

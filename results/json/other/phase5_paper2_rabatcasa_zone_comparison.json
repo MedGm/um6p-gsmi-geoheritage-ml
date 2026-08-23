@@ -1,0 +1,15 @@
+{
+  "Difficult": {
+    "decision": "merged",
+    "reason": "Rabat-standalone degenerate (n_pos<3), no comparison possible"
+  },
+  "Easy": {
+    "rabat_standalone_acc": 0.8095,
+    "rabat_standalone_variant": "Baseline",
+    "merged_full_acc": 0.7857,
+    "merged_variant": "Infra",
+    "merged_acc_on_rabat_only": 0.8095,
+    "n_rabat_sites": 21,
+    "decision": "standalone"
+  }
+}

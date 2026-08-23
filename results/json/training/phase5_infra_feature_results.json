@@ -1,0 +1,274 @@
+{
+  "InfraAdd_939_difficult": {
+    "acc_logo_cluster": 0.7678,
+    "leave_region_out": [
+      {
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 174,
+        "acc": 0.73,
+        "local_majority": 0.891,
+        "gap_pp": -16.1,
+        "degenerate": false
+      },
+      {
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 92,
+        "acc": 0.728,
+        "local_majority": 0.783,
+        "gap_pp": -5.4,
+        "degenerate": false
+      },
+      {
+        "region": "Marrakech-Safi",
+        "n_test": 58,
+        "acc": 0.879,
+        "local_majority": 0.862,
+        "gap_pp": 1.7,
+        "degenerate": false
+      },
+      {
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 337,
+        "acc": 0.567,
+        "local_majority": 0.528,
+        "gap_pp": 3.9,
+        "degenerate": false
+      },
+      {
+        "region": "Souss-Massa",
+        "n_test": 67,
+        "acc": 0.687,
+        "local_majority": 0.896,
+        "gap_pp": -20.9,
+        "degenerate": false
+      },
+      {
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 128,
+        "acc": 0.758,
+        "local_majority": 0.836,
+        "gap_pp": -7.8,
+        "degenerate": false
+      },
+      {
+        "region": "Laayoune-Sakia El Hamra",
+        "n_test": 12,
+        "acc": 0.667,
+        "local_majority": 0.75,
+        "gap_pp": -8.3,
+        "degenerate": false
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "n_test": 7,
+        "acc": NaN,
+        "local_majority": NaN,
+        "gap_pp": NaN,
+        "degenerate": NaN
+      },
+      {
+        "region": "Laayoune-Dakhla",
+        "n_test": 3,
+        "acc": NaN,
+        "local_majority": NaN,
+        "gap_pp": NaN,
+        "degenerate": NaN
+      },
+      {
+        "region": "Grand Casablanca-Settat",
+        "n_test": 7,
+        "acc": NaN,
+        "local_majority": NaN,
+        "gap_pp": NaN,
+        "degenerate": NaN
+      },
+      {
+        "region": "Eddakhla-Oued Eddahab",
+        "n_test": 33,
+        "acc": 0.909,
+        "local_majority": 0.758,
+        "gap_pp": 15.2,
+        "degenerate": false
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 21,
+        "acc": 0.714,
+        "local_majority": 0.905,
+        "gap_pp": -19.0,
+        "degenerate": false
+      }
+    ],
+    "best_configs": [
+      [
+        "RF",
+        {
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "n_estimators": 400
+        }
+      ],
+      [
+        "XGB",
+        {
+          "learning_rate": 0.15,
+          "max_depth": 6,
+          "n_estimators": 250
+        }
+      ],
+      [
+        "GBM",
+        {
+          "learning_rate": 0.1,
+          "max_depth": 4,
+          "n_estimators": 200
+        }
+      ],
+      [
+        "LGBM",
+        {
+          "learning_rate": 0.1,
+          "max_depth": -1,
+          "n_estimators": 100,
+          "num_leaves": 31
+        }
+      ]
+    ]
+  },
+  "InfraAdd_939_easy": {
+    "acc_logo_cluster": 0.7433,
+    "leave_region_out": [
+      {
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 174,
+        "acc": 0.724,
+        "local_majority": 0.69,
+        "gap_pp": 3.4,
+        "degenerate": false
+      },
+      {
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 92,
+        "acc": 0.717,
+        "local_majority": 0.62,
+        "gap_pp": 9.8,
+        "degenerate": false
+      },
+      {
+        "region": "Marrakech-Safi",
+        "n_test": 58,
+        "acc": 0.69,
+        "local_majority": 0.603,
+        "gap_pp": 8.6,
+        "degenerate": false
+      },
+      {
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 337,
+        "acc": 0.721,
+        "local_majority": 0.739,
+        "gap_pp": -1.8,
+        "degenerate": false
+      },
+      {
+        "region": "Souss-Massa",
+        "n_test": 67,
+        "acc": 0.716,
+        "local_majority": 0.657,
+        "gap_pp": 6.0,
+        "degenerate": false
+      },
+      {
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 128,
+        "acc": 0.711,
+        "local_majority": 0.703,
+        "gap_pp": 0.8,
+        "degenerate": false
+      },
+      {
+        "region": "Laayoune-Sakia El Hamra",
+        "n_test": 12,
+        "acc": 0.75,
+        "local_majority": 0.75,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "n_test": 7,
+        "acc": NaN,
+        "local_majority": NaN,
+        "gap_pp": NaN,
+        "degenerate": NaN
+      },
+      {
+        "region": "Laayoune-Dakhla",
+        "n_test": 3,
+        "acc": NaN,
+        "local_majority": NaN,
+        "gap_pp": NaN,
+        "degenerate": NaN
+      },
+      {
+        "region": "Grand Casablanca-Settat",
+        "n_test": 7,
+        "acc": NaN,
+        "local_majority": NaN,
+        "gap_pp": NaN,
+        "degenerate": NaN
+      },
+      {
+        "region": "Eddakhla-Oued Eddahab",
+        "n_test": 33,
+        "acc": 0.545,
+        "local_majority": 0.909,
+        "gap_pp": -36.4,
+        "degenerate": false
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 21,
+        "acc": 0.667,
+        "local_majority": 0.619,
+        "gap_pp": 4.8,
+        "degenerate": false
+      }
+    ],
+    "best_configs": [
+      [
+        "RF",
+        {
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "n_estimators": 400
+        }
+      ],
+      [
+        "XGB",
+        {
+          "learning_rate": 0.08,
+          "max_depth": 5,
+          "n_estimators": 250
+        }
+      ],
+      [
+        "GBM",
+        {
+          "learning_rate": 0.1,
+          "max_depth": 4,
+          "n_estimators": 200
+        }
+      ],
+      [
+        "LGBM",
+        {
+          "learning_rate": 0.1,
+          "max_depth": -1,
+          "n_estimators": 200,
+          "num_leaves": 31
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+======================================================================
+A. FEATURE CORRELATION + MULTICOLLINEARITY (VIF)
+======================================================================
+
+Pearson correlation:
+                      Dist_to_Highway_m  Slope_deg  Ruggedness  Elevation_m  LULC_Friction  Dist_to_Settlement_m
+Dist_to_Highway_m                 1.000     -0.009       0.002       -0.057         -0.030                 0.255
+Slope_deg                        -0.009      1.000       0.868        0.126          0.064                -0.107
+Ruggedness                        0.002      0.868       1.000        0.083         -0.028                -0.061
+Elevation_m                      -0.057      0.126       0.083        1.000          0.034                -0.063
+LULC_Friction                    -0.030      0.064      -0.028        0.034          1.000                -0.144
+Dist_to_Settlement_m              0.255     -0.107      -0.061       -0.063         -0.144                 1.000
+
+Spearman correlation (rank-based, catches non-linear monotonic relationships):
+                      Dist_to_Highway_m  Slope_deg  Ruggedness  Elevation_m  LULC_Friction  Dist_to_Settlement_m
+Dist_to_Highway_m                 1.000      0.025      -0.033        0.046          0.074                 0.143
+Slope_deg                         0.025      1.000       0.933        0.100          0.123                -0.047
+Ruggedness                       -0.033      0.933       1.000        0.062          0.027                -0.030
+Elevation_m                       0.046      0.100       0.062        1.000          0.127                 0.096
+LULC_Friction                     0.074      0.123       0.027        0.127          1.000                -0.224
+Dist_to_Settlement_m              0.143     -0.047      -0.030        0.096         -0.224                 1.000
+
+Variance Inflation Factor (VIF) per feature -- >5 is commonly flagged as concerning, >10 as serious:
+  Dist_to_Highway_m      VIF=1.07
+  Slope_deg              VIF=4.28
+  Ruggedness             VIF=4.21
+  Elevation_m            VIF=1.02
+  LULC_Friction          VIF=1.05
+  Dist_to_Settlement_m   VIF=1.11
+
+======================================================================
+B. FEATURE-VS-CLASS RELATIONSHIP STRENGTH
+======================================================================
+
+Feature                   ANOVA F    ANOVA p  Mutual Info
+Dist_to_Highway_m           31.72     0.0000       0.0645
+Slope_deg                   16.14     0.0000       0.0812
+Ruggedness                   2.98     0.0511       0.0769
+Elevation_m                 25.12     0.0000       0.0765
+LULC_Friction                2.52     0.0807       0.0228
+Dist_to_Settlement_m         2.07     0.1261       0.0556
+
+(ANOVA F/p: is the feature's MEAN different across the 3 classes -- high F, low p = strong linear
+separation. Mutual Info: any statistical dependency, linear or not -- 0 = independent, higher = more
+informative. Both computed the same way code/19-27's model-family comparisons implicitly rely on.)
+
+======================================================================
+C. GEOSITE_TYPE vs ACCESSIBILITY CLASS (chi-square, coverage-limited)
+======================================================================
+Coverage: 392/939 (41.7%)
+
+Cross-tab (types with >=5 labeled sites):
+Expert_Merged  Difficult  Easy  Moderate
+Geosite_Type                            
+C                      1     2         2
+G                     12    37        45
+H                      4     7        13
+H,K&R                  1     4         1
+K                      3    12         4
+PL                     9     9        13
+PT                     1     5         8
+S                     15    11        32
+S&PL                   0     1         4
+SG                     9     8        28
+
+Chi-square: chi2=31.43, p=0.0256, dof=18
+(p<0.05 -> Geosite_Type and accessibility class are NOT independent -- type carries signal)
+
+======================================================================
+D. GEOLOGICAL_DOMAIN vs ACCESSIBILITY CLASS (chi-square, near-full coverage)
+======================================================================
+Coverage: 928/939 (98.8%)
+
+Cross-tab (domains with >=5 labeled sites):
+Expert_Merged                            Difficult  Easy  Moderate
+Geological_Domain                                                 
+Anti-Atlas                                       5    19        29
+Central High Atlas                              35    65        54
+Central Hight Atlas                              0     7         3
+Central Massif                                   3     0        17
+High Atlas                                       2     3         3
+High Atlas & Anti-Atlas                          1     3         3
+Jbilet Massif                                    4     0         3
+Meseta                                           6     3        15
+Middle Atlas                                   137   114       120
+Morocco                                          4     1         0
+Rif                                             28    53       113
+Sahara                                          16     3        11
+Sahara and Meseta                                1     8         5
+The Great Moroccan Atlantic Basin (MAP)          2     4        11
+Western High Atlas                               1     7         3
+
+Chi-square: chi2=133.10, p=0.0000, dof=28
+(p<0.05 -> Geological_Domain and accessibility class are NOT independent -- domain carries signal)
+
+Difficult-rate by domain (sorted):
+Geological_Domain
+Morocco                                    0.800
+Jbilet Massif                              0.571
+Sahara                                     0.533
+Middle Atlas                               0.369
+Meseta                                     0.250
+High Atlas                                 0.250
+Central High Atlas                         0.227
+Central Massif                             0.150
+Rif                                        0.144
+High Atlas & Anti-Atlas                    0.143
+The Great Moroccan Atlantic Basin (MAP)    0.118
+Anti-Atlas                                 0.094
+Western High Atlas                         0.091
+Sahara and Meseta                          0.071
+Central Hight Atlas                        0.000

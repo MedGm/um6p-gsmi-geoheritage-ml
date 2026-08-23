@@ -1,0 +1,26 @@
+{
+  "difficult": {
+    "logistic_regression": 0.6731,
+    "knn_best": {
+      "k": 10,
+      "acc": 0.7689
+    },
+    "gaussian_process": {
+      "acc": 0.754,
+      "protocol": "StratifiedGroupKFold(10), not full LOGO",
+      "covered": 939
+    }
+  },
+  "easy": {
+    "logistic_regression": 0.6166,
+    "knn_best": {
+      "k": 10,
+      "acc": 0.738
+    },
+    "gaussian_process": {
+      "acc": 0.7487,
+      "protocol": "StratifiedGroupKFold(10), not full LOGO",
+      "covered": 939
+    }
+  }
+}

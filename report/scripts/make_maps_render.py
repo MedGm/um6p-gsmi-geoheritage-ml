@@ -14,7 +14,8 @@ matplotlib.use("pgf")
 import matplotlib.pyplot as plt
 from matplotlib.colors import LightSource, ListedColormap, BoundaryNorm
 from matplotlib.lines import Line2D
-from matplotlib.patches import Patch
+from matplotlib.patches import Patch, PathPatch
+from matplotlib.path import Path as MplPath
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FW = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -114,6 +115,37 @@ def declutter_points(lat, lon, min_dist_km):
     return keep_mask
 
 
+def declutter_stratified(pts, is_wrong, bounds, marker_s, fig_width_in):
+    """Thin the displayed markers so the shown correct:misclassified ratio
+    matches the region's true accuracy -- see report/scripts/
+    make_paper2_region_maps.py's version of this function for the full
+    rationale (plain joint declutter can show more misclassified than
+    correct markers even at high true accuracy, purely by which points
+    happen to survive spatial thinning; flagged concretely on this
+    project's Fes-Meknes and BMK maps). `is_wrong` must be a boolean Series
+    aligned to `pts`, computed on the FULL (pre-declutter) point set."""
+    min_dist_km = auto_min_dist_km(bounds, fig_width_in, marker_s)
+    budget_mask = declutter_points(pts["Latitude_WGS84"].values, pts["Longitude_WGS84"].values, min_dist_km)
+    total_budget = int(budget_mask.sum())
+
+    true_accuracy = float((~is_wrong).mean())
+    n_correct_target = round(total_budget * true_accuracy)
+    n_wrong_target = total_budget - n_correct_target
+
+    def thin_to(df, target):
+        if len(df) <= target:
+            return df
+        df_sorted = df.sort_values("Longitude_WGS84")
+        idx = sorted(set(np.linspace(0, len(df_sorted) - 1, target).round().astype(int)))
+        return df_sorted.iloc[idx]
+
+    pts = pts.copy()
+    pts["_is_wrong"] = is_wrong.values
+    correct_pool = pts[~pts["_is_wrong"]]
+    wrong_pool = pts[pts["_is_wrong"]]
+    return pd.concat([thin_to(correct_pool, n_correct_target), thin_to(wrong_pool, n_wrong_target)])
+
+
 def auto_min_dist_km(bounds, fig_width_in, marker_s, safety=1.3):
     """Decluttering distance that actually exceeds the marker's own rendered diameter
     at this figure's true geographic scale (bounds/fig_width_in), plus a safety margin.
@@ -125,6 +157,34 @@ def auto_min_dist_km(bounds, fig_width_in, marker_s, safety=1.3):
     km_per_point = (span_m / 1000 / fig_width_in) / 72.0
     marker_diam_pts = 2 * math.sqrt(marker_s / math.pi)
     return marker_diam_pts * km_per_point * safety
+
+
+def boundary_clip_patch(gdf):
+    """Exact-boundary clip path for the classification/hillshade rasters: a
+    coarse grid's cell-center-in-polygon mask (point_in_polygon_mask, used to
+    build `cls`) can visibly bleed color past the true vector boundary at
+    concave/notched edges -- a staircase effect against the smooth boundary
+    line, most visible on complex coastlines and multi-part regions. Clipping
+    the imshow artists themselves to this exact path guarantees no pixel is
+    ever drawn outside the true shape, independent of grid resolution. Added
+    2026-08-23 after this exact bug was flagged in Paper 1's Figure 3
+    (national map) and independently re-derived in Paper 2's per-region maps.
+
+    Exterior rings ONLY -- deliberately ignores `geom.interiors`. Dissolving
+    two source polygons whose shared border isn't vertex-identical (e.g. a
+    merged multi-region unit) can leave dozens of degenerate near-zero-area
+    sliver "holes" along the seam; including those as clip-path holes made
+    one whole sub-region render as a blank gap (Paper 2's Rabat/Casablanca
+    map). None of this project's admin polygons have a genuine interior hole
+    on their own, so dropping interiors here is safe everywhere."""
+    union = gdf.union_all()
+    geoms = [union] if union.geom_type != "MultiPolygon" else list(union.geoms)
+    verts, codes = [], []
+    for geom in geoms:
+        xy = np.array(geom.exterior.coords)
+        verts.extend(xy.tolist())
+        codes.extend([MplPath.MOVETO] + [MplPath.LINETO] * (len(xy) - 2) + [MplPath.CLOSEPOLY])
+    return MplPath(verts, codes)
 
 
 def nearest_grid_class(lon_pt, lat_pt, lon2d, lat2d, cls):
@@ -143,7 +203,7 @@ CLASS_TO_INT = {"Easy": 0, "Moderate": 1, "Difficult": 2}
 # Regions where markers are spatially thinned for legibility before plotting (skipped
 # for Eddakhla: only 25 sites total, no overlap problem to begin with).
 DECLUTTER_REGIONS = {"fesmeknes", "bmk"}
-POINT_S = 30
+POINT_S = 38  # was 30 -- bigger, more legible true-site dots
 
 
 def render_region(key, meta_label, gdf, res, figsize=(5.6, 5.6), show_points=True):
@@ -157,35 +217,62 @@ def render_region(key, meta_label, gdf, res, figsize=(5.6, 5.6), show_points=Tru
     fig, ax = plt.subplots(figsize=figsize)
     ax.set_facecolor(OUTSIDE_COL)
 
-    hs_masked = np.ma.masked_where(cls < 0, hs)
-    ax.imshow(hs_masked, extent=(minx, maxx, miny, maxy), origin="lower",
-              cmap="gray", vmin=0.2, vmax=1.0, zorder=1, alpha=0.55)
+    clip_path = boundary_clip_patch(gdf)
 
-    cls_masked = np.ma.masked_where(cls < 0, cls)
-    ax.imshow(cls_masked, extent=(minx, maxx, miny, maxy), origin="lower",
-              cmap=CLASS_CMAP, norm=CLASS_NORM, alpha=0.72, zorder=2, interpolation="nearest")
+    # No cls<0 masking here -- make_maps.py no longer writes a coarse
+    # inside/outside mask into cls (that coarse per-cell test left visible
+    # gaps of unmasked hillshade near boundaries even with the clip below).
+    # The classification/hillshade are computed for the full grid and the
+    # clip_path below shapes them to the exact polygon at draw time instead.
+    # Nearest-neighbor upsample before clipping: the classification grid is
+    # coarse (130-170 cells across a whole region/country), so clipped to the
+    # exact vector boundary it still looks blocky/staircased at the edge
+    # (large cells cut at odd angles by the clip). Repeating each cell into a
+    # small block of identical sub-cells doesn't add information, but lets
+    # the same exact clip follow the boundary far more closely.
+    UPSAMPLE_FACTOR = 4
+    hs_hi = np.repeat(np.repeat(hs, UPSAMPLE_FACTOR, axis=0), UPSAMPLE_FACTOR, axis=1)
+    cls_hi = np.repeat(np.repeat(cls, UPSAMPLE_FACTOR, axis=0), UPSAMPLE_FACTOR, axis=1)
+
+    im_hs = ax.imshow(hs_hi, extent=(minx, maxx, miny, maxy), origin="lower",
+                       cmap="gray", vmin=0.2, vmax=1.0, zorder=1, alpha=0.55)
+    im_hs.set_clip_path(PathPatch(clip_path, transform=ax.transData))
+
+    im_cls = ax.imshow(cls_hi, extent=(minx, maxx, miny, maxy), origin="lower",
+                        cmap=CLASS_CMAP, norm=CLASS_NORM, alpha=0.72, zorder=2, interpolation="nearest")
+    im_cls.set_clip_path(PathPatch(clip_path, transform=ax.transData))
 
     gdf.boundary.plot(ax=ax, edgecolor=BOUND_COL, linewidth=1.1, zorder=4)
 
     n_misclass = 0
     if show_points:
         pts = merged[merged["Region"] == meta_label]
+        # Ring truth computed on the FULL, pre-declutter point set -- needed so the
+        # true regional accuracy used for stratified thinning below reflects every
+        # labeled site, not just whichever ones happen to survive spatial thinning.
+        pred_int_full = pts.apply(lambda r: nearest_grid_class(r["Longitude_WGS84"], r["Latitude_WGS84"],
+                                                                 lon2d, lat2d, cls), axis=1)
+        true_int_full = pts["Expert_Merged"].map(CLASS_TO_INT)
+        is_wrong_full = (pred_int_full != true_int_full) & (pred_int_full >= 0)
+        n_misclass = int(is_wrong_full.sum())
+
         if key in DECLUTTER_REGIONS:
-            # Declutter across ALL classes jointly, not per-class -- otherwise two
-            # differently-colored points from separate class-loops never get checked
-            # against each other and can still land on top of one another.
-            min_dist_km = auto_min_dist_km(bounds, figsize[0], POINT_S)
-            keep = declutter_points(pts["Latitude_WGS84"].values, pts["Longitude_WGS84"].values, min_dist_km)
-            pts = pts[keep]
+            # Stratified: thin so the SHOWN correct:misclassified ratio matches the
+            # true regional accuracy, not whatever ratio plain spatial thinning
+            # happens to produce (a real complaint: some regions showed visually
+            # more misclassified than correct markers despite majority-correct
+            # true accuracy). See declutter_stratified's docstring.
+            pts = declutter_stratified(pts, is_wrong_full, bounds, POINT_S, figsize[0])
+            is_wrong = pts["_is_wrong"]
+        else:
+            is_wrong = is_wrong_full
 
-        pred_int = pts.apply(lambda r: nearest_grid_class(r["Longitude_WGS84"], r["Latitude_WGS84"],
-                                                            lon2d, lat2d, cls), axis=1)
-        true_int = pts["Expert_Merged"].map(CLASS_TO_INT)
-        is_wrong = (pred_int != true_int) & (pred_int >= 0)
-        n_misclass = int(is_wrong.sum())
-
+        # Misclassified sites drawn as a SOLID dot in the misclass color (not their
+        # true-class color, not a ring) -- a ring sized proportionately to the dot
+        # was too thin to read at a glance; a solid fill is unambiguous at any size.
+        correct_pts = pts[~is_wrong]
         for cls_name in ["Moderate", "Easy", "Difficult"]:
-            sub = pts[(pts["Expert_Merged"] == cls_name)]
+            sub = correct_pts[(correct_pts["Expert_Merged"] == cls_name)]
             if len(sub) == 0:
                 continue
             ax.scatter(sub["Longitude_WGS84"], sub["Latitude_WGS84"], marker=MARKER, s=POINT_S,
@@ -193,9 +280,8 @@ def render_region(key, meta_label, gdf, res, figsize=(5.6, 5.6), show_points=Tru
                        zorder=5)
         wrong = pts[is_wrong]
         if len(wrong):
-            ax.scatter(wrong["Longitude_WGS84"], wrong["Latitude_WGS84"], marker="o",
-                       s=POINT_S * 2.2, facecolor="none", edgecolor=MISCLASS_RING_COL,
-                       linewidth=1.3, linestyle="--", zorder=6)
+            ax.scatter(wrong["Longitude_WGS84"], wrong["Latitude_WGS84"], marker=MARKER, s=POINT_S,
+                       facecolor=MISCLASS_RING_COL, edgecolor=MARKER_EDGE, linewidth=0.6, zorder=6)
 
     ax.set_xlim(minx, maxx)
     ax.set_ylim(miny, maxy)
@@ -216,9 +302,9 @@ def render_region(key, meta_label, gdf, res, figsize=(5.6, 5.6), show_points=Tru
                              markeredgecolor=MARKER_EDGE, markeredgewidth=0.6, markersize=6.5,
                              label=f"True {c.lower()} site") for c in ["Easy", "Moderate", "Difficult"]] if show_points else []
     if show_points and n_misclass > 0:
-        point_handles.append(Line2D([0], [0], marker="o", color="none", markerfacecolor="none",
-                                     markeredgecolor=MISCLASS_RING_COL, markeredgewidth=1.3,
-                                     markersize=8, linestyle="--", label="Misclassified"))
+        point_handles.append(Line2D([0], [0], marker=MARKER, color="none", markerfacecolor=MISCLASS_RING_COL,
+                                     markeredgecolor=MARKER_EDGE, markeredgewidth=0.6,
+                                     markersize=6.5, label="Misclassified"))
     # Legend placed below the map axes rather than inset in a corner -- an inset legend
     # sits on top of map data no matter which corner it goes in; bbox_inches="tight" at
     # save time expands the saved page to include it instead of cropping it away.
@@ -243,7 +329,17 @@ for key, label in REGION_META.items():
     render_region(key, label, gpd.read_file(os.path.join(FW, "data", "boundaries", f"{key}.geojson")),
                   results[key])
 
-render_region("national", "__national__", gpd.read_file(os.path.join(FW, "data", "boundaries", "national.geojson")),
+def load_national_boundary_dissolved():
+    """national.geojson stores Morocco and Western Sahara as two separate Natural
+    Earth admin-0 polygons -- plotting them as-is draws the internal boundary
+    between them as a visible line across the Sahara, which reads as taking a
+    position on a disputed border and is not appropriate for a Moroccan journal.
+    Dissolved into one unified polygon here so only the true external national
+    outline is ever drawn; used everywhere this file's boundary is rendered."""
+    gdf = gpd.read_file(os.path.join(FW, "data", "boundaries", "national.geojson"))
+    return gpd.GeoDataFrame(geometry=[gdf.union_all()], crs=gdf.crs)
+
+render_region("national", "__national__", load_national_boundary_dissolved(),
               results["national"], figsize=(5.0, 6.6), show_points=False)
 
 print("All region maps rendered.")
@@ -259,7 +355,7 @@ minx, miny, maxx, maxy = bounds
 # any resolution) reads more clearly than a low-resolution shaded-relief background.
 fig, ax = plt.subplots(figsize=(5.0, 6.6))
 ax.set_facecolor(OUTSIDE_COL)
-national_gdf = gpd.read_file(os.path.join(FW, "data", "boundaries", "national.geojson"))
+national_gdf = load_national_boundary_dissolved()
 national_gdf.plot(ax=ax, facecolor="#FBF6E9", edgecolor=BOUND_COL, linewidth=1.1, zorder=1)
 
 # Main map: markers spatially thinned so the dense Middle Atlas / Fes-Meknes corridor
@@ -364,7 +460,7 @@ fig, ax = plt.subplots(figsize=(5.0, 6.6))
 ax.set_facecolor("white")
 from matplotlib.colors import LinearSegmentedColormap, PowerNorm
 fav_cmap = LinearSegmentedColormap.from_list(
-    "fav", ["#FFFFE5", "#FFF3AA", "#FED976", "#FD8D3C", "#E31A1C", "#800026"])
+    "fav", ["#3D6E77", "#76A5AF", "#E5D3A7", "#FD8D3C", "#E31A1C", "#800026"])
 im = ax.imshow(Zg, extent=(Xg.min(), Xg.max(), Yg.min(), Yg.max()), origin="lower",
                 cmap=fav_cmap, norm=PowerNorm(gamma=0.55, vmin=0, vmax=1), zorder=1, aspect="auto",
                 interpolation="bilinear", resample=True)

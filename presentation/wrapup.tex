@@ -87,7 +87,7 @@
     \item Mod\`eles test\'es et mod\`ele retenu
     \item Protocole de validation
     \item R\'esultats : vue d'ensemble, puis carte par carte
-    \item Nouveaux r\'esultats : effet r\'egional et incertitude calibr\'ee
+    \item Nouveau : incertitude calibr\'ee du mod\`ele
     \item Limites : pourquoi certains mod\`eles ne font pas mieux
   \end{enumerate}
 \end{frame}
@@ -98,11 +98,11 @@
     \setlength\itemsep{0.8em}
     \item Avant : \textbf{324} g\'eosites catalogu\'es, dont \textbf{251} \'etiquet\'es (77,5\,\%)
     \item Maintenant : \textbf{1\,667} g\'eosites catalogu\'es, dont \textbf{733} \'etiquet\'es
-    \item Avant d'exploiter ce catalogue \'elargi, v\'erification que la taille seule
-      n'expliquait pas un gain de pr\'ecision : cinq familles de mod\`eles diff\'erentes
-      test\'ees sous le m\^eme protocole de validation -- aucune n'a d\'epass\'e
-      l'ensemble d'arbres de mani\`ere significative, confirmant un plafond li\'e aux
-      variables disponibles, pas au choix d'algorithme
+    \item Avant d'utiliser ce catalogue \'elargi, nous avons v\'erifi\'e qu'un plus
+      grand catalogue n'\'etait pas la seule explication d'un \'eventuel gain : nous
+      avons essay\'e plusieurs types de mod\`eles diff\'erents, et aucun n'a fait mieux
+      que celui d\'ej\`a retenu -- la limite vient donc des donn\'ees disponibles, pas
+      de la m\'ethode choisie
   \end{itemize}
   \vfill
   \source{Source : archive/report\_old (catalogue initial) ; Table 1 et r\'esultats de
@@ -170,28 +170,28 @@
 
 % ============================================================ Regle =======
 \begin{frame}{R\`egle de d\'ecision \`a trois classes}
+  \footnotesize
   \begin{itemize}
-    \setlength\itemsep{0.9em}
-    \item \textbf{Aucun mod\`ele \`a trois classes n'est jamais entra\^in\'e.} Chaque
-      r\'esultat provient de l'un de deux classificateurs binaires ind\'ependants,
-      chacun entra\^in\'e et valid\'e s\'epar\'ement contre sa propre v\'erit\'e terrain :
-      \emph{Difficile-vs-non} et \emph{Facile-vs-non}
-    \item L'\'ecran op\'erationnel \`a trois classes est une combinaison
-      \textbf{d\'eterministe}, pas un troisi\`eme mod\`ele entra\^in\'e :
+    \setlength\itemsep{0.6em}
+    \item Un mod\`ele direct \`a trois classes (Facile/Mod\'er\'e/Difficile en une
+      seule fois) a \'et\'e essay\'e au d\'ebut du projet, mais \textbf{abandonn\'e} :
+      moins bon et moins facile \`a interpr\'eter qu'une approche en deux \'etapes
+    \item \textbf{Approche retenue, celle de tous les r\'esultats de cet expos\'e} :
+      deux mod\`eles binaires ind\'ependants, chacun entra\^in\'e et valid\'e s\'epar\'ement
+      contre sa propre v\'erit\'e terrain -- \emph{Difficile ou non} et \emph{Facile
+      ou non}
+    \item Les trois classes finales sont ensuite obtenues par une r\`egle simple, pas
+      par un troisi\`eme mod\`ele :
       \begin{itemize}
-        \item un site est \textbf{Difficile} si le classificateur Difficile-vs-non le
-          signale
-        \item \textbf{Facile} si le classificateur Facile-vs-non le signale et que
-          Difficile ne l'a pas signal\'e
-        \item \textbf{Mod\'er\'e} sinon -- c'est-\`a-dire l'intersection de
-          \emph{non-Difficile} et \emph{non-Facile}
+        \item \textbf{Difficile} si le premier mod\`ele le dit
+        \item \textbf{Facile} si le second mod\`ele le dit (et que le premier n'a pas
+          dit Difficile)
+        \item \textbf{Mod\'er\'e} sinon
       \end{itemize}
-    \item Chaque pourcentage de pr\'ecision de cet expos\'e est donc une
-      \textbf{exactitude binaire} contre une v\'erit\'e terrain r\'eelle -- aucun chiffre
-      ne d\'ecrit directement la combinaison \`a trois classes
+    \item Chaque pourcentage de cet expos\'e mesure donc l'un de ces deux mod\`eles
+      binaires face \`a sa propre v\'erit\'e terrain -- aucun chiffre ne mesure
+      directement la combinaison \`a trois classes
   \end{itemize}
-  \vfill
-  \source{Section \guillemotleft\,Three-Way Decision Rule\,\guillemotright\ du rapport.}
 \end{frame}
 
 % ============================================================ Modeles =====
@@ -207,9 +207,6 @@
     \item \textbf{Mod\`ele retenu} : ensemble \`a vote souple \`a quatre membres
       (Random Forest + XGBoost + Gradient Boosting + LightGBM), pond\'er\'e par
       confiance de l'\'etiquette et par \'equilibre des classes
-    \item Configuration retenue une fois par recherche en grille sur l'ensemble des
-      donn\'ees group\'ees, puis r\'eutilis\'ee pour chaque pli de validation --
-      simplification courante en pratique, disclos\'ee comme limite (voir fin d'expos\'e)
   \end{itemize}
 \end{frame}
 
@@ -275,9 +272,10 @@
     \end{column}
     \begin{column}{0.42\textwidth}
       \footnotesize
-      \textbf{96,0\,\%} contre une base de 80,0\,\% (classe majoritaire locale),
-      en leave-region-out (entra\^in\'e sur les dix autres r\'egions, test\'e sur les
-      25 sites d'Eddakhla en totalit\'e).
+      \textbf{96,0\,\%} de bonnes r\'eponses, contre 80,0\,\% si on devinait toujours
+      la classe la plus fr\'equente. Le mod\`ele a \'et\'e entra\^in\'e uniquement sur
+      les dix autres r\'egions, puis test\'e sur Eddakhla qu'il n'avait jamais vue --
+      un test volontairement plus dur et plus honn\^ete.
 
       \vspace{0.3cm}
       Relief plat et homog\`ene du Sahara c\^otier : la difficult\'e y est gouvern\'ee
@@ -298,9 +296,9 @@
     \end{column}
     \begin{column}{0.42\textwidth}
       \footnotesize
-      \textbf{78,6\,\%} en LOGO-cluster, sur le plus grand \'echantillon r\'egional
-      (N=322) -- l'\'echantillon le plus large favorise directement la
-      g\'en\'eralisation (voir aussi la diapositive Limites).
+      \textbf{78,6\,\%} de bonnes r\'eponses, sur le plus grand \'echantillon r\'egional
+      du catalogue (322 sites) -- avoir plus d'exemples aide directement le mod\`ele \`a
+      mieux g\'en\'eraliser.
 
       \vspace{0.3cm}
       Mod\`ele entra\^in\'e et valid\'e uniquement sur les donn\'ees propres \`a
@@ -320,10 +318,10 @@
     \end{column}
     \begin{column}{0.42\textwidth}
       \footnotesize
-      \textbf{77,7\,\%} en LOGO-cluster pour Facile-vs-non. Le classificateur
-      Difficile-vs-non de cette m\^eme r\'egion, lui, ne d\'epasse pas sa base
-      triviale -- trop peu d'exemples Difficile (16) et un relief qui m\'elange
-      Haut Atlas et plaine du Tadla.
+      \textbf{77,7\,\%} de bonnes r\'eponses pour rep\'erer les sites Faciles. Pour
+      les sites Difficiles en revanche, le mod\`ele ne fait pas mieux que deviner au
+      hasard dans cette r\'egion -- trop peu d'exemples (16 seulement), et un relief
+      qui m\'elange Haut Atlas et plaine du Tadla.
 
       \vspace{0.3cm}
       Les grottes karstiques et gorges de la r\'egion illustrent directement la
@@ -343,21 +341,18 @@
     \end{column}
     \begin{column}{0.42\textwidth}
       \footnotesize
-      \textbf{74,1\,\%} (Difficile) / \textbf{73,3\,\%} (Facile), sans identit\'e de
-      r\'egion donn\'ee au mod\`ele (pour rester transf\'erable \`a d'autres r\'egions).
+      \textbf{74,1\,\%} de bonnes r\'eponses pour Difficile, \textbf{73,3\,\%} pour
+      Facile -- ici le mod\`ele ne re\c{c}oit aucune indication de r\'egion, pour
+      pouvoir s'appliquer \`a d'autres r\'egions \`a l'avenir.
 
-      \vspace{0.2cm}
-      Ces chiffres sont sup\'erieurs \`a la base de d\'epart (deviner la classe la
-      plus fr\'equente : 70,8\,\%/71,8\,\%), mais l'\'ecart est encore petit \`a
-      l'\'echelle du pays entier. Un test statistique standard, qui v\'erifie si un
-      \'ecart pourrait simplement venir du hasard, montre qu'\`a cette \'echelle
-      nationale, \textbf{on ne peut pas encore affirmer avec certitude} que ce gain
-      est r\'eel -- \`a lire comme coh\'erent avec les r\'esultats r\'egionaux
-      (plus solides ci-dessus), pas comme une confirmation ind\'ependante.
-
-      \vfill
-      {\fontsize{5.3}{6.3}\selectfont\color{graytext}Test de McNemar (comparaison
-      statistique appari\'ee) : $\chi^2=2,57$, $p=0,109$ / $\chi^2=0,50$, $p=0,481$.}
+      \vspace{0.1cm}
+      Les mod\`eles r\'egionaux ci-dessus font mieux que ce mod\`ele national.
+      Raison g\'eographique : chaque r\'egion a sa propre logique de terrain -- un
+      site difficile d'acc\`es au Sahara c\^otier ne l'est pas pour les m\^emes
+      raisons qu'au Moyen Atlas. Le mod\`ele national doit d\'ecrire ces onze
+      logiques \`a la fois, sans savoir dans quelle r\'egion il se trouve
+      (volontairement, pour rester utilisable si une nouvelle r\'egion est ajout\'ee)
+      -- un compromis plus dur qu'un seul relief coh\'erent.
     \end{column}
   \end{columns}
 \end{frame}
@@ -366,12 +361,17 @@
   \begin{columns}[T]
     \begin{column}{0.58\textwidth}
       \centering
-      \includegraphics[height=5.3cm]{../report/figures/map_favorability.pdf}
+      \includegraphics[height=3.6cm]{../report/figures/map_favorability.pdf}%
+      \hspace{0.1cm}%
+      \includegraphics[height=3.6cm]{../report/figures/favorability_roc_curve_fr.pdf}
     \end{column}
     \begin{column}{0.42\textwidth}
       \footnotesize
-      \textbf{AUC 0,956} (contre 0,927 avant l'expansion du catalogue \`a 1\,667
-      sites, m\^eme protocole).
+      \textbf{Score de 0,956 sur 1} (contre 0,927 avant l'expansion du catalogue \`a
+      1\,667 sites, m\^eme m\'ethode) -- ce score (\guillemotleft\,AUC\,\guillemotright)
+      mesure la capacit\'e du mod\`ele \`a distinguer un vrai site d'un point pris au
+      hasard : 0,5 = hasard, 1 = parfait. La courbe \`a gauche visualise directement
+      ce score.
 
       \vspace{0.3cm}
       R\'epond \`a une question diff\'erente du reste de l'expos\'e : \emph{o\`u}
@@ -387,51 +387,26 @@
 \end{frame}
 
 % ============================================================ Nouveaux ====
-\begin{frame}{Nouveau : donner au mod\`ele une notion de r\'egion, prudemment}
-  \footnotesize
-  \begin{itemize}
-    \setlength\itemsep{0.55em}
-    \item Le mod\`ele national ci-dessus ne re\c{c}oit \textbf{aucune information de
-      r\'egion}, pour rester utilisable ailleurs. Test compl\'ementaire : lui donner
-      la r\'egion, mais de fa\c{c}on statistiquement prudente -- chaque r\'egion tire
-      la pr\'ediction vers sa propre tendance, sans lui laisser une libert\'e totale
-      (\'evite qu'une petite r\'egion \guillemotleft\,trompe\,\guillemotright\ le mod\`ele)
-    \item Pour la classe Difficile : \textbf{77,5\,\%}, et cette fois le test
-      statistique \textbf{confirme} que ce n'est pas d\^u au hasard -- l\`a o\`u le
-      mod\`ele principal ne pouvait pas l'affirmer (diapositive pr\'ec\'edente)
-    \item Compar\'e directement au mod\`ele principal (mêmes 733 sites) : l'avantage
-      va dans le bon sens, mais reste \`a la limite de ce qu'on peut affirmer avec
-      confiance -- pas encore un r\'esultat clairement tranch\'e
-    \item Tient m\^eme quand on teste sur une r\'egion \textbf{compl\`etement absente
-      de l'entra\^inement} (72,8\,\% contre 66,8\,\% pour le mod\`ele principal) --
-      sauf \`a Eddakhla sp\'ecifiquement, o\`u le mod\`ele principal reste meilleur
-      (96,0\,\% contre 92,0\,\%)
-    \item \textbf{Aucun gain} \'equivalent pour la classe Facile
-  \end{itemize}
-  \vfill
-  \source{Test de McNemar : $\chi^2=15,89$, $p=0,0001$ (vs.\ base) ; $\chi^2=3,38$,
-  $p=0,066$ (vs.\ mod\`ele principal). results/json/other/mcnemar\_batch\_results.json.}
-\end{frame}
 
-\begin{frame}{Nouveau : \`a quel point peut-on faire confiance \`a une pr\'ediction ?}
+\begin{frame}{Nouveau : le mod\`ele sait-il quand il n'est pas s\^ur ?}
   \footnotesize
   \begin{itemize}
     \setlength\itemsep{0.6em}
-    \item Un pourcentage d'exactitude global ne dit pas, \textbf{site par site}, \`a
-      quel point le mod\`ele est s\^ur de sa r\'eponse. Nouveau : le mod\`ele donne
-      aussi une probabilit\'e de confiance pour chaque site, et on peut v\'erifier
-      si ces probabilit\'es sont fiables
-    \item \textbf{Premi\`ere v\'erification} : quand le mod\`ele annonce, par exemple,
-      \guillemotleft\,80\,\% de chances d'\^etre Difficile\,\guillemotright, ce chiffre
-      est-il r\'ealiste ? R\'eponse : d'assez bonne qualit\'e, et encore am\'elior\'e
-      par un ajustement statistique simple
-    \item \textbf{Deuxi\`eme v\'erification, plus utile en pratique} : \`a quelle
-      fr\'equence peut-on faire confiance \`a un appel du mod\`ele \`a une seule
-      classe ? Test\'e honn\^etement sur des sites jamais utilis\'es pour ce r\'eglage
-    \item R\'esultat : le mod\`ele donne un \textbf{appel confiant \`a une seule classe
-      pour environ 56--57\,\%} des sites, et dit honn\^etement
-      \guillemotleft\,\c{c}a pourrait \^etre l'une ou l'autre\,\guillemotright\ pour
-      le reste -- plut\^ot que de forcer une r\'eponse dans les cas ambigus
+    \item Comme une m\'et\'eo qui annonce \guillemotleft\,80\,\% de chances de
+      pluie\,\guillemotright\ plut\^ot que juste \guillemotleft\,il va
+      pleuvoir\,\guillemotright, le mod\`ele peut dire \`a quel point il est s\^ur
+      pour \textbf{chaque site individuellement}, pas seulement un pourcentage
+      global sur les 733
+    \item On a v\'erifi\'e que ce niveau de confiance est honn\^ete : quand le
+      mod\`ele dit \guillemotleft\,je suis s\^ur\,\guillemotright, il a raison la
+      plupart du temps
+    \item R\'esultat concret : pour \textbf{environ 1 site sur 2}, le mod\`ele donne
+      une r\'eponse ferme et fiable. Pour l'autre moiti\'e, il dit honn\^etement
+      \guillemotleft\,je ne suis pas s\^ur, \c{c}a pourrait \^etre l'une ou
+      l'autre\,\guillemotright\ -- plut\^ot que de deviner en silence
+    \item \textbf{Utilit\'e pratique} : on sait maintenant lesquels des sites
+      m\'eritent une v\'erification de terrain en priorit\'e, plut\^ot que de faire
+      confiance \`a toutes les pr\'edictions de la m\^eme mani\`ere
   \end{itemize}
   \vfill
   \source{results/json/other/calibration\_conformal\_results.json.}

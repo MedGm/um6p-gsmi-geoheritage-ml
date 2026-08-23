@@ -48,6 +48,19 @@ cards_and_rasters/
 livrable/
 models/experimental/
 
+# Raw OSM extract -- large, regenerable via Geofabrik download, never commit
+data/osm/*.pbf
+
+# Per-cell resumable checkpoint files from the parallelized OSM routing/POI
+# extraction workers (data_audit/09b/09c/09d, 16b/16c) -- operational
+# regenerable intermediates, not source or results; the merged final output
+# (data/final/dist_to_highway_routing_m.csv, data/final/infra_features.csv)
+# is what's tracked.
+data_audit/logs/osm_cells/
+data_audit/logs/poi_cells/
+02_modeling_and_analysis/logs/osm_cells/
+02_modeling_and_analysis/logs/poi_cells/
+
 # Third-party copyrighted papers (not ours to redistribute)
 references/articles/978-3-031-27073-4.pdf
 references/articles/s12371-019-00347-4.pdf
