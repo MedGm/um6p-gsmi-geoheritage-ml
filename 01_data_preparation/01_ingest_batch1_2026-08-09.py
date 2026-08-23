@@ -1,12 +1,13 @@
 """
 Ingests the expanded Aug-9-2026 geoheritage literature source (references/new-db/) using
-the same Observation/Locality pipeline already built in code/01_consolidate_geosite_catalog.py
+the same Observation/Locality pipeline already built in _catalog_helpers.py (originally code/01_consolidate_geosite_catalog.py, renamed
+during the 2026-08-23 repo cleanup since it's imported as a library, not run directly)
 -- reusing its coordinate parser, UTM zone handling (29N default, 28N Dakhla override,
 Merchich/Nord Maroc Lambert grid for the Chefchaouen park group), ground-truth
 corrections, border check, regional-plausibility check, and locality construction
 verbatim (imported, not reimplemented).
 
-Why a new script instead of editing 01 directly: 01_consolidate_geosite_catalog.py
+Why a new script instead of editing _catalog_helpers.py directly: it
 points at collected_data/main_checkout/references/Data Classification_Geoheritage.xlsx
 (dated 2026-07-29, .xlsx, read via openpyxl) -- confirmed to have only 766 "Data
 generale" observation rows. The user's Aug-9 delivery (references/new-db/, exported as
@@ -43,8 +44,8 @@ NEWDB = os.path.join(BASE, "references", "databases", "new-db")
 OUT_DIR = os.path.join(BASE, "data", "newdb_v2")
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# --- import code/01's proven functions without renaming the file (starts with a digit) ---
-spec = importlib.util.spec_from_file_location("consolidate01", os.path.join(HERE, "01_consolidate_geosite_catalog.py"))
+# --- import _catalog_helpers.py's proven functions (kept as a library module, not run directly) ---
+spec = importlib.util.spec_from_file_location("consolidate01", os.path.join(HERE, "_catalog_helpers.py"))
 c01 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(c01)
 

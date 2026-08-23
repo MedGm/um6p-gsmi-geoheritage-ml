@@ -11,7 +11,7 @@ flagged for v2 in code/13's own docstring, apparently never closed for v3
 either) -- reconstructed here from the loaded model bundle's own confirmed
 contents (features list and RandomForestClassifier hyperparameters read
 directly off `models/final/geosite_location_pilot_model_v3.joblib`, not
-guessed) plus report/scripts/make_favorability_v3.py's grid-scoring code
+guessed) plus 03_report_generation/make_favorability_v3.py's grid-scoring code
 (which shows the exact imputation convention used at inference time and
 therefore, necessarily, at training time too):
 

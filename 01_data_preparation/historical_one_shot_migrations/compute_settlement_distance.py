@@ -19,8 +19,8 @@ import numpy as np
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(HERE, "..", "data", "final")
-CITIES_CSV = os.path.join(HERE, "..", "data", "archive", "pipeline_intermediates",
+DATA_DIR = os.path.join(HERE, "..", "..", "data", "final")
+CITIES_CSV = os.path.join(HERE, "..", "..", "data", "archive", "pipeline_intermediates",
                            "morocco_reference_cities_geocoded.csv")
 IN_CSV = os.path.join(DATA_DIR, "geosites_mcdm_national.csv")
 

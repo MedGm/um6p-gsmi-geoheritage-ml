@@ -24,7 +24,7 @@ os.environ["AWS_S3_ENDPOINT"] = "s3.eu-central-1.amazonaws.com"
 os.environ["GDAL_DISABLE_READDIR_ON_OPEN"] = "EMPTY_DIR"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(HERE, "..", "data", "training")
+DATA_DIR = os.path.join(HERE, "..", "..", "data", "training")
 IN_CSV = os.path.join(DATA_DIR, "geosites_accessibility_dataset_v1.csv")
 
 WC_CLASS_NAMES = {

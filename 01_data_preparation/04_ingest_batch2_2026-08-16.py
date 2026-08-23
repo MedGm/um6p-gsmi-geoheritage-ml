@@ -1,12 +1,15 @@
 """
-code/31_ingest_aug16_geoheritage_source.py  (2026-08-17)
+01_data_preparation/04_ingest_batch2_2026-08-16.py
+(originally code/31_ingest_aug16_geoheritage_source.py, renamed during the
+2026-08-23 repo cleanup; written 2026-08-17)
 
 Ingests the new 2026-08-16 supervisor-provided geoheritage source ("Data
 Classification_16-08-2026(11-08-2026).csv", project root) using the same
-Observation/Locality pipeline as code/01 and code/11 -- reusing code/01's
+Observation/Locality pipeline as _catalog_helpers.py and
+01_ingest_batch1_2026-08-09.py -- reusing _catalog_helpers.py's
 coordinate parser, border check, regional-plausibility check, and locality
-builder verbatim (imported, not reimplemented), and code/11's hierarchical
-row loader + post-hoc Merchich outlier check verbatim.
+builder verbatim (imported, not reimplemented), and 01_ingest_batch1's
+hierarchical row loader + post-hoc Merchich outlier check verbatim.
 
 Why a new script instead of extending 11: this file's raw column layout
 differs from both prior sources (Coordinates block only, X_Easting/Y_Northing
@@ -62,11 +65,11 @@ RAW_CSV = os.path.join(BASE, "references", "databases", "new-db-aug16", "Data Cl
 OUT_DIR = os.path.join(BASE, "data", "newdb_v2_aug16")
 os.makedirs(OUT_DIR, exist_ok=True)
 
-spec01 = importlib.util.spec_from_file_location("consolidate01", os.path.join(HERE, "01_consolidate_geosite_catalog.py"))
+spec01 = importlib.util.spec_from_file_location("consolidate01", os.path.join(HERE, "_catalog_helpers.py"))
 c01 = importlib.util.module_from_spec(spec01)
 spec01.loader.exec_module(c01)
 
-spec11 = importlib.util.spec_from_file_location("ingest11", os.path.join(HERE, "11_ingest_expanded_geoheritage_source.py"))
+spec11 = importlib.util.spec_from_file_location("ingest11", os.path.join(HERE, "01_ingest_batch1_2026-08-09.py"))
 c11 = importlib.util.module_from_spec(spec11)
 spec11.loader.exec_module(c11)
 

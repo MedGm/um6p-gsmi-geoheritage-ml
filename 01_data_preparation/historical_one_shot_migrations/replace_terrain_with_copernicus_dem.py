@@ -20,7 +20,7 @@ os.environ["AWS_NO_SIGN_REQUEST"] = "YES"
 os.environ["GDAL_DISABLE_READDIR_ON_OPEN"] = "EMPTY_DIR"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(HERE, "..", "data", "training")
+DATA_DIR = os.path.join(HERE, "..", "..", "data", "training")
 IN_CSV = os.path.join(DATA_DIR, "geosites_accessibility_dataset_v1.csv")
 
 def tile_url(lat_tile, lon_tile):
