@@ -1,5 +1,5 @@
 """
-report/scripts/make_paper2_gap_charts.py  (2026-08-23)
+03_report_generation/make_paper2_gap_charts.py  (2026-08-23)
 
 Paper 2's professional redesign of the old leave_region_out.pdf style:
 horizontal grouped bars, model accuracy vs. local-majority baseline, gap

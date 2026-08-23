@@ -123,7 +123,7 @@ merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 assert len(merged) == 939
 
 # Confidence-weighting retired project-wide 2026-08-21 (class-balance weighting only) --
-# see [[project-geosite-accessibility-status]] memory / data_audit/03_phase5_modeling.py.
+# see [[project-geosite-accessibility-status]] memory / 02_modeling_and_analysis/03_phase5_modeling.py.
 X = merged[FEATURES].values
 
 def make_ensemble(target_cfg):
@@ -375,7 +375,7 @@ print("    done.", flush=True)
 # ============================================================ 3. Raster stack =====
 print("[3] Loading local terrain raster stack ...", flush=True)
 # Elevation/Slope/Ruggedness read from physical_task2_corrected/, not physical/ --
-# see report/scripts/make_paper2_region_maps.py's raster-loading block for the full
+# see 03_report_generation/make_paper2_region_maps.py's raster-loading block for the full
 # investigation. Confirmed concretely: physical/elevation_meters.tif missed with
 # raw -9999 nodata on 33% of real catalog site queries and was off by 500-1100m
 # even where valid; physical_task2_corrected/ (documented as "registration-

@@ -1,5 +1,5 @@
 """
-report/scripts/make_morocco_regions_reference_map.py  (2026-08-23)
+03_report_generation/make_morocco_regions_reference_map.py  (2026-08-23)
 
 Paper 2's opening figure: Morocco's 12 official administrative regions,
 numbered per the standard 1-12 indexing (Indice field in the boundaries

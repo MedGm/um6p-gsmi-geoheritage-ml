@@ -1,5 +1,5 @@
 """
-report/scripts/make_paper2_region_maps.py  (2026-08-23, revised same day
+03_report_generation/make_paper2_region_maps.py  (2026-08-23, revised same day
 after user review flagged the ring-marker/resolution/boundary bugs below)
 
 Renders Paper 2's per-region and per-merged-group accessibility maps: for
@@ -22,7 +22,7 @@ Revision fixes three real bugs a human review caught in the first version:
      CELL's class in a coarse (130x130 over the whole region bbox) in-sample
      raster -- far coarser than the 500m LOGO-cluster radius used everywhere
      else, so nearby sites of different true classes routinely collapsed
-     onto one cell. Rings now come from data_audit/29_paper2_map_oof.py's
+     onto one cell. Rings now come from 02_modeling_and_analysis/29_paper2_map_oof.py's
      actual per-site LOGO-cluster CV out-of-fold predictions (the exact same
      methodology and numbers as the reported accuracies), independent of
      raster resolution entirely.
@@ -120,7 +120,7 @@ def upsample_nearest(arr, factor=UPSAMPLE_FACTOR):
 def declutter_points(lat, lon, min_dist_km):
     """Greedy spatial thinning: keep a point only if it is at least
     min_dist_km from every point already kept. Display-only -- the underlying
-    accuracy numbers and misclassification ring truth come from data_audit/29's
+    accuracy numbers and misclassification ring truth come from 02_modeling_and_analysis/29's
     full-sample OOF predictions and are entirely unaffected by how many points
     are drawn here."""
     lat, lon = np.asarray(lat), np.asarray(lon)
@@ -205,7 +205,7 @@ assert len(merged) == 939
 log(f"N={len(merged)}")
 
 # Ring-marker ground truth: exact per-site LOGO-cluster CV out-of-fold
-# predictions from the true winning feature set (data_audit/29), NOT derived
+# predictions from the true winning feature set (02_modeling_and_analysis/29), NOT derived
 # from this script's own (coarser, in-sample) raster -- see module docstring.
 map_oof = json.load(open(os.path.join(FW, "results/json/other/phase5_paper2_map_oof.json")))
 
@@ -472,14 +472,14 @@ for key, meta in UNITS.items():
                 infra_grid = np.load(out_npz)
                 # extraction can "succeed" but still be all-NaN (e.g. MemoryError caught
                 # internally, or genuinely nothing found) -- validate before trusting it,
-                # same discipline as data_audit/17's NaN crash earlier this session.
+                # same discipline as 02_modeling_and_analysis/17's NaN crash earlier this session.
                 dist_col = infra_grid["dist_nearest_tourism_poi_m"]
                 infra_ok = np.isfinite(dist_col).sum() > 0.5 * dist_col.size
             if not infra_ok:
                 log("  INFRA GRID INVALID/FAILED -- falling back to Baseline for any Infra-winning target here")
 
         # Settlement-type one-hot for this unit's own sample -- part of the TRUE
-        # +Infra feature composition (data_audit/24-28), previously missing from
+        # +Infra feature composition (02_modeling_and_analysis/24-28), previously missing from
         # this script's Infra map rendering entirely.
         settle_dummies = pd.get_dummies(sub["nearest_settlement_type"], prefix="Settlement").astype(float)
         sub_ext = pd.concat([sub, settle_dummies], axis=1)
@@ -555,7 +555,7 @@ for key, meta in UNITS.items():
     gdf.boundary.plot(ax=ax, edgecolor=BOUND_COL, linewidth=1.0, zorder=3)
 
     # Known-geosite overlay: true class, ringed where the site is misclassified.
-    # Correctness comes from data_audit/29's actual LOGO-cluster CV out-of-fold
+    # Correctness comes from 02_modeling_and_analysis/29's actual LOGO-cluster CV out-of-fold
     # prediction (same methodology/numbers as the reported accuracy), looked up
     # by Locality_ID -- NOT from a nearest-grid-cell lookup on this raster,
     # which at this grid's resolution can put several nearby, differently-

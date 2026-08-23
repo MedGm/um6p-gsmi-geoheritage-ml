@@ -1,5 +1,5 @@
 """
-report/scripts/rerender_paper2_maps.py  (2026-08-23)
+03_report_generation/rerender_paper2_maps.py  (2026-08-23)
 
 Re-renders the 10 Paper 2 unit maps from the ALREADY-COMPUTED
 results/grids/paper2_region_grids.pkl (cls/lon2d/lat2d/elev/gdf per unit) --

@@ -117,7 +117,7 @@ def declutter_points(lat, lon, min_dist_km):
 
 def declutter_stratified(pts, is_wrong, bounds, marker_s, fig_width_in):
     """Thin the displayed markers so the shown correct:misclassified ratio
-    matches the region's true accuracy -- see report/scripts/
+    matches the region's true accuracy -- see 03_report_generation/
     make_paper2_region_maps.py's version of this function for the full
     rationale (plain joint declutter can show more misclassified than
     correct markers even at high true accuracy, purely by which points

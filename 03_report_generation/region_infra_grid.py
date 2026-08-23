@@ -1,9 +1,9 @@
 """
-report/scripts/region_infra_grid.py
+03_report_generation/region_infra_grid.py
 
 Computes tourism-POI-density and nearest-settlement-type features across a
 region's PREDICTION GRID (not just at known geosite points, unlike
-data_audit/16b/16c which built the geosite-level infra_features.csv used in
+02_modeling_and_analysis/16b/16c which built the geosite-level infra_features.csv used in
 modeling). Key efficiency point: POIs/settlements are extracted from the OSM
 PBF ONCE per region (single pyrosm call, subprocess-isolated + 4GB capped,
 same safety pattern as yesterday's geosite-level extraction), then every

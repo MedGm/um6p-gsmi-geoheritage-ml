@@ -2,7 +2,7 @@
 data_audit/29_paper2_map_oof.py  (2026-08-23)
 
 Fixes a real bug flagged by user review: the per-region map's "misclassified"
-ring markers (report/scripts/make_paper2_region_maps.py) were derived by
+ring markers (03_report_generation/make_paper2_region_maps.py) were derived by
 looking up the NEAREST GRID CELL's class in a coarse (130x130 over the whole
 region bbox) in-sample raster -- resolution far coarser than the 500m
 LOGO-cluster radius used everywhere else in this project, so multiple sites

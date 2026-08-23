@@ -1,5 +1,5 @@
 """
-report/scripts/make_paper2_mosaic_map.py  (2026-08-23)
+03_report_generation/make_paper2_mosaic_map.py  (2026-08-23)
 
 Paper 2's final figure: one national-extent 3-class accessibility map,
 assembled from the already-computed per-unit rasters in
@@ -11,7 +11,7 @@ south, use the best one out of duo+eddakhla independent or full trio, same
 for casa+rabat" -- a single choice per zone, not per-target):
 
   South (Guelmim-Oued Noun + Laâyoune-Sakia El Hamra + Eddakhla-Oued Eddahab):
-    Recomputed after the 2026-08-23 OOF ring-truth fix (data_audit/29) -- the
+    Recomputed after the 2026-08-23 OOF ring-truth fix (02_modeling_and_analysis/29) -- the
     original comparison below used the buggy nearest-grid-cell misclass count
     and wrongly showed independent as clearly ahead; the corrected numbers
     are an EXACT tie:
@@ -31,7 +31,7 @@ for casa+rabat" -- a single choice per zone, not per-target):
     at all) and Rabat's own Difficult target is degenerate standalone
     (n_pos<3). Rabat-standalone/merged Easy comparison restricted to Rabat's
     own sites came back an exact tie (0.8095 both ways, see
-    data_audit/28_paper2_rabatcasa_zone_compare.py).
+    02_modeling_and_analysis/28_paper2_rabatcasa_zone_compare.py).
     -> DECISION: merged (rabatcasa) for the whole zone -- only config with
        full coverage, and no accuracy sacrificed on the one target where an
        alternative existed at all.
@@ -43,7 +43,7 @@ national-level fallback model, per user's explicit choice.
 Revised 2026-08-23 alongside make_paper2_region_maps.py after user review:
 same three fixes ported here (this script had the identical bugs, since it
 was written from the same first-draft pattern): (1) misclassification ring
-truth now comes from data_audit/29's exact per-site LOGO-cluster CV OOF
+truth now comes from 02_modeling_and_analysis/29's exact per-site LOGO-cluster CV OOF
 predictions, not a coarse nearest-grid-cell raster lookup; (2) each unit's
 raster is clipped to its own exact polygon boundary so no color bleeds past
 the true region shape; (3) all 939 points at national scale are far denser

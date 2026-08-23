@@ -5,7 +5,7 @@ distinct hues -- unreadable, and cluster ID itself carries no meaning). This
 version colors each site by ITS CLUSTER'S Difficult-rate instead, which is the
 actual finding ("pockets are skewed, not smoothly mixed") -- and adds Morocco's
 outline + region borders for geographic context, using the same colorblind-safe
-palette already established in report/scripts/make_maps_render.py.
+palette already established in 03_report_generation/make_maps_render.py.
 
 Reuses hdbscan_full_results.csv (already computed by explore_hdbscan.py) -- no
 reclustering needed.
