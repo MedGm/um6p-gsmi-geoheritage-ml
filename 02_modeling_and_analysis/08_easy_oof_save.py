@@ -18,6 +18,7 @@ FEATURES = ["Dist_to_Highway_m", "Slope_deg", "Ruggedness", "Elevation_m", "LULC
 
 catalog = pd.read_csv(os.path.join(BASE, "data/final/geosites_mcdm_national.csv"))
 el_ouali_ids = set(pd.read_csv(os.path.join(BASE, "data/final/regional_label_sources/el_ouali_2026_expert_labels.csv"))["Locality_ID"])
+batch3_ids = set(pd.read_csv(os.path.join(BASE, "data/final/regional_label_sources/batch3_2026-08-28_expert_labels.csv"))["Locality_ID"])
 frames = []
 for f in sorted(glob.glob(os.path.join(BASE, "data/final/regional_label_sources/*.csv"))):
     bn = os.path.basename(f)
@@ -28,8 +29,11 @@ for f in sorted(glob.glob(os.path.join(BASE, "data/final/regional_label_sources/
 all_labels = pd.concat(frames, ignore_index=True).drop_duplicates("Locality_ID")
 merged = all_labels.merge(catalog[["Locality_ID","Region","Latitude_WGS84","Longitude_WGS84"]+FEATURES], on="Locality_ID", how="inner").dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult","Difficult")
-merged["origin"] = np.where(merged["Locality_ID"].isin(el_ouali_ids), "el_ouali_2026", "original_733")
-assert len(merged) == 939
+merged["origin"] = np.select(
+    [merged["Locality_ID"].isin(el_ouali_ids), merged["Locality_ID"].isin(batch3_ids)],
+    ["el_ouali_2026", "batch3_2026"],
+    default="original_733")
+assert len(merged) == 1662
 
 def haversine_matrix(lat, lon):
     R = 6371000

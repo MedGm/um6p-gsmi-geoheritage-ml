@@ -42,6 +42,8 @@ catalog = pd.read_csv(os.path.join(BASE, "data", "final", "geosites_mcdm_nationa
 
 el_ouali_ids = set(pd.read_csv(
     os.path.join(BASE, "data/final/regional_label_sources/el_ouali_2026_expert_labels.csv"))["Locality_ID"])
+batch3_ids = set(pd.read_csv(
+    os.path.join(BASE, "data/final/regional_label_sources/batch3_2026-08-28_expert_labels.csv"))["Locality_ID"])
 
 frames = []
 for f in sorted(glob.glob(os.path.join(BASE, "data/final/regional_label_sources/*.csv"))):
@@ -56,10 +58,13 @@ merged = all_labels.merge(
     catalog[["Locality_ID", "Region", "Latitude_WGS84", "Longitude_WGS84"] + FEATURES],
     on="Locality_ID", how="inner").dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
-merged["origin"] = np.where(merged["Locality_ID"].isin(el_ouali_ids), "el_ouali_2026", "original_733")
+merged["origin"] = np.select(
+    [merged["Locality_ID"].isin(el_ouali_ids), merged["Locality_ID"].isin(batch3_ids)],
+    ["el_ouali_2026", "batch3_2026"],
+    default="original_733")
 N = len(merged)
-assert N == 939
-log(f"N={N} | original_733={ (merged.origin=='original_733').sum() } | el_ouali_2026={ (merged.origin=='el_ouali_2026').sum() }")
+assert N == 1662
+log(f"N={N} | original_733={ (merged.origin=='original_733').sum() } | el_ouali_2026={ (merged.origin=='el_ouali_2026').sum() } | batch3_2026={ (merged.origin=='batch3_2026').sum() }")
 
 def haversine_matrix(lat, lon):
     R = 6371000
@@ -131,7 +136,7 @@ for target_name, target_class in [("difficult", "Difficult"), ("easy", "Easy")]:
     log(f"  overall acc={overall_acc:.4f} (grid-search run reported {modeling_results[f'Baseline_939_{target_name}']['acc_logo_cluster']})")
 
     rows = []
-    for origin in ["original_733", "el_ouali_2026"]:
+    for origin in ["original_733", "el_ouali_2026", "batch3_2026"]:
         mask = valid & (merged["origin"].values == origin)
         n = int(mask.sum())
         n_pos = int(y[mask].sum())
