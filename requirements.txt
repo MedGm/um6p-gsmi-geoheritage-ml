@@ -27,6 +27,12 @@ geopandas==1.1.4
 pyogrio==0.13.0
 affine==2.4.0
 
+# OSM PBF parsing for grid-level tourism-POI/settlement features
+# (03_report_generation/region_infra_grid.py) -- streaming node handler,
+# not pyrosm's bbox-filtered GeoDataFrame path, which OOM'd/segfaulted at
+# national grid scale
+osmium==4.3.1
+
 # Visualization & Interactive Dashboard
 streamlit==1.59.2
 pydeck==0.9.3

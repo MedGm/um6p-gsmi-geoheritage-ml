@@ -1,10 +1,13 @@
 """
 Professional GIS accessibility maps for geosite_ai_section.tex.
 
-Fits the production Difficult/Easy ensembles (exact hyperparameters already
-selected via grid search this session -- see final_v2_results_N733.json
-best_configs -- refit once on the full N=733 labeled set, NOT a new search)
-and applies them over a real spatial grid per region, built from:
+Fits the production Difficult/Easy models (exact hyperparameters already
+selected via grid search -- refit once on the full labeled set, not a new
+search). Easy is the four-member tree ensemble (Baseline features); Difficult
+is GP+Infra (Gaussian Process, Infra feature set) -- 02_modeling_and_analysis/
+30-31 found this significantly beats the best tree-ensemble option for
+Difficult at N=1662 (McNemar p=0.020). Applies both over a real spatial grid
+per region, built from:
   - local terrain rasters (archive/gis_data/physical/):
     elevation, slope, ruggedness, distance-to-highway, all EPSG:26191
   - live ESA WorldCover (same source/method as code/07, decimated windowed
@@ -49,14 +52,18 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier,
 from sklearn.utils.class_weight import compute_sample_weight
 from sklearn.model_selection import LeaveOneGroupOut, StratifiedGroupKFold
 from sklearn.metrics import accuracy_score, balanced_accuracy_score
+from sklearn.gaussian_process import GaussianProcessClassifier
+from sklearn.gaussian_process.kernels import RBF
+from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 from joblib import Parallel, delayed
+import subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
+FW = os.path.abspath(os.path.join(HERE, ".."))
 BASE = FW
-OUT = os.path.join(HERE, "..", "figures")
+OUT = os.path.join(HERE, "..", "report", "figures")
 BOUND_DIR = os.path.join(FW, "data", "boundaries")
 os.makedirs(OUT, exist_ok=True)
 os.makedirs(BOUND_DIR, exist_ok=True)
@@ -120,7 +127,7 @@ merged = all_labels.merge(
     on="Locality_ID", how="inner")
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
-assert len(merged) == 939
+assert len(merged) == 1662
 
 # Confidence-weighting retired project-wide 2026-08-21 (class-balance weighting only) --
 # see [[project-geosite-accessibility-status]] memory / 02_modeling_and_analysis/03_phase5_modeling.py.
@@ -151,6 +158,31 @@ y_difficult = (merged["Expert_Merged"] == "Difficult").astype(int).values
 y_easy = (merged["Expert_Merged"] == "Easy").astype(int).values
 fitted_difficult = fit_binary(y_difficult, BEST_CONFIGS["difficult"])
 fitted_easy = fit_binary(y_easy, BEST_CONFIGS["easy"])
+print("    done.", flush=True)
+
+# ============================================================ 1b. Deployed Difficult model
+# 02_modeling_and_analysis/30-31 (2026-09-01): at N=1662, GP+Infra (0.8081)
+# significantly beats the best tree-ensemble option, Tree+Infra (0.7864),
+# McNemar p=0.020 -- GP+Domain scored marginally higher (0.8087) but Domain
+# has no usable spatial raster (archive/cards_and_rasters/Domaines.tif has no
+# georeferencing) so can't drive a grid map; GP+Infra is the practical choice
+# since Infra features ARE grid-computable (region_infra_grid.py). Easy stays
+# the tree ensemble (Baseline) -- it wins there under every feature set tested.
+print("[1b] Fitting deployed GP+Infra Difficult model (mirrors 02_modeling_and_analysis/30-31) ...", flush=True)
+infra = pd.read_csv(os.path.join(FW, "data/final/infra_features.csv"))
+merged_infra = merged.merge(infra, on="Locality_ID", how="left")
+SENTINEL_DIST_M = 60000.0
+merged_infra["dist_nearest_tourism_poi_m"] = merged_infra["dist_nearest_tourism_poi_m"].fillna(SENTINEL_DIST_M)
+merged_infra["dist_nearest_settlement_town_m"] = merged_infra["dist_nearest_settlement_town_m"].fillna(SENTINEL_DIST_M)
+merged_infra["nearest_settlement_type"] = merged_infra["nearest_settlement_type"].fillna("None")
+SETTLEMENT_CATS = ["None", "city", "hamlet", "town", "village"]  # matches training's alphabetical pd.get_dummies order exactly
+for cat in SETTLEMENT_CATS:
+    merged_infra[f"Settlement_{cat}"] = (merged_infra["nearest_settlement_type"] == cat).astype(float)
+FEATURES_INFRA = FEATURES + ["n_tourism_poi_10km", "dist_nearest_tourism_poi_m", "dist_nearest_settlement_town_m"] + [f"Settlement_{c}" for c in SETTLEMENT_CATS]
+infra_scaler = StandardScaler().fit(merged_infra[FEATURES_INFRA].values)
+X_infra_train_scaled = infra_scaler.transform(merged_infra[FEATURES_INFRA].values)
+gp_difficult = GaussianProcessClassifier(kernel=1.0 * RBF(length_scale=1.0), random_state=42, n_jobs=-1)
+gp_difficult.fit(X_infra_train_scaled, y_difficult)
 print("    done.", flush=True)
 
 # ============================================================ 1b. Region-specific models
@@ -596,7 +628,43 @@ Xg = np.column_stack([
     local["Dist_to_Highway_m"].ravel(), local["Slope_deg"].ravel(), local["Ruggedness"].ravel(),
     local["Elevation_m"].ravel(), friction.ravel(), dsettle.ravel(),
 ])
-p_diff = predict_proba_ensemble(fitted_difficult, Xg).reshape(lon2d.shape)
+
+# Difficult layer uses the deployed GP+Infra model (see 1b above), not the tree
+# ensemble -- needs Infra features (tourism-POI density, settlement distance/type)
+# gridded nationally via region_infra_grid.py. Rewritten 2026-09-01 to stream
+# via pyosmium instead of pyrosm's bbox-filtered GeoDataFrame path (which OOM'd
+# and even segfaulted on quarter-country-scale bboxes); the pyosmium version
+# processes the whole country in ~98s at negligible memory, so this is a
+# single direct call, no tiling needed.
+print("  extracting national infra grid (tourism POI / settlement, via OSM PBF) ...", flush=True)
+PBF_PATH = os.path.join(FW, "data/osm/morocco-latest.osm.pbf")
+_infra_tmp = "/tmp/national_infra_grid"
+os.makedirs(_infra_tmp, exist_ok=True)
+np.save(os.path.join(_infra_tmp, "lon2d.npy"), lon2d)
+np.save(os.path.join(_infra_tmp, "lat2d.npy"), lat2d)
+_out_npz = os.path.join(_infra_tmp, "national.npz")
+_r = subprocess.run([sys.executable, os.path.join(HERE, "region_infra_grid.py"),
+                      str(minx - 0.2), str(miny - 0.2), str(maxx + 0.2), str(maxy + 0.2),
+                      os.path.join(_infra_tmp, "lon2d.npy"), os.path.join(_infra_tmp, "lat2d.npy"),
+                      _out_npz, PBF_PATH], capture_output=True, text=True, timeout=600)
+print(f"    worker: {_r.stdout.strip()} {_r.stderr.strip()[-300:] if _r.returncode else ''}", flush=True)
+if _r.returncode != 0 or not os.path.exists(_out_npz):
+    raise RuntimeError("National infra grid extraction failed -- cannot render the GP+Infra Difficult layer.")
+_infra_grid = np.load(_out_npz)
+n_tourism_g = _infra_grid["n_tourism_poi_10km"]
+dist_tourism_g = np.where(np.isfinite(_infra_grid["dist_nearest_tourism_poi_m"]), _infra_grid["dist_nearest_tourism_poi_m"], SENTINEL_DIST_M)
+dist_settle_g = np.where(np.isfinite(_infra_grid["dist_nearest_settlement_town_m"]), _infra_grid["dist_nearest_settlement_town_m"], SENTINEL_DIST_M)
+settle_code_g = _infra_grid["settlement_type_code"]
+_rank_to_cat = {0: "None", 1: "hamlet", 2: "village", 3: "town", 4: "city"}
+settle_onehot_g = {cat: np.zeros(lon2d.shape, dtype=float) for cat in SETTLEMENT_CATS}
+for rank, cat in _rank_to_cat.items():
+    settle_onehot_g[cat][settle_code_g == rank] = 1.0
+Xg_infra = np.column_stack([
+    Xg,
+    n_tourism_g.ravel(), dist_tourism_g.ravel(), dist_settle_g.ravel(),
+] + [settle_onehot_g[cat].ravel() for cat in SETTLEMENT_CATS])
+Xg_infra_scaled = infra_scaler.transform(Xg_infra)
+p_diff = gp_difficult.predict_proba(Xg_infra_scaled)[:, 1].reshape(lon2d.shape)
 p_easy = predict_proba_ensemble(fitted_easy, Xg).reshape(lon2d.shape)
 cls = np.full(lon2d.shape, 1, dtype=int)
 cls[p_diff >= 0.5] = 2
