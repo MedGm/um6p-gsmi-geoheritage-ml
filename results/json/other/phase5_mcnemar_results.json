@@ -1,56 +1,56 @@
 {
   "difficult": {
     "acc": {
-      "baseline_939": 0.7487,
-      "domain_939": 0.7572
+      "baseline_939": 0.7665,
+      "domain_939": 0.7858
     },
     "domain_vs_baseline": {
-      "chi2": 0.7,
-      "p": 0.4028,
-      "n_a_right_b_wrong": 39,
-      "n_a_wrong_b_right": 31,
-      "n_valid": 939
+      "chi2": 8.5804,
+      "p": 0.0034,
+      "n_a_right_b_wrong": 72,
+      "n_a_wrong_b_right": 40,
+      "n_valid": 1662
     },
     "domain_vs_majority_baseline": {
-      "chi2": 1.8223,
-      "p": 0.177,
-      "n_a_right_b_wrong": 132,
-      "n_a_wrong_b_right": 110,
-      "n_valid": 939
+      "chi2": 0.0796,
+      "p": 0.7778,
+      "n_a_right_b_wrong": 154,
+      "n_a_wrong_b_right": 160,
+      "n_valid": 1662
     },
     "baseline_vs_majority_baseline": {
-      "chi2": 0.7284,
-      "p": 0.3934,
-      "n_a_right_b_wrong": 123,
-      "n_a_wrong_b_right": 109,
-      "n_valid": 939
+      "chi2": 4.2516,
+      "p": 0.0392,
+      "n_a_right_b_wrong": 142,
+      "n_a_wrong_b_right": 180,
+      "n_valid": 1662
     }
   },
   "easy": {
     "acc": {
-      "baseline_939": 0.7167,
-      "domain_939": 0.7231
+      "baseline_939": 0.713,
+      "domain_939": 0.7202
     },
     "domain_vs_baseline": {
-      "chi2": 0.4167,
-      "p": 0.5186,
-      "n_a_right_b_wrong": 33,
-      "n_a_wrong_b_right": 27,
-      "n_valid": 939
+      "chi2": 0.9308,
+      "p": 0.3347,
+      "n_a_right_b_wrong": 71,
+      "n_a_wrong_b_right": 59,
+      "n_valid": 1662
     },
     "domain_vs_majority_baseline": {
-      "chi2": 4.0848,
-      "p": 0.0433,
-      "n_a_right_b_wrong": 159,
-      "n_a_wrong_b_right": 124,
-      "n_valid": 939
+      "chi2": 58.6941,
+      "p": 0.0,
+      "n_a_right_b_wrong": 461,
+      "n_a_wrong_b_right": 255,
+      "n_valid": 1662
     },
     "baseline_vs_majority_baseline": {
-      "chi2": 2.6758,
-      "p": 0.1019,
-      "n_a_right_b_wrong": 161,
-      "n_a_wrong_b_right": 132,
-      "n_valid": 939
+      "chi2": 50.6101,
+      "p": 0.0,
+      "n_a_right_b_wrong": 465,
+      "n_a_wrong_b_right": 271,
+      "n_valid": 1662
     }
   }
 }

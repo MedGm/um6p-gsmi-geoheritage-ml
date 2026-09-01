@@ -1,43 +1,59 @@
 {
   "difficult": {
-    "overall_acc": 0.7487,
+    "overall_acc": 0.7665,
     "by_origin": [
       {
         "origin": "original_733",
-        "n": 733,
+        "n": 734,
         "n_pos": 215,
-        "acc": 0.7572,
-        "local_majority": 0.7067,
-        "gap_pp": 5.0
+        "acc": 0.7234,
+        "local_majority": 0.7071,
+        "gap_pp": 1.6
       },
       {
         "origin": "el_ouali_2026",
         "n": 206,
         "n_pos": 35,
-        "acc": 0.7184,
+        "acc": 0.7718,
         "local_majority": 0.8301,
-        "gap_pp": -11.2
+        "gap_pp": -5.8
+      },
+      {
+        "origin": "batch3_2026",
+        "n": 722,
+        "n_pos": 100,
+        "acc": 0.8089,
+        "local_majority": 0.8615,
+        "gap_pp": -5.3
       }
     ]
   },
   "easy": {
-    "overall_acc": 0.7167,
+    "overall_acc": 0.713,
     "by_origin": [
       {
         "origin": "original_733",
-        "n": 733,
-        "n_pos": 205,
-        "acc": 0.7271,
-        "local_majority": 0.7203,
-        "gap_pp": 0.7
+        "n": 734,
+        "n_pos": 206,
+        "acc": 0.7221,
+        "local_majority": 0.7193,
+        "gap_pp": 0.3
       },
       {
         "origin": "el_ouali_2026",
         "n": 206,
         "n_pos": 90,
-        "acc": 0.6796,
+        "acc": 0.6748,
         "local_majority": 0.5631,
-        "gap_pp": 11.7
+        "gap_pp": 11.2
+      },
+      {
+        "origin": "batch3_2026",
+        "n": 722,
+        "n_pos": 375,
+        "acc": 0.7147,
+        "local_majority": 0.5194,
+        "gap_pp": 19.5
       }
     ]
   }

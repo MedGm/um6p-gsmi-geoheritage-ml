@@ -1,20 +1,20 @@
 {
   "Difficult": {
-    "eddakhla_standalone_acc": 0.8485,
+    "eddakhla_standalone_acc": 0.8235,
     "eddakhla_standalone_variant": "Infra",
-    "trio_full_acc": 0.9091,
-    "trio_variant": "Baseline",
-    "trio_acc_on_eddakhla_only": 0.8788,
-    "n_eddakhla_sites": 33,
+    "trio_full_acc": 0.8556,
+    "trio_variant": "Infra",
+    "trio_acc_on_eddakhla_only": 0.8529,
+    "n_eddakhla_sites": 34,
     "decision": "trio"
   },
   "Easy": {
-    "eddakhla_standalone_acc": 0.8788,
-    "eddakhla_standalone_variant": "Baseline",
-    "trio_full_acc": 0.7091,
+    "eddakhla_standalone_acc": 0.8824,
+    "eddakhla_standalone_variant": "Domain",
+    "trio_full_acc": 0.8778,
     "trio_variant": "Baseline",
-    "trio_acc_on_eddakhla_only": 0.7879,
-    "n_eddakhla_sites": 33,
-    "decision": "standalone"
+    "trio_acc_on_eddakhla_only": 0.9118,
+    "n_eddakhla_sites": 34,
+    "decision": "trio"
   }
 }

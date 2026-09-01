@@ -1,113 +1,31 @@
 [
   {
     "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-    "target": "Easy",
-    "N": 21,
-    "n_pos": 8,
-    "local_majority": 0.619,
+    "target": "Difficult",
+    "N": 44,
+    "n_pos": 4,
+    "local_majority": 0.909,
     "variants": {
       "Baseline": {
-        "acc_default": 0.5714,
-        "acc_tuned": 0.8095,
-        "tuned_threshold": 0.28,
-        "best_acc": 0.8095,
+        "acc_default": 0.8636,
+        "acc_tuned": 0.9091,
+        "tuned_threshold": 0.72,
+        "best_acc": 0.9091,
         "best_configs": [
           [
             "RF",
             {
-              "max_depth": 8,
-              "min_samples_leaf": 5,
-              "n_estimators": 100
-            }
-          ],
-          [
-            "XGB",
-            {
-              "learning_rate": 0.03,
-              "max_depth": 6,
-              "n_estimators": 100
-            }
-          ],
-          [
-            "GBM",
-            {
-              "learning_rate": 0.1,
-              "max_depth": 4,
-              "n_estimators": 100
-            }
-          ],
-          [
-            "LGBM",
-            {
-              "learning_rate": 0.05,
               "max_depth": 5,
-              "n_estimators": 200,
-              "num_leaves": 15
-            }
-          ]
-        ]
-      },
-      "Domain": {
-        "acc_default": 0.5714,
-        "acc_tuned": 0.8095,
-        "tuned_threshold": 0.28,
-        "best_acc": 0.8095,
-        "best_configs": [
-          [
-            "RF",
-            {
-              "max_depth": 3,
               "min_samples_leaf": 5,
-              "n_estimators": 400
-            }
-          ],
-          [
-            "XGB",
-            {
-              "learning_rate": 0.03,
-              "max_depth": 6,
-              "n_estimators": 100
-            }
-          ],
-          [
-            "GBM",
-            {
-              "learning_rate": 0.1,
-              "max_depth": 4,
-              "n_estimators": 100
-            }
-          ],
-          [
-            "LGBM",
-            {
-              "learning_rate": 0.1,
-              "max_depth": 3,
-              "n_estimators": 200,
-              "num_leaves": 15
-            }
-          ]
-        ]
-      },
-      "Infra": {
-        "acc_default": 0.6667,
-        "acc_tuned": 0.8095,
-        "tuned_threshold": 0.3,
-        "best_acc": 0.8095,
-        "best_configs": [
-          [
-            "RF",
-            {
-              "max_depth": 3,
-              "min_samples_leaf": 1,
               "n_estimators": 200
             }
           ],
           [
             "XGB",
             {
-              "learning_rate": 0.03,
-              "max_depth": 6,
-              "n_estimators": 100
+              "learning_rate": 0.15,
+              "max_depth": 5,
+              "n_estimators": 250
             }
           ],
           [
@@ -128,9 +46,225 @@
             }
           ]
         ]
+      },
+      "Domain": {
+        "acc_default": 0.8636,
+        "acc_tuned": 0.9091,
+        "tuned_threshold": 0.67,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 5,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 6,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.9091,
+        "acc_tuned": 0.2273,
+        "tuned_threshold": 0.07,
+        "best_acc": 0.9091,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": null,
+              "min_samples_leaf": 1,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.03,
+              "max_depth": 4,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 2,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
       }
     },
     "best_variant": "Baseline",
-    "best_acc": 0.8095
+    "best_acc": 0.9091
+  },
+  {
+    "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+    "target": "Easy",
+    "N": 44,
+    "n_pos": 21,
+    "local_majority": 0.523,
+    "variants": {
+      "Baseline": {
+        "acc_default": 0.6364,
+        "acc_tuned": 0.75,
+        "tuned_threshold": 0.37,
+        "best_acc": 0.75,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": null,
+              "min_samples_leaf": 5,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 5,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 200
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 15
+            }
+          ]
+        ]
+      },
+      "Domain": {
+        "acc_default": 0.5909,
+        "acc_tuned": 0.75,
+        "tuned_threshold": 0.38,
+        "best_acc": 0.75,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 3,
+              "n_estimators": 400
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 3,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 3,
+              "n_estimators": 200,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      },
+      "Infra": {
+        "acc_default": 0.5682,
+        "acc_tuned": 0.6818,
+        "tuned_threshold": 0.37,
+        "best_acc": 0.6818,
+        "best_configs": [
+          [
+            "RF",
+            {
+              "max_depth": 3,
+              "min_samples_leaf": 1,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "XGB",
+            {
+              "learning_rate": 0.15,
+              "max_depth": 4,
+              "n_estimators": 250
+            }
+          ],
+          [
+            "GBM",
+            {
+              "learning_rate": 0.05,
+              "max_depth": 3,
+              "n_estimators": 100
+            }
+          ],
+          [
+            "LGBM",
+            {
+              "learning_rate": 0.1,
+              "max_depth": 3,
+              "n_estimators": 100,
+              "num_leaves": 31
+            }
+          ]
+        ]
+      }
+    },
+    "best_variant": "Baseline",
+    "best_acc": 0.75
   }
 ]

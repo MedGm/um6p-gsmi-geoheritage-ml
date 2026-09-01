@@ -1,82 +1,90 @@
 {
   "Baseline_939_difficult": {
-    "acc_logo_cluster": 0.7487,
+    "acc_logo_cluster": 0.7665,
     "leave_region_out": [
       {
-        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-        "n_test": 174,
-        "acc": 0.724,
-        "local_majority": 0.891,
-        "gap_pp": -16.7,
-        "degenerate": false
-      },
-      {
-        "region": "Dr\u00e2a-Tafilalet",
-        "n_test": 92,
-        "acc": 0.707,
-        "local_majority": 0.783,
-        "gap_pp": -7.6,
-        "degenerate": false
-      },
-      {
-        "region": "Marrakech-Safi",
-        "n_test": 58,
-        "acc": 0.793,
-        "local_majority": 0.862,
-        "gap_pp": -6.9,
-        "degenerate": false
-      },
-      {
-        "region": "F\u00e9s-Mekn\u00e9s",
-        "n_test": 337,
-        "acc": 0.579,
-        "local_majority": 0.528,
-        "gap_pp": 5.0,
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 312,
+        "acc": 0.827,
+        "local_majority": 0.875,
+        "gap_pp": -4.8,
         "degenerate": false
       },
       {
         "region": "Souss-Massa",
-        "n_test": 67,
-        "acc": 0.716,
-        "local_majority": 0.896,
-        "gap_pp": -17.9,
+        "n_test": 96,
+        "acc": 0.792,
+        "local_majority": 0.885,
+        "gap_pp": -9.4,
         "degenerate": false
       },
       {
-        "region": "Tanger-T\u00e9touan-Al Hoceima",
-        "n_test": 128,
-        "acc": 0.688,
-        "local_majority": 0.836,
-        "gap_pp": -14.8,
+        "region": "Marrakech-Safi",
+        "n_test": 69,
+        "acc": 0.826,
+        "local_majority": 0.884,
+        "gap_pp": -5.8,
         "degenerate": false
       },
       {
-        "region": "Laayoune-Sakia El Hamra",
-        "n_test": 12,
-        "acc": 0.583,
-        "local_majority": 0.75,
-        "gap_pp": -16.7,
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 170,
+        "acc": 0.765,
+        "local_majority": 0.841,
+        "gap_pp": -7.6,
+        "degenerate": false
+      },
+      {
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 326,
+        "acc": 0.669,
+        "local_majority": 0.834,
+        "gap_pp": -16.6,
+        "degenerate": false
+      },
+      {
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 537,
+        "acc": 0.661,
+        "local_majority": 0.642,
+        "gap_pp": 1.9,
         "degenerate": false
       },
       {
         "region": "Guelmim-Oued Noun",
-        "n_test": 7,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "n_test": 38,
+        "acc": 0.921,
+        "local_majority": 0.947,
+        "gap_pp": -2.6,
+        "degenerate": false
       },
       {
-        "region": "Laayoune-Dakhla",
-        "n_test": 3,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "region": "Laayoune-Sakia El Hamra",
+        "n_test": 18,
+        "acc": 0.5,
+        "local_majority": 0.833,
+        "gap_pp": -33.3,
+        "degenerate": false
       },
       {
         "region": "Grand Casablanca-Settat",
-        "n_test": 7,
+        "n_test": 14,
+        "acc": 0.857,
+        "local_majority": 0.857,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 44,
+        "acc": 0.841,
+        "local_majority": 0.909,
+        "gap_pp": -6.8,
+        "degenerate": false
+      },
+      {
+        "region": "Oriental",
+        "n_test": 4,
         "acc": NaN,
         "local_majority": NaN,
         "gap_pp": NaN,
@@ -84,19 +92,11 @@
       },
       {
         "region": "Eddakhla-Oued Eddahab",
-        "n_test": 33,
-        "acc": 0.909,
-        "local_majority": 0.758,
-        "gap_pp": 15.2,
-        "degenerate": false
-      },
-      {
-        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-        "n_test": 21,
-        "acc": 0.762,
-        "local_majority": 0.905,
-        "gap_pp": -14.3,
-        "degenerate": false
+        "n_test": 34,
+        "acc": 0.765,
+        "local_majority": 0.765,
+        "gap_pp": 0.0,
+        "degenerate": true
       }
     ],
     "best_configs": [
@@ -112,7 +112,7 @@
         "XGB",
         {
           "learning_rate": 0.15,
-          "max_depth": 5,
+          "max_depth": 6,
           "n_estimators": 250
         }
       ],
@@ -136,83 +136,91 @@
     ]
   },
   "Baseline_939_easy": {
-    "acc_logo_cluster": 0.7167,
+    "acc_logo_cluster": 0.713,
     "leave_region_out": [
       {
-        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-        "n_test": 174,
-        "acc": 0.684,
-        "local_majority": 0.69,
-        "gap_pp": -0.6,
-        "degenerate": false
-      },
-      {
-        "region": "Dr\u00e2a-Tafilalet",
-        "n_test": 92,
-        "acc": 0.707,
-        "local_majority": 0.62,
-        "gap_pp": 8.7,
-        "degenerate": false
-      },
-      {
-        "region": "Marrakech-Safi",
-        "n_test": 58,
-        "acc": 0.603,
-        "local_majority": 0.603,
-        "gap_pp": 0.0,
-        "degenerate": true
-      },
-      {
-        "region": "F\u00e9s-Mekn\u00e9s",
-        "n_test": 337,
-        "acc": 0.694,
-        "local_majority": 0.739,
-        "gap_pp": -4.5,
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 312,
+        "acc": 0.683,
+        "local_majority": 0.513,
+        "gap_pp": 17.0,
         "degenerate": false
       },
       {
         "region": "Souss-Massa",
-        "n_test": 67,
+        "n_test": 96,
+        "acc": 0.677,
+        "local_majority": 0.615,
+        "gap_pp": 6.2,
+        "degenerate": false
+      },
+      {
+        "region": "Marrakech-Safi",
+        "n_test": 69,
+        "acc": 0.609,
+        "local_majority": 0.609,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 170,
+        "acc": 0.565,
+        "local_majority": 0.506,
+        "gap_pp": 5.9,
+        "degenerate": false
+      },
+      {
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 326,
         "acc": 0.687,
-        "local_majority": 0.657,
-        "gap_pp": 3.0,
+        "local_majority": 0.721,
+        "gap_pp": -3.4,
         "degenerate": false
       },
       {
-        "region": "Tanger-T\u00e9touan-Al Hoceima",
-        "n_test": 128,
-        "acc": 0.664,
-        "local_majority": 0.703,
-        "gap_pp": -3.9,
-        "degenerate": false
-      },
-      {
-        "region": "Laayoune-Sakia El Hamra",
-        "n_test": 12,
-        "acc": 0.667,
-        "local_majority": 0.75,
-        "gap_pp": -8.3,
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 537,
+        "acc": 0.635,
+        "local_majority": 0.641,
+        "gap_pp": -0.6,
         "degenerate": false
       },
       {
         "region": "Guelmim-Oued Noun",
-        "n_test": 7,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "n_test": 38,
+        "acc": 0.711,
+        "local_majority": 0.605,
+        "gap_pp": 10.5,
+        "degenerate": false
       },
       {
-        "region": "Laayoune-Dakhla",
-        "n_test": 3,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "region": "Laayoune-Sakia El Hamra",
+        "n_test": 18,
+        "acc": 0.667,
+        "local_majority": 0.611,
+        "gap_pp": 5.6,
+        "degenerate": false
       },
       {
         "region": "Grand Casablanca-Settat",
-        "n_test": 7,
+        "n_test": 14,
+        "acc": 0.429,
+        "local_majority": 0.571,
+        "gap_pp": -14.3,
+        "degenerate": false
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 44,
+        "acc": 0.636,
+        "local_majority": 0.523,
+        "gap_pp": 11.4,
+        "degenerate": false
+      },
+      {
+        "region": "Oriental",
+        "n_test": 4,
         "acc": NaN,
         "local_majority": NaN,
         "gap_pp": NaN,
@@ -220,18 +228,10 @@
       },
       {
         "region": "Eddakhla-Oued Eddahab",
-        "n_test": 33,
-        "acc": 0.636,
-        "local_majority": 0.909,
-        "gap_pp": -27.3,
-        "degenerate": false
-      },
-      {
-        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-        "n_test": 21,
-        "acc": 0.667,
-        "local_majority": 0.619,
-        "gap_pp": 4.8,
+        "n_test": 34,
+        "acc": 0.412,
+        "local_majority": 0.912,
+        "gap_pp": -50.0,
         "degenerate": false
       }
     ],
@@ -247,9 +247,9 @@
       [
         "XGB",
         {
-          "learning_rate": 0.08,
-          "max_depth": 6,
-          "n_estimators": 250
+          "learning_rate": 0.03,
+          "max_depth": 5,
+          "n_estimators": 150
         }
       ],
       [
@@ -257,98 +257,106 @@
         {
           "learning_rate": 0.05,
           "max_depth": 4,
-          "n_estimators": 200
+          "n_estimators": 100
         }
       ],
       [
         "LGBM",
         {
-          "learning_rate": 0.1,
+          "learning_rate": 0.05,
           "max_depth": -1,
           "n_estimators": 200,
-          "num_leaves": 31
+          "num_leaves": 15
         }
       ]
     ]
   },
   "NoRuggedness_939_difficult": {
-    "acc_logo_cluster": 0.7295,
+    "acc_logo_cluster": 0.7744,
     "leave_region_out": [
       {
-        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-        "n_test": 174,
-        "acc": 0.724,
-        "local_majority": 0.891,
-        "gap_pp": -16.7,
-        "degenerate": false
-      },
-      {
-        "region": "Dr\u00e2a-Tafilalet",
-        "n_test": 92,
-        "acc": 0.685,
-        "local_majority": 0.783,
-        "gap_pp": -9.8,
-        "degenerate": false
-      },
-      {
-        "region": "Marrakech-Safi",
-        "n_test": 58,
-        "acc": 0.793,
-        "local_majority": 0.862,
-        "gap_pp": -6.9,
-        "degenerate": false
-      },
-      {
-        "region": "F\u00e9s-Mekn\u00e9s",
-        "n_test": 337,
-        "acc": 0.582,
-        "local_majority": 0.528,
-        "gap_pp": 5.3,
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 312,
+        "acc": 0.846,
+        "local_majority": 0.875,
+        "gap_pp": -2.9,
         "degenerate": false
       },
       {
         "region": "Souss-Massa",
-        "n_test": 67,
-        "acc": 0.672,
-        "local_majority": 0.896,
-        "gap_pp": -22.4,
+        "n_test": 96,
+        "acc": 0.833,
+        "local_majority": 0.885,
+        "gap_pp": -5.2,
         "degenerate": false
       },
       {
-        "region": "Tanger-T\u00e9touan-Al Hoceima",
-        "n_test": 128,
-        "acc": 0.68,
-        "local_majority": 0.836,
-        "gap_pp": -15.6,
+        "region": "Marrakech-Safi",
+        "n_test": 69,
+        "acc": 0.87,
+        "local_majority": 0.884,
+        "gap_pp": -1.4,
+        "degenerate": false
+      },
+      {
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 170,
+        "acc": 0.747,
+        "local_majority": 0.841,
+        "gap_pp": -9.4,
+        "degenerate": false
+      },
+      {
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 326,
+        "acc": 0.669,
+        "local_majority": 0.834,
+        "gap_pp": -16.6,
+        "degenerate": false
+      },
+      {
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 537,
+        "acc": 0.633,
+        "local_majority": 0.642,
+        "gap_pp": -0.9,
+        "degenerate": false
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "n_test": 38,
+        "acc": 0.868,
+        "local_majority": 0.947,
+        "gap_pp": -7.9,
         "degenerate": false
       },
       {
         "region": "Laayoune-Sakia El Hamra",
-        "n_test": 12,
-        "acc": 0.75,
-        "local_majority": 0.75,
+        "n_test": 18,
+        "acc": 0.5,
+        "local_majority": 0.833,
+        "gap_pp": -33.3,
+        "degenerate": false
+      },
+      {
+        "region": "Grand Casablanca-Settat",
+        "n_test": 14,
+        "acc": 0.857,
+        "local_majority": 0.857,
         "gap_pp": 0.0,
         "degenerate": true
       },
       {
-        "region": "Guelmim-Oued Noun",
-        "n_test": 7,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 44,
+        "acc": 0.841,
+        "local_majority": 0.909,
+        "gap_pp": -6.8,
+        "degenerate": false
       },
       {
-        "region": "Laayoune-Dakhla",
-        "n_test": 3,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
-      },
-      {
-        "region": "Grand Casablanca-Settat",
-        "n_test": 7,
+        "region": "Oriental",
+        "n_test": 4,
         "acc": NaN,
         "local_majority": NaN,
         "gap_pp": NaN,
@@ -356,19 +364,11 @@
       },
       {
         "region": "Eddakhla-Oued Eddahab",
-        "n_test": 33,
-        "acc": 0.909,
-        "local_majority": 0.758,
-        "gap_pp": 15.2,
-        "degenerate": false
-      },
-      {
-        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-        "n_test": 21,
-        "acc": 0.762,
-        "local_majority": 0.905,
-        "gap_pp": -14.3,
-        "degenerate": false
+        "n_test": 34,
+        "acc": 0.765,
+        "local_majority": 0.765,
+        "gap_pp": 0.0,
+        "degenerate": true
       }
     ],
     "best_configs": [
@@ -377,7 +377,7 @@
         {
           "max_depth": null,
           "min_samples_leaf": 1,
-          "n_estimators": 200
+          "n_estimators": 400
         }
       ],
       [
@@ -399,7 +399,7 @@
       [
         "LGBM",
         {
-          "learning_rate": 0.05,
+          "learning_rate": 0.1,
           "max_depth": -1,
           "n_estimators": 200,
           "num_leaves": 31
@@ -408,83 +408,91 @@
     ]
   },
   "NoRuggedness_939_easy": {
-    "acc_logo_cluster": 0.7146,
+    "acc_logo_cluster": 0.6986,
     "leave_region_out": [
       {
-        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-        "n_test": 174,
-        "acc": 0.695,
-        "local_majority": 0.69,
-        "gap_pp": 0.6,
-        "degenerate": false
-      },
-      {
-        "region": "Dr\u00e2a-Tafilalet",
-        "n_test": 92,
-        "acc": 0.652,
-        "local_majority": 0.62,
-        "gap_pp": 3.3,
-        "degenerate": false
-      },
-      {
-        "region": "Marrakech-Safi",
-        "n_test": 58,
-        "acc": 0.552,
-        "local_majority": 0.603,
-        "gap_pp": -5.2,
-        "degenerate": false
-      },
-      {
-        "region": "F\u00e9s-Mekn\u00e9s",
-        "n_test": 337,
-        "acc": 0.7,
-        "local_majority": 0.739,
-        "gap_pp": -3.9,
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 312,
+        "acc": 0.651,
+        "local_majority": 0.513,
+        "gap_pp": 13.8,
         "degenerate": false
       },
       {
         "region": "Souss-Massa",
-        "n_test": 67,
-        "acc": 0.687,
-        "local_majority": 0.657,
-        "gap_pp": 3.0,
+        "n_test": 96,
+        "acc": 0.667,
+        "local_majority": 0.615,
+        "gap_pp": 5.2,
         "degenerate": false
       },
       {
-        "region": "Tanger-T\u00e9touan-Al Hoceima",
-        "n_test": 128,
-        "acc": 0.664,
-        "local_majority": 0.703,
-        "gap_pp": -3.9,
+        "region": "Marrakech-Safi",
+        "n_test": 69,
+        "acc": 0.609,
+        "local_majority": 0.609,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 170,
+        "acc": 0.524,
+        "local_majority": 0.506,
+        "gap_pp": 1.8,
+        "degenerate": false
+      },
+      {
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 326,
+        "acc": 0.675,
+        "local_majority": 0.721,
+        "gap_pp": -4.6,
+        "degenerate": false
+      },
+      {
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 537,
+        "acc": 0.641,
+        "local_majority": 0.641,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "n_test": 38,
+        "acc": 0.737,
+        "local_majority": 0.605,
+        "gap_pp": 13.2,
         "degenerate": false
       },
       {
         "region": "Laayoune-Sakia El Hamra",
-        "n_test": 12,
-        "acc": 0.667,
-        "local_majority": 0.75,
-        "gap_pp": -8.3,
+        "n_test": 18,
+        "acc": 0.778,
+        "local_majority": 0.611,
+        "gap_pp": 16.7,
         "degenerate": false
       },
       {
-        "region": "Guelmim-Oued Noun",
-        "n_test": 7,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
-      },
-      {
-        "region": "Laayoune-Dakhla",
-        "n_test": 3,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
-      },
-      {
         "region": "Grand Casablanca-Settat",
-        "n_test": 7,
+        "n_test": 14,
+        "acc": 0.357,
+        "local_majority": 0.571,
+        "gap_pp": -21.4,
+        "degenerate": false
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 44,
+        "acc": 0.477,
+        "local_majority": 0.523,
+        "gap_pp": -4.5,
+        "degenerate": false
+      },
+      {
+        "region": "Oriental",
+        "n_test": 4,
         "acc": NaN,
         "local_majority": NaN,
         "gap_pp": NaN,
@@ -492,18 +500,10 @@
       },
       {
         "region": "Eddakhla-Oued Eddahab",
-        "n_test": 33,
-        "acc": 0.758,
-        "local_majority": 0.909,
-        "gap_pp": -15.2,
-        "degenerate": false
-      },
-      {
-        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-        "n_test": 21,
-        "acc": 0.238,
-        "local_majority": 0.619,
-        "gap_pp": -38.1,
+        "n_test": 34,
+        "acc": 0.412,
+        "local_majority": 0.912,
+        "gap_pp": -50.0,
         "degenerate": false
       }
     ],
@@ -512,16 +512,16 @@
         "RF",
         {
           "max_depth": null,
-          "min_samples_leaf": 1,
+          "min_samples_leaf": 5,
           "n_estimators": 100
         }
       ],
       [
         "XGB",
         {
-          "learning_rate": 0.15,
-          "max_depth": 6,
-          "n_estimators": 250
+          "learning_rate": 0.03,
+          "max_depth": 5,
+          "n_estimators": 150
         }
       ],
       [
@@ -529,98 +529,106 @@
         {
           "learning_rate": 0.05,
           "max_depth": 4,
-          "n_estimators": 200
+          "n_estimators": 100
         }
       ],
       [
         "LGBM",
         {
-          "learning_rate": 0.1,
-          "max_depth": -1,
-          "n_estimators": 200,
-          "num_leaves": 31
+          "learning_rate": 0.05,
+          "max_depth": 5,
+          "n_estimators": 100,
+          "num_leaves": 15
         }
       ]
     ]
   },
   "Domain_939_difficult": {
-    "acc_logo_cluster": 0.7572,
+    "acc_logo_cluster": 0.7858,
     "leave_region_out": [
       {
-        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-        "n_test": 174,
-        "acc": 0.799,
-        "local_majority": 0.891,
-        "gap_pp": -9.2,
-        "degenerate": false
-      },
-      {
-        "region": "Dr\u00e2a-Tafilalet",
-        "n_test": 92,
-        "acc": 0.685,
-        "local_majority": 0.783,
-        "gap_pp": -9.8,
-        "degenerate": false
-      },
-      {
-        "region": "Marrakech-Safi",
-        "n_test": 58,
-        "acc": 0.845,
-        "local_majority": 0.862,
-        "gap_pp": -1.7,
-        "degenerate": false
-      },
-      {
-        "region": "F\u00e9s-Mekn\u00e9s",
-        "n_test": 337,
-        "acc": 0.567,
-        "local_majority": 0.528,
-        "gap_pp": 3.9,
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 312,
+        "acc": 0.853,
+        "local_majority": 0.875,
+        "gap_pp": -2.2,
         "degenerate": false
       },
       {
         "region": "Souss-Massa",
-        "n_test": 67,
-        "acc": 0.701,
-        "local_majority": 0.896,
-        "gap_pp": -19.4,
+        "n_test": 96,
+        "acc": 0.812,
+        "local_majority": 0.885,
+        "gap_pp": -7.3,
         "degenerate": false
       },
       {
-        "region": "Tanger-T\u00e9touan-Al Hoceima",
-        "n_test": 128,
-        "acc": 0.75,
-        "local_majority": 0.836,
-        "gap_pp": -8.6,
-        "degenerate": false
-      },
-      {
-        "region": "Laayoune-Sakia El Hamra",
-        "n_test": 12,
-        "acc": 0.75,
-        "local_majority": 0.75,
+        "region": "Marrakech-Safi",
+        "n_test": 69,
+        "acc": 0.884,
+        "local_majority": 0.884,
         "gap_pp": 0.0,
         "degenerate": true
       },
       {
-        "region": "Guelmim-Oued Noun",
-        "n_test": 7,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "region": "Dr\u00e2a-Tafilalet",
+        "n_test": 170,
+        "acc": 0.8,
+        "local_majority": 0.841,
+        "gap_pp": -4.1,
+        "degenerate": false
       },
       {
-        "region": "Laayoune-Dakhla",
-        "n_test": 3,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 326,
+        "acc": 0.702,
+        "local_majority": 0.834,
+        "gap_pp": -13.2,
+        "degenerate": false
+      },
+      {
+        "region": "F\u00e9s-Mekn\u00e9s",
+        "n_test": 537,
+        "acc": 0.652,
+        "local_majority": 0.642,
+        "gap_pp": 0.9,
+        "degenerate": false
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "n_test": 38,
+        "acc": 0.947,
+        "local_majority": 0.947,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Laayoune-Sakia El Hamra",
+        "n_test": 18,
+        "acc": 0.5,
+        "local_majority": 0.833,
+        "gap_pp": -33.3,
+        "degenerate": false
       },
       {
         "region": "Grand Casablanca-Settat",
-        "n_test": 7,
+        "n_test": 14,
+        "acc": 0.857,
+        "local_majority": 0.857,
+        "gap_pp": 0.0,
+        "degenerate": true
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 44,
+        "acc": 0.864,
+        "local_majority": 0.909,
+        "gap_pp": -4.5,
+        "degenerate": false
+      },
+      {
+        "region": "Oriental",
+        "n_test": 4,
         "acc": NaN,
         "local_majority": NaN,
         "gap_pp": NaN,
@@ -628,18 +636,10 @@
       },
       {
         "region": "Eddakhla-Oued Eddahab",
-        "n_test": 33,
-        "acc": 0.909,
-        "local_majority": 0.758,
-        "gap_pp": 15.2,
-        "degenerate": false
-      },
-      {
-        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-        "n_test": 21,
-        "acc": 0.857,
-        "local_majority": 0.905,
-        "gap_pp": -4.8,
+        "n_test": 34,
+        "acc": 0.794,
+        "local_majority": 0.765,
+        "gap_pp": 2.9,
         "degenerate": false
       }
     ],
@@ -673,90 +673,98 @@
         {
           "learning_rate": 0.1,
           "max_depth": -1,
-          "n_estimators": 100,
+          "n_estimators": 200,
           "num_leaves": 31
         }
       ]
     ]
   },
   "Domain_939_easy": {
-    "acc_logo_cluster": 0.7231,
+    "acc_logo_cluster": 0.7202,
     "leave_region_out": [
       {
-        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-        "n_test": 174,
-        "acc": 0.69,
-        "local_majority": 0.69,
+        "region": "Tanger-T\u00e9touan-Al Hoceima",
+        "n_test": 312,
+        "acc": 0.673,
+        "local_majority": 0.513,
+        "gap_pp": 16.0,
+        "degenerate": false
+      },
+      {
+        "region": "Souss-Massa",
+        "n_test": 96,
+        "acc": 0.719,
+        "local_majority": 0.615,
+        "gap_pp": 10.4,
+        "degenerate": false
+      },
+      {
+        "region": "Marrakech-Safi",
+        "n_test": 69,
+        "acc": 0.609,
+        "local_majority": 0.609,
         "gap_pp": 0.0,
         "degenerate": true
       },
       {
         "region": "Dr\u00e2a-Tafilalet",
-        "n_test": 92,
-        "acc": 0.739,
-        "local_majority": 0.62,
-        "gap_pp": 12.0,
+        "n_test": 170,
+        "acc": 0.582,
+        "local_majority": 0.506,
+        "gap_pp": 7.6,
         "degenerate": false
       },
       {
-        "region": "Marrakech-Safi",
-        "n_test": 58,
-        "acc": 0.621,
-        "local_majority": 0.603,
-        "gap_pp": 1.7,
+        "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+        "n_test": 326,
+        "acc": 0.696,
+        "local_majority": 0.721,
+        "gap_pp": -2.5,
         "degenerate": false
       },
       {
         "region": "F\u00e9s-Mekn\u00e9s",
-        "n_test": 337,
-        "acc": 0.68,
-        "local_majority": 0.739,
-        "gap_pp": -5.9,
+        "n_test": 537,
+        "acc": 0.631,
+        "local_majority": 0.641,
+        "gap_pp": -0.9,
         "degenerate": false
       },
       {
-        "region": "Souss-Massa",
-        "n_test": 67,
-        "acc": 0.746,
-        "local_majority": 0.657,
-        "gap_pp": 9.0,
-        "degenerate": false
-      },
-      {
-        "region": "Tanger-T\u00e9touan-Al Hoceima",
-        "n_test": 128,
-        "acc": 0.688,
-        "local_majority": 0.703,
-        "gap_pp": -1.6,
+        "region": "Guelmim-Oued Noun",
+        "n_test": 38,
+        "acc": 0.658,
+        "local_majority": 0.605,
+        "gap_pp": 5.3,
         "degenerate": false
       },
       {
         "region": "Laayoune-Sakia El Hamra",
-        "n_test": 12,
-        "acc": 0.75,
-        "local_majority": 0.75,
-        "gap_pp": 0.0,
-        "degenerate": true
-      },
-      {
-        "region": "Guelmim-Oued Noun",
-        "n_test": 7,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
-      },
-      {
-        "region": "Laayoune-Dakhla",
-        "n_test": 3,
-        "acc": NaN,
-        "local_majority": NaN,
-        "gap_pp": NaN,
-        "degenerate": NaN
+        "n_test": 18,
+        "acc": 0.722,
+        "local_majority": 0.611,
+        "gap_pp": 11.1,
+        "degenerate": false
       },
       {
         "region": "Grand Casablanca-Settat",
-        "n_test": 7,
+        "n_test": 14,
+        "acc": 0.714,
+        "local_majority": 0.571,
+        "gap_pp": 14.3,
+        "degenerate": false
+      },
+      {
+        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "n_test": 44,
+        "acc": 0.614,
+        "local_majority": 0.523,
+        "gap_pp": 9.1,
+        "degenerate": false
+      },
+      {
+        "region": "Oriental",
+        "n_test": 4,
         "acc": NaN,
         "local_majority": NaN,
         "gap_pp": NaN,
@@ -764,18 +772,10 @@
       },
       {
         "region": "Eddakhla-Oued Eddahab",
-        "n_test": 33,
-        "acc": 0.636,
-        "local_majority": 0.909,
-        "gap_pp": -27.3,
-        "degenerate": false
-      },
-      {
-        "region": "Rabat-Sal\u00e9-K\u00e9nitra",
-        "n_test": 21,
-        "acc": 0.667,
-        "local_majority": 0.619,
-        "gap_pp": 4.8,
+        "n_test": 34,
+        "acc": 0.559,
+        "local_majority": 0.912,
+        "gap_pp": -35.3,
         "degenerate": false
       }
     ],
@@ -784,22 +784,22 @@
         "RF",
         {
           "max_depth": null,
-          "min_samples_leaf": 1,
-          "n_estimators": 100
+          "min_samples_leaf": 2,
+          "n_estimators": 400
         }
       ],
       [
         "XGB",
         {
-          "learning_rate": 0.08,
-          "max_depth": 6,
-          "n_estimators": 250
+          "learning_rate": 0.03,
+          "max_depth": 5,
+          "n_estimators": 150
         }
       ],
       [
         "GBM",
         {
-          "learning_rate": 0.1,
+          "learning_rate": 0.05,
           "max_depth": 4,
           "n_estimators": 100
         }
@@ -807,10 +807,10 @@
       [
         "LGBM",
         {
-          "learning_rate": 0.1,
-          "max_depth": -1,
+          "learning_rate": 0.05,
+          "max_depth": 5,
           "n_estimators": 200,
-          "num_leaves": 31
+          "num_leaves": 15
         }
       ]
     ]

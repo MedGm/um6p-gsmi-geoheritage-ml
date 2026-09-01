@@ -3,42 +3,144 @@
     "region": "F\u00e9s-Mekn\u00e9s",
     "target": "Difficult",
     "winner": "Infra",
-    "N": 337,
+    "N": 537,
     "winner_vs_majority": {
-      "chi2": 15.6687,
-      "p": 0.0001,
-      "n10": 109,
-      "n01": 57
+      "chi2": 13.0489,
+      "p": 0.0003,
+      "n10": 117,
+      "n01": 67
     },
     "winner_vs_baseline": {
-      "chi2": 1.8906,
-      "p": 0.1691,
-      "n10": 26,
-      "n01": 38
+      "chi2": 3.7051,
+      "p": 0.0542,
+      "n10": 30,
+      "n01": 48
     }
   },
   {
     "region": "F\u00e9s-Mekn\u00e9s",
     "target": "Easy",
-    "winner": "Baseline",
-    "N": 337,
+    "winner": "Domain",
+    "N": 537,
     "winner_vs_majority": {
-      "chi2": 1.8228,
-      "p": 0.177,
-      "n10": 46,
-      "n01": 33
+      "chi2": 17.561,
+      "p": 0.0,
+      "n10": 133,
+      "n01": 72
+    },
+    "winner_vs_baseline": {
+      "chi2": 0.1481,
+      "p": 0.7003,
+      "n10": 12,
+      "n01": 15
     }
   },
   {
     "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
     "target": "Difficult",
-    "winner": "Domain",
-    "N": 174,
+    "winner": "Baseline",
+    "N": 326,
     "winner_vs_majority": {
-      "chi2": 0.0,
-      "p": 1.0,
-      "n10": 4,
-      "n01": 5
+      "chi2": 0.0816,
+      "p": 0.7751,
+      "n10": 23,
+      "n01": 26
+    }
+  },
+  {
+    "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
+    "target": "Easy",
+    "winner": "Infra",
+    "N": 326,
+    "winner_vs_majority": {
+      "chi2": 7.1111,
+      "p": 0.0077,
+      "n10": 53,
+      "n01": 28
+    },
+    "winner_vs_baseline": {
+      "chi2": 13.7959,
+      "p": 0.0002,
+      "n10": 11,
+      "n01": 38
+    }
+  },
+  {
+    "region": "Tanger-T\u00e9touan-Al Hoceima",
+    "target": "Difficult",
+    "winner": "Domain",
+    "N": 312,
+    "winner_vs_majority": {
+      "chi2": 0.0263,
+      "p": 0.8711,
+      "n10": 19,
+      "n01": 19
+    },
+    "winner_vs_baseline": {
+      "chi2": 0.3,
+      "p": 0.5839,
+      "n10": 13,
+      "n01": 17
+    }
+  },
+  {
+    "region": "Tanger-T\u00e9touan-Al Hoceima",
+    "target": "Easy",
+    "winner": "Domain",
+    "N": 312,
+    "winner_vs_majority": {
+      "chi2": 45.3742,
+      "p": 0.0,
+      "n10": 125,
+      "n01": 38
+    },
+    "winner_vs_baseline": {
+      "chi2": 0.25,
+      "p": 0.6171,
+      "n10": 1,
+      "n01": 3
+    }
+  },
+  {
+    "region": "Dr\u00e2a-Tafilalet",
+    "target": "Difficult",
+    "winner": "Baseline",
+    "N": 170,
+    "winner_vs_majority": {
+      "chi2": 1.0667,
+      "p": 0.3017,
+      "n10": 5,
+      "n01": 10
+    }
+  },
+  {
+    "region": "Dr\u00e2a-Tafilalet",
+    "target": "Easy",
+    "winner": "Domain",
+    "N": 170,
+    "winner_vs_majority": {
+      "chi2": 14.5859,
+      "p": 0.0001,
+      "n10": 69,
+      "n01": 30
+    },
+    "winner_vs_baseline": {
+      "chi2": 0.16,
+      "p": 0.6892,
+      "n10": 11,
+      "n01": 14
+    }
+  },
+  {
+    "region": "Souss-Massa",
+    "target": "Difficult",
+    "winner": "Infra",
+    "N": 96,
+    "winner_vs_majority": {
+      "chi2": 0.25,
+      "p": 0.6171,
+      "n10": 2,
+      "n01": 2
     },
     "winner_vs_baseline": {
       "chi2": 1.3333,
@@ -48,129 +150,27 @@
     }
   },
   {
-    "region": "B\u00e9ni Mellal-Kh\u00e9nifra",
-    "target": "Easy",
-    "winner": "Infra",
-    "N": 174,
-    "winner_vs_majority": {
-      "chi2": 9.587,
-      "p": 0.002,
-      "n10": 34,
-      "n01": 12
-    },
-    "winner_vs_baseline": {
-      "chi2": 0.1905,
-      "p": 0.6625,
-      "n10": 9,
-      "n01": 12
-    }
-  },
-  {
-    "region": "Tanger-T\u00e9touan-Al Hoceima",
-    "target": "Difficult",
-    "winner": "Domain",
-    "N": 128,
-    "winner_vs_majority": {
-      "chi2": 0.05,
-      "p": 0.8231,
-      "n10": 10,
-      "n01": 10
-    },
-    "winner_vs_baseline": {
-      "chi2": 0.8,
-      "p": 0.3711,
-      "n10": 1,
-      "n01": 4
-    }
-  },
-  {
-    "region": "Tanger-T\u00e9touan-Al Hoceima",
-    "target": "Easy",
-    "winner": "Domain",
-    "N": 128,
-    "winner_vs_majority": {
-      "chi2": 0.0238,
-      "p": 0.8774,
-      "n10": 22,
-      "n01": 20
-    },
-    "winner_vs_baseline": {
-      "chi2": 0.1667,
-      "p": 0.6831,
-      "n10": 3,
-      "n01": 3
-    }
-  },
-  {
-    "region": "Dr\u00e2a-Tafilalet",
-    "target": "Difficult",
-    "winner": "Infra",
-    "N": 92,
-    "winner_vs_majority": {
-      "chi2": 4.1667,
-      "p": 0.0412,
-      "n10": 0,
-      "n01": 6
-    },
-    "winner_vs_baseline": {
-      "chi2": 0.0,
-      "p": 1.0,
-      "n10": 2,
-      "n01": 3
-    }
-  },
-  {
-    "region": "Dr\u00e2a-Tafilalet",
-    "target": "Easy",
-    "winner": "Infra",
-    "N": 92,
-    "winner_vs_majority": {
-      "chi2": 4.6452,
-      "p": 0.0311,
-      "n10": 22,
-      "n01": 9
-    },
-    "winner_vs_baseline": {
-      "chi2": 6.6667,
-      "p": 0.0098,
-      "n10": 2,
-      "n01": 13
-    }
-  },
-  {
-    "region": "Souss-Massa",
-    "target": "Difficult",
-    "winner": "Baseline",
-    "N": 67,
-    "winner_vs_majority": {
-      "chi2": 3.2,
-      "p": 0.0736,
-      "n10": 0,
-      "n01": 5
-    }
-  },
-  {
     "region": "Souss-Massa",
     "target": "Easy",
     "winner": "Baseline",
-    "N": 67,
+    "N": 96,
     "winner_vs_majority": {
-      "chi2": 0.0,
-      "p": 1.0,
-      "n10": 11,
-      "n01": 10
+      "chi2": 3.5588,
+      "p": 0.0592,
+      "n10": 23,
+      "n01": 11
     }
   },
   {
     "region": "Marrakech-Safi",
     "target": "Difficult",
     "winner": "Infra",
-    "N": 58,
+    "N": 69,
     "winner_vs_majority": {
-      "chi2": 3.125,
-      "p": 0.0771,
+      "chi2": 0.8,
+      "p": 0.3711,
       "n10": 1,
-      "n01": 7
+      "n01": 4
     },
     "winner_vs_baseline": {
       "chi2": 0.8,
@@ -183,11 +183,11 @@
     "region": "Marrakech-Safi",
     "target": "Easy",
     "winner": "Baseline",
-    "N": 58,
+    "N": 69,
     "winner_vs_majority": {
-      "chi2": 3.6818,
-      "p": 0.055,
-      "n10": 16,
+      "chi2": 1.3889,
+      "p": 0.2386,
+      "n10": 12,
       "n01": 6
     }
   },
@@ -195,30 +195,36 @@
     "region": "Eddakhla-Oued Eddahab",
     "target": "Difficult",
     "winner": "Infra",
-    "N": 33,
+    "N": 34,
     "winner_vs_majority": {
-      "chi2": 0.4444,
-      "p": 0.505,
+      "chi2": 0.1,
+      "p": 0.7518,
       "n10": 6,
-      "n01": 3
+      "n01": 4
     },
     "winner_vs_baseline": {
-      "chi2": 1.5,
-      "p": 0.2207,
+      "chi2": 0.25,
+      "p": 0.6171,
       "n10": 1,
-      "n01": 5
+      "n01": 3
     }
   },
   {
     "region": "Eddakhla-Oued Eddahab",
     "target": "Easy",
-    "winner": "Baseline",
-    "N": 33,
+    "winner": "Domain",
+    "N": 34,
     "winner_vs_majority": {
       "chi2": 0.0,
       "p": 1.0,
       "n10": 1,
       "n01": 2
+    },
+    "winner_vs_baseline": {
+      "chi2": 0.0,
+      "p": 1.0,
+      "n10": 0,
+      "n01": 1
     }
   }
 ]
