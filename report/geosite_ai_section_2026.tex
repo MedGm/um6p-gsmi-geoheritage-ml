@@ -242,15 +242,15 @@ We did not assume this was the best available choice. Three additional, structur
 
 \begin{table}[H]
 \centering\small
-\caption{Model-family comparison, N=1{,}662, six-feature baseline, same 500\,m LOGO-cluster protocol (Gaussian Process: 10-fold group CV, see text). Best $k$ for $k$-NN chosen by LOGO-cluster accuracy among $k\in\{5,10,15,25\}$.}
+\caption{Model-family comparison, N=1{,}662, six-feature baseline, same 500\,m LOGO-cluster protocol (Gaussian Process: 10-fold group CV, see text). Best $k$ for $k$-NN chosen by LOGO-cluster accuracy among $k\in\{5,10,15,25\}$. \textbf{Bold} marks the best accuracy in each column.}
 \label{tab:model-family}
 \begin{tabular}{@{}lrr@{}}
 \toprule
 Model & Difficult acc.\ (\%) & Easy acc.\ (\%) \\
 \midrule
-Tree ensemble & 76.7 & 71.3 \\
+Tree ensemble & 76.7 & \textbf{71.3} \\
 Logistic Regression & 68.9 & 66.1 \\
-$k$-NN ($k=10$ Diff., $k=25$ Easy) & 79.7 & 68.7 \\
+$k$-NN ($k=10$ Diff., $k=25$ Easy) & \textbf{79.7} & 68.7 \\
 Gaussian Process & 79.2 & 69.9 \\
 \bottomrule
 \end{tabular}
@@ -270,15 +270,15 @@ This back-and-forth is itself worth reporting plainly: neither approach has a du
 
 \begin{table}[H]
 \centering\small
-\caption{Direct 3-class model confusion matrix, N=1{,}662, 500\,m LOGO-cluster CV (rows = true class, columns = predicted).}
+\caption{Direct 3-class model confusion matrix, N=1{,}662, 500\,m LOGO-cluster CV (rows = true class, columns = predicted). \textbf{Bold} marks correct predictions (true class = predicted class).}
 \label{tab:3class-confusion}
 \begin{tabular}{@{}lrrr@{}}
 \toprule
  & Pred.\ Easy & Pred.\ Moderate & Pred.\ Difficult \\
 \midrule
-True Easy & 428 & 174 & 69 \\
-True Moderate & 195 & 273 & 173 \\
-True Difficult & 50 & 114 & 186 \\
+True Easy & \textbf{428} & 174 & 69 \\
+True Moderate & 195 & \textbf{273} & 173 \\
+True Difficult & 50 & 114 & \textbf{186} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -344,16 +344,16 @@ Section~\ref{sec:models-compared} found that, using only the plain six-feature b
 
 \begin{table}[H]
 \centering\small
-\caption{Model-family comparison extended to the Domain and Infra feature sets, N=1{,}662. Best $k$ for $k$-NN chosen independently per cell, same protocol as Table~\ref{tab:model-family}.}
+\caption{Model-family comparison extended to the Domain and Infra feature sets, N=1{,}662. Best $k$ for $k$-NN chosen independently per cell, same protocol as Table~\ref{tab:model-family}. \textbf{Bold} marks the better of the two algorithms for each target, in each row.}
 \label{tab:model-family-extended}
 \begin{tabular}{@{}lrrrr@{}}
 \toprule
 & \multicolumn{2}{c}{Difficult acc.\ (\%)} & \multicolumn{2}{c}{Easy acc.\ (\%)} \\
 Feature set & Tree ens. & Best of $k$-NN/GP & Tree ens. & Best of $k$-NN/GP \\
 \midrule
-Baseline & 76.7 & 79.7 ($k$-NN) & 71.3 & 69.9 (GP) \\
-Domain & 78.6 & 80.9 (GP) & 72.0 & 70.8 (GP) \\
-Infra & 78.6 & 80.8 (GP) & 73.5 & 70.2 (GP) \\
+Baseline & 76.7 & \textbf{79.7} ($k$-NN) & \textbf{71.3} & 69.9 (GP) \\
+Domain & 78.6 & \textbf{80.9} (GP) & \textbf{72.0} & 70.8 (GP) \\
+Infra & 78.6 & \textbf{80.8} (GP) & \textbf{73.5} & 70.2 (GP) \\
 \bottomrule
 \end{tabular}
 \end{table}
