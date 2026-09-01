@@ -170,13 +170,13 @@ A third protocol, spatial block cross-validation (partitioning the study area in
 \centering\small
 \caption{Cross-validation protocols used in this paper, what each one tests, and where it is applied.}
 \label{tab:cv-protocols}
-\begin{tabular}{@{}p{3.0cm}p{6.5cm}p{4.7cm}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{6.2cm}>{\raggedright\arraybackslash}p{5.6cm}@{}}
 \toprule
 Protocol & What it tests & Used for \\
 \midrule
-500\,m LOGO-cluster CV & Near-duplicate sites never split across train/test & All binary and 3-class accessibility results (Section~4) \\
-Leave-region-out & Generalization to a region with zero training data & Companion regional-comparison paper \\
-Spatial block CV & Robustness to broad spatial autocorrelation, on dense point coverage & Geosite-location favorability model only (Section~\ref{sec:favorability}) \\
+LOGO-cluster CV & Near-duplicate sites never split across train/test & All binary and 3-class results (Section~4) \\
+Leave-region-out & Generalization to a region with zero training data & Companion regional paper \\
+Spatial block CV & Robustness to spatial autocorrelation, on dense point coverage & Favorability model only (Section~\ref{sec:favorability}) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -231,22 +231,25 @@ This paper reports results at national scale only; per-region deep dives and a f
 \centering\small
 \caption{Headline results overview: model/task, sample size, validation protocol, evaluation metric, value, and 95\% confidence interval.}
 \label{tab:headline}
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.6cm}r>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{1.8cm}rr@{}}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{}lrlrrr@{}}
 \toprule
-Model & $N$ & Validation method & Metric & Value (\%) & 95\% CI \\
+Model & $N$ & Validation & Metric & Value (\%) & 95\% CI \\
 \midrule
-Geosite-location favorability & 1{,}667 & Spatial block CV & AUC & 95.6 & -- \\
-National Difficult (deployed: GP+Infra) & 1{,}662 & LOGO-cluster CV & Accuracy & 80.8 & [78.8, 82.6] \\
-National Easy (deployed: Tree+Infra) & 1{,}662 & LOGO-cluster CV & Accuracy & 73.5 & [71.3, 75.5] \\
-National (direct 3-class) & 1{,}662 & LOGO-cluster CV & Accuracy & 53.4 & [51.0, 55.8] \\
+Favorability & 1{,}667 & Spatial block CV & AUC & 95.6 & -- \\
+Difficult (GP+Infra) & 1{,}662 & LOGO-cluster CV & Accuracy & 80.8 & [78.8, 82.6] \\
+Easy (Tree+Infra) & 1{,}662 & LOGO-cluster CV & Accuracy & 73.5 & [71.3, 75.5] \\
+3-class (direct) & 1{,}662 & LOGO-cluster CV & Accuracy & 53.4 & [51.0, 55.8] \\
 \bottomrule
 \end{tabular}
 
 \vspace{2pt}
-\noindent{\footnotesize LOGO-cluster CV: 500\,m haversine-clustered leave-one-group-out cross-validation. CIs are
-Wilson score intervals on the binomial accuracy counts; not computed for the AUC row (a rank-based metric,
-not a proportion -- an AUC interval would need bootstrap resampling of the underlying scores).}
+\noindent{\footnotesize Difficult and Easy are the deployed national models -- Gaussian Process on the Infra
+feature set (GP+Infra) and the tree ensemble on the Infra feature set (Tree+Infra), respectively
+(Section~\ref{sec:model-choice-revisited}). LOGO-cluster CV: 500\,m haversine-clustered leave-one-group-out
+cross-validation. CIs are Wilson score intervals on the binomial accuracy counts; not computed for the AUC
+row (a rank-based metric, not a proportion -- an AUC interval would need bootstrap resampling of the
+underlying scores).}
 \end{table}
 
 \subsection{National Binary Classifiers}
