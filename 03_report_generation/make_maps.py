@@ -3,11 +3,13 @@ Professional GIS accessibility maps for geosite_ai_section.tex.
 
 Fits the production Difficult/Easy models (exact hyperparameters already
 selected via grid search -- refit once on the full labeled set, not a new
-search). Easy is the four-member tree ensemble (Baseline features); Difficult
-is GP+Infra (Gaussian Process, Infra feature set) -- 02_modeling_and_analysis/
-30-31 found this significantly beats the best tree-ensemble option for
-Difficult at N=1662 (McNemar p=0.020). Applies both over a real spatial grid
-per region, built from:
+search). Easy is the four-member tree ensemble on the Infra feature set
+(17-18 found Infra significantly beats Baseline for Easy, p=0.016); Difficult
+is GP+Infra (Gaussian Process, Infra feature set) -- 30-31 found this
+significantly beats the best tree-ensemble option for Difficult at N=1662
+(McNemar p=0.020). The 3 special-case regions (Eddakhla/Fes-Meknes/BMK) stay
+on the original tree-ensemble+Baseline methodology, not cascaded. Applies
+over a real spatial grid per region, built from:
   - local terrain rasters (archive/gis_data/physical/):
     elevation, slope, ruggedness, distance-to-highway, all EPSG:26191
   - live ESA WorldCover (same source/method as code/07, decimated windowed
@@ -167,7 +169,11 @@ print("    done.", flush=True)
 # has no usable spatial raster (archive/cards_and_rasters/Domaines.tif has no
 # georeferencing) so can't drive a grid map; GP+Infra is the practical choice
 # since Infra features ARE grid-computable (region_infra_grid.py). Easy stays
-# the tree ensemble (Baseline) -- it wins there under every feature set tested.
+# the tree ensemble (still wins there under every feature set tested, 30), but
+# ALSO upgrades from Baseline to Infra features -- 18_infra_mcnemar.py already
+# established Infra significantly beats Baseline for Easy too (p=0.016,
+# 0.7347 vs 0.7130), independent of today's model-family question; the map
+# was never updated to reflect that until now.
 print("[1b] Fitting deployed GP+Infra Difficult model (mirrors 02_modeling_and_analysis/30-31) ...", flush=True)
 infra = pd.read_csv(os.path.join(FW, "data/final/infra_features.csv"))
 merged_infra = merged.merge(infra, on="Locality_ID", how="left")
@@ -183,6 +189,23 @@ infra_scaler = StandardScaler().fit(merged_infra[FEATURES_INFRA].values)
 X_infra_train_scaled = infra_scaler.transform(merged_infra[FEATURES_INFRA].values)
 gp_difficult = GaussianProcessClassifier(kernel=1.0 * RBF(length_scale=1.0), random_state=42, n_jobs=-1)
 gp_difficult.fit(X_infra_train_scaled, y_difficult)
+print("    done.", flush=True)
+
+print("[1b] Fitting deployed Tree+Infra Easy model (mirrors 02_modeling_and_analysis/17-18) ...", flush=True)
+def _make_infra_model(kind, cfg):
+    if kind == "RF": return RandomForestClassifier(random_state=42, n_jobs=-1, **cfg)
+    if kind == "XGB": return XGBClassifier(random_state=42, eval_metric="logloss", **cfg)
+    if kind == "GBM": return GradientBoostingClassifier(random_state=42, **cfg)
+    if kind == "LGBM": return LGBMClassifier(random_state=42, verbosity=-1, **cfg)
+_infra_results = json.load(open(os.path.join(FW, "results/json/training/phase5_infra_feature_results.json")))
+_easy_infra_cfgs = _infra_results["InfraAdd_939_easy"]["best_configs"]
+X_infra_train_raw = merged_infra[FEATURES_INFRA].values
+_sw_easy = compute_sample_weight("balanced", y_easy)
+fitted_easy_infra = []
+for _kind, _cfg in _easy_infra_cfgs:
+    _m = _make_infra_model(_kind, _cfg)
+    _m.fit(X_infra_train_raw, y_easy, sample_weight=_sw_easy)
+    fitted_easy_infra.append(_m)
 print("    done.", flush=True)
 
 # ============================================================ 1b. Region-specific models
@@ -665,7 +688,7 @@ Xg_infra = np.column_stack([
 ] + [settle_onehot_g[cat].ravel() for cat in SETTLEMENT_CATS])
 Xg_infra_scaled = infra_scaler.transform(Xg_infra)
 p_diff = gp_difficult.predict_proba(Xg_infra_scaled)[:, 1].reshape(lon2d.shape)
-p_easy = predict_proba_ensemble(fitted_easy, Xg).reshape(lon2d.shape)
+p_easy = predict_proba_ensemble(fitted_easy_infra, Xg_infra).reshape(lon2d.shape)
 cls = np.full(lon2d.shape, 1, dtype=int)
 cls[p_diff >= 0.5] = 2
 cls[(p_diff < 0.5) & (p_easy >= 0.5)] = 0
