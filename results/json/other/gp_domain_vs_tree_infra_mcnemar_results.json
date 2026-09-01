@@ -1,0 +1,9 @@
+{
+  "gp_domain_acc": 0.8087,
+  "tree_infra_acc": 0.7864,
+  "chi2": 5.3776,
+  "p": 0.0204,
+  "tree_right_gp_wrong": 102,
+  "tree_wrong_gp_right": 139,
+  "n": 1662
+}

@@ -1,0 +1,46 @@
+{
+  "Domain": {
+    "difficult": {
+      "knn_best": {
+        "k": 5,
+        "acc": 0.8026
+      },
+      "gaussian_process": {
+        "acc": 0.8087,
+        "covered": 1662
+      }
+    },
+    "easy": {
+      "knn_best": {
+        "k": 25,
+        "acc": 0.6968
+      },
+      "gaussian_process": {
+        "acc": 0.7076,
+        "covered": 1662
+      }
+    }
+  },
+  "Infra": {
+    "difficult": {
+      "knn_best": {
+        "k": 10,
+        "acc": 0.8057
+      },
+      "gaussian_process": {
+        "acc": 0.8081,
+        "covered": 1662
+      }
+    },
+    "easy": {
+      "knn_best": {
+        "k": 25,
+        "acc": 0.6805
+      },
+      "gaussian_process": {
+        "acc": 0.7022,
+        "covered": 1662
+      }
+    }
+  }
+}
