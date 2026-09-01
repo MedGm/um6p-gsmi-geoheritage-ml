@@ -56,7 +56,7 @@ merged = all_labels.merge(
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 
 SENTINEL_DIST_M = 60000.0
 merged["dist_nearest_tourism_poi_m"] = merged["dist_nearest_tourism_poi_m"].fillna(SENTINEL_DIST_M)
@@ -149,21 +149,25 @@ for entry in paper2_results:
     log(f"{reg} / {target}: winner={winner}")
     variants_to_fit = {"Baseline"} | {winner}
     proba_by_variant = {}
+    thr_by_variant = {}
     for variant in variants_to_fit:
-        cfgs = entry["variants"][variant]["best_configs"]
+        v_entry = entry["variants"][variant]
+        cfgs = v_entry["best_configs"]
+        thr = v_entry["tuned_threshold"] if v_entry["acc_tuned"] >= v_entry["acc_default"] else 0.5
         Xr = sub[feature_cols(variant, list(dom_dummies.columns))].values
         proba = logo_cluster_oof(cfgs, Xr, yb, groups)
-        acc = float(np.nanmean((proba >= 0.5).astype(int) == yb))
-        log(f"  {variant}: refit acc={acc:.4f} (script reported {entry['variants'][variant]['acc_default'] if variant!='Baseline' or True else None})")
+        acc = float(np.nanmean((proba >= thr).astype(int) == yb))
+        log(f"  {variant}: refit acc={acc:.4f} (thr={thr}) (script reported {v_entry['best_acc']})")
         proba_by_variant[variant] = proba
+        thr_by_variant[variant] = thr
 
-    correct_winner = (proba_by_variant[winner] >= 0.5).astype(int) == yb
+    correct_winner = (proba_by_variant[winner] >= thr_by_variant[winner]).astype(int) == yb
     valid_winner = ~np.isnan(proba_by_variant[winner])
 
     row = dict(region=reg, target=target, winner=winner, N=len(yb))
     row["winner_vs_majority"] = mcnemar_test(correct_winner[valid_winner], correct_majority[valid_winner])
     if winner != "Baseline":
-        correct_baseline = (proba_by_variant["Baseline"] >= 0.5).astype(int) == yb
+        correct_baseline = (proba_by_variant["Baseline"] >= thr_by_variant["Baseline"]).astype(int) == yb
         valid_baseline = ~np.isnan(proba_by_variant["Baseline"])
         valid_both = valid_winner & valid_baseline
         row["winner_vs_baseline"] = mcnemar_test(correct_baseline[valid_both], correct_winner[valid_both])

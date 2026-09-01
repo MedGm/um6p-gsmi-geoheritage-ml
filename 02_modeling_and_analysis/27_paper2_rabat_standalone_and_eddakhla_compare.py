@@ -53,7 +53,7 @@ merged = all_labels.merge(
     on="Locality_ID", how="inner").merge(domain_lookup, on="Locality_ID", how="left").merge(infra, on="Locality_ID", how="left")
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
-assert len(merged) == 939
+assert len(merged) == 1662
 
 SENTINEL_DIST_M = 60000.0
 merged["dist_nearest_tourism_poi_m"] = merged["dist_nearest_tourism_poi_m"].fillna(SENTINEL_DIST_M)
@@ -230,9 +230,10 @@ for target in ["Difficult", "Easy"]:
     yb_edd = (sub_edd["Expert_Merged"] == target).astype(int).values
     cols_edd = {"Baseline": FEATURES_BASE, "Domain": FEATURES_BASE + list(dom_dummies_edd.columns), "Infra": FEATURES_BASE + INFRA_COLS}[edd_winner]
     cfgs_edd = edd_entry["variants"][edd_winner]["best_configs"]
+    edd_thr = edd_entry["variants"][edd_winner]["tuned_threshold"] if edd_entry["variants"][edd_winner]["acc_tuned"] >= edd_entry["variants"][edd_winner]["acc_default"] else 0.5
     proba_edd_standalone = logo_cluster_cv_proba(cfgs_edd, sub_edd[cols_edd].values, yb_edd, groups_edd)
-    acc_edd_standalone = accuracy_score(yb_edd, (proba_edd_standalone[:,1]>=0.5).astype(int))
-    log(f"  Eddakhla-standalone ({edd_winner}) refit acc on its own {len(yb_edd)} sites: {acc_edd_standalone:.4f} (script reported {edd_entry['best_acc']})")
+    acc_edd_standalone = accuracy_score(yb_edd, (proba_edd_standalone[:,1]>=edd_thr).astype(int))
+    log(f"  Eddakhla-standalone ({edd_winner}) refit acc on its own {len(yb_edd)} sites (thr={edd_thr}): {acc_edd_standalone:.4f} (script reported {edd_entry['best_acc']})")
 
     # Trio: refit its winning variant on the trio's data, WITH per-site OOF, then restrict to Eddakhla's rows
     trio_entry = trio_best[target]
@@ -243,12 +244,13 @@ for target in ["Difficult", "Easy"]:
     yb_trio = (sub_trio["Expert_Merged"] == target).astype(int).values
     cols_trio = {"Baseline": FEATURES_BASE, "Domain": FEATURES_BASE + list(dom_dummies_trio.columns), "Infra": FEATURES_BASE + INFRA_COLS}[trio_winner]
     cfgs_trio = trio_entry["variants"][trio_winner]["best_configs"]
+    trio_thr = trio_entry["variants"][trio_winner]["tuned_threshold"] if trio_entry["variants"][trio_winner]["acc_tuned"] >= trio_entry["variants"][trio_winner]["acc_default"] else 0.5
     proba_trio = logo_cluster_cv_proba(cfgs_trio, sub_trio[cols_trio].values, yb_trio, groups_trio)
-    acc_trio_full = accuracy_score(yb_trio, (proba_trio[:,1]>=0.5).astype(int))
-    log(f"  Trio ({trio_winner}) refit acc on full {len(yb_trio)}-site trio: {acc_trio_full:.4f} (script reported {trio_entry['best_acc']})")
+    acc_trio_full = accuracy_score(yb_trio, (proba_trio[:,1]>=trio_thr).astype(int))
+    log(f"  Trio ({trio_winner}) refit acc on full {len(yb_trio)}-site trio (thr={trio_thr}): {acc_trio_full:.4f} (script reported {trio_entry['best_acc']})")
 
     eddakhla_mask_in_trio = (sub_trio["Region"] == "Eddakhla-Oued Eddahab").values
-    pred_trio_on_eddakhla = (proba_trio[eddakhla_mask_in_trio, 1] >= 0.5).astype(int)
+    pred_trio_on_eddakhla = (proba_trio[eddakhla_mask_in_trio, 1] >= trio_thr).astype(int)
     y_trio_on_eddakhla = yb_trio[eddakhla_mask_in_trio]
     acc_trio_on_eddakhla = accuracy_score(y_trio_on_eddakhla, pred_trio_on_eddakhla)
     log(f"  Trio model's accuracy RESTRICTED to Eddakhla's own {eddakhla_mask_in_trio.sum()} sites: {acc_trio_on_eddakhla:.4f}")
