@@ -11,34 +11,43 @@ south, use the best one out of duo+eddakhla independent or full trio, same
 for casa+rabat" -- a single choice per zone, not per-target):
 
   South (Guelmim-Oued Noun + Laâyoune-Sakia El Hamra + Eddakhla-Oued Eddahab):
-    Recomputed after the 2026-08-23 OOF ring-truth fix (02_modeling_and_analysis/29) -- the
-    original comparison below used the buggy nearest-grid-cell misclass count
-    and wrongly showed independent as clearly ahead; the corrected numbers
-    are an EXACT tie:
-    trio 3-class accuracy (true LOGO-CV OOF) = 42/55 = 0.764
-    independent (duo + eddakhla) weighted accuracy = (18+24)/55 = 0.764
-      duo: 22 sites, 4 misclassified -> 18/22 = 0.818
-      eddakhla: 33 sites, 9 misclassified -> 24/33 = 0.727
-    -> DECISION: independent kept (duo's own map for Guelmim+Laâyoune,
-       eddakhla's own map for Eddakhla) -- not because it is more accurate
-       (it is not, the two are tied), but because it was already the built
-       pipeline and gives finer per-territory modeling at no accuracy cost.
-       Disclosed as a tie, not a win, in the paper text.
+    Re-run at N=1{,}662 (02_modeling_and_analysis/27, per-site OOF, restricted
+    to Eddakhla's own 34 sites, the fair apples-to-apples test) after fixing
+    a hardcoded-threshold-0.5 bug that had corrupted the Easy comparison
+    (see results/json/other/phase5_paper2_eddakhla_zone_comparison.json):
+      Difficult: eddakhla-standalone 0.8235 vs trio-on-eddakhla 0.8529 -> trio
+      Easy:      eddakhla-standalone 0.8824 vs trio-on-eddakhla 0.9118 -> trio
+      (pre-fix, the Easy trio number was wrongly 0.7647, making it look like
+      standalone won; the correct tuned threshold reverses that.)
+    -> DECISION: full trio for BOTH targets. This is a change from the
+       original N=939-era decision (independent kept, exact tie) -- at
+       N=1{,}662 the trio genuinely wins both targets, not a tie, so
+       "south_duo" + "eddakhla" as two separate mosaic units is replaced by
+       the single "south_trio" unit below.
 
   Rabat-Salé-Kénitra + Grand Casablanca-Settat:
-    No standalone alternative exists for the WHOLE zone: Casablanca-Settat
-    was never fit standalone (N=7, too thin -- the reason this merge exists
-    at all) and Rabat's own Difficult target is degenerate standalone
-    (n_pos<3). Rabat-standalone/merged Easy comparison restricted to Rabat's
-    own sites came back an exact tie (0.8095 both ways, see
-    02_modeling_and_analysis/28_paper2_rabatcasa_zone_compare.py).
-    -> DECISION: merged (rabatcasa) for the whole zone -- only config with
-       full coverage, and no accuracy sacrificed on the one target where an
-       alternative existed at all.
+    Re-run at N=1{,}662 (02_modeling_and_analysis/28, same threshold-bug fix
+    and, separately, a fix removing a hardcoded "Rabat-Difficult is always
+    degenerate standalone" shortcut that no longer held once the region grew
+    past n_pos=3): Rabat-Salé-Kénitra now supports a real standalone fit for
+    both targets.
+      Difficult: Rabat-standalone 0.9091 vs merged-on-Rabat 0.9091 -> tie,
+                 defaults to standalone.
+      Easy:      Rabat-standalone 0.7500 vs merged-on-Rabat 0.7045 -> standalone
+                 wins by +4.55pp (previously reported, incorrectly, as an
+                 exact tie).
+    -> DECISION: standalone Rabat-Salé-Kénitra is now the stronger option on
+       both targets it can be tested on, but Casablanca-Settat itself still
+       has no standalone fit (N=14, still the thinnest constituent) and so
+       cannot be shown on its own; the merged "rabatcasa" unit is kept for
+       the mosaic because it is the only configuration with full coverage of
+       both territories, at a documented, small (Easy) or zero (Difficult)
+       accuracy cost restricted to Rabat's own sites.
 
-Oriental has zero labeled sites in the whole N=939 catalog (never modeled)
--- shown greyed out/hatched with a caption note, not filled from any
-national-level fallback model, per user's explicit choice.
+Oriental had zero labeled sites in the original N=939 catalog; the third
+labeling batch added 4 (still 0 Difficult), too few to model or merge
+meaningfully -- shown greyed out/hatched with a caption note, not filled
+from any national-level fallback model, per user's explicit choice.
 
 Revised 2026-08-23 alongside make_paper2_region_maps.py after user review:
 same three fixes ported here (this script had the identical bugs, since it
@@ -76,8 +85,8 @@ from matplotlib.path import Path as MplPath
 from matplotlib.lines import Line2D
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 GRID_DIR = os.path.join(FW, "results", "grids")
 
 EASY_COL, MODERATE_COL, DIFFICULT_COL = "#76A5AF", "#E5D3A7", "#C1650A"
@@ -131,13 +140,15 @@ DECLUTTER_N_THRESHOLD = 60
 
 all_grids = pickle.load(open(os.path.join(GRID_DIR, "paper2_region_grids.pkl"), "rb"))
 
-MOSAIC_UNITS = ["fesmeknes", "bmk", "ttah", "draa", "soussmassa", "marrakech", "south_duo", "eddakhla", "rabatcasa"]
-# south_trio deliberately excluded -- lost the zone decision above.
+MOSAIC_UNITS = ["fesmeknes", "bmk", "ttah", "draa", "soussmassa", "marrakech", "south_trio", "rabatcasa"]
+# south_duo/eddakhla-standalone excluded from the mosaic now that the trio
+# decision (both targets) supersedes them -- see docstring above. Their own
+# standalone maps still appear in the paper's region-detail section.
 
 REGION_TO_UNIT = {
     "Fés-Meknés": "fesmeknes", "Béni Mellal-Khénifra": "bmk", "Tanger-Tétouan-Al Hoceima": "ttah",
     "Drâa-Tafilalet": "draa", "Souss-Massa": "soussmassa", "Marrakech-Safi": "marrakech",
-    "Eddakhla-Oued Eddahab": "eddakhla", "Guelmim-Oued Noun": "south_duo", "Laayoune-Sakia El Hamra": "south_duo",
+    "Eddakhla-Oued Eddahab": "south_trio", "Guelmim-Oued Noun": "south_trio", "Laayoune-Sakia El Hamra": "south_trio",
     "Rabat-Salé-Kénitra": "rabatcasa", "Grand Casablanca-Settat": "rabatcasa",
 }
 
