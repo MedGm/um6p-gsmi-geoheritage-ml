@@ -21,8 +21,8 @@ matplotlib.use("pgf")
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 os.makedirs(OUT, exist_ok=True)
 
 plt.rcParams.update({

@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(HERE, "..", "..", "results", "json", "other")
-OUT = os.path.join(HERE, "..", "figures")
+OUT = os.path.join(HERE, "..", "report", "figures")
 os.makedirs(OUT, exist_ok=True)
 
 plt.rcParams.update({

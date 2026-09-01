@@ -13,7 +13,7 @@ from matplotlib.patches import Circle, FancyArrowPatch
 from matplotlib.lines import Line2D
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "..", "figures")
+OUT = os.path.join(HERE, "..", "report", "figures")
 
 plt.rcParams.update({
     "pgf.texsystem": "pdflatex",

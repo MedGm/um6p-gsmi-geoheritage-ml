@@ -18,8 +18,8 @@ from matplotlib.patches import Patch, PathPatch
 from matplotlib.path import Path as MplPath
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 
 plt.rcParams.update({
     "pgf.texsystem": "pdflatex",

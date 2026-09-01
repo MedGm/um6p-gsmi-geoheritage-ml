@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 
 EASY_COL, DIFFICULT_COL, MAJ_COL, ACCENT = "#76A5AF", "#C1650A", "#555555", "#2B5F72"
 

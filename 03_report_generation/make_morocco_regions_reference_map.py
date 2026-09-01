@@ -16,8 +16,8 @@ matplotlib.use("pdf")
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 
 # Native PDF backend, not PGF/LaTeX text -- the regions polygons have enough
 # vertices that PGF's path-as-LaTeX-commands compilation stalls for minutes.

@@ -40,7 +40,7 @@ from pyproj import Transformer
 import joblib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
+FW = os.path.abspath(os.path.join(HERE, ".."))
 BASE = FW
 PROJ_CRS = "EPSG:26191"
 
