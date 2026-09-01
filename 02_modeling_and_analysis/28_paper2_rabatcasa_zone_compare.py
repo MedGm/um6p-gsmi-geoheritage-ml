@@ -53,7 +53,7 @@ merged = all_labels.merge(
     on="Locality_ID", how="inner").merge(domain_lookup, on="Locality_ID", how="left").merge(infra, on="Locality_ID", how="left")
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
-assert len(merged) == 939
+assert len(merged) == 1662
 
 SENTINEL_DIST_M = 60000.0
 merged["dist_nearest_tourism_poi_m"] = merged["dist_nearest_tourism_poi_m"].fillna(SENTINEL_DIST_M)
@@ -126,71 +126,77 @@ def dummies_for(sub):
 
 zone_comparison = {}
 
-# Difficult: Rabat-standalone degenerate (n_pos<3) -- merged pair is the only usable option.
-zone_comparison["Difficult"] = dict(decision="merged", reason="Rabat-standalone degenerate (n_pos<3), no comparison possible")
-log("Difficult: decision=merged (Rabat-standalone degenerate, only usable option)")
-
-# Easy: run the restricted fair comparison.
-log("\n=== Easy: Rabat-standalone vs merged-pair, restricted to Rabat's own sites ===")
 rabat_best = json.load(open(os.path.join(BASE, "results/json/training/phase5_paper2_rabat_standalone_results.json")))
-rabat_entry = {r["target"]: r for r in rabat_best}["Easy"]
+rabat_by_target = {r["target"]: r for r in rabat_best}
 merged_best = json.load(open(os.path.join(BASE, "results/json/training/phase5_paper2_merged_regions_results.json")))
-pair_entry = {r["target"]: r for r in merged_best if r["group"] == "RabatCasablanca"}["Easy"]
+pair_by_target = {r["target"]: r for r in merged_best if r["group"] == "RabatCasablanca"}
 
-# Rabat-standalone: refit its winning variant on Rabat-only data, WITH per-site OOF
-rabat_winner = rabat_entry["best_variant"]
-sub_rabat = merged[merged["Region"] == "Rabat-Salé-Kénitra"].reset_index(drop=True)
-sub_rabat, dom_dummies_rabat = dummies_for(sub_rabat)
-groups_rabat = cluster_of(sub_rabat)
-yb_rabat = (sub_rabat["Expert_Merged"] == "Easy").astype(int).values
-cols_rabat = {"Baseline": FEATURES_BASE, "Domain": FEATURES_BASE + list(dom_dummies_rabat.columns), "Infra": FEATURES_BASE + INFRA_COLS}[rabat_winner]
-cfgs_rabat = rabat_entry["variants"][rabat_winner]["best_configs"]
-rabat_thr = rabat_entry["variants"][rabat_winner]["tuned_threshold"]
-proba_rabat_standalone = logo_cluster_cv_proba(cfgs_rabat, sub_rabat[cols_rabat].values, yb_rabat, groups_rabat)
-# apply each config's own deployed operating point (default 0.5 vs tuned threshold,
-# whichever the original grid search selected as best -- same definition as best_acc
-# elsewhere), not a bare 0.5 cutoff, so the comparison is a fair like-for-like.
-acc_rabat_default = accuracy_score(yb_rabat, (proba_rabat_standalone[:,1]>=0.5).astype(int))
-acc_rabat_tuned = accuracy_score(yb_rabat, (proba_rabat_standalone[:,1]>=rabat_thr).astype(int))
-acc_rabat_standalone = max(acc_rabat_default, acc_rabat_tuned)
-log(f"  Rabat-standalone ({rabat_winner}) refit acc on its own {len(yb_rabat)} sites: default={acc_rabat_default:.4f} tuned@{rabat_thr}={acc_rabat_tuned:.4f} -> {acc_rabat_standalone:.4f} (script reported {rabat_entry['best_acc']})")
+for target in ["Difficult", "Easy"]:
+    if target not in rabat_by_target:
+        # Rabat-standalone was skipped (degenerate class balance) for this target at
+        # the current N -- merged pair is the only usable option, no comparison possible.
+        zone_comparison[target] = dict(decision="merged", reason="Rabat-standalone degenerate (skipped at current N), no comparison possible")
+        log(f"{target}: decision=merged (Rabat-standalone degenerate at current N, only usable option)")
+        continue
 
-# Merged pair: refit its winning variant on the pair's data, WITH per-site OOF, then restrict to Rabat's rows
-pair_winner = pair_entry["best_variant"]
-sub_pair = merged[merged["Region"].isin(["Rabat-Salé-Kénitra", "Grand Casablanca-Settat"])].reset_index(drop=True)
-sub_pair, dom_dummies_pair = dummies_for(sub_pair)
-groups_pair = cluster_of(sub_pair)
-yb_pair = (sub_pair["Expert_Merged"] == "Easy").astype(int).values
-cols_pair = {"Baseline": FEATURES_BASE, "Domain": FEATURES_BASE + list(dom_dummies_pair.columns), "Infra": FEATURES_BASE + INFRA_COLS}[pair_winner]
-cfgs_pair = pair_entry["variants"][pair_winner]["best_configs"]
-pair_thr = pair_entry["variants"][pair_winner]["tuned_threshold"]
-proba_pair = logo_cluster_cv_proba(cfgs_pair, sub_pair[cols_pair].values, yb_pair, groups_pair)
-acc_pair_default = accuracy_score(yb_pair, (proba_pair[:,1]>=0.5).astype(int))
-acc_pair_tuned = accuracy_score(yb_pair, (proba_pair[:,1]>=pair_thr).astype(int))
-pair_use_tuned = acc_pair_tuned >= acc_pair_default
-acc_pair_full = max(acc_pair_default, acc_pair_tuned)
-log(f"  Merged-pair ({pair_winner}) refit acc on full {len(yb_pair)}-site pair: default={acc_pair_default:.4f} tuned@{pair_thr}={acc_pair_tuned:.4f} -> {acc_pair_full:.4f} (script reported {pair_entry['best_acc']})")
+    log(f"\n=== {target}: Rabat-standalone vs merged-pair, restricted to Rabat's own sites ===")
+    rabat_entry = rabat_by_target[target]
+    pair_entry = pair_by_target[target]
 
-# apply the SAME deployed operating point (chosen above on the full pair) to the
-# restricted Rabat-only subset -- the threshold is part of the model, evaluation
-# scope is what's restricted.
-rabat_mask_in_pair = (sub_pair["Region"] == "Rabat-Salé-Kénitra").values
-thr_to_use = pair_thr if pair_use_tuned else 0.5
-pred_pair_on_rabat = (proba_pair[rabat_mask_in_pair, 1] >= thr_to_use).astype(int)
-y_pair_on_rabat = yb_pair[rabat_mask_in_pair]
-acc_pair_on_rabat = accuracy_score(y_pair_on_rabat, pred_pair_on_rabat)
-log(f"  Merged-pair model's accuracy RESTRICTED to Rabat's own {rabat_mask_in_pair.sum()} sites (thr={thr_to_use}): {acc_pair_on_rabat:.4f}")
+    # Rabat-standalone: refit its winning variant on Rabat-only data, WITH per-site OOF
+    rabat_winner = rabat_entry["best_variant"]
+    sub_rabat = merged[merged["Region"] == "Rabat-Salé-Kénitra"].reset_index(drop=True)
+    sub_rabat, dom_dummies_rabat = dummies_for(sub_rabat)
+    groups_rabat = cluster_of(sub_rabat)
+    yb_rabat = (sub_rabat["Expert_Merged"] == target).astype(int).values
+    cols_rabat = {"Baseline": FEATURES_BASE, "Domain": FEATURES_BASE + list(dom_dummies_rabat.columns), "Infra": FEATURES_BASE + INFRA_COLS}[rabat_winner]
+    cfgs_rabat = rabat_entry["variants"][rabat_winner]["best_configs"]
+    rabat_thr = rabat_entry["variants"][rabat_winner]["tuned_threshold"]
+    proba_rabat_standalone = logo_cluster_cv_proba(cfgs_rabat, sub_rabat[cols_rabat].values, yb_rabat, groups_rabat)
+    # apply each config's own deployed operating point (default 0.5 vs tuned threshold,
+    # whichever the original grid search selected as best -- same definition as best_acc
+    # elsewhere), not a bare 0.5 cutoff, so the comparison is a fair like-for-like.
+    acc_rabat_default = accuracy_score(yb_rabat, (proba_rabat_standalone[:,1]>=0.5).astype(int))
+    acc_rabat_tuned = accuracy_score(yb_rabat, (proba_rabat_standalone[:,1]>=rabat_thr).astype(int))
+    acc_rabat_standalone = max(acc_rabat_default, acc_rabat_tuned)
+    log(f"  Rabat-standalone ({rabat_winner}) refit acc on its own {len(yb_rabat)} sites: default={acc_rabat_default:.4f} tuned@{rabat_thr}={acc_rabat_tuned:.4f} -> {acc_rabat_standalone:.4f} (script reported {rabat_entry['best_acc']})")
 
-winner_for_rabat_zone = "standalone" if acc_rabat_standalone >= acc_pair_on_rabat else "merged"
-log(f"  -> DECISION for Easy: {winner_for_rabat_zone} (standalone={acc_rabat_standalone:.4f} vs merged-on-rabat={acc_pair_on_rabat:.4f})")
+    # Merged pair: refit its winning variant on the pair's data, WITH per-site OOF, then restrict to Rabat's rows
+    pair_winner = pair_entry["best_variant"]
+    sub_pair = merged[merged["Region"].isin(["Rabat-Salé-Kénitra", "Grand Casablanca-Settat"])].reset_index(drop=True)
+    sub_pair, dom_dummies_pair = dummies_for(sub_pair)
+    groups_pair = cluster_of(sub_pair)
+    yb_pair = (sub_pair["Expert_Merged"] == target).astype(int).values
+    cols_pair = {"Baseline": FEATURES_BASE, "Domain": FEATURES_BASE + list(dom_dummies_pair.columns), "Infra": FEATURES_BASE + INFRA_COLS}[pair_winner]
+    cfgs_pair = pair_entry["variants"][pair_winner]["best_configs"]
+    pair_thr = pair_entry["variants"][pair_winner]["tuned_threshold"]
+    proba_pair = logo_cluster_cv_proba(cfgs_pair, sub_pair[cols_pair].values, yb_pair, groups_pair)
+    acc_pair_default = accuracy_score(yb_pair, (proba_pair[:,1]>=0.5).astype(int))
+    acc_pair_tuned = accuracy_score(yb_pair, (proba_pair[:,1]>=pair_thr).astype(int))
+    pair_use_tuned = acc_pair_tuned >= acc_pair_default
+    acc_pair_full = max(acc_pair_default, acc_pair_tuned)
+    log(f"  Merged-pair ({pair_winner}) refit acc on full {len(yb_pair)}-site pair: default={acc_pair_default:.4f} tuned@{pair_thr}={acc_pair_tuned:.4f} -> {acc_pair_full:.4f} (script reported {pair_entry['best_acc']})")
 
-zone_comparison["Easy"] = dict(
-    rabat_standalone_acc=round(acc_rabat_standalone,4), rabat_standalone_variant=rabat_winner,
-    merged_full_acc=round(acc_pair_full,4), merged_variant=pair_winner,
-    merged_acc_on_rabat_only=round(acc_pair_on_rabat,4),
-    n_rabat_sites=int(rabat_mask_in_pair.sum()),
-    decision=winner_for_rabat_zone,
-)
+    # apply the SAME deployed operating point (chosen above on the full pair) to the
+    # restricted Rabat-only subset -- the threshold is part of the model, evaluation
+    # scope is what's restricted.
+    rabat_mask_in_pair = (sub_pair["Region"] == "Rabat-Salé-Kénitra").values
+    thr_to_use = pair_thr if pair_use_tuned else 0.5
+    pred_pair_on_rabat = (proba_pair[rabat_mask_in_pair, 1] >= thr_to_use).astype(int)
+    y_pair_on_rabat = yb_pair[rabat_mask_in_pair]
+    acc_pair_on_rabat = accuracy_score(y_pair_on_rabat, pred_pair_on_rabat)
+    log(f"  Merged-pair model's accuracy RESTRICTED to Rabat's own {rabat_mask_in_pair.sum()} sites (thr={thr_to_use}): {acc_pair_on_rabat:.4f}")
+
+    winner_for_rabat_zone = "standalone" if acc_rabat_standalone >= acc_pair_on_rabat else "merged"
+    log(f"  -> DECISION for {target}: {winner_for_rabat_zone} (standalone={acc_rabat_standalone:.4f} vs merged-on-rabat={acc_pair_on_rabat:.4f})")
+
+    zone_comparison[target] = dict(
+        rabat_standalone_acc=round(acc_rabat_standalone,4), rabat_standalone_variant=rabat_winner,
+        merged_full_acc=round(acc_pair_full,4), merged_variant=pair_winner,
+        merged_acc_on_rabat_only=round(acc_pair_on_rabat,4),
+        n_rabat_sites=int(rabat_mask_in_pair.sum()),
+        decision=winner_for_rabat_zone,
+    )
 
 out_path = os.path.join(BASE, "results/json/other/phase5_paper2_rabatcasa_zone_comparison.json")
 with open(out_path, "w", encoding="utf-8") as f:
