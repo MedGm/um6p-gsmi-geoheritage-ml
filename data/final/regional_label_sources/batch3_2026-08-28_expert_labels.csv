@@ -1,0 +1,724 @@
+Locality_ID,Geosite_Name,Expert_Class
+loc_00591,Taghobayt cave,Moderate
+loc_00592,Ketama spring,Moderate
+loc_00593,Ruiniform Chaos of Bou Slimane,Difficult
+loc_00594,Al Khattabi undersea cavities,Moderate
+loc_00595,Oulassen spring,Difficult
+loc_00596,Lamouassif spring,Moderate
+loc_00597,Charika spring,Moderate
+loc_00598,Complex of cavities of Badis,Easy
+loc_00599,Ksar Seghir beach,Easy
+loc_00600,Dalia beach,Easy
+loc_00601,Oued Lmarsa beach,Easy
+loc_00602,Laila small island,Moderate
+loc_00603,Sebta peninsula,Easy
+loc_00604,Rifiyin beach,Easy
+loc_00605,Tres Pierdas beach,Easy
+loc_00606,Smir lagoon,Moderate
+loc_00607,Mdiq beach,Easy
+loc_00608,Negro Cape beach,Easy
+loc_00609,Swamp of Oued Al Mallah,Easy
+loc_00610,Martil beach,Easy
+loc_00611,Coastal erosion of Sidi Abdeslam,Easy
+loc_00612,Azla beach,Easy
+loc_00613,Amsa beach,Easy
+loc_00614,Tamrabet beach,Easy
+loc_00615,Tamernout beach,Easy
+loc_00616,Ouachtam beach,Easy
+loc_00617,Cape of Mekkad,Easy
+loc_00618,Oued Laou beach,Easy
+loc_00619,Targha beach,Easy
+loc_00620,Stihat beach,Easy
+loc_00621,Sidi Yahya Aarab beach,Easy
+loc_00622,Jnane Enich beach,Easy
+loc_00623,Amtar beach,Easy
+loc_00624,Monica beach,Easy
+loc_00625,Lhwad beach,Easy
+loc_00626,Cala Iris beach,Easy
+loc_00627,Badis small island,Moderate
+loc_00628,Taoussert beach,Easy
+loc_00629,Bousikour beach,Easy
+loc_00630,Boumehdi beach,Easy
+loc_00631,Tala Youssef beach,Easy
+loc_00632,Rmod beach,Easy
+loc_00633,Isri beach,Easy
+loc_00634,Cliff of Al Hoceima,Easy
+loc_00635,Quemado beach,Easy
+loc_00636,Cara Bonita beach,Easy
+loc_00637,Maktoa beach,Easy
+loc_00638,Small islands of Al Hoceima,Easy
+loc_00639,Sfiha beach,Easy
+loc_00640,Al Hoceima Bay,Easy
+loc_00641,Strait of Gibraltar,Easy
+loc_00642,Hill of Taifour,Easy
+loc_00643,Fault of Samsa,Moderate
+loc_00644,Cluse of Tetouan,Easy
+loc_00645,Anticline of Nator cliff,Moderate
+loc_00646,Synclinal of Tazarine,Moderate
+loc_00647,Chefchaouen furrow,Moderate
+loc_00648,Fault escarpment of Mizlafene,Moderate
+loc_00649,Cliff of Imezar,Difficult
+loc_00650,Folds of Sidi Abdelhamid,Difficult
+loc_00651,Klippes of Soukna,Difficult
+loc_00653,Cirque of Jebha,Easy
+loc_00654,Fauld of Mtioua,Easy
+loc_00655,Bar of Tizirene,Difficult
+loc_00656,Oued Rmel dam,Difficult
+loc_00657,Al Raouz dam,Easy
+loc_00658,Smir dam,Easy
+loc_00659,Ajras dam,Easy
+loc_00660,Martil dam,Easy
+loc_00661,Nakhla dam,Moderate
+loc_00662,Prissa dam,Easy
+loc_00663,Oued Laou dam,Easy
+loc_00664,Moulay Bouchta dam,Easy
+loc_00665,Jaber lake,Moderate
+loc_00666,Bouhachem lake,Easy
+loc_00667,Al Houmar lake,Moderate
+loc_00668,Laarays lake,Moderate
+loc_00669,Al Mhad lake,Easy
+loc_00670,Al Garn lake,Moderate
+loc_00671,Ifrat Fouden lake,Moderate
+loc_00672,Al Jomoaa dam,Easy
+loc_00673,Mujer dormida mountain,Difficult
+loc_00674,Gully of Tamghart,Easy
+loc_00675,Rockfall niche of Azenti,Easy
+loc_00676,Scree cone of Mountain Kelti,Moderate
+loc_00677,Rockfall niche of Ametras,Easy
+loc_00678,Badlands of Idsoulyene,Easy
+loc_00679,Slippage of Cara Bonita,Easy
+loc_00680,Plain of Restinga,Easy
+loc_00681,Alluvial plain of Martil,Easy
+loc_00682,Cascades of Ezarka,Moderate
+loc_00683,Cascades of Akherkhour,Moderate
+loc_00684,Alluvial plain of Amsa,Easy
+loc_00686,Meander of Oued Laou,Moderate
+loc_00687,Cascades of Talembote,Moderate
+loc_00688,Alluvial plain of Bouhmed,Easy
+loc_00689,Sidi Yahya Aarab valley,Difficult
+loc_00690,Cascade of Oued Al Kalaa,Difficult
+loc_00691,Cascades of Akchour,Difficult
+loc_00692,Cascades of Taourart,Difficult
+loc_00693,River terrace of Issaguen,Easy
+loc_00694,Alluvial plain of Nekor,Easy
+loc_00695,Canyon of Laou river,Easy
+loc_00696,Natural bridge of Akchour,Difficult
+loc_00697,Canyon of Farda river,Difficult
+loc_00698,Canyon of Adelmane river,Difficult
+loc_00699,Natural bridge and travertine of Assifane,Moderate
+loc_00700,Cascades of Imlil canyon,Easy
+loc_00701,Snow niche of Mountain Lakraa,Difficult
+loc_00702,Accumulation glaze of Soukna,Difficult
+loc_00703,Dunes of Al Hoceima,Easy
+loc_00713,Kimmeridgian Reef of Cap Ghir,Easy
+loc_00714,Reef of the main fossils at Cap Ghir,Moderate
+loc_00715,The Tamri estuary,Easy
+loc_00716,The Timlaline gorges,Easy
+loc_00718,Cambrian Gres-Quartzitic Facies,Moderate
+loc_00719,Conglomerates of Machraâ Ben Abbou,Moderate
+loc_00720,Conglomerates of Sidi Abdelah,Moderate
+loc_00721,Conglomerates of Kef El Mounib,Easy
+loc_00722,Granite of Sebt Brikiine,Easy
+loc_00723,Micashiste of Lalla Titaf,Easy
+loc_00724,Pegmatite of Sidi Bouathmane,Easy
+loc_00725,Pyrrhotites of Kettara,Easy
+loc_00768,Cenomanian–Turonian lithified and flint-rich limestone,Easy
+loc_00769,Senonian–Neogene basalt unconformity,Easy
+loc_00770,Neogene volcano-sedimentary deposits,Easy
+loc_00771,Paleocene fossiliferous limestone,Easy
+loc_00772,Geosite 1,Easy
+loc_00773,Geosite 2,Easy
+loc_00774,Geosite 3,Easy
+loc_00777,Geosite 6,Difficult
+loc_00778,Geosite 8,Easy
+loc_00779,Geosite 9,Easy
+loc_00780,Kerrouchène,Moderate
+loc_00814,Lower Devonian quartzite bars of Bou Trou-Al Aççama,Easy
+loc_00815,Lower Devonian paleosol of Bou Trou-Al Aççama,Moderate
+loc_00816,Lower Devonian dwarf brachiopods of Bou Trou Al Aççama,Moderate
+loc_00817,Emsien crinoids grassland of Bab Al Ari,Moderate
+loc_00818,Givetian calciturbidites of Ben Aarab,Easy
+loc_00819,Givetian-Famennian paleolapiaz of Bab Al Ari,Moderate
+loc_00843,Jbel Hamda,Difficult
+loc_00844,Jbel Messassa,Difficult
+loc_00845,Jbel Nerkibat,Difficult
+loc_00846,Jbel Sehrij,Difficult
+loc_00847,Jbel Tazrakht,Difficult
+loc_00848,Jbel Tichaou,Difficult
+loc_00849,Jbel Tnidilt,Difficult
+loc_00850,Jerf EI Gaz,Difficult
+loc_00851,Kandar,Easy
+loc_00852,Koudiat Ech Chham,Easy
+loc_00853,Laârouch,Moderate
+loc_00854,Mâafa Tamekrant,Moderate
+loc_00855,Maafa Tamezian,Moderate
+loc_00856,Merzidki,Easy
+loc_00857,Mou Aguerbez,Easy
+loc_00858,Pontde Sebou,Easy
+loc_00859,Tamezziant,Easy
+loc_00860,Tichoukt,Difficult
+loc_00861,Tizi Bou-Zaabel,Easy
+loc_00862,Tizi Oughmari,Moderate
+loc_00863,Tleta Zerarda,Moderate
+loc_00864,Zitounat,Easy
+loc_00865,Jbel Shala,Difficult
+loc_00866,Cave of Tamezguid n’Rbi,Difficult
+loc_01148,Bou-Teguerrouine,Moderate
+loc_01149,El Koudiate,Moderate
+loc_01150,Jbel Hébri,Easy
+loc_01151,Taiissout,Easy
+loc_01152,Lechmine Aït el Haj,Moderate
+loc_01153,Bou-Ibalrhatène,Moderate
+loc_01154,Lechmine n’Ikettane,Easy
+loc_01155,Lechmine Izgar,Moderate
+loc_01156,Ouest Hébri,Easy
+loc_01157,Tahbrite,Easy
+loc_01158,Timahdite,Easy
+loc_01159,Lechmine Ait el Haj,Moderate
+loc_01160,Michlifene,Easy
+loc_01161,Lechmine Bou-Ibalrhatène,Moderate
+loc_01162,Ouest Hébri,Moderate
+loc_01163,Oued Chebeika estuary,Easy
+loc_01164,Cliffs of the west border of the Chebeika estuary,Easy
+loc_01167,Transgression of the Lower Cretaceous redbeds on the Bas Draa Precambrian Massif,Easy
+loc_01168,Upper Precambrian  metaconglomerates (south-western tip of the Bas Draa inlier),Moderate
+loc_01169,Vertical Cambrian quartzites (“Barre de Goulimine”) crossed by directional fault,Moderate
+loc_01170,Lower Ordovician (Llanvirn) oolithic iron bed section,Moderate
+loc_01171,"Perched syncline formed by Rich 1 and Rich 2 
+ Jbel Rich fold train)",Moderate
+loc_01172,Open folds  of Jbel Rich,Moderate
+loc_01173,Jbel Tazout cuesta (Tournaisian),Easy
+loc_01174,Jbel Ouarziz cuesta (Visean),Easy
+loc_01175,Bituminous marls & estuariarine morphology,Easy
+loc_01176,Marine terraces,Easy
+loc_01177,Lecture of a landscape & unconformity,Easy
+loc_01178,Basement-cover relationships,Easy
+loc_01179,Cambrian quartzites & joint systems,Easy
+loc_01180,Ordovician glaciation deposit,Easy
+loc_01181,Cylindric anticline & oolithic iron,Moderate
+loc_01182,"Perched syncline & subsidence, basin infilling",Easy
+loc_01183,Cratonic basin versus fold belt,Easy
+loc_01195,Gantour,Easy
+loc_01196,Meskala,Easy
+loc_01197,Souss,Easy
+loc_01198,Oued Eddahab,Moderate
+loc_01199,The lagoon of Oualidia,Easy
+loc_01200,Marine fauna of the lower limestone,Moderate
+loc_01201,Yellow dolomite lower limestone Contact,Easy
+loc_01202,Marabout Sidi Bouzid,Easy
+loc_01203,Toubkal national Park,Difficult
+loc_01204,Paradoxid Shale,Moderate
+loc_01205,Angular unconformity of Cambrian-Cretaceous,Moderate
+loc_01206,Playa Blanca Beach,Easy
+loc_01207,Marisat Beach,Easy
+loc_01208,Ghandouri Beach,Easy
+loc_01209,Malabata Beach,Easy
+loc_01210,Merkala Beach,Easy
+loc_01211,Bouhendia Beach,Easy
+loc_01212,Achakar Beach,Easy
+loc_01213,Mickey Beach,Easy
+loc_01214,Sidi Kacem Beach,Easy
+loc_01215,Ba Kacem Beach,Easy
+loc_01216,Houara Beach,Easy
+loc_01217,Tahadart Beach,Easy
+loc_01218,American Beach,Easy
+loc_01219,Al Manar Forest,Easy
+loc_01220,Marisat Forest,Easy
+loc_01221,Tangier balya Forest,Moderate
+loc_01222,Rmilat Forest,Easy
+loc_01223,Rharha Forest,Easy
+loc_01224,Mediouna Forest,Easy
+loc_01225,Boubana Forest,Easy
+loc_01226,Cape Spartel Reserve,Easy
+loc_01227,Diplomatic Forest,Easy
+loc_01228,Jumjum Rock,Moderate
+loc_01229,Gherab Rock,Moderate
+loc_01230,Sutooh Rock,Easy
+loc_01231,Bouhendia Rock,Moderate
+loc_01232,Ras Aghmat,Moderate
+loc_01233,Hafa Rock,Moderate
+loc_01234,Maghayir Lake,Easy
+loc_01235,Sidi Hassain Lake,Moderate
+loc_01236,Tahadart River,Easy
+loc_01237,Rharha Lake,Easy
+loc_01238,Al Manar Fortress,Easy
+loc_01239,Ghailan Fort,Easy
+loc_01240,Villa Harris,Moderate
+loc_01241,Dar El Baroud Tower,Easy
+loc_01242,Bab Dar Debbagh,Moderate
+loc_01243,Bab El Marsa,Moderate
+loc_01244,Bab El Fahs,Easy
+loc_01245,Bab El Kasbah,Easy
+loc_01246,Bab El Bahr,Easy
+loc_01247,Bab Lassa,Moderate
+loc_01248,Bab El Hira,Easy
+loc_01249,Bab American,Easy
+loc_01250,Bab Haha,Easy
+loc_01251,Bouanania Cemetery,Easy
+loc_01252,Sour Al Maâkazine,Easy
+loc_01253,Villa Perdicaris,Easy
+loc_01254,Hercules Cave,Easy
+loc_01255,Horse Cave,Easy
+loc_01256,Marina Port,Easy
+loc_01257,Continental Hotel,Easy
+loc_01258,Old ‘Hafa’ Coffee shop,Easy
+loc_01259,Souk Dakhel,Easy
+loc_01260,Ibn Battuta Mausoleum,Easy
+loc_01261,Bouarakiya Mausoleum,Easy
+loc_01262,Sidi Hosni Mausoleum,Easy
+loc_01263,Ben Raisoul Mausoleum,Easy
+loc_01264,Wazzani Zawiya,Easy
+loc_01265,Lalla Abla Mosque,Easy
+loc_01266,Kasbah Mosque,Easy
+loc_01267,Cathedral of the Holy,Easy
+loc_01268,Andrew’s Anglican,Easy
+loc_01269,Immaculate Conception,Easy
+loc_01270,Karkoura Ordovician,Easy
+loc_01271,Oued Sebou Ordovician,Easy
+loc_01272,Oued Sebou Triassic,Moderate
+loc_01273,Karkoura Triassic,Moderate
+loc_01274,Mellaha Triassic,Moderate
+loc_01275,El Menzel Jurassic,Moderate
+loc_01276,Taghit Ammonites,Easy
+loc_01277,El Qualaa Travertines,Moderate
+loc_01278,El Menzel Paleosols,Moderate
+loc_01279,Beni Yazgha Thrust Fault,Easy
+loc_01280,El Menzel Fault,Moderate
+loc_01281,Taghit Thrust Fault,Easy
+loc_01282,Quasbat Beni Yazgha Polje,Easy
+loc_01283,Jbel Taferguicht,Moderate
+loc_01284,Jbel El Knisiya,Moderate
+loc_01285,Oued Sebou,Easy
+loc_01286,Allal El Fassi Dam,Easy
+loc_01287,Ordovician plicative structures of Mrirt,Easy
+loc_01288,Permian granitic dyke of Tighza,Easy
+loc_01289,Clay matrix conglomerates of Permian in Khenifra,Moderate
+loc_01290,Permian alternating clay and sand stonebeds of Khenifra,Moderate
+loc_01291,Permian/Ordovician unconformity of Iaarochen,Moderate
+loc_01292,Permian/Ordovician unconformity of Assabera,Moderate
+loc_01293,Quaternary basalts of Oued Oum Er-Rbia,Easy
+loc_01294,Tasraft,Easy
+loc_01295,Aftis,Easy
+loc_01296,Moriq,Moderate
+loc_01297,Tamekaste,Moderate
+loc_01298,Anergui,Moderate
+loc_01299,Taguentourte,Moderate
+loc_01300,Ouriz,Moderate
+loc_01301,Tagount,Difficult
+loc_01302,Tizi N'Dari,Moderate
+loc_01303,Batly,Moderate
+loc_01304,Inoufigun,Moderate
+loc_01305,Imaouen N’Tfalouine,Moderate
+loc_01306,Akhachane,Moderate
+loc_01307,Igra,Difficult
+loc_01308,Ifri N'Khettab,Difficult
+loc_01309,Ait Abdi,Difficult
+loc_01310,Sidi Boulknadel pipes,Difficult
+loc_01311,Carboniferous hills of Korifla river panorama,Moderate
+loc_01312,Lower Devonian carbonate concretion east of Ezzehiliga,Moderate
+loc_01313,Normal fault of El Malha river,Moderate
+loc_01314,Volcanic flow of Boulhmayl river,Moderate
+loc_01315,Gayville beach potholes,Moderate
+loc_01316,Koudiat Ech-Cherif,Moderate
+loc_01317,Sebt-Merchouch plateau Angular Unconformity,Moderate
+loc_01318,Jbel Moghrane's Westphalian Molasse,Difficult
+loc_01319,Stratotype GSSP Tortonian- Messinian Limit,Moderate
+loc_01320,Jorf Lakhdar Geosite,Moderate
+loc_01321,Guilliz Geosite,Moderate
+loc_01322,Dinosaur footprint site of Anza,Easy
+loc_01323,sedimentary and tectonic type: Quaternary conglomerate formation of Taghazout,Easy
+loc_01324,Karstic type geosite 3: Cap Ghir Cave,Easy
+loc_01325,Stratigraphic-type geosite 4: Tiguert Formation,Easy
+loc_01326,Stratigraphic Type: Oxfordian of Cap Ghir Reef,Easy
+loc_01327,Imi Ouaddar sedimentary geosite type : black shale-Imi-Ouaddar,Easy
+loc_01328,Cross‑Bedding Structures,Easy
+loc_01329,"Bioturbation, Trace Fossils, and Fossils",Easy
+loc_01330,Wave Ripples,Easy
+loc_01331,Micro‑faulting and Hydrofracturing,Easy
+loc_01332,Conglomerate and Conglomeratic Sandstone,Easy
+loc_01333,Unconformities,Easy
+loc_01334,Joints and Rock Fall,Easy
+loc_01335,Exfoliation,Moderate
+loc_01336,Jbel Ardouz,Moderate
+loc_01337,Tazekka,Moderate
+loc_01338,Taza,Moderate
+loc_01339,Chaara Chasm,Moderate
+loc_01340,Iferouato Chasm,Moderate
+loc_01341,Izoura Chasm,Moderate
+loc_01342,Anza tracksite,Moderate
+loc_01343,Cascdes of Oued Laou,Moderate
+loc_01344,Crenulations in the Targha micaschist,Moderate
+loc_01345,Structural position of the geological units of the Internal Rif at Kodiat Achacha,Moderate
+loc_01346,Exhumation of peridotites in the Aarabe Valley,Difficult
+loc_01347,Foum Chena site,Moderate
+loc_01348,Ouigane site,Easy
+loc_01349,Cheaba Elbeida site,Easy
+loc_01350,Targua Wassai,Easy
+loc_01351,Abeinou,Easy
+loc_01352,Atlas Ifrane Essaghir,Moderate
+loc_01353,Laksabi,Easy
+loc_01354,Chatiaalabied,Moderate
+loc_01355,Ras Oumlil,Easy
+loc_01356,Aferket,Moderate
+loc_01357,Tiglit,Difficult
+loc_01358,Labyar,Moderate
+loc_01359,Asrir-Tighmert,Easy
+loc_01360,Baryte deposits of Tarhoucht,Easy
+loc_01361,Cambrian fossiliferous site of Tarhoucht,Easy
+loc_01362,Columnar basalts,Easy
+loc_01363,Ordovician tillites,Easy
+loc_01364,Devonian formation of Oued Ferkla,Easy
+loc_01365,ifr,Easy
+loc_01366,Rock carvings of Taghia,Easy
+loc_01367,Khettara of Tinjdad,Easy
+loc_01368,Ksour (fortified villages),Easy
+loc_01369,Ordovician‑Cambrian Palaeontological Heritage of Zagora Province,Moderate
+loc_01370,Alluvial terraces of Aït Mallal,Moderate
+loc_01371,Badlands of Igoulouane,Moderate
+loc_01372,Arouss valley,Moderate
+loc_01373,Canyon of High-Tessaout valley,Moderate
+loc_01374,Canyon of Ikiss,Moderate
+loc_01375,Canyon of Abachkou valley,Moderate
+loc_01376,Canyon of Rougoult valley,Moderate
+loc_01377,Rat syncline,Moderate
+loc_01378,Peak and cliffs of Tarkeddid mountain,Difficult
+loc_01379,Mount M’goun (4068 m),Difficult
+loc_01380,The unconf Paleozoic basement-Mesozoic sedimentary cover of Aït Mallal,Moderate
+loc_01381,Rougoult waterfall,Moderate
+loc_01382,Springs of Oued Lakhdar (green river),Moderate
+loc_01383,Springs and waterfall of Ikiss,Moderate
+loc_01384,Sinkholes of the Rat mountain,Moderate
+loc_01385,Glacial cirques and U-shaped valleys of M’goun,Difficult
+loc_01386,Glacial cirques and U-shaped valleys of Rat mountain,Moderate
+loc_01387,Scree and talus deposits of Rat mountain,Difficult
+loc_01388,Scree and talus deposits of Tarkeddid mountain,Moderate
+loc_01389,Troglodyte caves of Igoulouane,Moderate
+loc_01390,Lake sediment of Aït Bougmez valley,Easy
+loc_01391,Aït Mallal valley,Moderate
+loc_01392,Badlands of Igoulouane,Moderate
+loc_01393,Arouss valley,Moderate
+loc_01394,Canyon of Rougoult valley,Moderate
+loc_01395,Canyon of Abachkou valley,Moderate
+loc_01396,Canyon of High-Tessaout valley,Easy
+loc_01397,Glacial cirques and U-shaped valleys of Rat mountain,Easy
+loc_01398,Scree and talus deposits of Rat mountain,Moderate
+loc_01399,Scree and talus deposits of Tarkeddid mountain,Moderate
+loc_01400,Canyon of Ikiss,Moderate
+loc_01401,Rat syncline,Difficult
+loc_01402,Peak and cliffs of Tarkeddid mountain,Difficult
+loc_01403,Mount M’goun (4068 m),Difficult
+loc_01404,The unconformity between Paleozoic basement and Mesozoic sedimentary cover of Aït Mallal,Difficult
+loc_01405,Rougoult waterfall,Difficult
+loc_01406,Springs of Oued Lakhdar (green river),Difficult
+loc_01407,Springs and waterfall of Ikiss,Difficult
+loc_01408,Sinkholes of the Rat mountain,Difficult
+loc_01409,Ida-Ou’Zal massif of the Argana Basin,Moderate
+loc_01410,The massive dolomites of the Tizgarine unit,Moderate
+loc_01411,Calipso cave,Moderate
+loc_01412,the source and catchment basin of the water,Moderate
+loc_01413,"Ras Leona rocky coast and Karst (Lapiés, doline and cave)",Moderate
+loc_01414,The cliff of Ras Leona,Moderate
+loc_01415,Ammonitico-rosso of Taffert,Moderate
+loc_01416,Volcano of Bou-Iblane,Moderate
+loc_01417,Reefs of Ich Maalam,Moderate
+loc_01418,Cornish limestones of Serhla,Moderate
+loc_01419,Hayane canyon,Moderate
+loc_01420,Askour Cave,Difficult
+loc_01421,Tamezyidan Rbi,Moderate
+loc_01422,Guelta Tameda,Moderate
+loc_01423,Source Oued el Bared,Easy
+loc_01424,Oued el Bared cave,Moderate
+loc_01425,Discordance Ribata lKhayr,Moderate
+loc_01426,Bou-Iblane-Issouka,Difficult
+loc_01427,Periclinal Taffajight,Difficult
+loc_01428,Malachites of Talzemt,Difficult
+loc_01429,Discordance Jbel Abdous,Difficult
+loc_01430,Mallal cascade,Difficult
+loc_01431,Jbel el Kalaa,Difficult
+loc_01432,Tmourhout valley,Difficult
+loc_01433,Bizi canyon,Moderate
+loc_01434,Fault Tmourhout,Moderate
+loc_01435,Tmourhout Cascade,Difficult
+loc_01436,Synclinal Zloul,Moderate
+loc_01437,Synclinal Tilmirat,Moderate
+loc_01438,"Inverse fault, anticlinal fold and joint",Moderate
+loc_01439,Ruiniform landscape of Moudj,Moderate
+loc_01440,Idemrane landslide,Moderate
+loc_01441,Adouz dejection cone,Moderate
+loc_01442,Ajojjar waterfall,Moderate
+loc_01443,Ouchrah site,Easy
+loc_01444,Tafrent Polje,Easy
+loc_01445,Hançais,Easy
+loc_01446,Ain Fachtals,Moderate
+loc_01447,Ain Ikhourba,Easy
+loc_01448,Jbel Boutarwa,Easy
+loc_01449,Tit-n-Ziza Geomorphosite,Moderate
+loc_01450,Afla Ifran Geomorphosite,Moderate
+loc_01451,Chkounda Geomorphosite,Moderate
+loc_01452,Tichniwine Rocks,Moderate
+loc_01453,Iferd Ait Masaoud Polje,Moderate
+loc_01454,Ben Cherrou Valley,Moderate
+loc_01455,Jbel Tadawt Karst,Difficult
+loc_01456,Jbel Wawngarf karstic plateau,Difficult
+loc_01457,El Haounet karstic plateau,Moderate
+loc_01458,The Walous cliff granaries,Moderate
+loc_01459,Ain Askar,Moderate
+loc_01460,Oued El Abid meanders,Moderate
+loc_01461,The Taghia-n-Ait Boulmane intrusion,Moderate
+loc_01462,Karstic spring of Ouzoud,Moderate
+loc_01463,Oued El Abid Gorges,Moderate
+loc_01464,Estuary of Oued Tissakht (Ouzoud caves),Moderate
+loc_01465,Doleritic sill of Ouzoud,Easy
+loc_01466,Zauia of Tanaghmelt,Difficult
+loc_01467,Chocolate marl intruded by Tanaghmelt sil,Difficult
+loc_01468,Moudj’s lapiez,Moderate
+loc_01469,Timskar’s travertines,Moderate
+loc_01470,Tazzerkount Tepee Structures,Moderate
+loc_01471,Ruiniformes Landscapes of EL Ksiba,Difficult
+loc_01472,Fossils of Moudj,Moderate
+loc_01473,Spring of Lala Kamria,Moderate
+loc_01474,Panoramic view of overturned bar of Iferghas,Moderate
+loc_01475,Karst cliff of Ighir-n-Oumejjad,Moderate
+loc_01476,Panoramic view of the Ait Attab syncline,Moderate
+loc_01477,The tectonic deformations of Jbel Hassan,Difficult
+loc_01478,The ruiniform limestones with ammonite of the Ben Cherrou formation,Moderate
+loc_01479,Panoramic view of the Cretaceous cuestas,Moderate
+loc_01480,The bad land of Ait Ouabit,Easy
+loc_01481,Gorges of Ait Ouabit,Easy
+loc_01482,Conglomerate terraces of Oued El Abid,Moderate
+loc_01483,The footprints of sauropod dinosaurs of Ayt Bouiqban,Easy
+loc_01484,Lower limit of the basaltic flow B2,Moderate
+loc_01485,Jurassic-Cretaceous unconformity and volcanic activities,Difficult
+loc_01486,Bioclastic limestone with ammonite of the Bine El Ouidane BIII formation,Moderate
+loc_01487,Panoramic view of Oued El Abid from the old Caida of Taounza,Moderate
+loc_01488,Caves of cats and the spring of Tisqui,Easy
+loc_01489,Bioclastic marly limestone of Ait Tafelt formation,Easy
+loc_01490,Eroded sandstone of Jbel Ilaghmane,Easy
+loc_01491,Panoramic view of the red formations separated by the BI and BII magmatic events,Difficult
+loc_01492,Ruiniform reliefs of Jbel Al Maqçoura,Difficult
+loc_01493,Zenaga Inlier,Moderate
+loc_01494,"Neoproterozoic doleritic dykes (Zenaga, Central AA)",Easy
+loc_01495,Tholeiitic dyke swarms (Zenaga inlier),Easy
+loc_01496,Well preserved Pre-Pan-African sedimentary features,Easy
+loc_01497,"Pan-African ophiolites of Bou Azzer and Siroua inliers, central AA)",Easy
+loc_01498,Major Anti-Atlas Fault (central AA),Easy
+loc_01499,"Pan-African Diamictites (Bou-Azzer and Siroua inliers, central AA)",Moderate
+loc_01500,Ediacarian Iknioun granodiorites,Difficult
+loc_01501,Late Neoproterozoic stromatolites,Moderate
+loc_01502,"Contacts Pan-African Groups: Saghro, Mgouna and Ouarzazate Groups",Moderate
+loc_01503,"Contacts Palaeoproterozoic Zenaga complex, late Neoproterozoic Ouarzazate Supergroup and the Cambrian Tata Group",Moderate
+loc_01504,Appalachian type folding in western AA,Easy
+loc_01505,Large Cambrian trilobite Paradoxides,Easy
+loc_01506,Ordovician outcrop of Jbel Kissane,Moderate
+loc_01507,Large Ordovician trilobites (Asaphus) death assemblages,Easy
+loc_01508,Silurian and lowermost Devonian Orthoceras-rich limestones and ammonite-rich limestones,Easy
+loc_01509,Early Devonian Kess Kess carbonate mounds,Difficult
+loc_01510,Middle Devonian coral stromatoporoid biostrome,Moderate
+loc_01511,Green eyes and red Devonian phacopid trilobite,Easy
+loc_01512,Frasnian plants from the Drâa Valley,Easy
+loc_01513,Well preserved shallow-water sedimentary features in Cambrian rocks,Difficult
+loc_01514,Foum-Zguid Jurassic dyke,Easy
+loc_01515,Alluvial terraces of Aït Mallal,Difficult
+loc_01516,Aït Mallal valley,Difficult
+loc_01517,Badlands of Igoulouane,Moderate
+loc_01518,Arouss valley,Difficult
+loc_01519,Canyon of Rougoult valley,Moderate
+loc_01520,Rat syncline,Difficult
+loc_01521,The unconf Paleozoic basement-Mesozoic sedimentary cover of Aït Mallal,Difficult
+loc_01522,Rougoult waterfall,Moderate
+loc_01523,Springs of Oued Lakhdar (green river),Easy
+loc_01524,Springs and waterfall of Ikiss,Difficult
+loc_01525,Sinkholes of the Rat mountain,Difficult
+loc_01526,Glacial cirques and U-shaped valleys of Rat mountain,Moderate
+loc_01527,Scree and talus deposits of Rat mountain,Difficult
+loc_01528,Scree and talus deposits of Tarkeddid mountain,Difficult
+loc_01529,Troglodyte caves of Igoulouane,Easy
+loc_01530,Hercynian folds in Devonian series of Tazoult,Easy
+loc_01531,Lower Cambrian series crescent or boomerang around the Tagragra of Tata inlier 1,Moderate
+loc_01532,Lower Cambrian series crescent or boomerang around the Tagragra of Tata inlier 2,Difficult
+loc_01533,Lower Cambrian series crescent or boomerang around the Tagragra of Tata inlier3,Moderate
+loc_01534,Interference folds as a mushroom pattern in the lower Cambrian east of the Issafen syncline,Moderate
+loc_01535,Interference folds as a mushroom pattern in the lower Cambriansouth of Agouliz’s inlier,Moderate
+loc_01536,Ordovician Trilobites of Zagora Area Site 1,Moderate
+loc_01537,Messinian/Tortonian in GSP / Stratotype of Oued Akerch,Easy
+loc_01538,Upper Devonian Oued Akerch,Easy
+loc_01539,Lower Ordovician Amphibolite of Rabat,Easy
+loc_01540,Lower Ordovician Flow lava,Easy
+loc_01541,Siluro-Lockhovian-T?,Easy
+loc_01542,Pragian Nodular limestone,Easy
+loc_01543,Ed?ian Granite of Tiflet,Easy
+loc_01544,Strunian Limestone Conglomerate of Tiflet,Easy
+loc_01545,Lower Visean red conglomerate,Easy
+loc_01546,Lower Ordovician–Upper Silurian unconformity,Easy
+loc_01547,Miocene/Lower Devonian unconformity,Easy
+loc_01548,Miocene/Lower Visean unconformity,Easy
+loc_01549,Pliocene–Quaternary unconformity,Easy
+loc_01550,Panoramic view of overturned bar of Iferghas,Easy
+loc_01551,Karst cliff of Ighir-n-Oumejjad,Difficult
+loc_01552,Panoramic view of the Ait Attab syncline,Easy
+loc_01553,The tectonic deformations of Jbel Hassan,Easy
+loc_01554,The ruiniform limestones with ammonite of the Ben Cherrou Formation,Easy
+loc_01555,The bad land of Ait Ouabit,Easy
+loc_01556,Gorges of Ait Ouabit,Moderate
+loc_01557,Conglomerate terraces of Oued El Abid,Moderate
+loc_01558,The footprints of sauropod dinosaurs of Ayt Bouiqban,Easy
+loc_01559,Lower limit of the basaltic flow B2,Easy
+loc_01560,Jurassic-Cretaceous unconformity and volcanic activities,Moderate
+loc_01561,Bioclastic limestone with ammonite of the Bine El Ouadane BIII Formation,Easy
+loc_01562,Panoramic view of Oued El Abid from the old Caïda of Taounza,Easy
+loc_01563,Caves of cats and the spring of Tisgui,Easy
+loc_01564,Bioclastic marly limestone of Ait Taifelt Formation,Easy
+loc_01565,Eroded sandstone of Jbel Taghmane,Easy
+loc_01566,Panoramic view of the red formations separated by the BI and BII magmatic events,Easy
+loc_01567,Ruiniform of Jbel Al Maqourra,Easy
+loc_01568,Triassic/Ordovician unconformity of Azrou,Easy
+loc_01569,Triassic/upper Devonian unconformity of Tigrigra,Easy
+loc_01570,Triassic clays and basalts Concordance of Azrou,Easy
+loc_01571,Triassic pillow lava of Azrou,Easy
+loc_01572,Lower Liassic dolomite of Akchmir,Easy
+loc_01573,Quaternary basalts balls of Sidi-Addi,Easy
+loc_01574,Quaternary/Triassic unconformity of Azrou,Easy
+loc_01575,Chtifat (C 1),Easy
+loc_01576,Chtifat (C 2),Easy
+loc_01577,Lachmine Lakbir (LA 1),Easy
+loc_01578,Ait Quassou,Easy
+loc_01579,Boutjatiout,Easy
+loc_01580,Tichout Tazouggaght,Easy
+loc_01581,Tamarakoit,Moderate
+loc_01582,Tamahrart,Easy
+loc_01583,Tizi Idguel,Easy
+loc_01584,Selrhert (S 1),Easy
+loc_01585,Selrhert (S 2),Easy
+loc_01586,Sidi Boundouh,Easy
+loc_01587,H1,Easy
+loc_01588,H2,Easy
+loc_01589,Ich Ouaharrouq (IO 1),Easy
+loc_01590,Ich Ouaharrouq (IO 2),Easy
+loc_01591,Chtifat (C 3),Easy
+loc_01592,Sud Izyar,Easy
+loc_01593,Azougouash,Easy
+loc_01594,Houirt,Moderate
+loc_01595,Bekrit,Easy
+loc_01596,Outgui,Easy
+loc_01597,Si Mghid,Easy
+loc_01598,Ariana,Easy
+loc_01599,Sidi abdel aziz,Easy
+loc_01600,Louugnina,Easy
+loc_01601,Talsast,Easy
+loc_01602,Lachmine Lakbir (LA2),Easy
+loc_01603,Ali ou ahmed (A 1),Difficult
+loc_01604,Ich Ouaharrouq (IO 2),Easy
+loc_01605,Regada,Difficult
+loc_01606,Dayat Yfrah,Easy
+loc_01607,Chmil Assou,Easy
+loc_01608,Tabourit,Easy
+loc_01609,Rabouba,Moderate
+loc_01610,Mijmouane,Easy
+loc_01611,Am Larays,Moderate
+loc_01612,Ouaoussentecht,Moderate
+loc_01613,Masrabe,Easy
+loc_01614,Habri,Easy
+loc_01615,Jbel Outgui,Easy
+loc_01616,Tit Ouagmar,Easy
+loc_01617,Chedifat-Tit Ouagma,Easy
+loc_01618,Sidi Aziz,Easy
+loc_01619,Afennourir,Moderate
+loc_01620,Dayet Ifrah,Easy
+loc_01621,Polje de Ouiouane,Easy
+loc_01622,Bassin de Agoulmam,Moderate
+loc_01623,Doline de Moutferraoun,Moderate
+loc_01624,Tichilite,Easy
+loc_01625,Source Vittel,Easy
+loc_01626,Terrasses d’El Hajeb,Easy
+loc_01627,Sources Oum Er Rbia,Moderate
+loc_01628,Gorge de Azra Azegarh,Easy
+loc_01629,Méandre Oued Akkous,Easy
+loc_01630,Gorge de l’Oued Defali,Easy
+loc_01631,Village Bou Youssef,Easy
+loc_01632,Mohamed Messaoud,Easy
+loc_01633,Paysage d’Ito,Easy
+loc_01634,Creˆte de Tizra,Difficult
+loc_01635,Tammeroit,Difficult
+loc_01636,Balcon de Timahdite,Moderate
+loc_01637,Chevrons Timahdite,Moderate
+loc_01638,Azrou unconformity,Moderate
+loc_01639,Douar Caid Ait Ouahi,Moderate
+loc_01640,Pillow lava of Malha valley,Moderate
+loc_01641,Almou,Easy
+loc_01642,Mijmouane,Easy
+loc_01643,Carry of Ouest Hebri,Easy
+loc_01644,Boutjetiout,Easy
+loc_01645,Tit Ouagmar,Easy
+loc_01646,Bou Ahsine,Easy
+loc_01647,Foum El Kheneg,Easy
+loc_01648,Ifri N'Tfrane,Easy
+loc_01649,Laach O'Medda,Easy
+loc_01650,Tassmante O'Moche,Easy
+loc_01651,Benguerir,Easy
+loc_01652,Douar Mghila,Easy
+loc_01653,Ksar Al Goraane,Easy
+loc_01654,Tinjdad,Easy
+loc_01655,Tamdakht,Difficult
+loc_01656,Oued El Hdjar,Easy
+loc_01657,Bensour,Easy
+loc_01658,Izarzar,Easy
+loc_01659,Sidi Ali Ou Azza,Moderate
+loc_01660,Tissint,Moderate
+loc_01661,Tirhert,Moderate
+loc_01662,Kheng Ljouad,Difficult
+loc_01663,Mahbas Aaraid,Easy
+loc_01664,Zag,Easy
+loc_01665,Itqly,Moderate
+loc_01666,Gueltat Zemmour,Easy
+loc_01667,Oum Dreya,Moderate
+loc_01668,Alluvial terraces of Aït Mallal,Difficult
+loc_01669,Ras El Ma Waterfalls,Easy
+loc_01670,Ras El Ma resurgence,Easy
+loc_01671,Generalized erosion at Sidi Majbar,Difficult
+loc_01672,Holm Oak on lapie,Difficult
+loc_01673,Jbel Bou Massoud lapies field,Difficult
+loc_01674,Ponor Dayet Chiker,Easy
+loc_01675,Dayet Chiker chasm,Easy
+loc_01676,Dayet Chiker Polje,Easy
+loc_01677,Friouato chasm,Easy
+loc_01678,Habiat under the Dayet Chiker escapment,Moderate
+loc_01679,Ain Becher doline,Moderate
+loc_01680,Old lead pencil,Easy
+loc_01681,Jbel Bou Slama cave,Easy
+loc_01682,Bab Boudir complex,Moderate
+loc_01683,Dhar feurn waterfalls,Difficult
+loc_01684,Ain Admame exsurgence,Difficult
+loc_01685,Volcano-sedimentary complex,Moderate
+loc_01686,Beni Senane acriculture terraces,Moderate
+loc_01687,Tazekka massif,Difficult
+loc_01688,Ouled Lakhal gorges,Difficult
+loc_01689,El Qelaa complex,Difficult
+loc_01690,El Qelaa landslide,Easy
+loc_01691,Jbel Bou Massoud anticlinal,Easy
+loc_01692,Jbel Bou Massoud fossilized lapies field,Easy
+loc_01693,Tighigha fossilized lapies field,Easy
+loc_01694,Tighigha complex,Easy
+loc_01695,Clonial millitary camp,Easy
+loc_01696,Ain Khebbab exsurgence,Difficult
+loc_01697,Cascade Sahbab,Easy
+loc_01698,Canyon of High-Tessaout valley,Moderate
+loc_01699,Canyon of Ikiss,Moderate
+loc_01700,Peak and cliffs of Tarkeddid mountain,Difficult
+loc_01701,Mount M’goun (4068 m),Difficult
+loc_01702,Glacial cirques and U-shaped valleys of M’goun,Moderate
+loc_01703,Ordovician Trilobites of Zagora Area Site 2,Easy
+loc_01704,Ordovician Trilobites of Zagora Area Site 3,Easy
+loc_01705,Ordovician Trilobites of Zagora Area Site 4,Easy
+loc_01706,Ordovician Trilobites of Zagora Area Site 5,Easy
+loc_01707,The Ergs,Moderate
+loc_01708,The Regs of Tinzouline,Moderate
+loc_01709,The Regs of Tamgroutat,Moderate
+loc_01710,Foum Chenna,Moderate
+loc_01711,Assif Ouigane,Moderate
+loc_01712,Cheaba Lbâida,Moderate
+loc_01713,Ordovician Trilobites of Zagora Area Site 6,Easy
+loc_01714,Ordovician Trilobites of Zagora Area Site 7,Easy
+loc_01715,Ordovician Trilobites of Zagora Area Site 8,Easy
+loc_01716,Ordovician Trilobites of Zagora Area Site 9,Easy
+loc_01717,Ordovician Trilobites of Zagora Area Site 10,Easy
+loc_01718,Ordovician Trilobites of Zagora Area Site 11,Easy
