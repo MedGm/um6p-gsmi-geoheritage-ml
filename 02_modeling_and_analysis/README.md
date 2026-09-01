@@ -12,7 +12,7 @@ manual label/coordinate fixes and feature sanity checks that informed the
 current dataset. Nothing downstream reads their output; they explain *why*
 the catalog looks the way it does, not a step to rerun.
 
-## `03`-`29` -- live pipeline, run in numeric order
+## `03`-`33` -- live pipeline, run in numeric order
 
 Every other script (including the `09b/09c/09d` and `16b/16c` worker/driver
 sets) feeds either a table/number cited in Paper 1
@@ -20,6 +20,13 @@ sets) feeds either a table/number cited in Paper 1
 (`report/geosite_ai_section_2026_paper2_regional.tex`), or the map markers
 in `03_report_generation/`. Run them in filename order -- later scripts
 depend on JSON/CSV outputs written by earlier ones under `results/`.
+
+`30`-`33` were added for the N=1{,}662 update (third labeling batch,
+2026-09-01): model-family comparison extended to the Domain/Infra feature
+sets (`30`, `31`), the deployed national models' (GP+Infra Difficult,
+Tree+Infra Easy) per-class precision/recall (`32`), and a one-off check of
+the Oriental region's 4 labeled sites against those same national models,
+used only for the mosaic map's Oriental fallback (`33`).
 
 Two scripts that were part of the original `data_audit/09`/`11` numbering
 were archived, not kept here (superseded by their own rewrites -- see
