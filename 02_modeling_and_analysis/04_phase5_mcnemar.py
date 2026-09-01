@@ -57,7 +57,7 @@ merged = all_labels.merge(
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 
 dom_counts = merged["Geological_Domain"].value_counts()
 rare_domains = dom_counts[dom_counts < 5].index

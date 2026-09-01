@@ -46,7 +46,7 @@ merged = all_labels.merge(
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 y = (merged["Expert_Merged"] == "Difficult").astype(int).values
 region = merged["Region"].values
 

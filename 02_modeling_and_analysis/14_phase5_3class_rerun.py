@@ -54,7 +54,7 @@ merged = all_labels.merge(
     on="Locality_ID", how="inner").dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 log(f"N={N}, class distribution: {merged['Expert_Merged'].value_counts().to_dict()}")
 
 y = merged["Expert_Merged"].map({c: i for i, c in enumerate(CLASSES)}).values

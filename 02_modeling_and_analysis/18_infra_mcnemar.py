@@ -45,7 +45,7 @@ merged = all_labels.merge(
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 
 SENTINEL_DIST_M = 60000.0
 merged["dist_nearest_tourism_poi_m"] = merged["dist_nearest_tourism_poi_m"].fillna(SENTINEL_DIST_M)

@@ -59,7 +59,7 @@ merged = all_labels.merge(
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 assert merged["n_tourism_poi_10km"].notna().all(), "expected 100% infra-feature coverage on the 939-site set"
 
 # dist_nearest_tourism_poi_m / dist_nearest_settlement_town_m / nearest_settlement_type

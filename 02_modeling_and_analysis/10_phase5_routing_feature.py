@@ -60,7 +60,7 @@ merged = all_labels.merge(
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 assert merged["Dist_to_Highway_Routing_m"].notna().all(), "expected 100% routing-distance coverage on the 939-site set"
 log(f"N={N}, routing-distance coverage: 100%")
 

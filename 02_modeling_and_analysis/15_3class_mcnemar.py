@@ -48,7 +48,7 @@ merged = all_labels.merge(
     on="Locality_ID", how="inner").dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
 N = len(merged)
-assert N == 939
+assert N == 1662
 y = merged["Expert_Merged"].map({c: i for i, c in enumerate(CLASSES)}).values
 
 def haversine_matrix(lat, lon):
