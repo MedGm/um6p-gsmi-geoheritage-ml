@@ -28,8 +28,8 @@ from matplotlib.lines import Line2D
 from pyproj import Geod
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 GRID_DIR = os.path.join(FW, "results", "grids")
 
 plt.rcParams.update({
@@ -68,7 +68,15 @@ def auto_min_dist_km(bounds, fig_width_in, marker_s, safety=1.3):
     marker_diam_pts = 2 * math.sqrt(marker_s / math.pi)
     return marker_diam_pts * km_per_point * safety
 
-def declutter_stratified(sub_draw, bounds, point_s, fig_width_in=5.0):
+# Canvas is figsize=(5.0, 6.0) inches (below), but the LaTeX report includes
+# this figure at \includegraphics[width=0.5\linewidth] on a 160mm (6.30in)
+# text width -- a PRINTED width of ~3.15in, not 5.0in. Using the canvas size
+# understates the true on-page marker spacing by ~37%, leaving points
+# visibly overlapping (flagged 2026-09-01; same fix applied in
+# make_paper2_region_maps.py, which this script's cached-grid path bypasses).
+PRINTED_FIG_WIDTH_IN = 160 / 25.4 * 0.5
+
+def declutter_stratified(sub_draw, bounds, point_s, fig_width_in=PRINTED_FIG_WIDTH_IN):
     """Thin the displayed markers so the shown correct:misclassified ratio
     matches the region's TRUE accuracy, instead of whatever ratio plain
     joint spatial thinning happens to produce. Plain declutter_points keeps
@@ -155,7 +163,7 @@ merged = all_labels.merge(catalog[["Locality_ID", "Region", "Latitude_WGS84", "L
                            on="Locality_ID", how="inner")
 merged = merged.dropna(subset=["Region"]).reset_index(drop=True)
 merged["Expert_Merged"] = merged["Expert_Class"].replace("Very Difficult", "Difficult")
-assert len(merged) == 939
+assert len(merged) == 1662
 
 map_oof = json.load(open(os.path.join(FW, "results/json/other/phase5_paper2_map_oof.json")))
 

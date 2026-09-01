@@ -85,8 +85,8 @@ t0 = time.time()
 def log(msg): print(f"[{time.time()-t0:7.1f}s] {msg}", flush=True)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FW = os.path.abspath(os.path.join(HERE, "..", ".."))
-OUT = os.path.join(HERE, "..", "figures")
+FW = os.path.abspath(os.path.join(HERE, ".."))
+OUT = os.path.join(HERE, "..", "report", "figures")
 GRID_DIR = os.path.join(FW, "results", "grids")
 os.makedirs(OUT, exist_ok=True)
 os.makedirs(GRID_DIR, exist_ok=True)
@@ -149,7 +149,17 @@ def auto_min_dist_km(bounds, fig_width_in, marker_s, safety=1.3):
     marker_diam_pts = 2 * math.sqrt(marker_s / math.pi)
     return marker_diam_pts * km_per_point * safety
 
-def declutter_stratified(sub_draw, bounds, point_s, fig_width_in=5.0):
+# The matplotlib canvas is created at figsize=(5.0, 6.0) inches (below), but
+# the LaTeX report includes this figure at \includegraphics[width=0.5\linewidth]
+# on a 160mm (6.30in) text width -- a PRINTED width of ~3.15in, not 5.0in. The
+# declutter math needs the true printed width (what a reader's eye actually
+# sees), not the matplotlib canvas size, or the enforced minimum marker
+# spacing is ~37% too small and points still visually overlap on the page
+# (flagged 2026-09-01: markers overlapping in Fes-Meknes/TTAH despite
+# decluttering "running").
+PRINTED_FIG_WIDTH_IN = 160 / 25.4 * 0.5  # 0.5\linewidth on a 160mm textwidth page
+
+def declutter_stratified(sub_draw, bounds, point_s, fig_width_in=PRINTED_FIG_WIDTH_IN):
     """Thin the displayed markers so the shown correct:misclassified ratio
     matches the region's TRUE accuracy, instead of whatever ratio plain
     joint spatial thinning happens to produce -- see rerender_paper2_maps.py's
@@ -201,7 +211,7 @@ merged["dist_nearest_settlement_town_m"] = merged["dist_nearest_settlement_town_
 merged["nearest_settlement_type"] = merged["nearest_settlement_type"].fillna("None")
 INFRA_NUMERIC = ["n_tourism_poi_10km", "dist_nearest_tourism_poi_m", "dist_nearest_settlement_town_m"]
 CODE_TO_SETTLE_CAT = {0: "None", 1: "hamlet", 2: "village", 3: "town", 4: "city"}
-assert len(merged) == 939
+assert len(merged) == 1662
 log(f"N={len(merged)}")
 
 # Ring-marker ground truth: exact per-site LOGO-cluster CV out-of-fold
