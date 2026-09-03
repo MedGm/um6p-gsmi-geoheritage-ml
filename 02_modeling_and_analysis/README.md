@@ -28,6 +28,21 @@ Tree+Infra Easy) per-class precision/recall (`32`), and a one-off check of
 the Oriental region's 4 labeled sites against those same national models,
 used only for the mosaic map's Oriental fallback (`33`).
 
+`34`-`36` (2026-09-02) investigate *why* kNN/GP started beating the tree
+ensemble on Difficult (and losing to it on Easy) once batch3 was added --
+the N=939-era conclusion had been that no alternative displaces the tree
+ensemble. `34` saves kNN(k=10)/GP per-site OOF predictions (the tree
+ensemble's were already saved by `07`/`08`); `35` splits all three models'
+accuracy by labeling-batch origin and finds the tree ensemble over-predicts
+Difficult on batch3 (138/722 predicted positive vs 100/722 true -- the same
+global-threshold-miscalibration mechanism documented in Paper 2 for
+Fes-Meknes) while kNN/GP track batch3's true, much lower prevalence far
+more closely; `36` shows why mechanistically -- adding batch3 raises old
+sites' local feature-space neighborhood purity for Difficult (helping
+distance-based methods) but lowers it for Easy (hurting them), while the
+tree ensemble's global axis-aligned splits are comparatively insensitive
+to either shift.
+
 Two scripts that were part of the original `data_audit/09`/`11` numbering
 were archived, not kept here (superseded by their own rewrites -- see
 `archive/superseded_scripts/README.md`):

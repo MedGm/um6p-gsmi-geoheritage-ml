@@ -1,0 +1,1663 @@
+Locality_ID,Region,origin,y_difficult,knn_pred_difficult,gp_pred_difficult,y_easy,knn_pred_easy,gp_pred_easy
+loc_00591,Tanger-Tétouan-Al Hoceima,batch3_2026,0,1,1,0,0,0
+loc_00592,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,0
+loc_00593,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00594,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_00595,Tanger-Tétouan-Al Hoceima,batch3_2026,1,1,1,0,0,0
+loc_00596,Tanger-Tétouan-Al Hoceima,batch3_2026,0,1,1,0,0,0
+loc_00597,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00598,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00599,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00600,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00601,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00602,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,0
+loc_00603,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00604,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00605,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00606,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00607,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00608,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00609,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00610,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00611,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00612,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00613,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00614,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00615,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00616,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00617,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_00618,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00619,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00620,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_00621,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00622,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00623,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00624,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00625,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00626,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,1,1,0,0
+loc_00627,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00628,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00629,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,0
+loc_00630,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00631,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00632,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00633,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00634,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00635,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00636,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00637,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00638,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00639,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00640,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00641,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00642,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00643,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00644,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00645,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00646,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00647,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00648,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00649,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,1,0,0,0
+loc_00650,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00651,Tanger-Tétouan-Al Hoceima,batch3_2026,1,1,1,0,0,0
+loc_00653,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00654,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_00655,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00656,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,1,0
+loc_00657,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00658,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00659,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00660,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00661,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_00662,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00663,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00664,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00665,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_00666,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00667,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00668,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00669,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00670,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00671,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,1,0,0,0
+loc_00672,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_00673,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00674,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_00675,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00676,Tanger-Tétouan-Al Hoceima,batch3_2026,0,1,0,0,0,0
+loc_00677,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00678,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00679,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00680,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00681,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00682,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00683,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_00684,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00686,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,1
+loc_00687,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_00688,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_00689,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,1,0
+loc_00690,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00691,Tanger-Tétouan-Al Hoceima,batch3_2026,1,1,0,0,0,0
+loc_00692,Tanger-Tétouan-Al Hoceima,batch3_2026,1,1,1,0,0,0
+loc_00693,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,0
+loc_00694,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00695,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00696,Tanger-Tétouan-Al Hoceima,batch3_2026,1,1,0,0,0,0
+loc_00697,Tanger-Tétouan-Al Hoceima,batch3_2026,1,1,0,0,0,0
+loc_00698,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00699,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_00700,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00701,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00702,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,0,0
+loc_00703,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_00713,Souss-Massa,batch3_2026,0,0,0,1,0,1
+loc_00714,Souss-Massa,batch3_2026,0,0,0,0,0,1
+loc_00715,Souss-Massa,batch3_2026,0,0,0,1,0,1
+loc_00716,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_00718,Marrakech-Safi,batch3_2026,0,0,0,0,1,1
+loc_00719,Marrakech-Safi,batch3_2026,0,0,0,0,1,1
+loc_00720,Marrakech-Safi,batch3_2026,0,0,0,0,1,1
+loc_00721,Marrakech-Safi,batch3_2026,0,0,0,1,1,1
+loc_00722,Marrakech-Safi,batch3_2026,0,0,0,1,0,1
+loc_00723,Marrakech-Safi,batch3_2026,0,0,0,1,0,1
+loc_00724,Marrakech-Safi,batch3_2026,0,0,0,1,1,1
+loc_00725,Marrakech-Safi,batch3_2026,0,0,0,1,0,0
+loc_00768,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00769,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00770,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,1
+loc_00771,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,1
+loc_00772,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00773,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00774,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00777,Drâa-Tafilalet,batch3_2026,1,0,0,0,0,0
+loc_00778,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00779,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00780,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_00814,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_00815,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_00816,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_00817,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_00818,Fés-Meknés,batch3_2026,0,1,0,1,0,0
+loc_00819,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_00843,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_00844,Fés-Meknés,batch3_2026,1,0,1,0,0,0
+loc_00845,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_00846,Fés-Meknés,batch3_2026,1,0,1,0,0,0
+loc_00847,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_00848,Fés-Meknés,batch3_2026,1,1,0,0,0,0
+loc_00849,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_00850,Fés-Meknés,batch3_2026,1,1,0,0,0,0
+loc_00851,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_00852,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_00853,Fés-Meknés,batch3_2026,0,0,1,0,0,0
+loc_00854,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_00855,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_00856,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_00857,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_00858,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_00859,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_00860,Fés-Meknés,batch3_2026,1,0,1,0,0,0
+loc_00861,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_00862,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_00863,Fés-Meknés,batch3_2026,0,0,0,0,1,0
+loc_00864,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_00865,Fés-Meknés,batch3_2026,1,0,1,0,0,0
+loc_00866,Fés-Meknés,batch3_2026,1,1,1,0,0,0
+loc_01148,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_01149,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01150,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01151,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01152,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01153,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01154,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01155,Fés-Meknés,batch3_2026,0,0,0,0,1,0
+loc_01156,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01157,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01158,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01159,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_01160,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01161,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01162,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_01163,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,0
+loc_01164,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,0
+loc_01167,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01168,Guelmim-Oued Noun,batch3_2026,0,0,0,0,1,1
+loc_01169,Guelmim-Oued Noun,batch3_2026,0,0,0,0,1,1
+loc_01170,Guelmim-Oued Noun,batch3_2026,0,0,0,0,1,1
+loc_01171,Guelmim-Oued Noun,batch3_2026,0,0,0,0,1,1
+loc_01172,Guelmim-Oued Noun,batch3_2026,0,0,0,0,1,1
+loc_01173,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01174,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01175,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01176,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01177,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01178,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01179,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01180,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,1
+loc_01181,Guelmim-Oued Noun,batch3_2026,0,0,0,0,1,1
+loc_01182,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01183,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,0
+loc_01195,Marrakech-Safi,batch3_2026,0,0,0,1,0,0
+loc_01196,Marrakech-Safi,batch3_2026,0,0,0,1,1,0
+loc_01197,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_01198,Laayoune-Sakia El Hamra,batch3_2026,0,0,1,0,0,0
+loc_01199,Grand Casablanca-Settat,batch3_2026,0,0,0,1,1,0
+loc_01200,Grand Casablanca-Settat,batch3_2026,0,0,0,0,1,1
+loc_01201,Grand Casablanca-Settat,batch3_2026,0,0,0,1,0,1
+loc_01202,Grand Casablanca-Settat,batch3_2026,0,0,0,1,0,1
+loc_01203,Souss-Massa,batch3_2026,1,1,1,0,0,0
+loc_01204,Grand Casablanca-Settat,batch3_2026,0,0,0,0,0,0
+loc_01205,Grand Casablanca-Settat,batch3_2026,0,0,0,0,1,1
+loc_01206,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01207,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01208,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01209,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01210,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01211,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01212,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01213,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01214,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01215,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01216,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01217,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01218,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01219,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01220,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01221,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01222,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01223,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01224,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,0
+loc_01225,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01226,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01227,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01228,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01229,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_01230,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,0
+loc_01231,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_01232,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01233,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01234,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01235,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01236,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01237,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01238,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01239,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01240,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01241,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01242,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01243,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01244,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01245,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01246,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01247,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01248,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01249,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01250,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01251,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01252,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01253,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01254,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01255,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01256,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01257,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01258,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01259,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01260,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01261,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01262,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01263,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01264,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01265,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01266,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01267,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,0,1
+loc_01268,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01269,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,1,1,1
+loc_01270,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01271,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01272,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_01273,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01274,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01275,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01276,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01277,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01278,Fés-Meknés,batch3_2026,0,0,0,0,1,0
+loc_01279,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01280,Fés-Meknés,batch3_2026,0,0,0,0,1,0
+loc_01281,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01282,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01283,Fés-Meknés,batch3_2026,0,1,0,0,0,0
+loc_01284,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01285,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01286,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01287,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,1
+loc_01288,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,1
+loc_01289,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01290,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,1
+loc_01291,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,1
+loc_01292,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,1
+loc_01293,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,1
+loc_01294,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,1
+loc_01295,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01296,Béni Mellal-Khénifra,batch3_2026,0,1,0,0,0,0
+loc_01297,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01298,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01299,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01300,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01301,Béni Mellal-Khénifra,batch3_2026,1,0,1,0,0,0
+loc_01302,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01303,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01304,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01305,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,0
+loc_01306,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01307,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01308,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01309,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01310,Rabat-Salé-Kénitra,batch3_2026,1,0,0,0,1,1
+loc_01311,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,0,1
+loc_01312,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,0,0
+loc_01313,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,0,1
+loc_01314,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,1,1
+loc_01315,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,1,1
+loc_01316,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,1,1
+loc_01317,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,1,1
+loc_01318,Rabat-Salé-Kénitra,batch3_2026,1,0,0,0,1,1
+loc_01319,Rabat-Salé-Kénitra,batch3_2026,0,0,0,0,1,1
+loc_01320,Oriental,batch3_2026,0,0,0,0,0,0
+loc_01321,Oriental,batch3_2026,0,0,0,0,0,1
+loc_01322,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_01323,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_01324,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_01325,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_01326,Souss-Massa,batch3_2026,0,0,0,1,0,1
+loc_01327,Souss-Massa,batch3_2026,0,0,0,1,1,1
+loc_01328,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,0
+loc_01329,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01330,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01331,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01332,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01333,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01334,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01335,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01336,Marrakech-Safi,batch3_2026,0,0,0,0,1,1
+loc_01337,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01338,Fés-Meknés,batch3_2026,0,0,0,0,0,1
+loc_01339,Fés-Meknés,batch3_2026,0,1,1,0,0,0
+loc_01340,Fés-Meknés,batch3_2026,0,1,0,0,0,0
+loc_01341,Fés-Meknés,batch3_2026,0,1,0,0,0,0
+loc_01342,Souss-Massa,batch3_2026,0,0,0,0,1,1
+loc_01343,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01344,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_01345,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,1
+loc_01346,Tanger-Tétouan-Al Hoceima,batch3_2026,1,0,0,0,1,1
+loc_01347,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01348,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01349,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01350,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,0
+loc_01351,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,1
+loc_01352,Guelmim-Oued Noun,batch3_2026,0,0,0,0,0,0
+loc_01353,Guelmim-Oued Noun,batch3_2026,0,0,0,1,1,1
+loc_01354,Guelmim-Oued Noun,batch3_2026,0,0,0,0,0,0
+loc_01355,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,1
+loc_01356,Guelmim-Oued Noun,batch3_2026,0,0,0,0,0,0
+loc_01357,Guelmim-Oued Noun,batch3_2026,1,0,0,0,0,1
+loc_01358,Guelmim-Oued Noun,batch3_2026,0,0,0,0,0,0
+loc_01359,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,0
+loc_01360,Drâa-Tafilalet,batch3_2026,0,1,0,1,0,0
+loc_01361,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01362,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01363,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01364,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01365,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01366,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01367,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01368,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01369,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01370,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01371,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01372,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01373,Béni Mellal-Khénifra,batch3_2026,0,1,0,0,0,0
+loc_01374,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01375,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01376,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01377,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01378,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,1,1
+loc_01379,Béni Mellal-Khénifra,batch3_2026,1,1,0,0,0,0
+loc_01380,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01381,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01382,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01383,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01384,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01385,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01386,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01387,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01388,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01389,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01390,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01391,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01392,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01393,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01394,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01395,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01396,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01397,Béni Mellal-Khénifra,batch3_2026,0,1,1,1,0,0
+loc_01398,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01399,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01400,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01401,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01402,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01403,Béni Mellal-Khénifra,batch3_2026,1,0,1,0,0,0
+loc_01404,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01405,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01406,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01407,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01408,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01409,Souss-Massa,batch3_2026,0,0,0,0,0,0
+loc_01410,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01411,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,0
+loc_01412,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,1
+loc_01413,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,1,1
+loc_01414,Tanger-Tétouan-Al Hoceima,batch3_2026,0,0,0,0,0,1
+loc_01415,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01416,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01417,Fés-Meknés,batch3_2026,0,0,1,0,0,0
+loc_01418,Fés-Meknés,batch3_2026,0,0,1,0,0,0
+loc_01419,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01420,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01421,Fés-Meknés,batch3_2026,0,0,1,0,0,0
+loc_01422,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01423,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01424,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01425,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01426,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01427,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01428,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01429,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01430,Fés-Meknés,batch3_2026,1,1,0,0,0,0
+loc_01431,Fés-Meknés,batch3_2026,1,1,0,0,0,0
+loc_01432,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01433,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01434,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01435,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01436,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01437,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01438,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01439,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01440,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01441,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,1
+loc_01442,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,0
+loc_01443,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01444,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01445,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01446,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,0
+loc_01447,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01448,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,1,1
+loc_01449,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01450,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01451,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01452,Béni Mellal-Khénifra,batch3_2026,0,1,0,0,0,0
+loc_01453,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01454,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01455,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01456,Béni Mellal-Khénifra,batch3_2026,1,1,0,0,0,0
+loc_01457,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01458,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01459,Béni Mellal-Khénifra,batch3_2026,0,1,0,0,0,0
+loc_01460,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01461,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01462,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01463,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01464,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01465,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01466,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01467,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01468,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01469,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01470,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01471,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01472,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01473,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01474,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01475,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01476,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01477,Béni Mellal-Khénifra,batch3_2026,1,0,0,0,0,0
+loc_01478,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01479,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,1
+loc_01480,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,1
+loc_01481,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01482,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,1,0
+loc_01483,Béni Mellal-Khénifra,batch3_2026,0,0,1,1,0,0
+loc_01484,Béni Mellal-Khénifra,batch3_2026,0,1,0,0,0,0
+loc_01485,Béni Mellal-Khénifra,batch3_2026,1,0,1,0,0,0
+loc_01486,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01487,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01488,Béni Mellal-Khénifra,batch3_2026,0,1,0,1,0,0
+loc_01489,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01490,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01491,Béni Mellal-Khénifra,batch3_2026,1,0,1,0,0,0
+loc_01492,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01493,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01494,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,0
+loc_01495,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,0
+loc_01496,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01497,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01498,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01499,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01500,Souss-Massa,batch3_2026,1,0,0,0,0,0
+loc_01501,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01502,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01503,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01504,Souss-Massa,batch3_2026,0,0,0,1,0,0
+loc_01505,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01506,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01507,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,0
+loc_01508,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,0
+loc_01509,Drâa-Tafilalet,batch3_2026,1,0,0,0,0,0
+loc_01510,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01511,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01512,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,1
+loc_01513,Drâa-Tafilalet,batch3_2026,1,0,0,0,0,0
+loc_01514,Souss-Massa,batch3_2026,0,0,0,1,0,0
+loc_01515,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01516,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01517,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01518,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01519,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01520,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01521,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01522,Béni Mellal-Khénifra,batch3_2026,0,0,1,0,0,0
+loc_01523,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01524,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01525,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01526,Béni Mellal-Khénifra,batch3_2026,0,1,1,0,0,0
+loc_01527,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01528,Béni Mellal-Khénifra,batch3_2026,1,1,1,0,0,0
+loc_01529,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01530,Souss-Massa,batch3_2026,0,0,0,1,0,0
+loc_01531,Souss-Massa,batch3_2026,0,0,1,0,0,0
+loc_01532,Souss-Massa,batch3_2026,1,0,1,0,0,0
+loc_01533,Souss-Massa,batch3_2026,0,0,1,0,0,0
+loc_01534,Souss-Massa,batch3_2026,0,0,0,0,0,0
+loc_01535,Souss-Massa,batch3_2026,0,0,0,0,0,0
+loc_01536,Souss-Massa,batch3_2026,0,0,0,0,0,0
+loc_01537,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01538,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01539,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01540,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01541,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,0,1
+loc_01542,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01543,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01544,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01545,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01546,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01547,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01548,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01549,Rabat-Salé-Kénitra,batch3_2026,0,0,0,1,1,1
+loc_01550,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01551,Béni Mellal-Khénifra,batch3_2026,1,1,0,0,0,0
+loc_01552,Béni Mellal-Khénifra,batch3_2026,0,1,1,1,0,0
+loc_01553,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01554,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,1,1
+loc_01555,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,1,1
+loc_01556,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01557,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01558,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,1,0
+loc_01559,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,1,1
+loc_01560,Béni Mellal-Khénifra,batch3_2026,0,0,0,0,0,0
+loc_01561,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01562,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01563,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,1
+loc_01564,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01565,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01566,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,1,1
+loc_01567,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01568,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01569,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01570,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01571,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01572,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01573,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01574,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01575,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01576,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01577,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01578,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01579,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01580,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01581,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01582,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01583,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01584,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01585,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01586,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01587,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01588,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01589,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01590,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01591,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01592,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01593,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01594,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01595,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01596,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01597,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01598,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01599,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01600,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01601,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01602,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01603,Fés-Meknés,batch3_2026,1,0,1,0,0,0
+loc_01604,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01605,Fés-Meknés,batch3_2026,1,0,0,0,0,1
+loc_01606,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01607,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01608,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01609,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01610,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01611,Drâa-Tafilalet,batch3_2026,0,1,1,0,0,0
+loc_01612,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01613,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01614,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01615,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01616,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01617,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01618,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01619,Fés-Meknés,batch3_2026,0,0,0,0,1,0
+loc_01620,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01621,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01622,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_01623,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01624,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01625,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01626,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01627,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01628,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01629,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01630,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01631,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01632,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01633,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01634,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01635,Fés-Meknés,batch3_2026,1,1,0,0,0,0
+loc_01636,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01637,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01638,Fés-Meknés,batch3_2026,0,1,0,0,0,1
+loc_01639,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01640,Fés-Meknés,batch3_2026,0,0,0,0,1,1
+loc_01641,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01642,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01643,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01644,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01645,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01646,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01647,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01648,Fés-Meknés,batch3_2026,0,1,0,1,0,0
+loc_01649,Fés-Meknés,batch3_2026,0,0,1,1,0,0
+loc_01650,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01651,Marrakech-Safi,batch3_2026,0,0,0,1,0,1
+loc_01652,Béni Mellal-Khénifra,batch3_2026,0,0,0,1,0,0
+loc_01653,Oriental,batch3_2026,0,0,0,1,0,0
+loc_01654,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01655,Drâa-Tafilalet,batch3_2026,1,1,1,0,0,0
+loc_01656,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01657,Drâa-Tafilalet,batch3_2026,0,0,0,1,1,1
+loc_01658,Souss-Massa,batch3_2026,0,0,0,1,0,0
+loc_01659,Souss-Massa,batch3_2026,0,0,1,0,0,0
+loc_01660,Souss-Massa,batch3_2026,0,0,0,0,0,0
+loc_01661,Souss-Massa,batch3_2026,0,0,0,0,0,0
+loc_01662,Souss-Massa,batch3_2026,1,0,0,0,0,1
+loc_01663,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,0
+loc_01664,Guelmim-Oued Noun,batch3_2026,0,0,0,1,0,1
+loc_01665,Laayoune-Sakia El Hamra,batch3_2026,0,0,0,0,0,0
+loc_01666,Laayoune-Sakia El Hamra,batch3_2026,0,1,1,1,0,0
+loc_01667,Eddakhla-Oued Eddahab,batch3_2026,0,0,0,0,0,1
+loc_01668,Drâa-Tafilalet,batch3_2026,1,1,1,0,0,0
+loc_01669,Fés-Meknés,batch3_2026,0,0,0,1,1,0
+loc_01670,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01671,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01672,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01673,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01674,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01675,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01676,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01677,Fés-Meknés,batch3_2026,0,1,0,1,0,0
+loc_01678,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01679,Fés-Meknés,batch3_2026,0,1,0,0,0,0
+loc_01680,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01681,Fés-Meknés,batch3_2026,0,1,0,1,0,0
+loc_01682,Fés-Meknés,batch3_2026,0,1,1,0,0,0
+loc_01683,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01684,Fés-Meknés,batch3_2026,1,1,0,0,0,0
+loc_01685,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01686,Fés-Meknés,batch3_2026,0,0,0,0,0,0
+loc_01687,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01688,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01689,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01690,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01691,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01692,Fés-Meknés,batch3_2026,0,0,0,1,0,0
+loc_01693,Fés-Meknés,batch3_2026,0,0,0,1,0,1
+loc_01694,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01695,Fés-Meknés,batch3_2026,0,0,0,1,1,1
+loc_01696,Fés-Meknés,batch3_2026,1,0,0,0,0,0
+loc_01697,Oriental,batch3_2026,0,0,0,1,0,0
+loc_01698,Drâa-Tafilalet,batch3_2026,0,1,0,0,0,0
+loc_01699,Drâa-Tafilalet,batch3_2026,0,1,1,0,0,0
+loc_01700,Drâa-Tafilalet,batch3_2026,1,0,1,0,0,0
+loc_01701,Drâa-Tafilalet,batch3_2026,1,1,1,0,0,0
+loc_01702,Drâa-Tafilalet,batch3_2026,0,1,1,0,0,0
+loc_01703,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01704,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,1
+loc_01705,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,1
+loc_01706,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01707,Drâa-Tafilalet,batch3_2026,0,0,0,0,1,1
+loc_01708,Drâa-Tafilalet,batch3_2026,0,0,0,0,1,1
+loc_01709,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,1
+loc_01710,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01711,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01712,Drâa-Tafilalet,batch3_2026,0,0,0,0,0,0
+loc_01713,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,1
+loc_01714,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01715,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01716,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01717,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_01718,Drâa-Tafilalet,batch3_2026,0,0,0,1,0,0
+loc_00304,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00307,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00306,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00244,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00305,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00313,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00312,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00311,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00310,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00246,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00303,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00056,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00294,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00293,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00295,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00292,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00241,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00290,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00289,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00288,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00243,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00309,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00308,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00286,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00287,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00240,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00242,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00297,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00299,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00298,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00245,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00300,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00301,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00302,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00237,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00225,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00232,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00239,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00235,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00234,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00238,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00226,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00285,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00248,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00284,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00280,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00247,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00314,Béni Mellal-Khénifra,original_733,0,1,1,0,0,0
+loc_00283,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00249,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00281,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00282,Béni Mellal-Khénifra,original_733,0,0,0,1,1,0
+loc_00076,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00075,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00074,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00233,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00229,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00231,Béni Mellal-Khénifra,original_733,0,1,0,0,0,0
+loc_00236,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00227,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00228,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00291,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00230,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00296,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00726,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00727,Béni Mellal-Khénifra,original_733,0,0,0,1,0,1
+loc_00728,Béni Mellal-Khénifra,original_733,1,1,1,0,0,0
+loc_00729,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00730,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00731,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00732,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00733,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00734,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00735,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00736,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00737,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00738,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00484,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00485,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00486,Béni Mellal-Khénifra,original_733,0,0,0,0,1,0
+loc_00487,Béni Mellal-Khénifra,original_733,0,0,0,0,1,0
+loc_00488,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00408,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_01194,Béni Mellal-Khénifra,original_733,1,0,0,0,1,1
+loc_00489,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00490,Béni Mellal-Khénifra,original_733,1,0,1,0,0,0
+loc_00493,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00495,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00497,Béni Mellal-Khénifra,original_733,0,0,0,0,1,0
+loc_00500,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00501,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00502,Béni Mellal-Khénifra,original_733,0,0,0,1,0,1
+loc_00503,Béni Mellal-Khénifra,original_733,1,0,0,0,1,1
+loc_00504,Béni Mellal-Khénifra,original_733,0,0,0,0,0,1
+loc_00505,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00378,Béni Mellal-Khénifra,original_733,0,0,0,1,0,1
+loc_00379,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00382,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00385,Béni Mellal-Khénifra,original_733,1,1,1,0,0,0
+loc_00387,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00388,Béni Mellal-Khénifra,original_733,0,0,1,0,0,0
+loc_00389,Béni Mellal-Khénifra,original_733,1,1,1,0,0,0
+loc_00392,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00704,Béni Mellal-Khénifra,original_733,1,0,0,0,0,1
+loc_00705,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00706,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00707,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00708,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00709,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00710,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00711,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00712,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00443,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00444,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00445,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00446,Béni Mellal-Khénifra,original_733,0,1,1,0,0,0
+loc_00447,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00449,Béni Mellal-Khénifra,original_733,0,0,0,0,0,1
+loc_00450,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00451,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00453,Béni Mellal-Khénifra,original_733,0,1,1,0,0,0
+loc_00491,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00494,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00498,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00785,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00786,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00787,Béni Mellal-Khénifra,original_733,0,0,0,0,0,1
+loc_00790,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00792,Béni Mellal-Khénifra,original_733,0,0,0,0,0,1
+loc_00799,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00803,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00806,Béni Mellal-Khénifra,original_733,0,0,0,1,1,1
+loc_00781,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00782,Béni Mellal-Khénifra,original_733,0,0,0,1,0,1
+loc_00783,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00784,Béni Mellal-Khénifra,original_733,0,0,0,1,1,0
+loc_00788,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00789,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00791,Béni Mellal-Khénifra,original_733,0,0,0,1,0,0
+loc_00795,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00796,Béni Mellal-Khénifra,original_733,0,1,0,0,0,0
+loc_00797,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00798,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00800,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00801,Béni Mellal-Khénifra,original_733,0,0,0,0,1,1
+loc_00802,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00804,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00805,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00807,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00808,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00809,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00810,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00811,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00812,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00813,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00793,Béni Mellal-Khénifra,original_733,0,0,0,0,0,0
+loc_00794,Béni Mellal-Khénifra,original_733,1,0,0,0,0,0
+loc_00004,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00003,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00002,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00001,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00033,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00032,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00025,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00031,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00034,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00030,Drâa-Tafilalet,original_733,0,0,0,0,1,1
+loc_00035,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00021,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00036,Drâa-Tafilalet,original_733,0,0,0,0,1,0
+loc_00029,Drâa-Tafilalet,original_733,0,0,0,0,1,1
+loc_00022,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00037,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00024,Drâa-Tafilalet,original_733,0,0,0,1,1,0
+loc_00020,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00026,Drâa-Tafilalet,original_733,0,0,0,0,0,1
+loc_00023,Drâa-Tafilalet,original_733,0,0,0,0,1,0
+loc_00038,Drâa-Tafilalet,original_733,1,1,1,0,0,0
+loc_00039,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00027,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00055,Drâa-Tafilalet,original_733,0,1,1,0,0,0
+loc_00028,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00050,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00019,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00048,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00049,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00044,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00018,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00051,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00046,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00054,Drâa-Tafilalet,original_733,1,0,0,0,0,0
+loc_00040,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00053,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00017,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00043,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00042,Drâa-Tafilalet,original_733,1,1,1,0,0,0
+loc_00016,Drâa-Tafilalet,original_733,1,0,0,0,1,0
+loc_00015,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00013,Drâa-Tafilalet,original_733,1,0,0,0,1,1
+loc_00012,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00011,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00010,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00009,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00008,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00007,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00006,Drâa-Tafilalet,original_733,1,0,0,0,0,1
+loc_00014,Drâa-Tafilalet,original_733,1,0,0,0,1,1
+loc_00073,Drâa-Tafilalet,original_733,0,0,0,0,1,0
+loc_00756,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00757,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00758,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00759,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00760,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00761,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00762,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00763,Drâa-Tafilalet,original_733,0,0,0,0,1,1
+loc_00764,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00765,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00766,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00767,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00747,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00748,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00749,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00750,Drâa-Tafilalet,original_733,0,0,0,0,1,0
+loc_00751,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00752,Drâa-Tafilalet,original_733,0,0,0,0,0,0
+loc_00753,Drâa-Tafilalet,original_733,0,0,0,0,1,1
+loc_00754,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00755,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00454,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00455,Drâa-Tafilalet,original_733,0,0,0,1,0,1
+loc_00456,Drâa-Tafilalet,original_733,0,0,0,1,0,1
+loc_00457,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00458,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00775,Drâa-Tafilalet,original_733,0,0,0,0,0,1
+loc_00776,Drâa-Tafilalet,original_733,0,1,1,1,0,0
+loc_00739,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00740,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00741,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00742,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00743,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00744,Drâa-Tafilalet,original_733,0,0,0,1,1,1
+loc_00745,Drâa-Tafilalet,original_733,0,0,0,1,0,0
+loc_00746,Drâa-Tafilalet,original_733,0,0,1,0,0,0
+loc_00041,Drâa-Tafilalet,el_ouali_2026,0,0,0,1,0,0
+loc_00045,Drâa-Tafilalet,el_ouali_2026,0,0,0,1,0,0
+loc_00047,Drâa-Tafilalet,el_ouali_2026,0,0,0,1,0,0
+loc_00052,Drâa-Tafilalet,el_ouali_2026,0,1,0,0,0,0
+loc_00057,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00070,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_00080,Fés-Meknés,el_ouali_2026,1,0,0,0,0,0
+loc_00084,Fés-Meknés,el_ouali_2026,1,0,0,0,1,1
+loc_00085,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_00087,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00094,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00098,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00101,Souss-Massa,el_ouali_2026,0,0,0,1,0,1
+loc_00104,Souss-Massa,el_ouali_2026,0,0,0,1,1,1
+loc_00107,Souss-Massa,el_ouali_2026,0,0,0,1,1,1
+loc_00108,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00109,Souss-Massa,el_ouali_2026,0,0,0,0,1,0
+loc_00110,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00112,Souss-Massa,el_ouali_2026,1,0,0,0,0,0
+loc_00113,Souss-Massa,el_ouali_2026,1,0,0,0,0,0
+loc_00114,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00115,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00116,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00118,Souss-Massa,el_ouali_2026,0,0,1,0,0,0
+loc_00119,Souss-Massa,el_ouali_2026,0,0,1,0,0,0
+loc_00120,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00122,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00124,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00127,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00128,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00130,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00136,Souss-Massa,el_ouali_2026,0,0,0,0,1,0
+loc_00140,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00141,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00142,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,1
+loc_00145,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,1
+loc_00146,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,1
+loc_00147,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,1
+loc_00148,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,0
+loc_00156,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,1,1,1
+loc_00162,Guelmim-Oued Noun,el_ouali_2026,0,0,0,0,0,1
+loc_00274,Marrakech-Safi,el_ouali_2026,0,0,0,0,1,1
+loc_00276,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,0,0,0,0
+loc_00277,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00278,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00279,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,0
+loc_00318,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,1
+loc_00356,Fés-Meknés,el_ouali_2026,0,1,0,1,0,0
+loc_00358,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_00359,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_00360,Fés-Meknés,el_ouali_2026,0,0,0,1,0,0
+loc_00363,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_00373,Fés-Meknés,el_ouali_2026,1,1,1,0,0,0
+loc_00375,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00376,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,0
+loc_00377,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00380,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00381,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00383,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,0
+loc_00384,Béni Mellal-Khénifra,el_ouali_2026,1,0,0,0,0,0
+loc_00386,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,0
+loc_00390,Béni Mellal-Khénifra,el_ouali_2026,1,0,0,0,0,0
+loc_00391,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00393,Béni Mellal-Khénifra,el_ouali_2026,1,0,0,0,0,0
+loc_00394,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,0
+loc_00395,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,1
+loc_00396,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00397,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00398,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00399,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00400,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00401,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00406,Fés-Meknés,el_ouali_2026,0,0,0,1,1,1
+loc_00407,Fés-Meknés,el_ouali_2026,1,0,0,0,0,1
+loc_00409,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00410,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,1
+loc_00411,Marrakech-Safi,el_ouali_2026,0,0,0,0,0,0
+loc_00412,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00415,Marrakech-Safi,el_ouali_2026,1,0,0,0,1,1
+loc_00416,Marrakech-Safi,el_ouali_2026,1,0,0,0,1,1
+loc_00417,Marrakech-Safi,el_ouali_2026,1,0,0,0,1,1
+loc_00419,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00421,Marrakech-Safi,el_ouali_2026,0,0,0,0,0,0
+loc_00422,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00425,Souss-Massa,el_ouali_2026,0,0,0,1,0,1
+loc_00426,Souss-Massa,el_ouali_2026,1,0,0,0,0,1
+loc_00427,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00428,Souss-Massa,el_ouali_2026,0,0,0,0,1,0
+loc_00429,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00430,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,1,0,1
+loc_00431,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,1,0,1
+loc_00432,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,1,0,1
+loc_00433,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00434,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,0,0,0,0
+loc_00435,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,1,1,0,0
+loc_00436,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00437,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00438,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00439,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00448,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00452,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00459,Drâa-Tafilalet,el_ouali_2026,0,0,0,1,0,0
+loc_00460,Marrakech-Safi,el_ouali_2026,0,0,0,0,1,1
+loc_00461,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,1
+loc_00462,Marrakech-Safi,el_ouali_2026,1,0,0,0,0,0
+loc_00463,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00464,Marrakech-Safi,el_ouali_2026,0,0,0,0,0,1
+loc_00465,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,1
+loc_00466,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00467,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00468,Marrakech-Safi,el_ouali_2026,0,0,0,0,0,0
+loc_00469,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00470,Marrakech-Safi,el_ouali_2026,0,0,0,0,1,0
+loc_00471,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,0
+loc_00472,Marrakech-Safi,el_ouali_2026,0,1,0,1,0,0
+loc_00473,Marrakech-Safi,el_ouali_2026,0,0,0,1,1,1
+loc_00474,Marrakech-Safi,el_ouali_2026,0,0,0,1,0,1
+loc_00475,Grand Casablanca-Settat,el_ouali_2026,0,0,0,1,0,1
+loc_00476,Grand Casablanca-Settat,el_ouali_2026,0,0,0,1,1,0
+loc_00477,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00478,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00479,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00480,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00481,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00482,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00483,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00492,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,0,0,0
+loc_00496,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,0
+loc_00499,Béni Mellal-Khénifra,el_ouali_2026,0,0,0,1,0,0
+loc_00506,Eddakhla-Oued Eddahab,el_ouali_2026,1,1,1,0,0,1
+loc_00507,Eddakhla-Oued Eddahab,el_ouali_2026,0,0,0,0,0,0
+loc_00508,Eddakhla-Oued Eddahab,el_ouali_2026,1,0,0,0,0,0
+loc_00509,Eddakhla-Oued Eddahab,el_ouali_2026,0,0,0,0,1,0
+loc_00510,Eddakhla-Oued Eddahab,el_ouali_2026,0,0,0,1,0,1
+loc_00511,Eddakhla-Oued Eddahab,el_ouali_2026,1,0,0,0,0,0
+loc_00512,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,0,0,1
+loc_00513,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,0,0,0
+loc_00514,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,0,0,0
+loc_00515,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,0,0,0
+loc_00516,Laayoune-Sakia El Hamra,el_ouali_2026,0,0,0,1,1,1
+loc_00517,Guelmim-Oued Noun,el_ouali_2026,1,0,0,0,0,0
+loc_00518,Marrakech-Safi,el_ouali_2026,0,0,0,0,0,0
+loc_00519,Laayoune-Sakia El Hamra,el_ouali_2026,1,0,0,0,0,0
+loc_00520,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00521,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00522,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00523,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00524,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00525,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00526,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,1
+loc_00527,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00528,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,1,0,0,0
+loc_00529,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00530,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,1,1,0,0,0
+loc_00531,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,1,0,0,0
+loc_00532,Souss-Massa,el_ouali_2026,0,0,0,0,1,1
+loc_00533,Souss-Massa,el_ouali_2026,0,0,0,0,1,1
+loc_00534,Souss-Massa,el_ouali_2026,0,0,0,0,1,1
+loc_00535,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00536,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00537,Souss-Massa,el_ouali_2026,0,0,0,1,1,1
+loc_00538,Souss-Massa,el_ouali_2026,1,0,0,0,0,0
+loc_00539,Souss-Massa,el_ouali_2026,0,0,0,1,0,0
+loc_00540,Souss-Massa,el_ouali_2026,0,0,0,0,0,0
+loc_00541,Souss-Massa,el_ouali_2026,1,0,0,0,0,0
+loc_00542,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,1,0
+loc_00547,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00548,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00549,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,0,0,0,0
+loc_00550,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00551,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00554,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00557,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,1,1,0,0,0
+loc_00558,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00559,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00560,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00563,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00564,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00565,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00566,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00567,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,1
+loc_00569,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00572,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,1,0,0,0
+loc_00573,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,0,0,0,0
+loc_00574,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00575,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00576,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00577,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,1,0,0,0,0
+loc_00578,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,1,0,0,0
+loc_00579,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,0,0,0,0
+loc_00580,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,1,1,0,0,0
+loc_00581,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,1,1,0,0,0
+loc_00582,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,1,0,0,0,0
+loc_00583,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,1,0,0,0,0
+loc_00584,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,0,0,0,0
+loc_00585,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,0,0
+loc_00586,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,1,1,0,0,0
+loc_00587,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,0,1,1
+loc_00588,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,0,0,1,0,0
+loc_00589,Tanger-Tétouan-Al Hoceima,el_ouali_2026,0,1,1,1,0,0
+loc_00590,Tanger-Tétouan-Al Hoceima,el_ouali_2026,1,0,1,0,0,0
+loc_00911,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_00986,Fés-Meknés,el_ouali_2026,0,0,0,0,0,0
+loc_01078,Fés-Meknés,el_ouali_2026,0,0,0,1,0,0
+loc_01190,Eddakhla-Oued Eddahab,el_ouali_2026,0,0,0,1,0,0
+loc_01191,Eddakhla-Oued Eddahab,el_ouali_2026,0,0,0,1,0,0
+loc_00353,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00354,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00366,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00355,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_00357,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00367,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_00374,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00369,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_00361,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00371,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00370,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00372,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00072,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00362,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_00071,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00086,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00083,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00081,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00082,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_00078,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_00079,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01047,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01051,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_01055,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01065,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01066,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_00917,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00918,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00919,Fés-Meknés,original_733,0,0,0,1,1,0
+loc_00920,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00921,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00922,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00923,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00924,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00925,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00926,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00927,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00928,Fés-Meknés,original_733,0,0,0,1,1,0
+loc_00929,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00930,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00931,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00932,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_00933,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_00934,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00935,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_00936,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00937,Fés-Meknés,original_733,0,0,0,1,1,0
+loc_00938,Fés-Meknés,original_733,0,1,0,1,0,0
+loc_00939,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00940,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00941,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00942,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00943,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00944,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00945,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_00947,Fés-Meknés,original_733,0,1,1,1,0,0
+loc_00948,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_00949,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00950,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00951,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00952,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00953,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00954,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00956,Fés-Meknés,original_733,0,0,1,1,0,0
+loc_00957,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00958,Fés-Meknés,original_733,1,0,0,0,1,0
+loc_00959,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00960,Fés-Meknés,original_733,1,0,0,0,0,1
+loc_00961,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00962,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_00963,Fés-Meknés,original_733,1,0,0,0,0,1
+loc_00964,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00965,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00966,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_00967,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_00968,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00969,Fés-Meknés,original_733,1,0,0,0,1,0
+loc_00970,Fés-Meknés,original_733,0,0,1,0,0,0
+loc_00971,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00972,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00973,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00974,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_00975,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_00976,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00977,Fés-Meknés,original_733,0,1,0,1,0,0
+loc_00978,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00979,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00980,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00981,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00982,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00983,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_00984,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00985,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_00987,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00988,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_00989,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00990,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00991,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00992,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00993,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00995,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00996,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00997,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01071,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00998,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00999,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_01000,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01001,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01002,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01003,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01004,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01005,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_01006,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_01007,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_01008,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_01009,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01010,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01011,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_01012,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_01013,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01014,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_01015,Fés-Meknés,original_733,0,0,1,1,0,0
+loc_01016,Fés-Meknés,original_733,0,0,1,0,0,0
+loc_01017,Fés-Meknés,original_733,0,0,0,1,1,0
+loc_01036,Fés-Meknés,original_733,1,0,0,0,1,0
+loc_01018,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_01019,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00946,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01041,Fés-Meknés,original_733,0,1,0,1,0,0
+loc_00955,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01042,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00717,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00994,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01039,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01040,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01119,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_01043,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01044,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01045,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01046,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_01048,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01049,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_01050,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01052,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01053,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01054,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00842,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01056,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01057,Fés-Meknés,original_733,1,0,0,0,0,1
+loc_01058,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_01059,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01060,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01061,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_01062,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01063,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01064,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01067,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01068,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01069,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01070,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01072,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01073,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01074,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01075,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01076,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01077,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01079,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01080,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01081,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01082,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01083,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01084,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01085,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01086,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01087,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01088,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01089,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01090,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01091,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01092,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01093,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01094,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01095,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01096,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01097,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01098,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01099,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01100,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_01101,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01102,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01103,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01104,Fés-Meknés,original_733,1,0,0,0,1,0
+loc_01105,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01106,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01107,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_01108,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01109,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01110,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01111,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01112,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_01113,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01114,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_01115,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01116,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01117,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_01118,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01120,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01121,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01122,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01123,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01124,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01125,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01126,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01127,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01128,Fés-Meknés,original_733,0,0,0,0,0,1
+loc_01129,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01130,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01131,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01132,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_01133,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01134,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01135,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_01136,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01137,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_01138,Fés-Meknés,original_733,1,0,0,0,0,1
+loc_01139,Fés-Meknés,original_733,1,0,1,0,0,0
+loc_01140,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00916,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01141,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01142,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01143,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_01144,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01145,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01146,Fés-Meknés,original_733,0,0,1,0,0,0
+loc_01147,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_00820,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00821,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_00822,Fés-Meknés,original_733,1,0,0,0,1,0
+loc_00823,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00824,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00825,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00826,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_00827,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_00828,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_00829,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00830,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00831,Fés-Meknés,original_733,1,0,0,0,1,0
+loc_00832,Fés-Meknés,original_733,0,1,1,0,0,0
+loc_00833,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00834,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00835,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00836,Fés-Meknés,original_733,1,1,1,0,0,0
+loc_00837,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00838,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00839,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00840,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00841,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00867,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00868,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00869,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00870,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00871,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00872,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00873,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00874,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00875,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00876,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00877,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00878,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00879,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00880,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00881,Fés-Meknés,original_733,0,0,0,1,0,0
+loc_00882,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_00883,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00884,Fés-Meknés,original_733,0,0,0,1,0,1
+loc_00885,Fés-Meknés,original_733,0,0,0,1,1,0
+loc_00886,Fés-Meknés,original_733,0,0,0,0,0,1
+loc_00887,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00888,Fés-Meknés,original_733,0,0,0,0,0,1
+loc_00889,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00890,Fés-Meknés,original_733,0,0,0,0,1,1
+loc_00891,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00892,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00893,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00894,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00895,Fés-Meknés,original_733,0,0,0,0,0,1
+loc_00896,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00897,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00898,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00899,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00900,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00901,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00902,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00903,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00904,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_00905,Fés-Meknés,original_733,0,0,0,0,1,0
+loc_00906,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00907,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00908,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00909,Fés-Meknés,original_733,0,1,0,0,0,0
+loc_00910,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00912,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00913,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00914,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_00915,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01020,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01021,Fés-Meknés,original_733,1,1,0,0,0,0
+loc_01022,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01023,Fés-Meknés,original_733,0,0,0,1,1,1
+loc_01024,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01025,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01026,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01027,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01028,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01029,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01030,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01031,Fés-Meknés,original_733,1,0,0,0,1,1
+loc_01032,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01033,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01034,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_01035,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01037,Fés-Meknés,original_733,0,0,0,0,0,0
+loc_01038,Fés-Meknés,original_733,1,0,0,0,0,0
+loc_00212,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,0
+loc_00215,Rabat-Salé-Kénitra,original_733,1,0,0,0,0,0
+loc_00216,Rabat-Salé-Kénitra,original_733,1,0,0,0,0,0
+loc_00213,Rabat-Salé-Kénitra,original_733,0,0,0,0,1,0
+loc_00214,Rabat-Salé-Kénitra,original_733,0,0,0,0,1,0
+loc_00224,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00211,Rabat-Salé-Kénitra,original_733,0,0,0,0,1,0
+loc_00210,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,0
+loc_00205,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00208,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00207,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00209,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00206,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00222,Rabat-Salé-Kénitra,original_733,0,0,0,1,1,1
+loc_00218,Rabat-Salé-Kénitra,original_733,0,0,0,0,1,0
+loc_00204,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,0
+loc_00223,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,0
+loc_00221,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,1
+loc_00219,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,0
+loc_00217,Rabat-Salé-Kénitra,original_733,0,0,0,1,0,1
+loc_00220,Rabat-Salé-Kénitra,original_733,0,0,0,0,0,0
+loc_00106,Souss-Massa,original_733,0,0,0,0,1,1
+loc_00105,Souss-Massa,original_733,0,0,0,0,1,1
+loc_00131,Souss-Massa,original_733,1,0,0,0,0,1
+loc_00133,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00129,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00092,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00095,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00139,Souss-Massa,original_733,0,0,0,0,0,0
+loc_00096,Souss-Massa,original_733,0,0,0,1,1,1
+loc_00097,Souss-Massa,original_733,0,0,0,1,1,1
+loc_00135,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00103,Souss-Massa,original_733,0,0,0,1,1,1
+loc_00088,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00089,Souss-Massa,original_733,0,0,0,0,0,1
+loc_00090,Souss-Massa,original_733,0,0,0,0,0,0
+loc_00137,Souss-Massa,original_733,0,0,0,0,0,0
+loc_00102,Souss-Massa,original_733,0,0,0,1,0,1
+loc_00125,Souss-Massa,original_733,0,0,0,0,0,0
+loc_00126,Souss-Massa,original_733,0,1,0,0,0,0
+loc_00117,Souss-Massa,original_733,0,1,1,0,0,0
+loc_00138,Souss-Massa,original_733,0,0,0,0,0,0
+loc_00093,Souss-Massa,original_733,0,0,0,0,1,1
+loc_00091,Souss-Massa,original_733,0,0,0,0,1,0
+loc_00132,Souss-Massa,original_733,0,0,0,1,0,0
+loc_00100,Souss-Massa,original_733,0,0,0,1,0,0
+loc_00111,Souss-Massa,original_733,0,0,0,0,0,0
+loc_00134,Souss-Massa,original_733,0,0,0,1,0,0
+loc_00099,Souss-Massa,original_733,0,0,0,1,0,1
+loc_00123,Souss-Massa,original_733,1,0,0,0,1,0
+loc_00121,Souss-Massa,original_733,0,0,0,0,1,1
+loc_00263,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,1
+loc_00264,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,1
+loc_00265,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,0
+loc_00267,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,0
+loc_00266,Eddakhla-Oued Eddahab,original_733,1,0,0,0,0,0
+loc_00261,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,1
+loc_00262,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,1
+loc_00260,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00256,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00257,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00258,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00259,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00251,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,1
+loc_00252,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00253,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00254,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00255,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_00155,Laayoune-Sakia El Hamra,original_733,1,0,1,0,0,0
+loc_00154,Laayoune-Sakia El Hamra,original_733,0,0,0,1,1,1
+loc_00150,Laayoune-Sakia El Hamra,original_733,0,0,0,0,0,0
+loc_00153,Laayoune-Sakia El Hamra,original_733,0,0,0,0,0,0
+loc_00152,Laayoune-Sakia El Hamra,original_733,1,0,0,0,0,0
+loc_00163,Guelmim-Oued Noun,original_733,0,0,0,1,1,1
+loc_00160,Guelmim-Oued Noun,original_733,0,0,0,1,1,1
+loc_00159,Guelmim-Oued Noun,original_733,0,0,0,0,0,0
+loc_00158,Guelmim-Oued Noun,original_733,0,0,0,0,0,0
+loc_00161,Guelmim-Oued Noun,original_733,0,0,0,1,0,0
+loc_00005,Marrakech-Safi,original_733,0,0,0,0,0,0
+loc_00077,Marrakech-Safi,original_733,1,0,0,0,0,1
+loc_00065,Marrakech-Safi,original_733,0,0,0,0,0,1
+loc_00275,Marrakech-Safi,original_733,1,0,0,0,1,1
+loc_00066,Marrakech-Safi,original_733,1,0,0,0,0,0
+loc_00067,Marrakech-Safi,original_733,0,0,0,0,1,1
+loc_00058,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00069,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00059,Marrakech-Safi,original_733,0,0,0,0,0,1
+loc_00061,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00060,Marrakech-Safi,original_733,0,0,0,0,1,0
+loc_00062,Marrakech-Safi,original_733,0,0,0,0,1,1
+loc_00270,Marrakech-Safi,original_733,0,0,0,0,0,0
+loc_00064,Marrakech-Safi,original_733,1,0,0,0,1,1
+loc_00273,Grand Casablanca-Settat,original_733,0,0,0,0,1,1
+loc_00269,Grand Casablanca-Settat,original_733,1,0,0,0,1,1
+loc_00272,Grand Casablanca-Settat,original_733,0,0,0,0,0,0
+loc_00271,Grand Casablanca-Settat,original_733,1,0,0,0,0,1
+loc_00268,Grand Casablanca-Settat,original_733,0,0,0,0,1,1
+loc_01184,Eddakhla-Oued Eddahab,original_733,0,0,0,0,1,1
+loc_01185,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,0
+loc_01186,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,1
+loc_01187,Eddakhla-Oued Eddahab,original_733,0,0,0,0,0,0
+loc_01188,Eddakhla-Oued Eddahab,original_733,1,0,0,0,0,0
+loc_01189,Eddakhla-Oued Eddahab,original_733,1,0,0,0,0,0
+loc_01192,Eddakhla-Oued Eddahab,original_733,1,0,1,0,0,0
+loc_01193,Eddakhla-Oued Eddahab,original_733,1,1,1,0,0,0
+loc_00402,Marrakech-Safi,original_733,0,0,0,1,0,1
+loc_00403,Grand Casablanca-Settat,original_733,0,0,0,1,1,1
+loc_00404,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00405,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00413,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00414,Marrakech-Safi,original_733,0,0,0,1,0,1
+loc_00418,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00420,Marrakech-Safi,original_733,0,0,0,1,0,1
+loc_00423,Marrakech-Safi,original_733,0,0,0,1,1,1
+loc_00424,Marrakech-Safi,original_733,0,0,0,1,0,1
+loc_00179,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,0
+loc_00173,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,1
+loc_00176,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,1
+loc_00166,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,1,1
+loc_00193,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00340,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,1,1
+loc_00180,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00182,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,1
+loc_00202,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00181,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,1
+loc_00203,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00183,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,0
+loc_00178,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00328,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,0
+loc_00192,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00171,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,0
+loc_00198,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00200,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00168,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00191,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00164,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00165,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00196,Tanger-Tétouan-Al Hoceima,original_733,1,0,0,0,0,0
+loc_00185,Tanger-Tétouan-Al Hoceima,original_733,1,0,0,0,0,0
+loc_00184,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00201,Tanger-Tétouan-Al Hoceima,original_733,1,0,0,0,0,0
+loc_00194,Tanger-Tétouan-Al Hoceima,original_733,1,0,0,0,0,0
+loc_00189,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00188,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00197,Tanger-Tétouan-Al Hoceima,original_733,1,0,0,0,0,0
+loc_00195,Tanger-Tétouan-Al Hoceima,original_733,1,0,0,0,0,0
+loc_00187,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00169,Tanger-Tétouan-Al Hoceima,original_733,0,0,1,0,0,0
+loc_00170,Tanger-Tétouan-Al Hoceima,original_733,0,0,1,0,0,0
+loc_00186,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00199,Tanger-Tétouan-Al Hoceima,original_733,1,1,1,0,0,0
+loc_00543,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00544,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00545,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00546,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00552,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,1
+loc_00553,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00555,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,1,1
+loc_00556,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00561,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00562,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00568,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,0
+loc_00570,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00571,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00440,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,1,1
+loc_00441,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,1,0,1
+loc_00442,Tanger-Tétouan-Al Hoceima,original_733,0,0,0,0,0,1
